@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7cf612df-6bea-4eb6-bc7f-5563c26146b7" Status="New Topic" CreatedOn="2015-08-10T08:15:21.1012366Z" ModifiedOn="2015-08-26T07:27:13.8396266Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Managing Data" BuildFlags="">
+  <Title />
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-08-26T07:27:13.8396266Z">&lt;P&gt;You can bind the widget with data and save and load files. You can also search, sort, filter&amp;nbsp;and format the data&amp;nbsp;in cells.&lt;/P&gt;
+&lt;P&gt;See the following topics for more information:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="1f9cb5d1-2fd9-4c9f-a342-bf371f5b9cd1" style="auto-update-caption: true"&gt;Binding to Data&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="21c18973-180f-4b3d-883c-4c9261b433cb" style="auto-update-caption: true"&gt;Applying Excel like Formatting&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="e20d6321-51f0-477a-b3c2-e098a6e496ba" style="auto-update-caption: true"&gt;Applying Calculations using DAX &lt;/A&gt;
+&lt;LI&gt;&lt;A href="38fad88c-8603-421c-b9dd-60bdaadb60a3" style="auto-update-caption: true"&gt;Applying Filters&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="a18358c2-dc2f-445a-aca2-59ea8cb996d7" style="auto-update-caption: true"&gt;Applying Grouping&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="05a93830-47b1-4699-b9d2-c8f68989395e" style="auto-update-caption: true"&gt;Applying Sorting&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="b8f40122-e2ba-4b82-bd11-ca3d43ec4022" style="auto-update-caption: true"&gt;Applying Data Validations&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="7e546014-ceed-4b51-97b3-13655451f825" style="auto-update-caption: true"&gt;Using Serialization&lt;/A&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

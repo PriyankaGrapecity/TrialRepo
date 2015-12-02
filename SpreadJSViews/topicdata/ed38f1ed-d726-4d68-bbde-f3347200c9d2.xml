@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ed38f1ed-d726-4d68-bbde-f3347200c9d2" Status="New Topic" CreatedOn="2015-07-30T05:53:49.9167363Z" ModifiedOn="2015-11-05T04:12:48.8564389Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="GanttColumn" BuildFlags="">
+  <Title m="2015-08-13T11:20:10.8258866Z">Gantt Column </Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-11-05T04:12:48.8564389Z">&lt;P&gt;Spread.Views also supports Gantt Column which helps users organize their data in a nice scheduler form.&lt;/P&gt;
+&lt;P&gt;It helps the representation of data to become more productive, enhance its communication, forecast over the long term and track results.&lt;/P&gt;
+&lt;P&gt;Gantt type column provides a visual overview of milestones and other key dates in a understandable and memorable method. This&amp;nbsp;enables user to maintain timescale based tasks and deliverables on a daily, weekly, monthly or yearly basis.&lt;/P&gt;
+&lt;P&gt;To use Gantt column, add following Gantt JS reference file and CSS file:&lt;/P&gt;&lt;innovasys:widget layout="block" type="Colorized Example Code"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;lt;link rel="stylesheet" href="./plugins/gantt.css"&amp;gt;&lt;BR&gt;&amp;lt;script src="./plugins/gantt.js"&amp;gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;Image below shows an example of Grid using Gantt Column to show records of a project management grid where along with the tasks, its start date and end date is also displayed:&lt;/P&gt;&lt;IMG border=0 alt="Grid using Gantt Col" src="images/Gantt_Col.PNG"&gt; 
+&lt;P&gt;In the above mentioned image:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Yellow spans are the normal spans. 
+&lt;LI&gt;Blue spans are parent task referenced by other tasks by parentID. They will cover all their children in length. 
+&lt;LI&gt;Lines are assigned by predecessorID. 
+&lt;LI&gt;Diamonds are the tasks have only start time or end time or their start time equals to their end time.&lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;To achieve above grid, use below given javascript code:&lt;/P&gt;&lt;innovasys:widget layout="block" type="Colorized Example Code From File"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Type your example code here. It will be automatically colorized when you switch to Preview or build the help system.&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Filename"&gt;CodeSamples\views_sample2\views_sample2\220_gantt.html&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Region"&gt;Gantt_col&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

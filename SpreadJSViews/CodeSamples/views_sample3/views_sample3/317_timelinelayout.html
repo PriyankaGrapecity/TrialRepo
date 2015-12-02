@@ -1,0 +1,219 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+    <script src="scripts/TimelineStrategy.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/timelineStrategy.css" type="text/css">
+
+    <style>
+        .gc-grid {
+            border: 1px none white;
+        }
+
+        .doc-example-live {
+            height: 900px;
+        }
+
+        .button-container {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+            margin-right: 30px;
+            height: 50px;
+        }
+
+        .employee-photo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div style="height: 100%; position: relative">
+        <div class="row button-container ">
+            <div class="col-xs-8 col-sm-8 button-container ">
+                <div style="height:100%" class="btn-group" rol="group">
+                    <button id="normal" type="button" class="btn btn-default" onclick="changeToNormalLayout()">Default</button>
+                    <button id="timeline" type="button" class="btn btn-default" onclick="changeToTimeline()">Timeline</button>
+                </div>
+            </div>
+        </div>
+        <div class="row button-container " id="timelineCommandPanel">
+            <div class="col-xs-4 col-sm-4">
+                <div class="btn-group" rol="group">
+                    <button id="headerBtn" style="width:120px" type="button" class="btn btn-default" onclick="changeGroupHeader()">showHeader</button>
+                </div>
+            </div>
+            <div class="col-xs-3 col-sm-4" style="float:right;">
+                <div class="btn-group" rol="group">Display:</div>
+                <div class="btn-group" rol="group">
+                    <div class="btn btn-default" onclick="changeToAll()">All</div>
+                    <div class="btn btn-default" onclick="changeToSeparate()">Separate</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="gridContainer" style="height:720px;">
+            <div id="grid1" style="height:100%;position: relative"></div>
+        </div>
+    </div>
+
+
+    <script>
+        var gcGrid;
+        var timeLinestrategy;
+        var timeFormatter = 'HH:mmtt';
+        var showGroupHeader = false;
+        var displayMode = 'separate';
+
+        var presenter = '<img class="employee-photo" src={{=it.photo}}></img>';
+        var columns = [
+            { id: 'topic', dataField: 'topic' },
+            { id: 'start', dataField: 'start', format: 'MMMM dd, HH:mmtt' },
+            { id: 'end', dataField: 'end', format: timeFormatter },
+            { id: 'speaker', dataField: 'speaker' },
+            { id: 'content', dataField: 'content' },
+            { id: 'photo', dataField: 'photo', presenter: presenter }
+        ];
+        var groupDetailEventTemplate = '<div style="margin:5px;">' +
+            '<div style="font-size:14px;font-weight: bold;">{{=it.topic}}</div>' +
+            '<blockquote style="padding-left: 15px;display: block;font-size:13px;font-family: "Helvetic Neue, Helvetica, Arial">{{=it.content}}</blockquote>' +
+            '<span style="margin-right: auto" >{{=it.start}}</span>' +
+            '</div>';
+        var groupSummaryEventTemplate = '<div style="margin:5px;height:60px;">' +
+            '<div style="position:absolute;left:0px;width:50px;"><img class="employee-photo" src={{=it.photo}}></img></div>' +
+            '<div style="position:absolute;left:50px;">' +
+                '<div>{{=it.topic}}</div>' +
+                '<div>{{=it.start}}' +
+            '</div>'
+        '</div>'
+
+        var groupHeaderSeparateTemplate = '<div>' +
+            '<div style="top:12px;text-align: center;">' +
+            '<div>' +
+            '<div style="font-size:12px;display: inline-block;background: #ffffff;color:#131313;padding:5px;border-top:3px solid red; border-left: 1px solid rgba(208, 209, 206, 0.99);border-right: 1px solid rgba(208, 209, 206, 0.99);border-bottom: 1px solid rgba(208, 209, 206, 0.99)">' +
+                '<div>{{=it.name}}</div>' +
+            '</div>' +
+            '</div>' +
+            '</div></div>';
+
+        var groupHeaderALLTemplate = '<div style="position: relative;">' +
+            '<div style="padding-left:20px;font-size:20px;"><span style="color:#131313;">{{=it.name}}</span></div>' +
+            '</div>';
+
+        $(document).ready(function () {
+            $.getJSON("databases/timeline.json", function (data) {
+                var items = [];
+                $.each(data, function (key, val) {
+                    for (var prop in val) {
+                        if (prop === 'start' || prop === 'end') {
+                            val[prop] = new Date(val[prop]);
+                        }
+                    }
+                    val.photo = '../images/' + getImage();
+                }
+                );
+                //triangle
+                timeLinestrategy = new GcSpread.Views.GcGrid.Plugins.TimelineStrategy({
+                });
+                gcGrid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, {
+                    grouping: {
+                        field: "start",
+                        header: {
+                            visible: true
+                        },
+                        converter: function (field) {
+                            return field.toDateString();
+                        }
+                    },
+                    rowHeight: 130,
+                    rowTemplate: groupDetailEventTemplate,
+                    groupStrategy: timeLinestrategy
+                });
+            });
+        });
+
+        var imageNames = ['ds', 'gw', 'bw', 'hh', 'ac'];
+        var index = 0;
+        function getImage() {
+            var imageName;
+            imageName = imageNames[index % 5];
+            index++;
+            return imageName + '.jpg';
+        }
+
+        function changeToNormalLayout() {
+            var options = gcGrid.options;
+            options.groupStrategy = null;
+            options.rowHeight = 50;
+            options.rowTemplate = null;
+            options.grouping.header.template = null;
+            $('#timelineCommandPanel').hide();
+
+            var container = document.getElementById('gridContainer');
+            container.style.height = '790px';
+            gcGrid.invalidate();
+        }
+
+        function changeToTimeline() {
+            var options = gcGrid.options;
+            showGroupHeader = false;
+            displayMode = 'separate';
+            options.groupStrategy = timeLinestrategy;
+            options.rowTemplate = groupDetailEventTemplate;
+            options.rowHeight = 130;
+            $('#timelineCommandPanel').show();
+
+            var container = document.getElementById('gridContainer');
+            container.style.height = '720px';
+            gcGrid.invalidate();
+        }
+
+        function changeGroupHeader() {
+            showGroupHeader = !showGroupHeader;
+            update();
+        }
+
+        function changeToAll() {
+            displayMode = 'all';
+            update();
+        }
+
+        function changeToSeparate() {
+            displayMode = 'separate';
+            update();
+            gcGrid.invalidate();
+        }
+
+        function update() {
+            var template = displayMode === 'all' ? groupHeaderALLTemplate : groupHeaderSeparateTemplate;
+            var options = gcGrid.options;
+            timeLinestrategy.options.displayMode = displayMode;
+            var btn = document.getElementById('headerBtn');
+            if (showGroupHeader) {
+                options.grouping.header.template = template;
+                options.rowTemplate = groupSummaryEventTemplate;
+                btn.textContent = 'hideHeader';
+            } else {
+                options.grouping.header.template = null;
+                options.rowTemplate = groupDetailEventTemplate;
+                btn.textContent = 'showHeader';
+            }
+
+            gcGrid.invalidate();
+        }
+    </script>
+
+
+</body>
+</html>

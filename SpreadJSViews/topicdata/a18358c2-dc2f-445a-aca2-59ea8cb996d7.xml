@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a18358c2-dc2f-445a-aca2-59ea8cb996d7" Status="New Topic" CreatedOn="2015-08-10T08:15:21.119498Z" ModifiedOn="2015-10-28T03:43:48.3919492Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Applying Grouping" BuildFlags="">
+  <Title />
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-10-28T03:43:48.3919492Z">&lt;P&gt;Spread.Views allows you to group rows based on column values or expression. Grouping can be set programmatically or manually at run-time by dragging column headers to the grouping panel. The default grid layout engine provides an option of allowing grouping, you can set it true to show the grouping drop panel and then you can drag a column header to that panel for grouping.&lt;/P&gt;
+&lt;H3&gt;Sample Code&lt;/H3&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;{ allowGrouping: true | false}&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;BR&gt;
+&lt;P&gt;&lt;IMG style="WIDTH: 720px; HEIGHT: 268px" border=0 alt="" src="images/grouping.PNG" width=1023 height=338&gt;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;There is also an 'allowGrouping' option in column definition, the column.allowGrouping has higher priority to decide whether the column can be grouped by dragging drop.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;P&gt;You can also customize the group settings by setting the groupHeader and groupFooter property in the column definition. It will display some summery info on the group header/footer. The following is an example of setting groupHeader and groupFooter property:&lt;/P&gt;
+&lt;P&gt;&lt;IMG style="WIDTH: 668px; HEIGHT: 176px" border=0 alt="" src="images/customgrouping.PNG" width=756 height=211&gt;&lt;/P&gt;
+&lt;H3&gt;Sample Code&lt;/H3&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;var column = {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; id: 'quantity',&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; caption: 'quantity',&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; dataField: 'quantity',&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; groupHeader: 'quantity: {{=it.eval("=sum([quantity])")}}',&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; groupFooter: 'average:{{=it.eval("=average([quantity])", "#.##")}}'&lt;BR&gt;};&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

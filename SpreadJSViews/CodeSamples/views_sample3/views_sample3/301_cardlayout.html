@@ -1,0 +1,244 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+    <script src="scripts/CardLayoutEngine.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/cardLayoutEngine.css" type="text/css">
+
+    <style>
+                .button-container {
+                    border-bottom: 1px solid #ddd;
+                    margin-bottom: 20px;
+                    margin-right: 30px;
+                    height: 50px;
+                }
+
+                .display-button {
+                    margin: 4px;
+                    float: right;
+                    font-size: 15px;
+                }
+
+                /*********************\
+              card items:
+        \*********************/
+                .film-cover {
+                    box-sizing: border-box;
+                    position: absolute;
+                    height: 209px;
+                    width: 140px;
+                }
+
+                .film-cover-list {
+                    box-sizing: border-box;
+                    position: absolute;
+                    height: 80px;
+                    width: 54px;
+                }
+
+                .film-content {
+                    box-sizing: border-box;
+                    left: 140px;
+                    position: absolute;
+                    height: 209px;
+                    width: 240px;
+                    padding: 5px 0 0 10px;
+                    line-height: 18px;
+                    font-size: 12px;
+                    color: #555;
+                }
+
+                .film-content-list {
+                    box-sizing: border-box;
+                    left: 54px;
+                    position: absolute;
+                    height: 80px;
+                    width: 596px;
+                    padding-left: 10px;
+                    line-height: 16px;
+                    font-size: 11px;
+                    color: #333;
+                }
+                /*film poster*/
+                .poster-list-resize {
+                    width: 54px;
+                    height: 80px;
+                }
+
+                /*film title link*/
+                .film-title-link {
+                    font-size: 13px;
+                    text-decoration: none;
+                    color: #136cb2;
+                }
+
+                    .film-title-link:visited {
+                        color: #70579d;
+                    }
+
+                    .film-title-link:hover {
+                        color: #136cb2;
+                        text-decoration: underline;
+                    }
+
+                /*film category*/
+                .film-certification {
+                    border-radius: 3px;
+                    border: 1px solid #aaa;
+                    background-color: #ddd;
+                    margin-right: 5px;
+                }
+
+                /*film description*/
+                .film-description {
+                    margin: 6px 0 6px 6px;
+                    max-height: 108px;
+                    font-size: 11px;
+                    overflow: auto;
+                }
+
+                .film-description-list {
+                    margin: 6px 0 6px 6px;
+                    max-height: 48px;
+                    font-size: 11px;
+                    overflow: auto;
+                }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div class="button-container">
+        <div id="disp-lists" class="btn btn-default display-button" onclick="displayLists();">
+            <span class="glyphicon glyphicon-th-list"></span>
+        </div>
+        <div id="disp-cards" class="btn btn-default display-button" onclick="displayCards();">
+            <span class="glyphicon glyphicon-th"></span>
+        </div>
+    </div>
+    <div id="grid1" style="height:90%">
+    </div>
+
+    <template id="filmDisplay">
+        <div>
+            <div class="film-cover">
+                <div data-column="filmCover"></div>
+            </div>
+            <div class="film-content">
+                <div data-column="filmTitleLink"></div>
+                <div data-column="filmCategory"></div>
+                <div data-column="filmDescription"></div>
+                <div data-column="filmDirector"></div>
+                <div data-column="filmActors"></div>
+            </div>
+        </div>
+    </template>
+
+    <template id="filmDisplayList">
+        <div>
+            <div class="film-cover-list">
+                <div data-column="filmCover"></div>
+            </div>
+            <div class="film-content-list">
+                <div data-column="filmTitleLink"></div>
+                <div data-column="filmDescription"></div>
+                <div>
+                    <div style="display:inline-block"><div data-column="filmDirector"></div></div>
+                    <div style="display:inline-block"><div data-column="filmActors"></div></div>
+                </div>
+                <div data-column="filmCategory"></div>
+            </div>
+        </div>
+    </template>
+
+
+    <script>
+        var data = [];
+        var gcGrid;
+
+        var filmCoverPresenter = '<img src="{{=it.filmCover.posterUrl}}" alt="{{=it.filmCover.posterTitle}}">';
+        var filmCoverListPresenter = '<img src="{{=it.filmCover.posterUrl}}" alt="{{=it.filmCover.posterTitle}}" class="poster-list-resize">';
+
+        var filmCategoryPresenter = '<div><span class="film-certification"><b>{{=it.filmCategory.certification}}</b></span>' +
+            '<span class="film-time">{{=it.filmCategory.time}} min - </span>' +
+            '<span class="film-genre">{{=it.filmCategory.genre}}</span></div>';
+        var filmCategoryListPresenter = '<span class="film-genre">{{=it.filmCategory.genre}}</span>' +
+            '<div style="float:right"><span class="film-time">{{=it.filmCategory.time}} min </span> ' +
+            '<span class="film-certification"><b>{{=it.filmCategory.certification}}</b></span></div>';
+
+        var filmTitleLinkPresenter = '<a href="{{=it.filmTitleLink.link}}" class="film-title-link"><b>{{=it.filmTitleLink.title}}</b></a>';
+
+        var filmDescriptionPresenter = '<div class="film-description">{{=it.filmDescription}}</div>';
+        var filmDescriptionListPresenter = '<div class="film-description-list">{{=it.filmDescription}}</div>';
+
+        var filmDirectorPresenter = '<div><b style="color:#666">Director:</b> {{=it.filmDirector}}</div>';
+        var filmDirectorListPresenter = '<div><span style="color:#000;">Dir:</span> {{=it.filmDirector}}</div>';
+
+        var filmActorsPresenter = '<div><b style="color:#666">Stars:</b> {{=it.filmActors}}</div>';
+        var filmActorsListPresenter = '<div><span style="color:#000">With:</span> {{=it.filmActors}}</div>';
+
+        var columns = [
+            { id: 'filmCover', name: 'filmCover', dataField: 'filmCover', presenter: filmCoverPresenter },
+            { id: 'filmTitleLink', name: 'filmTitleLink', dataField: 'filmTitleLink', presenter: filmTitleLinkPresenter },
+            { id: 'filmCategory', name: 'filmCategory', dataField: 'filmCategory', presenter: filmCategoryPresenter },
+            { id: 'filmDescription', name: 'filmDescription', dataField: 'filmDescription', presenter: filmDescriptionPresenter },
+            { id: 'filmDirector', name: 'filmDirector', dataField: 'filmDirector', presenter: filmDirectorPresenter },
+            { id: 'filmActors', name: 'filmActors', dataField: 'filmActors', presenter: filmActorsPresenter }
+        ];
+
+        var columns_list = [
+            { id: 'filmCover', name: 'filmCover', dataField: 'filmCover', presenter: filmCoverListPresenter },
+            { id: 'filmTitleLink', name: 'filmTitleLink', dataField: 'filmTitleLink', presenter: filmTitleLinkPresenter },
+            { id: 'filmCategory', name: 'filmCategory', dataField: 'filmCategory', presenter: filmCategoryListPresenter },
+            { id: 'filmDescription', name: 'filmDescription', dataField: 'filmDescription', presenter: filmDescriptionListPresenter },
+            { id: 'filmDirector', name: 'filmDirector', dataField: 'filmDirector', presenter: filmDirectorListPresenter },
+            { id: 'filmActors', name: 'filmActors', dataField: 'filmActors', presenter: filmActorsListPresenter }
+        ];
+
+        function displayCards() {
+            gcGrid.columns = columns;
+            gcGrid.scrollOffset = {
+                top: 0,
+                left: 0
+            };
+            gcGrid.layoutEngine.options.rowTemplate = "#filmDisplay";
+            gcGrid.options.cardHeight = 250;
+            gcGrid.options.cardWidth = 390;
+            gcGrid.invalidate();
+        }
+
+        function displayLists() {
+            gcGrid.columns = columns_list;
+            gcGrid.scrollOffset = {
+                top: 0,
+                left: 0
+            };
+            gcGrid.layoutEngine.options.rowTemplate = "#filmDisplayList";
+            gcGrid.options.cardHeight = 125;
+            gcGrid.options.cardWidth = 650;
+            gcGrid.invalidate();
+        }
+
+        $(document).ready(function () {
+            $.getJSON("databases/film.json", function (data) {
+                gcGrid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, new GcSpread.Views.GcGrid.Plugins.CardLayoutEngine({
+                    cardHeight: 250,
+                    cardWidth: 390,
+                    rowTemplate: "#filmDisplay",
+                    direction: 'horizontal'
+                }));
+                window.gcGrid = gcGrid;
+            });
+        });
+    </script>
+
+
+</body>
+</html>

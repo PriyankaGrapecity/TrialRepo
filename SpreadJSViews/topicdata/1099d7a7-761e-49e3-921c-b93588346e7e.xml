@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1099d7a7-761e-49e3-921c-b93588346e7e" Status="New Topic" CreatedOn="2015-07-30T05:36:47.1901704Z" ModifiedOn="2015-10-28T03:43:48.2150578Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Developer'sGuide" BuildFlags="">
+  <Title />
+  <ContentsTitle m="2015-07-31T06:09:42.0261836Z">Developer's Guide</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-10-28T03:43:48.2150578Z">&lt;P&gt;This guide provides introductory conceptual material and how-to-explanations for routine tasks for developers using Spread.Views.&lt;/P&gt;
+&lt;P&gt;More details are available in the following topics.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="fd82eebe-1653-4da5-854b-7d4d910b1a8c" style="auto-update-caption: true"&gt;Getting Started&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="ca2a2cb9-527a-44b4-bac8-4f62b8404de0" style="auto-update-caption: true"&gt;Understanding the Product&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="97158443-fa5e-447e-8af3-430eecf9937a" style="auto-update-caption: true"&gt;Using Spread.Views&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="db5eed86-cafa-460a-9865-f720e830dca0" style="auto-update-caption: true"&gt;Allowing Editing in Spread.Views&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="a062370f-9a3d-4a67-aae4-efb0a487ba8a" style="auto-update-caption: true"&gt;Using Templates in Spread.Views&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="96679fab-0069-4137-a810-4af9fea6fdbc" style="auto-update-caption: true"&gt;Applying Grouping Strategy&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="2259ef57-1ea2-4fd6-9315-9e2377316f80" style="auto-update-caption: true"&gt;Managing Data&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="cfdcf186-21b1-4d7d-ab86-b4e74f901278" style="auto-update-caption: true"&gt;Exported Files Format&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="2bc04520-4bfd-4b1a-84b4-cc1ecf2f7afd" style="auto-update-caption: true"&gt;Applying Themes&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="558c1fff-d756-4bcd-a32a-79c1a2070b5f" style="auto-update-caption: true"&gt;Using Touch Support with the Widget&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="232e676b-ba80-4f95-86fb-4c935b965708" style="auto-update-caption: true"&gt;Managing Printing&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

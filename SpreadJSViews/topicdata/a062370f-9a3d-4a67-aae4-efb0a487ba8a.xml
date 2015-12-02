@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a062370f-9a3d-4a67-aae4-efb0a487ba8a" Status="New Topic" CreatedOn="2015-07-30T06:03:27.330822Z" ModifiedOn="2015-11-05T10:04:51.9830713Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="UsingTemplatesinSpreadJS.Views" BuildFlags="">
+  <Title m="2015-11-05T06:50:03.0056005Z">Using Templates Engines in Spread.Views</Title>
+  <ContentsTitle m="2015-11-05T06:25:51.8580488Z">Using Templates in Spread.Views</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-11-05T10:04:51.9830713Z">&lt;P&gt;Creating an application is not only about making them functionally effective but also must cover its rendering time. Imagine if the application is so slow that you end up waiting&amp;nbsp;more then few seconds just for it to&amp;nbsp;render.&lt;/P&gt;
+&lt;P&gt;Spread.Views provides a high performance and simple to use Javascript template engine. Templates offer a way to create HTML chunks that can be automatically merged with JavaScript data.&lt;/P&gt;
+&lt;P&gt;Spread.Views provides the support of &lt;STRONG&gt;doT.js&lt;/STRONG&gt; as the template engine for its fastst and concise JavaScript templating function ith emphasis on performance.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;doT.js&lt;/STRONG&gt; is fast, small and has no dependencies. By default, the data in the template must be referenced with &lt;STRONG&gt;'it'&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;Below table list all the template tags that are supported in Grids:&lt;/P&gt;
+&lt;TABLE style="BORDER-BOTTOM: transparent thin hidden; BORDER-LEFT: transparent thin hidden; TABLE-LAYOUT: auto; BORDER-TOP: transparent thin hidden; BORDER-RIGHT: transparent thin hidden"&gt;
+&lt;THEAD&gt;
+&lt;TR&gt;
+&lt;TH style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;&lt;STRONG&gt;Tag&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden" class=NewStyle&gt;&lt;STRONG&gt;Description&lt;/STRONG&gt;&lt;/TH&gt;&lt;/TR&gt;&lt;/THEAD&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;{{}}&lt;/TD&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;for Evaluation&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden" height=19&gt;{{=}}&lt;/TD&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden" height=19&gt;for interpolation&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;{{!}}&lt;/TD&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;for interpolation with encoding&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;{{#}}&lt;/TD&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;for compile time evaluation/ includes and partials&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;{{## #}}&lt;/TD&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;for compile-time defines&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;{{? }}&lt;/TD&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;for conditions&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;{{~ }}&lt;/TD&gt;
+&lt;TD style="BORDER-BOTTOM: transparent hidden; BORDER-LEFT: transparent hidden; BORDER-TOP: transparent hidden; BORDER-RIGHT: transparent hidden"&gt;for array iteration&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

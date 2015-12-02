@@ -1,0 +1,76 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .setting-container {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+            margin-right: 30px;
+            height: 50px;
+        }
+
+        .gc-popup-editing-area input[type=date] {
+            width: 174px;
+        }
+
+        .gc-form-editing-area input[type=date] {
+            width: 174px;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div class="setting-container">
+        <label>EditMode:</label>
+        <select id='grid-edit-mode'>
+            <option value='inline' selected>inline</option>
+            <option value='popup'>popup</option>
+            <option value='editForm'>editForm</option>
+        </select>
+    </div>
+    <div id="grid1" class="grid" style="height:90%;"></div>
+
+
+    <script>
+        var columns = [
+            { id: 'id', caption: 'id', dataField: 'id', width: 80, allowEditing: false },
+            { id: 'country', caption: 'country', dataField: 'country', width: 80, dataType: "String" },
+            { id: "date", caption: "date", dataField: "date", width: 150, dataType: "Date" },
+            { id: "amount", caption: "amount", dataField: "amount", width: 80, dataType: "Number" },
+            { id: "active", caption: "active", dataField: "active", width: 80, dataType: "Boolean" }
+        ];
+        var countries = 'US,Germany,UK,Japan,Italy,Greece'.split(',');
+        var data = [];
+        for (var i = 0; i < 100; i++) {
+            data.push({
+                id: i,
+                country: countries[i % countries.length],
+                date: (new Date(2014, i % 12, i % 28)),
+                amount: Math.floor(Math.random() * 10000),
+                active: i % 4 === 0
+            });
+        }
+
+        var grid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, {
+            allowEditing: true
+        });
+
+        $('#grid-edit-mode').change(function () {
+            grid.stopEditing();
+            var value = $("#grid-edit-mode option:selected").val();
+            grid.layoutEngine.options.editMode = value;
+        })
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .grid {
+            height: 100%;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div id="grid1" class="grid"></div>
+
+
+    <script>
+        var columns = [
+            { id: 'id', caption: 'id', dataField: 'id', width: 80, allowEditing: false },
+            { id: 'name', caption: 'name', dataField: 'name', width: 128, editor: NameEditor },
+            { id: 'gender', caption: 'gender', dataField: 'gender', width: 90, editor: RadioButtionEditor },
+            { id: "remark", caption: "remark", dataField: "remark", width: 258, editor: TextAreaEditor }
+        ];
+
+        var names = ['Alice Wang', 'Michael Zhang', 'Andrew Li', 'Tyler W. Stone', 'Daniel Qian', 'William B. Hans'];
+        var remarks = 'This textarea is used to write the evaluation for the student, about the learning achievement, general performance, and effort.'
+        var genders = ['male', 'female'];
+        var data = [];
+        for (var i = 0; i < 100; i++) {
+            data.push({
+                id: i,
+                name: names[i % names.length],
+                gender: genders[i % genders.length],
+                remark: remarks
+            });
+        }
+
+        var grid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, {
+            allowEditing: true
+        });
+
+
+        function NameEditor(options) {
+            this.options = options;
+        }
+
+        NameEditor.prototype = {
+            install: function () {
+                var self = this;
+                var options = self.options;
+                self.container = options.container;
+                var rawValue = options.value;
+                var rawNames = rawValue.split(' ');
+                var firstName = '';
+                var lastName = '';
+                var middleName = '';
+                var hasMiddleName = false;
+                switch (rawNames.length) {
+                    case 0:
+                        firstName = '';
+                        lastName = '';
+                        break;
+                    case 1:
+                        firstName = rawNames[0];
+                        lastName = '';
+                        break;
+                    case 2:
+                        firstName = rawNames[0];
+                        lastName = rawNames[1];
+                        break;
+                    default:
+                        firstName = rawNames[0];
+                        lastName = rawNames[rawNames.length - 1];
+                        middleName = rawNames.slice(1, rawNames.length - 1).join(' ');
+                        hasMiddleName = true;
+                }
+                self.defaultValue = rawValue;
+                setAttributes(self.container, {
+                    "styles": {
+                        "padding": "3px",
+                        "border": "1px solid #0066FF",
+                        "background": "white",
+                        "border-radius": "6px"
+                    }
+                });
+                self.container.innerHTML = '<div style="margin-bottom:6px"><div><i>First Name:</i></div><input type="text" class="firstname" style="width:120px" value="' + firstName + '"></div>' +
+                    (hasMiddleName ? '<div style="margin-bottom:6px"><div><i>Middle Name:</i></div><input type="text" class="middlename" style="width:120px" value="' + middleName + '"></div>' : '') +
+                    '<div><div><i>Last Name:</i></div><input type="text" class="lastname" style="width:120px" value="' + lastName + '"></div>';
+                self.firstNameInput = self.container.querySelector("input.firstname");
+                self.middleNameInput = self.container.querySelector("input.middlename");
+                self.lastNameInput = self.container.querySelector("input.lastname");
+                self.firstNameInput.focus()
+            },
+
+            destroy: function () {
+            },
+
+            focus: function () {
+                this.firstNameInput.focus();
+            },
+
+            serializeValue: function () {
+                var self = this, name = '';
+                if (self.middleNameInput) {
+                    name = self.firstNameInput.value + " " + self.middleNameInput.value + " " + self.lastNameInput.value;
+                } else {
+                    name = self.firstNameInput.value + " " + self.lastNameInput.value;
+                }
+                return name;
+            }
+        }
+
+        function RadioButtionEditor(options) {
+            var self = this;
+            self.options = options;
+            self.genderOptions = ['male', 'female'];
+        }
+
+        RadioButtionEditor.prototype = {
+            install: function () {
+                var self = this;
+                var options = self.options;
+                var rawValue = options.value;
+                self.container = options.container;
+                setAttributes(self.container, {
+                    "styles": {
+                        "min-width": "90px",
+                        "padding": "6px",
+                        "border": "1px solid #0066FF",
+                        "border-radius": "6px"
+                    }
+                });
+                var list = self.genderOptions, len = list.length, i = 0, checked = "", fragInnerHTML = "";
+                while (i < len) {
+                    if (list[i] !== rawValue) {
+                        checked = "";
+                    } else {
+                        checked = "checked";
+                    }
+                    fragInnerHTML += '<div><input type="radio" style="outline: 0" name="radioeditor" id="' + list[i] + '" value="'
+                    + list[i] + '"' + checked + '><LABEL style="font-weight:normal" for="' + list[i] + '">' + list[i] + '</LABEL></div> ';
+                    i++;
+                }
+                self.container.innerHTML = fragInnerHTML;
+            },
+
+            destroy: function () {
+            },
+
+            focus: function () {
+                this.container.querySelector("input:checked").focus();
+            },
+
+            serializeValue: function () {
+                return this.container.querySelector("input:checked").value;
+            }
+        }
+
+        function TextAreaEditor(options) {
+            this.options = options;
+        }
+
+        TextAreaEditor.prototype = {
+            install: function () {
+                var self = this;
+                var options = self.options;
+                self.container = options.container;
+                self.container.innerHTML = '<textarea style="outline:0;min-width:250px;min-height:100px;border:0px;"></textarea>' +
+                '<div style="width:100%">' +
+                '<button class="cancel" style="float:right;width:60px;height:20px;font-size:10px;">Cancel</button>' +
+                '<button class="save" style="float:right;width:60px;height:20px;font-size:10px;">Save</button>' +
+                '</div>';
+                self.textArea = self.container.children[0];
+                self.cancelButton = self.container.querySelector("button.textarea-cancel");
+                self.saveButton = self.container.querySelector("button.textarea-save");
+                setAttributes(self.container, {
+                    "styles": {
+                        "padding": "3px",
+                        "border": "1px solid #0066FF",
+                        "border-radius": "6px"
+                    }
+                });
+                self.textArea.value = options.value;
+                self.textArea.focus();
+                self.clickHandler_ = self.containerClickHandler.bind(self);
+                self.container.addEventListener('keydown', self.containerKeyDownHandler);
+                self.container.addEventListener('click', self.clickHandler_);
+            },
+
+            destroy: function () {
+                var self = this;
+                self.container.removeEventListener('keydown', self.containerKeyDownHandler);
+                self.container.removeEventListener('click', self.clickHandler_);
+            },
+
+            focus: function () {
+                this.textArea.focus();
+            },
+
+            serializeValue: function () {
+                return this.textArea.value;
+            },
+
+            containerKeyDownHandler: function (e) {
+                e.stopPropagation();
+                return false;
+            },
+
+            containerClickHandler: function (e) {
+                var target = e.target;
+                var options = this.options;
+                var gridModel = options.gridModel;
+                if (target) {
+                    var tagName = target.tagName.toLowerCase();
+                    if (tagName === 'button') {
+                        var className = target.className;
+                        if (className === 'save') {
+                            gridModel.stopEditing();
+                        } else if (className === 'cancel') {
+                            gridModel.cancelEditing();
+                        }
+                    }
+                }
+            }
+        }
+
+        function setAttributes(element, attrs) {
+            for (var key in attrs) {
+                if (key === 'styles') {
+                    for (var prop in attrs[key]) {
+                        element.style[prop] = attrs[key][prop];
+                    }
+                } else {
+                    element.setAttribute(key, attrs[key]);
+                }
+            }
+        }
+    </script>
+
+
+</body>
+</html>

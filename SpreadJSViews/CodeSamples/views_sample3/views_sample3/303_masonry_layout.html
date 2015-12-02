@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+    <script src="scripts/MasonryLayoutEngine.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/MasonryLayoutEngine.css" type="text/css">
+
+    <style>
+        .img-board {
+            border-radius: 8px;
+            border: 1px solid #d3d3d3;
+            overflow: hidden;
+        }
+
+        .image-meta {
+            border-radius: 0 0 8px;
+            font-size: 13px;
+            font-family: "Helvetica Neue","Helvetica","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo","ＭＳ Ｐゴシック",arial,sans-serif;
+        }
+
+            .image-meta :hover {
+                background-color: #eeeeee;
+            }
+
+        .image-meta-context {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div id="grid1" style="height:100%"></div>
+    <template id='rowTemplate'>
+        <div class="img-board">
+            <div data-column="image"></div>
+            <div class="image-meta"><div data-column="meta" class="image-meta-context"></div></div>
+        </div>
+    </template>
+
+
+    <script>
+        var columns = [
+            { id: 'image', name: 'image', dataField: 'image', presenter: '<img src="{{=it.image}}" alt="dogs">' },
+            { id: 'meta', name: 'meta', dataField: 'meta' }
+        ];
+
+        $(document).ready(function () {
+            $.getJSON("databases/pinterestDogs.json", function (data) {
+                var gcGrid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, new GcSpread.Views.GcGrid.Plugins.MasonryLayoutEngine({
+                    gutter: 12,
+                    rowTemplate: '#rowTemplate'
+                }));
+                window.gcGrid = gcGrid;
+            });
+        });
+    </script>
+
+
+</body>
+</html>

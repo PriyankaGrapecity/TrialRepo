@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .grid {
+            height: 100%;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div id="grid1" class="grid">
+    </div>
+
+
+    <script>
+        //#region treeCol
+        //Column Definition
+        $.getJSON("database/treeData.json", function (data) {
+            var columns = [
+                { id: 'department', caption: 'Department', dataField: 'department', width: 250 },
+                { id: 'budget', caption: 'Budget', dataField: 'budget' },
+                { id: 'location', caption: 'Location', dataField: 'location' },
+                { id: 'phone', caption: 'Phone', dataField: 'phone' },
+                { id: 'country', caption: 'Country', dataField: 'country' }
+            ];
+            
+            var gcGrid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, {
+                allowGrouping: true,
+                allowSorting: true,
+                showRowHeader: false,
+                grouping: [{
+                    field: 'country', footer: {
+                        visible: false
+                    }
+                }],
+                hierarchyDescriptor: {
+                    keyField: 'id',
+                    parentField: 'parent',
+                    column: 'department',
+                    collapsed: true
+                }
+            });
+      // expand some nodes manually
+            _.forEach(gcGrid.data.groups, function (group) {
+                _.forEach(group.rootNode.children, function (node) {
+                    node.collapsed = false;
+                });
+            });
+            gcGrid.invalidate();
+        });
+        //#endregion
+    </script>
+
+
+</body>
+</html>

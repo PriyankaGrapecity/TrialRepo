@@ -1,0 +1,445 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+    <script src="scripts/globalize.js"></script>
+    <script src="scripts/CardLayoutEngine.js"></script>
+    <link rel="stylesheet" href="css/cardLayoutEngine.css" type="text/css">
+
+    <style>
+        label {
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .gc-row {
+            padding: 3px;
+        }
+
+        .demo-container {
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .filter-panel {
+            float: left;
+            width: 219px;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #grid1 {
+            position: absolute;
+            left: 220px;
+            right: 0px;
+            height: 100%;
+        }
+
+        .filter-header {
+            color: #999;
+            font-size: 17px;
+            padding-bottom: 10px;
+            padding-top: 6px;
+        }
+
+        .filter-details {
+            font-size: 14px;
+            font-weight: 700;
+            padding-bottom: 3px;
+        }
+
+        .filter-items {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 15px;
+        }
+
+        .stars-box {
+            display: inline-block;
+            height: 13px;
+            width: 65px;
+            overflow: hidden;
+            background-image: url("../images/TV/star-ratings.png");
+            vertical-align: middle;
+        }
+
+        .filter-price {
+            width: 60px;
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            outline: 0;
+        }
+
+        .filter-price-submit {
+            border: 1px solid lightgrey;
+            height: 24px;
+            width: 40px;
+            border-radius: 20px;
+            background-color: #fff;
+            outline: 0;
+        }
+
+        .filter-customer-review {
+            background: #fff;
+            border: 0;
+            padding-left: 0;
+            outline: 0;
+        }
+
+            .filter-customer-review:hover {
+                background: lightgrey;
+            }
+
+        .selected-review {
+            background: grey;
+        }
+
+        .stars-0 {
+            background-position: -65px 0;
+        }
+
+        .stars-0-5 {
+            background-position: -52px -19px;
+        }
+
+        .stars-1 {
+            background-position: -52px 0;
+        }
+
+        .stars-1-5 {
+            background-position: -39px -19px;
+        }
+
+        .stars-2 {
+            background-position: -39px 0;
+        }
+
+        .stars-2-5 {
+            background-position: -26px -19px;
+        }
+
+        .stars-3 {
+            background-position: -26px 0;
+        }
+
+        .stars-3-5 {
+            background-position: -13px -19px;
+        }
+
+        .stars-4 {
+            background-position: -13px 0;
+        }
+
+        .stars-4-5 {
+            background-position: 0 -19px;
+        }
+
+        .stars-5 {
+            background-position: 0 0;
+        }
+
+        .tv-image {
+            margin-left: 10px;
+        }
+
+        .tv-brand {
+            font-size: 13px;
+            color: lightgrey;
+            margin-bottom: 8px;
+        }
+
+        .tv-price {
+            color: #b12704;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div class="demo-container">
+        <div class="filter-panel">
+            <div class="filter-header">Refine by</div>
+            <div class="filter-details">International Shipping</div>
+            <ul class="filter-items">
+                <li>
+                    <input type="checkbox" id="shipToChina" class="filter-btn" />
+                    <label for="shipToChina">Ship to China</label>
+                </li>
+            </ul>
+            <div class="filter-details">TV Display Size</div>
+            <ul class="filter-items">
+                <li>
+                    <input type="checkbox" id="inches_32" class="filter-btn" />
+                    <label for="inches_32">32 Inches & Under</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="inches_33" class="filter-btn" />
+                    <label for="inches_33">33 to 43 Inches</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="inches_44" class="filter-btn" />
+                    <label for="inches_44">44 to 49 Inches</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="inches_50" class="filter-btn" />
+                    <label for="inches_50">50 to 59 Inches</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="inches_60" class="filter-btn" />
+                    <label for="inches_60">60 to 69 Inches</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="inches_70" class="filter-btn" />
+                    <label for="inches_70">70 Inches & Up</label>
+                </li>
+            </ul>
+            <div class="filter-details">Television Refresh Rate</div>
+            <ul class="filter-items">
+                <li>
+                    <input type="checkbox" id="Hz_60" class="filter-btn" />
+                    <label for="Hz_60">60 Hz</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="Hz_120" class="filter-btn" />
+                    <label for="Hz_120">120 Hz</label>
+                </li>
+            </ul>
+            <div class="filter-details">Television Resolution</div>
+            <ul class="filter-items">
+                <li>
+                    <input type="checkbox" id="r_4K" class="filter-btn" />
+                    <label for="r_4K">4K Ultra HD</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="r_1080p" class="filter-btn" />
+                    <label for="r_1080p">1080p</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="r_720p" class="filter-btn" />
+                    <label for="r_720p">720p</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="r_480p" class="filter-btn" />
+                    <label for="r_480p">480p</label>
+                </li>
+            </ul>
+            <div class="filter-details">Price</div>
+            <ul class="filter-items">
+                <li>
+                    <span>$</span>
+                    <input id="low_price" class="filter-price" />
+                    <span>to</span>
+                    <span>$</span>
+                    <input id="high_price" class="filter-price" />
+                    <button id="submit_price" class="filter-price-submit filter-btn">GO</button>
+                </li>
+            </ul>
+            <div class="filter-details">Avg. Customer Review</div>
+            <ul class="filter-items">
+                <li>
+                    <button id="review_up_4_star" class="filter-customer-review filter-btn" data-review="4">
+                        <span class="stars-box stars-4"></span>
+                        <span> & Up</span>
+                    </button>
+                </li>
+                <li>
+                    <button id="review_up_3_star" class="filter-customer-review filter-btn" data-review="3">
+                        <span class="stars-box stars-3"></span>
+                        <span> & Up</span>
+                    </button>
+                </li>
+                <li>
+                    <button id="review_up_2_star" class="filter-customer-review filter-btn" data-review="2">
+                        <span class="stars-box stars-2"></span>
+                        <span> & Up</span>
+                    </button>
+                </li>
+                <li>
+                    <button id="review_up_1_star" class="filter-customer-review filter-btn" data-review="1">
+                        <span class="stars-box stars-1"></span>
+                        <span> & Up</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div id="grid1"></div>
+    </div>
+
+
+    <script>
+        var gcGrid;
+        var rowTemplate =
+            '<div>' +
+                '<div data-column="image"></div>' +
+                '<div data-column="description"></div>' +
+                '<div data-column="brand"></div>' +
+                '<div data-column="price"></div>' +
+                '<div data-column="starsIcon"></div>' +
+            '</div>';
+
+        var imagePresenter = '<img class="tv-image" src={{=it.image}} />';
+        var descriptionPresenter = '<a href="#"><b>{{=it.description}}</b></a>';
+        var brandPresenter = '<div class="tv-brand"><label>by {{=it.brand}}</label></div>';
+        var pricePresenter = '<div>${{=it.price}}</div>';
+        var startPresenter = '<div class="stars-box {{=it.starsIcon}}"></div>';
+
+        var columns = [
+            { id: 'image', caption: 'image', dataField: 'image', presenter: imagePresenter },
+            { id: 'description', caption: 'description', dataField: 'description', presenter: descriptionPresenter },
+            { id: 'brand', caption: 'brand', dataField: 'brand', presenter: brandPresenter },
+            { id: 'price', caption: 'price', dataField: 'price', presenter: pricePresenter },
+            { id: 'starsIcon', caption: 'starsIcon', dataField: 'starsIcon', presenter: startPresenter },
+            { id: 'shipToChina', caption: 'shipToChina', dataField: 'shipToChina' },
+            { id: 'size', caption: 'size', dataField: 'size' },
+            { id: 'refreshRate', caption: 'refreshRate', dataField: 'refreshRate' },
+            { id: 'resolution', caption: 'resolution', dataField: 'resolution' },
+            { id: 'starsValue', caption: 'starsValue', dataField: 'starsValue' }
+        ];
+
+        $(document).ready(function () {
+            $.getJSON("data/TVData.json", function (data) {
+                gcGrid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, new GcSpread.Views.GcGrid.Plugins.CardLayoutEngine({
+                    cardHeight: 300,
+                    cardWidth: 210,
+                    direction: 'horizontal',
+                    rowTemplate: rowTemplate
+                }));
+
+                $('.filter-btn').click(function () {
+                    doFilter();
+                });
+
+                function doFilter() {
+                    var filter = getFilter();
+                    if (filter !== '') {
+                        gcGrid.data.filter(filter).do();
+                    } else {
+                        gcGrid.data.filter().clear().do();
+                    }
+                }
+
+                $('.filter-customer-review').click(function () {
+                    $('.filter-customer-review.selected-review').removeClass('selected-review');
+                    $(this).addClass('selected-review');
+                });
+
+                function getFilter() {
+                    var filter = '';
+
+                    var shipChina = $("#shipToChina").prop('checked');
+                    var shipFilter = shipChina ? '[shipToChina]=true' : '';
+                    if (shipFilter !== '') {
+                        filter += (filter === '' ? '' : '&&') + '(' + shipFilter + ')';
+                    }
+
+                    var sizeFilter = '';
+                    var inches32 = $('#inches_32').prop('checked');
+                    var inches33 = $('#inches_33').prop('checked');
+                    var inches44 = $('#inches_44').prop('checked');
+                    var inches50 = $('#inches_50').prop('checked');
+                    var inches60 = $('#inches_60').prop('checked');
+                    var inches70 = $('#inches_70').prop('checked');
+                    if (inches32) {
+                        sizeFilter += (sizeFilter === '' ? '' : '||') + '([size]<=32)';
+                    }
+                    if (inches33) {
+                        sizeFilter += (sizeFilter === '' ? '' : '||') + '([size]>=33&&[size]<=43)';
+                    }
+                    if (inches44) {
+                        sizeFilter += (sizeFilter === '' ? '' : '||') + '([size]>=44&&[size]<=49)';
+                    }
+                    if (inches50) {
+                        sizeFilter += (sizeFilter === '' ? '' : '||') + '([size]>=50&&[size]<=59)';
+                    }
+                    if (inches60) {
+                        sizeFilter += (sizeFilter === '' ? '' : '||') + '([size]>=60&&[size]<=69)';
+                    }
+                    if (inches70) {
+                        sizeFilter += (sizeFilter === '' ? '' : '||') + '([size]>=70)';
+                    }
+                    if (sizeFilter !== '') {
+                        filter += (filter === '' ? '' : '&&') + '(' + sizeFilter + ')';
+                    }
+
+                    var rRateFilter = '';
+                    var hz60 = $('#Hz_60').prop('checked');
+                    var hz120 = $('#Hz_120').prop('checked');
+                    if (hz60) {
+                        rRateFilter += (rRateFilter === '' ? '' : '||') + '([refreshRate]=60)';
+                    }
+                    if (hz120) {
+                        rRateFilter += (rRateFilter === '' ? '' : '||') + '([refreshRate]=120)';
+                    }
+                    if (rRateFilter !== '') {
+                        filter += (filter === '' ? '' : '&&') + '(' + rRateFilter + ')';
+                    }
+
+                    var resoFilter = '';
+                    var r4k = $('#r_4K').prop('checked');
+                    var r1080p = $('#r_1080p').prop('checked');
+                    var r720p = $('#r_720p').prop('checked');
+                    var r480p = $('#r_480p').prop('checked');
+                    if (r4k) {
+                        resoFilter += (resoFilter === '' ? '' : '||') + '([resolution]="4K")';
+                    }
+                    if (r1080p) {
+                        resoFilter += (resoFilter === '' ? '' : '||') + '([resolution]="1080p")';
+                    }
+                    if (r720p) {
+                        resoFilter += (resoFilter === '' ? '' : '||') + '([resolution]="720p")';
+                    }
+                    if (r480p) {
+                        resoFilter += (resoFilter === '' ? '' : '||') + '([resolution]="480p")';
+                    }
+                    if (resoFilter !== '') {
+                        filter += (filter === '' ? '' : '&&') + '(' + resoFilter + ')';
+                    }
+
+                    var priceFilter;
+                    var lowPrice = $('#low_price').val();
+                    var highPrice = $('#high_price').val();
+                    if (lowPrice !== '' && highPrice !== '') {
+                        var lowPrice = parseFloat(lowPrice);
+                        var highPrice = parseFloat(highPrice);
+                        if (!isNaN(lowPrice) && !isNaN(highPrice) && lowPrice < highPrice) {
+                            priceFilter = '[price]>=' + lowPrice + '&&[price]<=' + highPrice;
+                        }
+                    }
+                    if (priceFilter) {
+                        filter += (filter === '' ? '' : '&&') + '(' + priceFilter + ')';
+                    }
+
+                    var reviewFilter;
+                    var reviewBtn = $('.filter-customer-review.selected-review');
+                    if (reviewBtn && reviewBtn.length) {
+                        var reviewData = reviewBtn.data('review');
+                        if (reviewData) {
+                            reviewFilter = '[starsValue]>=' + reviewData;
+                        }
+                    }
+                    if (reviewFilter) {
+                        filter += (filter === '' ? '' : '&&') + '(' + reviewFilter + ')';
+                    }
+
+                    return filter;
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>

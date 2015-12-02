@@ -1,0 +1,2156 @@
+[
+    {
+        "productName": "iPad Air 2",
+        "quantity": 16,
+        "salesDate": "2014-09-30",
+        "salesMan": "Alice",
+        "total": 7984,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 17,
+        "salesDate": "2014-10-01",
+        "salesMan": "Bob",
+        "total": 6783,
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 18,
+        "salesDate": "2014-10-02",
+        "salesMan": "John",
+        "total": 8982,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 11,
+        "salesDate": "2014-10-03",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 8,
+        "salesDate": "2014-10-04",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 3,
+        "salesDate": "2014-10-05",
+        "salesMan": "Alex",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 19,
+        "salesDate": "2014-10-06",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 18,
+        "salesDate": "2014-10-07",
+        "salesMan": "Chris",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 12,
+        "salesDate": "2014-10-08",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 3,
+        "salesDate": "2014-10-09",
+        "salesMan": "Lucy",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 18,
+        "salesDate": "2014-10-10",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 14,
+        "salesDate": "2014-10-11",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 16,
+        "salesDate": "2014-10-12",
+        "salesMan": "Lucy",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 17,
+        "salesDate": "2014-10-13",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 8,
+        "salesDate": "2014-10-14",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 14,
+        "salesDate": "2014-10-15",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 8,
+        "salesDate": "2014-10-14",
+        "salesMan": "Chris",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 14,
+        "salesDate": "2014-10-15",
+        "salesMan": "Chris",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 12,
+        "salesDate": "2014-10-16",
+        "salesMan": "Chris",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 11,
+        "salesDate": "2014-10-17",
+        "salesMan": "Chris",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 12,
+        "salesDate": "2014-10-16",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 11,
+        "salesDate": "2014-10-17",
+        "salesMan": "Alex",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 16,
+        "salesDate": "2014-10-18",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 17,
+        "salesDate": "2014-10-19",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 12,
+        "salesDate": "2014-10-20",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 3,
+        "salesDate": "2014-10-21",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 15,
+        "salesDate": "2014-10-22",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 17,
+        "salesDate": "2014-10-23",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 7,
+        "salesDate": "2014-10-24",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 13,
+        "salesDate": "2014-10-25",
+        "salesMan": "Alex",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 16,
+        "salesDate": "2014-10-26",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 3,
+        "salesDate": "2014-10-27",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 5,
+        "salesDate": "2014-10-28",
+        "salesMan": "Chris",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 0,
+        "salesDate": "2014-10-29",
+        "salesMan": "Lucy",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 15,
+        "salesDate": "2014-09-30",
+        "salesMan": "Alex",
+        "total": 7485,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 13,
+        "salesDate": "2014-10-01",
+        "salesMan": "Alice",
+        "total": 1287,
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 14,
+        "salesDate": "2014-10-02",
+        "salesMan": "Alex",
+        "total": 2786,
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 4,
+        "salesDate": "2014-10-03",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 17,
+        "salesDate": "2014-10-04",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 17,
+        "salesDate": "2014-10-05",
+        "salesMan": "Alex",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 8,
+        "salesDate": "2014-10-06",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 18,
+        "salesDate": "2014-10-07",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 7,
+        "salesDate": "2014-10-08",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 18,
+        "salesDate": "2014-10-09",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 6,
+        "salesDate": "2014-10-10",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 13,
+        "salesDate": "2014-10-11",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 1,
+        "salesDate": "2014-10-12",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 16,
+        "salesDate": "2014-10-13",
+        "salesMan": "Alex",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 1,
+        "salesDate": "2014-10-14",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 15,
+        "salesDate": "2014-10-15",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 1,
+        "salesDate": "2014-10-16",
+        "salesMan": "Chris",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 19,
+        "salesDate": "2014-10-17",
+        "salesMan": "Alex",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 7,
+        "salesDate": "2014-10-18",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 6,
+        "salesDate": "2014-10-19",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 15,
+        "salesDate": "2014-10-20",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 12,
+        "salesDate": "2014-10-21",
+        "salesMan": "Chris",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 8,
+        "salesDate": "2014-10-22",
+        "salesMan": "Lucy",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 17,
+        "salesDate": "2014-10-23",
+        "salesMan": "Alex",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 14,
+        "salesDate": "2014-10-24",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 0,
+        "salesDate": "2014-10-25",
+        "salesMan": "Alex",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 19,
+        "salesDate": "2014-10-26",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 7,
+        "salesDate": "2014-10-27",
+        "salesMan": "Bob",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 5,
+        "salesDate": "2014-10-28",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 16,
+        "salesDate": "2014-10-29",
+        "salesMan": "Chris",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 16,
+        "salesDate": "2014-09-30",
+        "salesMan": "John",
+        "total": 6384,
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 12,
+        "salesDate": "2014-10-01",
+        "salesMan": "Alex",
+        "total": 5988,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 10,
+        "salesDate": "2014-10-02",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 8,
+        "salesDate": "2014-10-03",
+        "salesMan": "John",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 2,
+        "salesDate": "2014-10-04",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 12,
+        "salesDate": "2014-10-05",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 0,
+        "salesDate": "2014-10-06",
+        "salesMan": "Lucy",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 19,
+        "salesDate": "2014-10-07",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 14,
+        "salesDate": "2014-10-08",
+        "salesMan": "John",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 15,
+        "salesDate": "2014-10-09",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 15,
+        "salesDate": "2014-10-10",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 12,
+        "salesDate": "2014-10-11",
+        "salesMan": "Lucy",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 8,
+        "salesDate": "2014-10-12",
+        "salesMan": "Lucy",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 6,
+        "salesDate": "2014-10-13",
+        "salesMan": "Alex",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 2,
+        "salesDate": "2014-10-14",
+        "salesMan": "Alex",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 15,
+        "salesDate": "2014-10-15",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 3,
+        "salesDate": "2014-10-16",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 12,
+        "salesDate": "2014-10-17",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 18,
+        "salesDate": "2014-10-18",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 3,
+        "salesDate": "2014-10-19",
+        "salesMan": "Alex",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 4,
+        "salesDate": "2014-10-20",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 1,
+        "salesDate": "2014-10-21",
+        "salesMan": "Alex",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 10,
+        "salesDate": "2014-10-22",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 13,
+        "salesDate": "2014-10-23",
+        "salesMan": "Alex",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 3,
+        "salesDate": "2014-10-24",
+        "salesMan": "Bob",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 11,
+        "salesDate": "2014-10-25",
+        "salesMan": "John",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 4,
+        "salesDate": "2014-10-26",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 12,
+        "salesDate": "2014-10-27",
+        "salesMan": "Bob",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 0,
+        "salesDate": "2014-10-28",
+        "salesMan": "Lucy",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 12,
+        "salesDate": "2014-10-29",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 6,
+        "salesDate": "2014-09-30",
+        "salesMan": "Chris",
+        "total": 2994,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 0,
+        "salesDate": "2014-10-01",
+        "salesMan": "Chris",
+        "total": 0,
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 2,
+        "salesDate": "2014-10-02",
+        "salesMan": "John",
+        "total": 998,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 4,
+        "salesDate": "2014-10-03",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 4,
+        "salesDate": "2014-10-04",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 13,
+        "salesDate": "2014-10-05",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 0,
+        "salesDate": "2014-10-06",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 1,
+        "salesDate": "2014-10-07",
+        "salesMan": "Lucy",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 1,
+        "salesDate": "2014-10-08",
+        "salesMan": "Bob",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 4,
+        "salesDate": "2014-10-09",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 17,
+        "salesDate": "2014-10-10",
+        "salesMan": "Lucy",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 12,
+        "salesDate": "2014-10-11",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 11,
+        "salesDate": "2014-10-12",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 10,
+        "salesDate": "2014-10-13",
+        "salesMan": "Lucy",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 18,
+        "salesDate": "2014-10-14",
+        "salesMan": "Lucy",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 6,
+        "salesDate": "2014-10-15",
+        "salesMan": "John",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 6,
+        "salesDate": "2014-10-16",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 18,
+        "salesDate": "2014-10-17",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 14,
+        "salesDate": "2014-10-18",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 13,
+        "salesDate": "2014-10-19",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 17,
+        "salesDate": "2014-10-20",
+        "salesMan": "Lucy",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 9,
+        "salesDate": "2014-10-21",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 10,
+        "salesDate": "2014-10-22",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 18,
+        "salesDate": "2014-10-23",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 0,
+        "salesDate": "2014-10-24",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 2,
+        "salesDate": "2014-10-25",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 3,
+        "salesDate": "2014-10-26",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 10,
+        "salesDate": "2014-10-27",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 4,
+        "salesDate": "2014-10-28",
+        "salesMan": "Chris",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 17,
+        "salesDate": "2014-10-29",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 16,
+        "salesDate": "2014-09-30",
+        "salesMan": "Alice",
+        "total": 6384,
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 16,
+        "salesDate": "2014-10-01",
+        "salesMan": "Alex",
+        "total": 1584,
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 11,
+        "salesDate": "2014-10-02",
+        "salesMan": "Alex",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 15,
+        "salesDate": "2014-10-03",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 14,
+        "salesDate": "2014-10-04",
+        "salesMan": "Bob",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 15,
+        "salesDate": "2014-10-05",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 0,
+        "salesDate": "2014-10-06",
+        "salesMan": "Chris",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 19,
+        "salesDate": "2014-10-07",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 19,
+        "salesDate": "2014-10-08",
+        "salesMan": "Alex",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 13,
+        "salesDate": "2014-10-09",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 8,
+        "salesDate": "2014-10-10",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 14,
+        "salesDate": "2014-10-11",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 16,
+        "salesDate": "2014-10-12",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 16,
+        "salesDate": "2014-10-13",
+        "salesMan": "Chris",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 0,
+        "salesDate": "2014-10-14",
+        "salesMan": "Chris",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 12,
+        "salesDate": "2014-10-15",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 2,
+        "salesDate": "2014-10-16",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 15,
+        "salesDate": "2014-10-17",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 9,
+        "salesDate": "2014-10-18",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 5,
+        "salesDate": "2014-10-19",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 13,
+        "salesDate": "2014-10-20",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 8,
+        "salesDate": "2014-10-21",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 2,
+        "salesDate": "2014-10-22",
+        "salesMan": "Lucy",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 2,
+        "salesDate": "2014-10-23",
+        "salesMan": "Alex",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 8,
+        "salesDate": "2014-10-24",
+        "salesMan": "Alex",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 18,
+        "salesDate": "2014-10-25",
+        "salesMan": "Lucy",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 7,
+        "salesDate": "2014-10-26",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 2,
+        "salesDate": "2014-10-27",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 11,
+        "salesDate": "2014-10-28",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 7,
+        "salesDate": "2014-10-29",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 13,
+        "salesDate": "2014-09-30",
+        "salesMan": "Alex",
+        "total": 1287,
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 6,
+        "salesDate": "2014-10-01",
+        "salesMan": "John",
+        "total": 2394,
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 19,
+        "salesDate": "2014-10-02",
+        "salesMan": "Lucy",
+        "total": 9481,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 3,
+        "salesDate": "2014-10-03",
+        "salesMan": "Chris",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 12,
+        "salesDate": "2014-10-04",
+        "salesMan": "Alex",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 8,
+        "salesDate": "2014-10-05",
+        "salesMan": "Chris",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 12,
+        "salesDate": "2014-10-06",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 12,
+        "salesDate": "2014-10-07",
+        "salesMan": "Alex",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 11,
+        "salesDate": "2014-10-08",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 11,
+        "salesDate": "2014-10-09",
+        "salesMan": "Lucy",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 0,
+        "salesDate": "2014-10-10",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 2,
+        "salesDate": "2014-10-11",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 0,
+        "salesDate": "2014-10-12",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 2,
+        "salesDate": "2014-10-13",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 7,
+        "salesDate": "2014-10-14",
+        "salesMan": "Bob",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 19,
+        "salesDate": "2014-10-15",
+        "salesMan": "Alex",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 10,
+        "salesDate": "2014-10-16",
+        "salesMan": "Lucy",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 4,
+        "salesDate": "2014-10-17",
+        "salesMan": "Alex",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 7,
+        "salesDate": "2014-10-18",
+        "salesMan": "Alice",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 1,
+        "salesDate": "2014-10-19",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 14,
+        "salesDate": "2014-10-20",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 0,
+        "salesDate": "2014-10-21",
+        "salesMan": "Chris",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 13,
+        "salesDate": "2014-10-22",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 5,
+        "salesDate": "2014-10-23",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 15,
+        "salesDate": "2014-10-24",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 8,
+        "salesDate": "2014-10-25",
+        "salesMan": "Chris",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 6,
+        "salesDate": "2014-10-26",
+        "salesMan": "Alex",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 11,
+        "salesDate": "2014-10-27",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 1,
+        "salesDate": "2014-10-28",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 18,
+        "salesDate": "2014-10-29",
+        "salesMan": "Bob",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 1,
+        "salesDate": "2014-09-30",
+        "salesMan": "Lucy",
+        "total": 499,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 10,
+        "salesDate": "2014-10-01",
+        "salesMan": "John",
+        "total": 4990,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 18,
+        "salesDate": "2014-10-02",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 3,
+        "salesDate": "2014-10-03",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 7,
+        "salesDate": "2014-10-04",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 10,
+        "salesDate": "2014-10-05",
+        "salesMan": "Chris",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 15,
+        "salesDate": "2014-10-06",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 19,
+        "salesDate": "2014-10-07",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 15,
+        "salesDate": "2014-10-08",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 19,
+        "salesDate": "2014-10-09",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 6,
+        "salesDate": "2014-10-10",
+        "salesMan": "John",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 5,
+        "salesDate": "2014-10-11",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 16,
+        "salesDate": "2014-10-12",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 5,
+        "salesDate": "2014-10-13",
+        "salesMan": "Lucy",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 15,
+        "salesDate": "2014-10-14",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 17,
+        "salesDate": "2014-10-15",
+        "salesMan": "John",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 6,
+        "salesDate": "2014-10-16",
+        "salesMan": "Bob",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 16,
+        "salesDate": "2014-10-17",
+        "salesMan": "Chris",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 19,
+        "salesDate": "2014-10-18",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 8,
+        "salesDate": "2014-10-19",
+        "salesMan": "Bob",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 14,
+        "salesDate": "2014-10-20",
+        "salesMan": "Lucy",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 17,
+        "salesDate": "2014-10-21",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 12,
+        "salesDate": "2014-10-22",
+        "salesMan": "Alex",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 18,
+        "salesDate": "2014-10-23",
+        "salesMan": "Lucy",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 17,
+        "salesDate": "2014-10-24",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 0,
+        "salesDate": "2014-10-25",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 16,
+        "salesDate": "2014-10-26",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 2,
+        "salesDate": "2014-10-27",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 5,
+        "salesDate": "2014-10-28",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 12,
+        "salesDate": "2014-10-29",
+        "salesMan": "Chris",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 12,
+        "salesDate": "2014-09-30",
+        "salesMan": "John",
+        "total": 3588,
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 4,
+        "salesDate": "2014-10-01",
+        "salesMan": "Alice",
+        "total": 396,
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 2,
+        "salesDate": "2014-10-02",
+        "salesMan": "Lucy",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 1,
+        "salesDate": "2014-10-03",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 13,
+        "salesDate": "2014-10-04",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 12,
+        "salesDate": "2014-10-05",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 18,
+        "salesDate": "2014-10-06",
+        "salesMan": "John",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 16,
+        "salesDate": "2014-10-07",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 3,
+        "salesDate": "2014-10-08",
+        "salesMan": "Bob",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 19,
+        "salesDate": "2014-10-09",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 3,
+        "salesDate": "2014-10-10",
+        "salesMan": "Alice",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 5,
+        "salesDate": "2014-10-11",
+        "salesMan": "Lucy",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 3,
+        "salesDate": "2014-10-12",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 5,
+        "salesDate": "2014-10-13",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 3,
+        "salesDate": "2014-10-14",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 0,
+        "salesDate": "2014-10-15",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 2,
+        "salesDate": "2014-10-16",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 5,
+        "salesDate": "2014-10-17",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 3,
+        "salesDate": "2014-10-18",
+        "salesMan": "Lucy",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 9,
+        "salesDate": "2014-10-19",
+        "salesMan": "Lucy",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 11,
+        "salesDate": "2014-10-20",
+        "salesMan": "Alex",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 14,
+        "salesDate": "2014-10-21",
+        "salesMan": "Bob",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 1,
+        "salesDate": "2014-10-22",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 13,
+        "salesDate": "2014-10-23",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 9,
+        "salesDate": "2014-10-24",
+        "salesMan": "Alex",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 13,
+        "salesDate": "2014-10-25",
+        "salesMan": "John",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 17,
+        "salesDate": "2014-10-26",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 19,
+        "salesDate": "2014-10-27",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 18,
+        "salesDate": "2014-10-28",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 1,
+        "salesDate": "2014-10-29",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 3,
+        "salesDate": "2014-09-30",
+        "salesMan": "Alice",
+        "total": 897,
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 11,
+        "salesDate": "2014-10-01",
+        "salesMan": "John",
+        "total": 5489,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 2,
+        "salesDate": "2014-10-02",
+        "salesMan": "Bob",
+        "total": 998,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 10,
+        "salesDate": "2014-10-03",
+        "salesMan": "Chris",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 19,
+        "salesDate": "2014-10-04",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 19,
+        "salesDate": "2014-10-05",
+        "salesMan": "Alex",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 17,
+        "salesDate": "2014-10-06",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 2,
+        "salesDate": "2014-10-07",
+        "salesMan": "Lucy",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 0,
+        "salesDate": "2014-10-08",
+        "salesMan": "Alex",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 13,
+        "salesDate": "2014-10-09",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 8,
+        "salesDate": "2014-10-10",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 3,
+        "salesDate": "2014-10-11",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 3,
+        "salesDate": "2014-10-12",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 15,
+        "salesDate": "2014-10-13",
+        "salesMan": "Bob",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 9,
+        "salesDate": "2014-10-14",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 5,
+        "salesDate": "2014-10-15",
+        "salesMan": "Alice",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 19,
+        "salesDate": "2014-10-16",
+        "salesMan": "Alice",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 7,
+        "salesDate": "2014-10-17",
+        "salesMan": "Alex",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 12,
+        "salesDate": "2014-10-18",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 19,
+        "salesDate": "2014-10-19",
+        "salesMan": "Bob",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 7,
+        "salesDate": "2014-10-20",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 11,
+        "salesDate": "2014-10-21",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 11,
+        "salesDate": "2014-10-22",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 15,
+        "salesDate": "2014-10-23",
+        "salesMan": "Lucy",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 5,
+        "salesDate": "2014-10-24",
+        "salesMan": "Alice",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 19,
+        "salesDate": "2014-10-25",
+        "salesMan": "Bob",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 9,
+        "salesDate": "2014-10-26",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 9,
+        "salesDate": "2014-10-27",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 4,
+        "salesDate": "2014-10-28",
+        "salesMan": "Alex",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 15,
+        "salesDate": "2014-10-29",
+        "salesMan": "John",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 10,
+        "salesDate": "2014-09-30",
+        "salesMan": "Alice",
+        "total": 3990,
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 8,
+        "salesDate": "2014-10-01",
+        "salesMan": "Alex",
+        "total": 3192,
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 3,
+        "salesDate": "2014-10-02",
+        "salesMan": "Lucy",
+        "total": 1497,
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 6,
+        "salesDate": "2014-10-03",
+        "salesMan": "Chris",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 9,
+        "salesDate": "2014-10-04",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 2,
+        "salesDate": "2014-10-05",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 7,
+        "salesDate": "2014-10-06",
+        "salesMan": "Bob",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 7,
+        "salesDate": "2014-10-07",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 13,
+        "salesDate": "2014-10-08",
+        "salesMan": "Bob",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 9,
+        "salesDate": "2014-10-09",
+        "salesMan": "Lucy",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 4,
+        "salesDate": "2014-10-10",
+        "salesMan": "Alex",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 4,
+        "salesDate": "2014-10-11",
+        "salesMan": "Alex",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 15,
+        "salesDate": "2014-10-12",
+        "salesMan": "Alice",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 5,
+        "salesDate": "2014-10-13",
+        "salesMan": "Bob",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 5,
+        "salesDate": "2014-10-14",
+        "salesMan": "Alice",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 7,
+        "salesDate": "2014-10-15",
+        "salesMan": "Chris",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 8,
+        "salesDate": "2014-10-16",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 6,
+        "salesDate": "2014-10-17",
+        "salesMan": "John",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 16,
+        "salesDate": "2014-10-18",
+        "salesMan": "Chris",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 17,
+        "salesDate": "2014-10-19",
+        "salesMan": "Alex",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone6",
+        "quantity": 4,
+        "salesDate": "2014-10-20",
+        "salesMan": "Alice",
+        "unitPrice": "199"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 9,
+        "salesDate": "2014-10-21",
+        "salesMan": "Bob",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 8,
+        "salesDate": "2014-10-22",
+        "salesMan": "Alex",
+        "unitPrice": "499"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 3,
+        "salesDate": "2014-10-23",
+        "salesMan": "John",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone5s",
+        "quantity": 9,
+        "salesDate": "2014-10-24",
+        "salesMan": "Chris",
+        "unitPrice": "99"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 7,
+        "salesDate": "2014-10-25",
+        "salesMan": "Alice",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPhone6 plus",
+        "quantity": 5,
+        "salesDate": "2014-10-26",
+        "salesMan": "Chris",
+        "unitPrice": "299"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 14,
+        "salesDate": "2014-10-27",
+        "salesMan": "Bob",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad mini 3",
+        "quantity": 11,
+        "salesDate": "2014-10-28",
+        "salesMan": "Alex",
+        "unitPrice": "399"
+    },
+    {
+        "productName": "iPad Air 2",
+        "quantity": 13,
+        "salesDate": "2014-10-29",
+        "salesMan": "John",
+        "unitPrice": "499"
+    }
+]

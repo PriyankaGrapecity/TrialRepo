@@ -1,0 +1,221 @@
+[
+    {
+        "filmCover":{
+            "posterUrl":"images/True_Story.jpg",
+            "posterTitle":"True Story (2015)"
+        },
+        "filmTitleLink":{
+            "title":"True Story (2015)",
+            "link":"http://www.imdb.com/title/tt2273657/?ref_=cs_ov_tt"
+        },
+        "filmCategory":{
+            "certification":"R",
+            "time":"100",
+            "genre":"Drama | Mystery | Thriller"
+        },
+        "filmDescription":"The relationship between journalist Michael Finkel and Christian Longo, an FBI Most Wanted List murderer who for years lived outside the U.S. under Finkel's name.",
+        "filmDirector":"Rupert Goold",
+        "filmActors":" James Franco, Jonah Hill, Felicity Jones, Ethan Suplee",
+        "filmTimes":"2015",
+        "filmType":"mystery"
+    },
+    {
+        "filmCover":{
+            "posterUrl":"images/Ex_Machina.jpg",
+            "posterTitle":"Ex Machina (2015)"
+        },
+        "filmTitleLink":{
+            "title":"Ex Machina (2015)",
+            "link":"http://www.imdb.com/title/tt0470752/?ref_=cs_ov_tt"},
+        "filmCategory":{
+            "certification":"R",
+            "time":"108",
+            "genre":"Drama | Sci-Fi"
+        },
+        "filmDescription":"A young programmer is selected to participate in a breakthrough experiment in artificial intelligence by evaluating the human qualities of a breathtaking female A.I.",
+        "filmDirector":"Alex Garland",
+        "filmActors":"Alicia Vikander, Domhnall Gleeson, Oscar Isaac, Corey Johnson",
+        "filmTimes":"2015",
+        "filmType":"sci-fi"
+    },
+    {
+        "filmCover":{
+            "posterUrl":"images/Desert_Dancer.jpg",
+            "posterTitle":"Desert Dancer (2014)"
+        },
+        "filmTitleLink":{
+            "title":"Desert Dancer (2014)",
+            "link":"http://www.imdb.com/title/tt2403393/?ref_=cs_ov_tt"
+        },
+        "filmCategory":{
+            "certification":"PG-13",
+            "time":"98",
+            "genre":"Biography | Drama"
+        },
+        "filmDescription":"Afshin Ghaffarian risks everything to start a dance company amidst his home country of Iran's politically volatile climate and the nation's ban on dancing.",
+        "filmDirector":"Richard Raymond",
+        "filmActors":"Freida Pinto, Nazanin Boniadi, Tom Cullen, Reece Ritchie",
+        "filmTimes":"2014",
+        "filmType":"biography"
+    },
+    {
+        "filmCover":{
+            "posterUrl":"images/Clouds_of_Sils_Maria.jpg",
+            "posterTitle":"Clouds of Sils Maria (2014)"
+        },
+        "filmTitleLink":{
+            "title":"Clouds of Sils Maria (2014)",
+            "link":"http://www.imdb.com/title/tt2452254/?ref_=cs_ov_tt"
+        },
+        "filmCategory":{
+            "certification":"R",
+            "time":"104",
+            "genre":"Drama"
+        },
+        "filmDescription":"A veteran actress comes face-to-face with an uncomfortable reflection of herself when she agrees to take part in a revival of the play that launched her career 20 years earlier.",
+        "filmDirector":"Olivier Assayas",
+        "filmActors":"Juliette Binoche, Kristen Stewart, Chloë Grace Moretz, Lars Eidinger",
+        "filmTimes":"2014",
+        "filmType":"documentary"
+    },
+    {
+        "filmCover":{
+            "posterUrl":"images/Kill_Me_Three_Times.jpg",
+            "posterTitle":"Kill Me Three Times (2014)"
+        },
+        "filmTitleLink":{
+            "title":"Kill Me Three Times (2014)",
+            "link":"http://www.imdb.com/title/tt2393845/?ref_=cs_ov_tt"
+        },
+        "filmCategory":{
+            "certification":"R",
+            "time":"90",
+            "genre":"Action | Thriller"
+        },
+        "filmDescription":"Professional hit-man Charlie Wolfe finds himself in three tales of murder, blackmail and revenge after a botched contract assignment.",
+        "filmDirector":"Kriv Stenders",
+        "filmActors":"Simon Pegg, Teresa Palmer, Alice Braga, Luke Hemsworth",
+        "filmTimes":"2014",
+        "filmType":"action"
+    },
+    {
+        "filmCover":{
+            "posterUrl":"images/Self_Less.jpg",
+            "posterTitle":"Self/less (2015)"
+        },
+        "filmTitleLink":{
+            "title":"Self/less (2015)",
+            "link":"http://www.imdb.com/title/tt2140379/?ref_=cs_ov_tt"
+        },
+        "filmCategory":{
+            "certification":"PG-13",
+            "time":"120",
+            "genre":"Drama | Sci-Fi | Thriller"
+        },
+        "filmDescription":"An extremely wealthy man, dying from cancer, undergoes a radical medical procedure transferring his consciousness into the body of a healthy young man. But all is not as it seems.",
+        "filmDirector":"Tarsem Singh",
+        "filmActors":"Ryan Reynolds, Matthew Goode, Michelle Dockery",
+        "filmTimes":"2015",
+        "filmType":"sci-fi|thriller"
+    },
+    {
+        "filmCover":{
+            "posterUrl":"images/Unfirended.jpg",
+            "posterTitle":"Unfriended (2014)"
+        },
+        "filmTitleLink":{
+            "title":"Unfriended (2014)",
+            "link":"http://www.imdb.com/title/tt3713166/?ref_=cs_ov_tt"
+        },
+        "filmCategory":{
+            "certification":"R",
+            "time":"82",
+            "genre":"Horror | Thriller"
+        },
+        "filmDescription":"A group of online chat room friends find themselves haunted by a mysterious, supernatural force using the account of their dead friend.",
+        "filmDirector":"Levan Gabriadze",
+        "filmActors":"Cal Barnes, Matthew Bohrer, Courtney Halverson, Shelley Hennig",
+        "filmTimes":"2014",
+        "filmType":"horror|thriller"
+    },
+    {
+        "filmCover":{
+            "posterUrl":"images/Paul_Blart_Mall_Cop_2.jpg",
+            "posterTitle":"Paul Blart: Mall Cop 2 (2015)"
+        },
+        "filmTitleLink":{
+            "title":"Paul Blart: Mall Cop 2 (2015)",
+            "link":"http://www.imdb.com/title/tt3450650/?ref_=cs_ov_tt"
+        },
+        "filmCategory":{
+            "certification":"PG",
+            "time":"94",
+            "genre":"Action | Comedy"
+        },
+        "filmDescription":"After six years of keeping our malls safe, Paul Blart has earned a well-deserved vacation. Safety never takes a holiday and when duty calls.",
+        "filmDirector":"Andy Fickman",
+        "filmActors":"Kevin James, Raini Rodriguez, Eduardo Verástegui, Daniella Alonso",
+        "filmTimes":"2015",
+        "filmType":"action"
+
+    },
+    {
+        "filmCover":{
+            "posterUrl":"images/The_Longest_Ride.jpg",
+            "posterTitle":"The Longest Ride (2015)"
+        },
+        "filmTitleLink":{
+            "title":"The Longest Ride (2015)",
+            "link":"http://www.imdb.com/title/tt2726560/?ref_=cs_ov_tt"
+        },
+        "filmCategory":{
+            "certification":"PG-13",
+            "time":"139",
+            "genre":"Drama | Romance"
+        },
+        "filmDescription":"The lives of a young couple intertwine with a much older man as he reflects back on a lost love while he's trapped in an automobile crash.",
+        "filmDirector":"George Tillman Jr.",
+        "filmActors":"Scott Eastwood, Britt Robertson, Melissa Benoist, Jack Huston",
+        "filmTimes":"2015",
+        "filmType":"romance"
+    },
+    {
+        "filmCover":{
+            "posterUrl":"images/Child_44.jpg",
+            "posterTitle":"Child 44 (2015)"
+        },
+        "filmTitleLink":{"title":"Child 44 (2015)",
+            "link":"http://www.imdb.com/title/tt1014763/?ref_=cs_ov_tt"
+        },
+        "filmCategory":{
+            "certification":"R",
+            "time":"137",
+            "genre":"Drama | Thriller"
+        },
+        "filmDescription":"A disgraced member of the military police investigates a series of nasty child murders during the Stalin-era Soviet Union.",
+        "filmDirector":"Daniel Espinosa",
+        "filmActors":"Tom Hardy, Gary Oldman, Joel Kinnaman, Noomi Rapace",
+        "filmTimes":"2015",
+        "filmType":"thriller"
+    },
+    {
+        "filmCover":{
+            "posterUrl":"images/Monkey_Kindom.jpg",
+            "posterTitle":"Monkey Kingdom (2015)"
+        },
+        "filmTitleLink":{
+            "title":"Monkey Kingdom (2015)",
+            "link":"http://www.imdb.com/title/tt3660770/?ref_=cs_ov_tt"
+        },
+        "filmCategory":{
+            "certification":"G",
+            "time":"78",
+            "genre":"Documentary"
+        },
+        "filmDescription":"A nature documentary that follows a newborn monkey and its mother as they struggle to survive within the competitive social hierarchy of the Temple Troop.",
+        "filmDirector":"Mark Linfield | Alastair Fothergill",
+        "filmActors":"Tina Fey",
+        "filmTimes":"2015",
+        "filmType":"documentary"
+    }
+]

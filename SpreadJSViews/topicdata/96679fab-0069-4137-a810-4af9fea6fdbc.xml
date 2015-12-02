@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="96679fab-0069-4137-a810-4af9fea6fdbc" Status="New Topic" CreatedOn="2015-07-30T06:11:30.4069262Z" ModifiedOn="2015-10-28T03:43:48.3334096Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="ApplyingGroupingStrategy" BuildFlags="">
+  <Title />
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-10-28T03:43:48.3334096Z">&lt;P&gt;Spread.Views supports multiple grouping layout strategies such as Trellis, Calendar and Timeline layout grouping strategies.&amp;nbsp;These grouping&amp;nbsp;strategies can be used&amp;nbsp;for better presentation of your data in the grid.&lt;/P&gt;
+&lt;P&gt;See&amp;nbsp;the following topics for more information:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="b33467e3-3267-48e8-8e8b-c3a55293936b" style="auto-update-caption: true"&gt;Using Trellis&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="9ff4a56b-5aac-43b8-874a-6f2a6c3981de" style="auto-update-caption: true"&gt;Using Calendar&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="2799b38f-160d-4b9f-9cc2-9136b2d72a10" style="auto-update-caption: true"&gt;Using Timeline&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

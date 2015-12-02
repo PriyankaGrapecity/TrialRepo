@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2abb8ab9-18b9-465f-87c0-401620874bdd" Status="New Topic" CreatedOn="2015-07-30T05:36:32.5964427Z" ModifiedOn="2015-10-28T09:36:31.3673406Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="SpreadJS.ViewsDocumentation" BuildFlags="">
+  <Title m="2015-10-28T03:43:48.1819702Z">Spread.Views Documentation</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-10-28T09:36:31.3112662Z">&lt;P&gt;Thank you for choosing Spread.Views, the powerful&amp;nbsp;Data Grid widget&amp;nbsp;you can&amp;nbsp;use in&amp;nbsp;web applications that supports HTML5. &lt;STRONG&gt;Spread.Views&lt;/STRONG&gt; is a pure javascript based Grid control&amp;nbsp;which allows you to visualize and edit data in &lt;STRONG&gt;WYSIWYG&lt;/STRONG&gt; way.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Spread.Views&lt;/STRONG&gt; is for web application development that provides you&amp;nbsp;various powerful features such as Grid layout engines, Excel DAX formulas and various&amp;nbsp;Grouping strategies&amp;nbsp;besides normal grid features. More details are available in this product documentation.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="1099d7a7-761e-49e3-921c-b93588346e7e"&gt;Developer's Guide&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="bbd1c752-c57e-42a0-a645-f850c6ac3758"&gt;Sample Code&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="2e571548-2933-4791-b964-f8b129f446cd"&gt;API Documentation&lt;/A&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Microsoft, Excel, Visual Basic, Visual C#, Visual Studio, and Windows are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries. Other brand and product names are trademarks or registered trademarks of their respective holders.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

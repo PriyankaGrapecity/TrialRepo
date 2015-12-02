@@ -1,0 +1,114 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+    <script src="scripts/HorizontalLayoutEngine.js"></script>
+    <script src="scripts/trellisStrategy.js"></script>
+    <link rel="stylesheet" href="css/horizontalLayoutEngine.css" type="text/css">
+    <link rel="stylesheet" href="css/trellisStrategy.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .button-container {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+            margin-right: 30px;
+            height: 50px;
+        }
+
+
+        .headerTitleEle {
+            position: absolute;
+            border: 1px solid #CECECE;
+            text-align: center;
+            font: bold 12px 'arial';
+            color: #747473;
+            line-height: 30px;
+            cursor: pointer;
+        }
+
+        .employee-photo {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+        }
+
+        .group-item-title {
+            font-weight: bolder;
+            border: none;
+            color: white;
+            background: #C48C43;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .group-item-description {
+        }
+
+        .group-photo-container {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .group-item-container {
+            height: 100px;
+            margin: 5px;
+            font-size: 12px;
+            overflow: hidden;
+            background: #FDD29A;
+            box-shadow: 1px 2px 3px #999;
+            position: relative;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div style="height: 100%; position: relative">
+        <div style="height:100%;">
+            <div id="grid1" style="height:100%;"></div>
+        </div>
+    </div>
+
+
+    <script>
+        var gcGrid;
+        var trellisStrategy;
+
+        var photoPresenter = '<img class="employee-photo" src={{=it.photo}} />';
+        var columns = [
+            { id: 'title', name: 'title', dataField: 'title' },
+            { id: 'description', name: 'description', dataField: 'description' },
+            { id: 'photo', dataField: 'photo', presenter: photoPresenter },
+            { id: 'progress', dataField: 'progress' }
+        ];
+
+        $(document).ready(function () {
+            $.getJSON("databases/timelineBoard.json", function (data) {
+                trellisStrategy = new GcSpread.Views.GcGrid.Plugins.TrellisStrategy({
+                    itemWidth: 190,
+                });
+                gcGrid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, new GcSpread.Views.GcGrid.Plugins.HorizontalLayoutEngine({
+                    grouping: [{ field: 'work', header: { height: 24 } }, { field: 'category', header: { height: 24 } }],
+                    groupStrategy: trellisStrategy,
+                    colWidth: 30
+                }));
+            })
+        });
+    </script>
+
+
+</body>
+</html>

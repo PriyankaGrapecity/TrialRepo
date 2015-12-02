@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="877b899f-4eea-4182-92e0-2fce9872a2f6" Status="New Topic" CreatedOn="2015-07-30T05:53:04.6774914Z" ModifiedOn="2015-10-30T08:44:57.4301141Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="AddingColumnToolPanel" BuildFlags="">
+  <Title />
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-10-30T08:44:57.4290399Z">&lt;P&gt;You can create Column tool panel in Spread.Views to control the visibility of columns. It allows the user to choose&amp;nbsp;the columns&amp;nbsp;from the Column tool panel at run time to decide which column should be visible&amp;nbsp;in the grid.&lt;/P&gt;
+&lt;P&gt;Column tool panel is supported by&amp;nbsp;&lt;A href="9485db74-bab0-4b49-8405-bc55cb8c989c"&gt;Grid Layout Engine&lt;/A&gt; and&amp;nbsp;&lt;A href="9caae2e2-8b54-437e-ac35-2c246f8b67f9"&gt;Horizontal Layout Engine&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;After Grid initialisation, you can call &lt;STRONG&gt;"grid.options.showToolPanel=true/false"&lt;/STRONG&gt; to show/hide the panel.&lt;/P&gt;
+&lt;P&gt;Below image show how a grid including record of company employees can be represented using Column tool panel which allows user to select&amp;nbsp;the desirable&amp;nbsp;column details.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/toolpanel1.PNG"&gt;&lt;/P&gt;
+&lt;P&gt;To&amp;nbsp;define a panel container, Use following line of codes:&lt;/P&gt;&lt;innovasys:widget type="Colorized Example Code From File" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Type your example code here. It will be automatically colorized when you switch to Preview or build the help system.&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Title"&gt;HTML&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;HTML&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Filename"&gt;CodeSamples\views_sample1\views_sample1\113_toolpanel.html&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Region"&gt;panelhtml&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;For&amp;nbsp;JavaScript of Column tool panel, use following code:&lt;/P&gt;&lt;innovasys:widget type="Colorized Example Code From File" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Type your example code here. It will be automatically colorized when you switch to Preview or build the help system.&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Title"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Filename"&gt;CodeSamples\views_sample1\views_sample1\113_toolpanel.html&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Region"&gt;paneljs&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

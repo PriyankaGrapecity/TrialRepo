@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7e546014-ceed-4b51-97b3-13655451f825" Status="New Topic" CreatedOn="2015-08-10T08:15:21.13024Z" ModifiedOn="2015-10-28T03:43:48.3983122Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Using Serialization" BuildFlags="">
+  <Title />
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-10-28T03:43:48.3983122Z">&lt;P&gt;Spread.Views supports serialization of all grid options, layout engine options and column definitions to a JSON object using toJSON function. This JSON object can be used to create a grid.&lt;/P&gt;
+&lt;H3&gt;Sample Code&lt;/H3&gt;
+&lt;P&gt;The following is the code for creating a grid:&lt;/P&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;var grid2 = new GcSpread.Grid.GcGrid(container, data, grid1.toJSON());&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;BR&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;If the grids are not in the same page or frame then all the reference css files should be added manually for every page.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

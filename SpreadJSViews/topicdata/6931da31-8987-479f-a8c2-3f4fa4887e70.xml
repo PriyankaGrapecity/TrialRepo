@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6931da31-8987-479f-a8c2-3f4fa4887e70" Status="New Topic" CreatedOn="2015-07-30T05:49:46.2449013Z" ModifiedOn="2015-10-28T03:43:48.300322Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="AllowingScrollinControl" BuildFlags="">
+  <Title m="2015-08-26T11:13:35.9749734Z">Allowing Scrolling using Buffered Rendering</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-10-28T03:43:48.300322Z">&lt;P&gt;Spread.Views enables you to load large numbers of records into a grid.&lt;/P&gt;
+&lt;P&gt;This allows only visible portions of the loaded store to get render into the DOM.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Spread.Views&lt;/STRONG&gt; appends new rows just in time as the data scrolls and rows are removed from the receding side.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;The image below shows how data is rendered at run time using Scroller.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Scroller.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

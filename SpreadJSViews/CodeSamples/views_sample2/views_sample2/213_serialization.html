@@ -1,0 +1,87 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .grid {
+            height: 45%;
+            margin: 10px 0;
+        }
+
+        .setting-container {
+            height: 25px;
+            width: 100%;
+        }
+
+        .serialize-setting {
+            float: right;
+        }
+
+        .inner-text {
+            position: absolute;
+            margin-left: -90px;
+            margin-top: -20px;
+            top: 50%;
+            left: 50%;
+            font-size: 30px;
+        }
+
+        .inner-container {
+            height: 100%;
+            background: lightgrey;
+            border: 2px dashed;
+            position: relative;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div class="setting-container">
+        <button id="serialize" class="serialize-setting">Serialization</button>
+    </div>
+
+    <div id="grid1" class="grid">
+    </div>
+    <div id="grid2" class="grid">
+        <div class="inner-container">
+            <div class="inner-text">Serialized Grid</div>
+        </div>
+    </div>
+
+
+    <script>
+        var columns = [
+            { id: 'salesDate', caption: 'salesDate', dataField: 'salesDate', format: 'yyyy/MM/dd' },
+            { id: 'salesMan', caption: 'salesMan', dataField: 'salesMan' },
+            { id: 'productName', caption: 'Product Name', dataField: 'productName' },
+            { id: "unitPrice", caption: "Unit Price", dataField: "unitPrice", format: '$#,##0' },
+            { id: "quantity", caption: "Quantity", dataField: "quantity" }
+        ];
+
+        $.getJSON("data/salesData.json", function (data) {
+            var gcGrid1 = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, { allowGrouping: true });
+            var gcGrid2;
+            $("#serialize").click(function () {
+                if (gcGrid2) {
+                    gcGrid2.destroy();
+                    gcGrid2 = null;
+                }
+                var container = document.getElementById('grid2');
+                container.innerHTML = "";
+                gcGrid2 = new GcSpread.Views.GcGrid(container, data, gcGrid1.toJSON());
+            })
+        });
+    </script>
+
+
+</body>
+</html>

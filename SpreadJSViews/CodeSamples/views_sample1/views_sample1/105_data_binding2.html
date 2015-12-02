@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .grid {
+            height: 100%;
+        }
+
+        .percent-complete-bar {
+            display: inline-block;
+            height: 6px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div id="grid1" class="grid"></div>
+    <template id="rowTmpl" type="text/gcGrid-template">
+        <div style='height:100%;width:500px' data-column-group>
+            <div data-column='title' class='gc-column' style='height: 24px;width:80px;left:0px;'></div>
+            <div data-column='Period' class='gc-column' style='height: 24px;width:180px;left:80px;'></div>
+            <div data-column='duration' class='gc-column' style='height: 24px;width:80px;left:260px;'></div>
+            <div data-column='percentComplete' class='gc-column' style='height: 24px;width:80px;left:340px;'></div>
+            <div data-column='effortDriven' class='gc-column' style='height: 24px;width:80px;left:420px;'></div>
+        </div>
+    </template>
+
+
+    <script>
+        function randomData(start, end) {
+            var newStart = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+            var duration = Math.ceil(100 * Math.random());
+
+            var newEnd = new Date(newStart);
+            newEnd.setDate(newStart.getDate() + duration);
+            return {
+                start: newStart,
+                end: newEnd,
+                duration: duration
+            }
+        }
+        var data = [];
+        var seed = new Date(2012, 0, 1);
+        var seed2 = new Date();
+        for (var i = 0; i < 5000; i++) {
+            var taskTime = randomData(seed, seed2);
+            data.push({
+                title: "Task " + i,
+                duration: taskTime.duration + ' days',
+                percentComplete: Math.round(Math.random() * 100),
+                start: taskTime.start.toISOString().slice(0, 10),
+                finish: taskTime.end.toISOString().slice(0, 10),
+                effortDriven: (i % 5 === 0)
+            });
+        }
+
+        var percentCompleteColPresenter = "<span class='percent-complete-bar' style='background-color:{{? it.percentComplete<30}}red{{?? it.percentComplete<60}}silver{{??}}green{{?}};width:{{=it.percentComplete}}%;'></span>";
+        var booleanColPresenter = '<input type="checkbox" {{? it.effortDriven}}checked{{?}} />';
+        var colPresenter = "<span class='percent-complete-bar' style='background-color:{{? it.percentComplete<30}}red{{?? it.percentComplete<60}}silver{{??}}green{{?}};width:{{=it.percentComplete}}%;'></span>";
+
+        var periodPresenter = '<span>{{=it.start}} - {{=it.finish}}</span>';
+        var columns = [
+            { id: 'title', caption: 'Title', dataField: 'title' },
+            { id: 'duration', caption: 'Duration', dataField: 'duration' },
+            { id: 'percentComplete', caption: "% Complete", dataField: "percentComplete", presenter: colPresenter },
+            { id: 'Period', caption: "Period", dataField: "start,finish", presenter: periodPresenter },
+            { id: 'start', dataField: 'start', format: 'MM/dd/yyyy' },
+            { id: 'finish', dataField: 'finish', format: 'MM/dd/yyyy' },
+            { id: 'effortDriven', caption: "Effort Driven", dataField: "effortDriven", presenter: booleanColPresenter }
+        ];
+
+
+        var grid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, {
+            rowTemplate: '#rowTmpl'
+        });
+        window.gcGrid = grid;
+    </script>
+
+
+</body>
+</html>

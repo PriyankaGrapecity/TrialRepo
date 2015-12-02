@@ -1,0 +1,143 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .grid {
+            height: 100%;
+        }
+
+        .percent-complete-bar {
+            display: inline-block;
+            height: 6px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div id="grid1" class="grid"></div>
+
+    <template id="rowTmpl" type="text/gcGrid-template">
+        <div style='height:100%;'>
+            <div style='display:inline-block;vertical-align:top;width:80px;height:100px;line-height:100px;text-align:right'
+                 data-column='id'></div>
+            <div style='display: inline-block;vertical-align:top;height:100%;' data-column-group>
+                <div style='height:33px;width:300px;' data-column='name'></div>
+                <div style='height:33px;' data-column-group>
+                    <div style='display: inline-block; width:80px;;height:33px;' data-column='sku'></div>
+                    <div style='display: inline-block; width:220px;;height:33px;' data-column='description'></div>
+                </div>
+                <div style='height:34px;' data-column-group>
+                    <div style='display: inline-block;height:100%;width:100px;' data-column='categoryId'></div>
+                    <div style='display: inline-block;height:100%;width:120px;' data-column='quantity'></div>
+                    <div style='display: inline-block;height:100%;width:80px;text-align:right' data-column='inStock'></div>
+                </div>
+            </div>
+            <div style='display: inline-block;vertical-align:top;height:100px;line-height:100px;width:80px;text-align:right'
+                 data-column='price'></div>
+            <div style='display: inline-block;vertical-align:top;height:100%;' data-column-group>
+                <div style='height:33px;width:120px;text-align:center' data-column='notInProduction'></div>
+                <div style='height:33px;width:120px;text-align:right' data-column='purchase1'></div>
+                <div style='height:34px;width:120px;text-align:right' data-column='purchase2'></div>
+            </div>
+            <div style='display: inline-block;vertical-align:top;height:100%;' data-column-group>
+                <div style='height:33px;width:200px;' data-column='supplier'></div>
+                <div style='height:33px;width:200px;' data-column='location'></div>
+                <div style='height:34px;width:200px;' data-column='telephone'></div>
+            </div>
+        </div>
+    </template>
+
+
+    <script>
+        var data = [];
+
+        data.push({
+            id: 1,
+            name: "Coca Cola",
+            sku: "Beverage",
+            description: "Soft drinks",
+            categoryId: 1,
+            quantity: "200g X 12",
+            inStock: "10",
+            price: "200",
+            notInProduction: false,
+            purchase1: "100",
+            purchase2: "0",
+            supplier: "Swire Coca-cola",
+            location: "No. 1788 Nanjing Road, Shanghai",
+            telephone: "(86)21 212231"
+        });
+
+        data.push({
+            id: 2,
+            name: "Sprite",
+            sku: "Beverages",
+            description: "Soft drinks",
+            categoryId: 2,
+            quantity: "200g X 12",
+            inStock: "50",
+            price: "200",
+            notInProduction: true,
+            purchase1: "200",
+            purchase2: "10",
+            supplier: "Swire Coca-cola",
+            location: "Bei Wei Industrial District, GuangZhou",
+            telephone: "(86)20 812162"
+        });
+
+        data.push({
+            id: 3,
+            name: "Fanta",
+            sku: "Beverages",
+            description: "Soft drinks",
+            categoryId: 3,
+            quantity: "200g X 12",
+            inStock: "20",
+            price: "200",
+            notInProduction: true,
+            purchase1: "50",
+            purchase2: "10",
+            supplier: "Swire Coca-cola",
+            location: "Bei Wei Industrial District, GuangZhou",
+            telephone: "(86)20 812162"
+        });
+
+        var colFormatter = '<input type="checkbox" {{? it.notInProduction}}checked{{?}} />';
+        var columns = [
+            { id: 'id', caption: 'ID', dataField: 'id' },
+            { id: 'name', caption: 'Product Name', dataField: 'name' },
+            { id: 'sku', caption: 'Category', dataField: 'sku' },
+            { id: 'description', caption: 'Introduction', dataField: 'description' },
+            { id: 'categoryId', caption: 'Category ID', dataField: 'categoryId' },
+            { id: 'quantity', caption: 'Quantity', dataField: 'quantity' },
+            { id: 'inStock', caption: 'In Stock', dataField: 'inStock' },
+            { id: 'price', caption: 'Unit Price', dataField: 'price' },
+            { id: 'notInProduction', caption: 'Discontinued', dataField: 'notInProduction', presenter: colFormatter },
+            { id: 'purchase1', caption: 'Reorder Point', dataField: 'purchase1' },
+            { id: 'purchase2', caption: 'Units on order', dataField: 'purchase2' },
+            { id: 'supplier', caption: 'Supplier', dataField: 'supplier' },
+            { id: 'location', caption: 'Address', dataField: 'location' },
+            { id: 'telephone', caption: 'Telephone', dataField: 'telephone' }
+        ];
+
+        var grid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, {
+            rowHeight: 100,
+            colHeaderHeight: 100,
+            rowTemplate: '#rowTmpl'
+        });
+    </script>
+
+
+</body>
+</html>

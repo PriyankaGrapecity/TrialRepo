@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2799b38f-160d-4b9f-9cc2-9136b2d72a10" Status="New Topic" CreatedOn="2015-07-30T06:12:12.2067667Z" ModifiedOn="2015-08-27T10:06:22.9365699Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="UsingTimeline" BuildFlags="">
+  <Title />
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-08-27T10:06:22.9365699Z">&lt;P&gt;You can group data&amp;nbsp;as a timeline view using Timeline layout grouping strategy. It can be generally used if there is only one level of grouping and the data type of the grouped column is [object date].&lt;IMG style="WIDTH: 798px; HEIGHT: 374px" border=0 alt="" src="images/timlineviewgroup1.png" width=1196 height=537&gt;&lt;/P&gt;
+&lt;P&gt;The above image is an example of timeline layout grouping strategy.&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Sample&amp;nbsp;Code&lt;/H3&gt;
+&lt;P&gt;In order to use timeline&amp;nbsp;layout grouping strategy, you&amp;nbsp;need to add the following two file references&amp;nbsp;after "&lt;STRONG&gt;spreadgrid.js&lt;/STRONG&gt;" script to your HTML page:&lt;/P&gt;&lt;innovasys:widget layout="block" type="Colorized Example Code"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;lt;script src="grunt-scripts/plugins/timelineStrategy.js"&amp;gt;&amp;lt;/script&amp;gt;&lt;BR&gt;&amp;lt;link rel="stylesheet" href="css/plugins/timelineStrategy.css" type="text/css"&amp;gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;Timeline layout grouping&amp;nbsp;strategy supports two different ways of displaying data namely:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Separate&lt;/STRONG&gt;: In this mode of display, the timeline strategy separates the grouped data and then displays the item from left to right. 
+&lt;LI&gt;&lt;STRONG&gt;All&lt;/STRONG&gt;: In this mode of display, the timeline strategy displays the grouped data on one side only. &lt;innovasys:widget layout="block" type="Colorized Example Code"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;timeLinestrategy = new GcSpread.Views.GcGrid.Plugins.TimelineStrategy({&lt;BR&gt;&amp;nbsp; displayMode:'separate'});&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Timeline layout grouping&amp;nbsp;strategy also supports the following two properties:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Gutter&lt;/STRONG&gt;: It is the distance between the timeline and the group container. 
+&lt;LI&gt;&lt;STRONG&gt;Interval Distance&lt;/STRONG&gt;: It is the distance between two layout items. &lt;innovasys:widget layout="block" type="Colorized Example Code"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;timeLinestrategy = new GcSpread.Views.GcGrid.Plugins.TimelineStrategy({&lt;BR&gt;&amp;nbsp;&amp;nbsp; gutter:40,&lt;BR&gt;&amp;nbsp;&amp;nbsp; intervalDistance:40&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;BR&gt;&amp;nbsp;});&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

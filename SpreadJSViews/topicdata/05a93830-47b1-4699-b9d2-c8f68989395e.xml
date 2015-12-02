@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="05a93830-47b1-4699-b9d2-c8f68989395e" Status="New Topic" CreatedOn="2015-08-10T08:15:21.1227206Z" ModifiedOn="2015-08-26T07:24:21.9580016Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Applying Sorting" BuildFlags="">
+  <Title />
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-08-26T07:24:21.9580016Z">&lt;P&gt;The sorting feature allows the user to sort rows based on column values or expressions. Sorting can be set programmatically or manually at run-time by clicking column headers under grid layout engine.&lt;/P&gt;
+&lt;H3&gt;Sample Code&lt;/H3&gt;
+&lt;P&gt;Use the allowSorting option in the grid layout engine&amp;nbsp;to enable run time sorting.&lt;/P&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;{ allowSorting: true | false}&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;P&gt;You can perform sorting by clicking on the column header. If the column has no initial sorting, the the sorting order will be ascending-&amp;gt;descending-&amp;gt;none.&lt;/P&gt;
+&lt;P&gt;You can also specify multiple sort keys (sort by a specified column or row first, then another column or row, and so on).&lt;/P&gt;
+&lt;H3&gt;Sample Code&lt;/H3&gt;
+&lt;P&gt;This example shows multiple sorting.&lt;/P&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;grid.data.sortDescriptions = [{field: 'salesDate', ascending: true},&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{field: 'amount', ascending: false}]&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

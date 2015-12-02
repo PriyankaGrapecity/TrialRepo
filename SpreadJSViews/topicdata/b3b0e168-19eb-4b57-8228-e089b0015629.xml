@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b3b0e168-19eb-4b57-8228-e089b0015629" Status="New Topic" CreatedOn="2015-07-30T05:48:48.6989408Z" ModifiedOn="2015-10-28T03:43:48.293959Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="ResizingtheColumns" BuildFlags="">
+  <Title m="2015-07-30T05:49:42.4342982Z">Resizing the Columns</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-10-28T03:43:48.293959Z">&lt;P&gt;You can resize the column width at run time. By default property &lt;STRONG&gt;allowColumnResize&lt;/STRONG&gt; is set as "&lt;STRONG&gt;True&lt;/STRONG&gt;".&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Spread.Views does not support&amp;nbsp;&lt;STRONG&gt;"zero"&lt;/STRONG&gt; width.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;P&gt;To allow resize of column, use&amp;nbsp;&lt;STRONG&gt;allowColumnResize&lt;/STRONG&gt; property:&lt;/P&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;JavaScript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;allowColumnResize: true&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

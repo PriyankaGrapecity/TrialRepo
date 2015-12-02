@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bbdefe63-932c-41ec-bcbe-2ddef63c586d" Status="New Topic" CreatedOn="2015-07-30T05:48:24.0603115Z" ModifiedOn="2015-10-28T03:43:48.2774152Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="DefiningBasicColumns" BuildFlags="">
+  <Title />
+  <ContentsTitle />
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-10-28T03:43:48.2774152Z">&lt;P&gt;Spread.Views allows you to define the columns during grid initialization. This&amp;nbsp;allows you to choose which column to show and also in which order. This also gives you control over each column's width, caption,&amp;nbsp;visibility etc..&lt;/P&gt;
+&lt;P&gt;You can also stretch the column to fill the available space in the grid by using '*'&amp;nbsp;&lt;STRONG&gt;(astrik)&lt;/STRONG&gt; so that there is no empty space in display.&lt;/P&gt;
+&lt;P&gt;Following image shows how we can control the width and visibility of columns:&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/basic_col.png"&gt;&lt;/P&gt;
+&lt;H3&gt;Sample Code&lt;/H3&gt;&lt;innovasys:widget type="Colorized Example Code From File" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Type your example code here. It will be automatically colorized when you switch to Preview or build the help system.&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Title"&gt;JavaScript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;JS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Filename"&gt;CodeSamples\views_sample1\views_sample1\102_basic_col.html&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Region"&gt;main&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;P&gt;&lt;BR&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

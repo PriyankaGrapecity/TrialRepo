@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .grid {
+            height: 100%;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div id="grid1" class="grid">
+    </div>
+
+
+    <script>
+        $.getJSON("database/chartAccounts.json", function (data) {
+            var accountPresenter = '<img src="images/home.png" style="vertical-align: middle"></img><span>{{=it.accountName}}</span>';
+            var columns = [
+                { id: 'accountName', caption: 'Account Name', dataField: 'accountName', width: 180, presenter: accountPresenter },
+                { id: 'type', caption: 'Type', dataField: 'type', width: 100 },
+                { id: 'commodity', caption: 'Commodity', dataField: 'commodity', width: 100 },
+                { id: 'total', caption: 'Total', dataField: 'total', format: '$0.0', width: 100 }
+            ];
+            gcGrid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, {
+                allowSorting: true,
+                showRowHeader: false,
+                hierarchyDescriptor: {
+                    keyField: 'id',
+                    parentField: 'parentID',
+                    collapsed: false
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>

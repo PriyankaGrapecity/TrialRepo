@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .grid {
+            height: 100%;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div id="grid1" class="grid"></div>
+
+
+    <script>
+        var countries = 'US,Germany,UK,Japan,Italy,Greece'.split(',');
+        var data = [];
+        for (var i = 0; i < 100; i++) {
+            data.push({
+                id: i,
+                country: countries[i % countries.length],
+                date: (new Date(2014, i % 12, i % 28)).toISOString().slice(0, 10),
+                amount: Math.floor(Math.random() * 10000),
+                active: i % 4 === 0
+            });
+        }
+//#region main
+        var columns = [
+                { id: 'id', caption: 'id', dataField: 'id', width: 60 },
+                { id: 'country', caption: 'country', dataField: 'country', width: '*' },
+                { id: 'date', caption: 'date', dataField: 'date', width: '2*' },
+                { id: 'amount', dataField: 'amount', width: 60 },
+                { id: 'active', visible: false }
+        ];
+//#endregion
+        var grid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns);
+    </script>
+
+
+</body>
+</html>

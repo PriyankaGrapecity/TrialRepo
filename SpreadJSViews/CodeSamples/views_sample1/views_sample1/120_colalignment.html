@@ -1,0 +1,187 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+    
+    <style>
+         /* #region "csscode" */ 
+        /*CSS Styling*/
+        .grid {
+            height: 100%;
+        }
+
+        .gc-column-header-cell {
+            background-color: yellow;
+        }
+
+            .gc-column-header-cell.c0,
+            .gc-column-header-cell.c1 {
+                text-align: left;
+                height: 35px;
+                line-height: 35px;
+                width: 100%;
+                position: absolute;
+                bottom: 0px;
+            }
+
+            .gc-column-header-cell.c3 {
+                font-size: 12px;
+                font-weight: normal;
+                word-break: normal;
+                white-space: normal;
+            }
+
+        .c2,
+        .c3,
+        .c4,
+        .c5,
+        .c6,
+        .c7,
+        .c8,
+        .c9,
+        .c10 {
+            text-align: center;
+        }
+
+        .gc-column-header-cell.c2,
+        .gc-column-header-cell.c4,
+        .gc-column-header-cell.c5,
+        .gc-column-header-cell.c6,
+        .gc-column-header-cell.c7,
+        .gc-column-header-cell.c8,
+        .gc-column-header-cell.c9,
+        .gc-column-header-cell.c10 {
+            font-size: 12px;
+            font-weight: normal;
+            word-break: normal;
+            white-space: normal;
+            height: 35px;
+            line-height: 35px;
+        }
+
+        [data-column-group-header] span::after {
+            display: block;
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        [data-column-group-header="Display"] span::after {
+            content: 'seconds';
+        }
+
+        [data-column-group-header="Exposure"] span::after {
+            content: 'Index';
+        }
+
+        [data-column-group-header="Basket $ Size Index"] span::after {
+            content: 'zero = average share';
+        }
+        /* #endregion */ 
+    </style>
+     
+</head>
+<body style="height:95%;">
+
+    <div id="grid1" class="grid"></div>
+
+
+    <script>
+        //#region coldef
+        //Column Definition
+        var gcGrid;
+        var percentPresenter1 = "<span style='background-color:{{? it.index1>2}}green{{?? it.index1>1.25}}lightgreen{{?? it.index1>0.75}}white{{??}}pink{{?}};'>{{=it.index1*100}}%</span>";
+        var percentPresenter2 = "<span style='background-color:{{? it.index2>2}}green{{?? it.index2>1.25}}lightgreen{{?? it.index2>0.75}}white{{??}}pink{{?}};'>{{=it.index2*100}}%</span>";
+        var percentPresenter3 = "<span style='background-color:{{? it.index3>2}}green{{?? it.index3>1.25}}lightgreen{{?? it.index3>0.75}}white{{??}}pink{{?}};'>{{=it.index3*100}}%</span>";
+        var percentPresenter4 = "<span style='background-color:{{? it.index4>2}}green{{?? it.index4>1.25}}lightgreen{{?? it.index4>0.75}}white{{??}}pink{{?}};'>{{=it.index4*100}}%</span>";
+        var columns = [
+            { id: 'upc', caption: 'UPC', dataField: 'upc', width: 120 },
+            { id: 'description', caption: 'Description', dataField: 'description', width: 180 },
+            {
+                caption: 'Display', columns: [
+                { id: 'displayDuration', caption: '3 month', dataField: 'displayDuration', width: 100 },
+                ]
+            },
+            {
+                caption: 'Exposure', columns: [
+                { id: 'exposureSec', caption: 'Sec (display) per SSS (sku)', dataField: 'exposureSec', width: 100 },
+                ]
+            },
+            {
+                caption: 'buyTime', columns: [
+                { id: 'buyTimeSec', caption: 'seconds', dataField: 'buyTimeSec', width: 100 },
+                ]
+            },
+            {
+                caption: 'Dollars', columns: [
+                { id: 'dollarsDuration', caption: '3 month', dataField: 'dollarsDuration', width: 100 },
+                { id: 'rank', caption: 'Rank', dataField: 'rank', width: 100 },
+                ]
+            },
+            {
+                caption: 'Basket $ Size Index', columns: [
+                { id: 'index1', caption: 'Index 1', dataField: 'index1', width: 100, presenter: percentPresenter1 },
+                { id: 'index2', caption: 'Index 2-5', dataField: 'index2', width: 100, presenter: percentPresenter2 },
+                { id: 'index3', caption: 'Index 6-12', dataField: 'index3', width: 100, presenter: percentPresenter3 },
+                { id: 'index4', caption: 'Index 13+', dataField: 'index4', width: 100, presenter: percentPresenter4 },
+                ]
+            }
+        ];
+        //#endregion
+
+        //#region data
+        //Defining Data
+        var data = [
+                {
+                    upc: '0000320',
+                    description: 'COCKTAILICE',
+                    displayDuration: 38231,
+                    exposureSec: 2.6,
+                    buyTimeSec: 21.2,
+                    dollarsDuration: 124252,
+                    rank: 66,
+                    index1: 11.78,
+                    index2: 2,
+                    index3: 0.67,
+                    index4: 0.35
+                },
+                {
+                    upc: '0000321',
+                    description: 'TILLAMOOK VANILLA BEAN',
+                    displayDuration: 39413,
+                    exposureSec: 2.2,
+                    buyTimeSec: 21.8,
+                    dollarsDuration: 9344,
+                    rank: 188,
+                    index1: 1.43,
+                    index2: 1.49,
+                    index3: 1.02,
+                    index4: 0.8
+                },
+                {
+                    upc: '0000350',
+                    description: '20 LB ICE',
+                    displayDuration: 38231,
+                    exposureSec: 2.6,
+                    buyTimeSec: 21.2,
+                    dollarsDuration: 124252,
+                    rank: 283,
+                    index1: 0.12,
+                    index2: 0.09,
+                    index3: 2.62,
+                    index4: 0.13
+                }
+        ];
+        gcGrid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, { colHeaderHeight: 35, showRowHeader: false });
+        //#endregion
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .column1 {
+            width: 90px;
+            margin-left: 30px;
+            display: inline-block;
+        }
+
+        .column2 {
+            width: 190px;
+        }
+
+        .edit-detail {
+            margin: 4px;
+        }
+
+            .edit-detail *:focus {
+                outline: none;
+            }
+
+        .edit-advantage label {
+            vertical-align: top;
+        }
+
+        .edit-advantage textarea {
+            width: 500px;
+            height: 50px;
+            resize: none;
+        }
+
+        .gc-popup-editing-area {
+            width: 690px;
+        }
+
+        .setting-container {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+            margin-right: 30px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div class="setting-container">
+        <label>EditMode:</label>
+        <select id='grid-edit-mode'>
+            <option value='popup'>popup</option>
+            <option value='editForm' selected>editForm</option>
+        </select>
+    </div>
+    <div id="grid1" class="grid" style="height:90%;"></div>
+
+    <template id='editRowTemplate'>
+        <div>
+            <div class='edit-detail'>
+                <label class='column1'>First Name</label>
+                <input class='column2' data-column="firstName" />
+                <label class='column1'>Last Name</label>
+                <input class='column2' data-column="lastName" />
+            </div>
+            <div class='edit-detail'>
+                <label class='column1'>Score</label>
+                <input class='column2' data-column="score" />
+                <label class='column1'>Apply</label>
+                <select class='column2' data-column="apply">
+                    <option>Sales</option>
+                    <option>Sales Manager</option>
+                    <option>Web Developer</option>
+                    <option>.NET Developer</option>
+                    <option>Admin Assistant</option>
+                </select>
+            </div>
+            <div class='edit-advantage edit-detail'>
+                <label class='column1'>Advantage</label>
+                <textarea data-column="advantage"></textarea>
+            </div>
+        </div>
+    </template>
+
+
+    <script>
+        var columns = [
+            { id: 'firstName', caption: 'First Name', dataField: 'firstName', width: 100 },
+            { id: 'lastName', caption: 'Last Name', dataField: 'lastName', width: 100 },
+            { id: 'score', caption: 'Score', dataField: 'score', width: 100 },
+            { id: 'apply', caption: 'Apply', dataField: 'apply', width: 150 },
+            { id: 'advantage', caption: 'Advantage', dataField: 'advantage', width: 200 },
+        ];
+
+        $.getJSON("data/resume.json", function (data) {
+            var grid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, {
+                allowEditing: true,
+                editRowTemplate: '#editRowTemplate',
+                editMode: 'editForm',
+                rowHeight: 40
+            });
+
+            $('#grid-edit-mode').change(function () {
+                grid.stopEditing();
+                var value = $("#grid-edit-mode option:selected").val();
+                grid.layoutEngine.options.editMode = value;
+            })
+        });
+    </script>
+
+
+</body>
+</html>

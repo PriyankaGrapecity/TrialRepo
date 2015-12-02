@@ -1,0 +1,87 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .grid {
+            height: 100%;
+        }
+
+        .percent-complete-bar {
+            display: inline-block;
+            height: 6px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div id="grid1" class="grid" style="height:480px">
+    </div>
+    <div style="height:10px;">
+    </div>
+    <div>
+        <p id="totalSales"></p>
+        <p>Top 3 single sales are:</p>
+        <ul id="topSales"></ul>
+    </div>
+
+
+    <script>
+        $.getJSON("database/salesData_small.json", function (data) {
+            var columns = [
+                { id: 'productName', caption: 'productName', dataField: 'productName' },
+                { id: 'salesMan', caption: 'salesMan', dataField: 'salesMan' },
+                { id: 'quantity', caption: 'quantity', dataField: 'quantity' },
+                { id: 'unitPrice', caption: 'unitPrice', dataField: 'unitPrice' },
+                { id: 'sales', caption: 'sales', dataField: '=[unitPrice] * [quantity]', allowEditing: false },
+                {
+                    id: 'salesPercentage',
+                    caption: 'percentage',
+                    dataField: '=[sales] / [totalSales]',
+                    format: '0.0%',
+                    allowEditing: false
+                }
+            ];
+            var gcGrid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, {
+                allowEditing: true
+            });
+            gcGrid.data.addCalcField('totalSales', 'SUM([sales])', true);
+
+            refresh();
+
+            gcGrid.editing.addHandler(function (sender, args) {
+                if (args.status == "endEditing") {
+                    refresh();
+                }
+            });
+
+            function refresh() {
+            //#region field
+                var totalSales = gcGrid.data.getCalcField('totalSales').value;
+                $('#totalSales').prop('innerHTML', 'Total sales are: ' + '<span style="font-weight:bold">' + totalSales + '</span>');
+
+                var top3Items = gcGrid.data.calculate('TOPN(3, summarize([salesMan], "salesSubtotal", sum([sales])), [salesSubtotal])').toArray();
+
+                var ul = document.getElementById('topSales');
+                ul.innerHTML = null;
+                for (var i = 0, len = top3Items.length; i < len; i++) {
+                    $('<li style="font-weight:bold">' + top3Items[i]['salesMan'] + ' ' + top3Items[i]['salesSubtotal'] + '</li>').appendTo(ul);
+                }
+                //#endregion
+            }
+        });
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+    <script src="scripts/CardLayoutEngine.js"></script>
+    <script src="scripts/trellisStrategy.js"></script>
+    <link rel="stylesheet" href="css/trellisStrategy.css" type="text/css">
+    <link rel="stylesheet" href="css/cardLayoutEngine.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .button-container {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+            margin-right: 30px;
+            height: 50px;
+        }
+
+
+        .headerTitleEle {
+            position: absolute;
+            border: 1px solid #CECECE;
+            text-align: center;
+            font: bold 12px 'arial';
+            color: #747473;
+            line-height: 30px;
+            cursor: pointer;
+        }
+
+        .employee-photo {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+        }
+
+        .group-item-title {
+            font-weight: bolder;
+            border: none;
+            color: white;
+            background: #C48C43;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .group-item-description {
+        }
+
+        .group-photo-container2 {
+            height: 80%;
+        }
+
+        .group-photo-container {
+            height: 100%;
+        }
+
+        .group-item-container {
+            height: 100%;
+        }
+
+        .group-item-container2 {
+            margin: 10px;
+            height: 100%;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div style="height: 100%; position: relative">
+        <div class="row button-container ">
+            <div class="col-xs-8 col-sm-8 button-container ">
+                <div style="height:100%" class="btn-group" rol="group">
+                    <button id="normal" type="button" class="btn btn-default" onclick="changeToNormalLayout()">Default</button>
+                    <button id="calendar" type="button" class="btn btn-default" onclick="changeToTrellisLayout()">Trellis</button>
+                </div>
+            </div>
+        </div>
+        <div style="height:93%;">
+            <div id="grid1" style="height:100%;"></div>
+        </div>
+    </div>
+
+
+    <script>
+        var gcGrid;
+        var trellisStrategy;
+
+        function changeToNormalLayout() {
+            var options = gcGrid.options;
+            options.groupStrategy = null;
+            options.cardHeight = 200;
+            options.cardWidth = 200;
+            options.rowTemplate = normalTmpl;
+            gcGrid.invalidate();
+        }
+
+        function changeToTrellisLayout() {
+            var options = gcGrid.options;
+            options.groupStrategy = trellisStrategy;
+            options.cardHeight = 80;
+            options.cardWidth = 80;
+            options.rowTemplate = rowTmpl;
+            gcGrid.invalidate();
+        }
+        var photoPresenter = '<img class="employee-photo" style="width:100%;height:100%;" src={{=it.photo}} />';
+        var columns = [
+            { id: 'title', name: 'title', dataField: 'title' },
+            { id: 'description', name: 'description', dataField: 'description' },
+            { id: 'photo', dataField: 'photo', presenter: photoPresenter },
+            { id: 'progress', dataField: 'progress' },
+            { id: 'work', dataField: 'work', caption: 'work', visible: false },
+            { id: 'category', dataField: 'category', caption: 'work', visible: false }
+        ];
+
+        var normalTmpl =
+             '<div>' +
+                    '<div class="group-item-container2"  style="background-color:{{? it.progress==100}}#D6FA98{{?? it.progress>=80}}#FFFFFF{{?? it.progress>=50}}#93E0E6{{?? it.progress>=30}}#FDD29A{{??}}#FE7676{{?}}">' +
+                     '<div data-column="description" class="group-item-description"></div>' +
+                    '<div data-column="photo" class="group-photo-container2"></div>' +
+                    '</div>' +
+              '</div>';
+
+        var rowTmpl =
+             '<div>' +
+                    '<div class="group-item-container"  style="background-color:{{? it.progress==100}}#D6FA98{{?? it.progress>=80}}#FFFFFF{{?? it.progress>=50}}#93E0E6{{?? it.progress>=30}}#FDD29A{{??}}#FE7676{{?}}">' +
+                        '<div data-column="photo" class="group-photo-container"></div>' +
+                    '</div>' +
+                '</div>';
+
+        $(document).ready(function () {
+            $.getJSON("databases/timelineBoard.json", function (data) {
+                trellisStrategy = new GcSpread.Views.GcGrid.Plugins.TrellisStrategy({
+                    itemWidth: 190
+                });
+                gcGrid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, new GcSpread.Views.GcGrid.Plugins.CardLayoutEngine({
+                    cardHeight: 80,
+                    cardWidth: 80,
+                    grouping: [{ field: 'work', header: { height: 40 } }, { field: 'category', header: { height: 40 } }],
+                    rowTemplate: rowTmpl,
+                    rowHeight: 120,
+                    groupStrategy: trellisStrategy
+                }));
+            })
+        });
+    </script>
+
+
+</body>
+</html>

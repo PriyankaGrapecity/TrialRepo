@@ -1,0 +1,577 @@
+[
+    {
+        "topic" :"Arrivals",
+        "start": "June 1,2015 9:00:00",
+        "end" :"June 1,2015 20:00:00",
+        "content" :"All members arrives this day.",
+        "speaker":"Alice"
+    },
+
+    {
+        "topic" :"Introductions, Name Game. Hopes Fears & Expectations",
+        "start": "June 2,2015 9:00:00",
+        "end" :"June 2,2015 10:30:00",
+        "content":"This paper starts with introducing the basic characteristics of course and analyzes the problems in teaching. Then some corresponding creative measure and advice is provided.The creation of a modern agricultural sector with a much smaller number of large-scale industrial operations would help.",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 2,2015 10:30:00",
+        "end" :"June 2,2015 11:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"What is Permaculture & Why do we need it",
+        "start": "June 2,2015 11:00:00",
+        "end" :"June 2,2015 12:30:00",
+        "content":"Permaculture is a multi-faceted, in depth design system that will help us create appropriate, site-specific designs that are both sustainable and regenerative. ",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"LUNCH BREAK",
+        "start": "June 2,2015 12:30:00",
+        "end" :"June 2,2015 13:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.The creation of a modern agricultural sector with a much smaller number of large-scale industrial operations would help.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":""
+    },
+    {
+        "topic" :"Permaculture Ethics & Philosophies",
+        "start": "June 2,2015 13:30:00",
+        "end" :"June 2,2015 15:00:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 2,2015 15:00:00",
+        "end" :"June 2,2015 15:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Permaculture Principals",
+        "start": "June 2,2015 15:30:00",
+        "end" :"June 2,2015 16:30:00",
+        "content" :"Permaculture was created through the synthesis of many design systems, with the emphasis on nature as the penultimate one.The creation of a modern agricultural sector with a much smaller number of large-scale industrial operations would help.",
+        "speaker":"Steve"
+    },
+    {
+        "topic":"DINNER",
+        "start":"June 2,2015 17:00:00",
+        "end" :"June 2,2015 19:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic":"Film: Journey to planet earth",
+        "start":"June 2,2015 19:00:00",
+        "end" :"June 2,2015 21:00:00",
+        "content" :"The opening episode journeys across the planet, from Pole to Pole, discovering how its seasonal journey affects the lives on earth.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant.  ",
+        "speaker":""
+    },
+
+
+    {
+        "topic" :"Natural Systems & Succesion",
+        "start": "June 3,2015 9:00:00",
+        "end" :"June 3,2015 10:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.The creation of a modern agricultural sector with a much smaller number of large-scale industrial operations would help.",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 3,2015 10:30:00",
+        "end" :"June 3,2015 11:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Theory in to practice site tour",
+        "start": "June 3,2015 11:00:00",
+        "end" :"June 3,2015 12:30:00",
+        "content":"This paper starts with introducing the basic characteristics of course and analyzes the problems in teaching. Then some corresponding creative measure and advice is provided.The creation of a modern agricultural sector with a much smaller number of large-scale industrial operations would help.",
+        "speaker":"Tony"
+    },
+    {
+        "topic" :"LUNCH BREAK",
+        "start": "June 3,2015 12:30:00",
+        "end" :"June 3,2015 13:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Web of Life",
+        "start": "June 3,2015 13:30:00",
+        "end" :"June 3,2015 15:00:00",
+        "content" :"Goal is to maximise the sustainability of the web of life.The creation of a modern agricultural sector with a much smaller number of large-scale industrial operations would help.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":"Tony"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 3,2015 15:00:00",
+        "end" :"June 3,2015 15:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Economics",
+        "start": "June 3,2015 15:30:00",
+        "end" :"June 3,2015 16:30:00",
+        "content":"One view of economics is that it is the study of the economy.The first priority in developing a new socialist countryside is to develop modern agriculture and promote steady expansion of grain production and sustained increase in rural incomes. ",
+        "speaker":"Tony"
+    },
+    {
+        "topic":"DINNER",
+        "start":"June 3,2015 17:00:00",
+        "end" :"June 3,2015 19:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic":"Film: Money as Debt",
+        "start":"June 3,2015 19:00:00",
+        "end" :"June 3,2015 21:00:00",
+        "content":"",
+        "speaker":""
+    },
+
+
+    {
+        "topic" :"Design Tools SADIMET",
+        "start": "June 4,2015 9:00:00",
+        "end" :"June 4,2015 10:30:00",
+        "content":"Design tools introduction.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 4,2015 10:30:00",
+        "end" :"June 4,2015 11:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Zone & Sector Analysis",
+        "start": "June 4,2015 11:00:00",
+        "end" :"June 4,2015 12:30:00",
+        "content":"This paper starts with introducing the basic characteristics of course and analyzes the problems in teaching. Then some corresponding creative measure and advice is provided",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"LUNCH BREAK",
+        "start": "June 4,2015 12:30:00",
+        "end" :"June 4,2015 13:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":""
+    },
+    {
+        "topic" :"Group Dynamics",
+        "start": "June 4,2015 13:30:00",
+        "end" :"June 4,2015 15:00:00",
+        "content":"This paper starts with introducing the basic characteristics of course and analyzes the problems in teaching. Then some corresponding creative measure and advice is provided.The first priority in developing a new socialist countryside is to develop modern agriculture and promote steady expansion of grain production and sustained increase in rural incomes. The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 4,2015 15:00:00",
+        "end" :"June 4,2015 15:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Group Dynamics",
+        "start": "June 4,2015 15:30:00",
+        "end" :"June 4,2015 16:30:00",
+        "content":"One view of economics is that it is the study of the economy.The creation of a modern agricultural sector with a much smaller number of large-scale industrial operations would help.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":"Steve"
+    },
+    {
+        "topic":"DINNER",
+        "start":"June 4,2015 17:00:00",
+        "end" :"June 4,2015 19:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic":"Film: A Farm for the Future",
+        "start":"June 4,2015 19:00:00",
+        "end" :"June 4,2015 21:00:00",
+        "content":"Modern agriculture and animal husbandry in the Netherlands lead the world in technology, facilities, education and professionalism. ",
+        "speaker":""
+    },
+
+
+    {
+        "topic" :"Soil Introduction",
+        "start": "June 5,2015 9:00:00",
+        "end" :"June 5,2015 10:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.We will develop modern agriculture and promote the building of a new socialist countryside.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant.  ",
+        "speaker":"Fiona"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 5,2015 10:30:00",
+        "end" :"June 5,2015 11:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Soil Erosion&Conservation",
+        "start": "June 5,2015 11:00:00",
+        "end" :"June 5,2015 12:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.Funds were also used to develop a system of industrial technologies for modern agriculture involving 50 major farm products.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"LUNCH BREAK",
+        "start": "June 5,2015 12:30:00",
+        "end" :"June 5,2015 13:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Soil Practical Gardening",
+        "start": "June 5,2015 13:30:00",
+        "end" :"June 5,2015 15:00:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.",
+        "speaker":"Tony"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 5,2015 15:00:00",
+        "end" :"June 5,2015 15:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.The first priority in developing a new socialist countryside is to develop modern agriculture and promote steady expansion of grain production and sustained increase in rural incomes. ",
+        "speaker":""
+    },
+    {
+        "topic" :"Soil Practical Gardening",
+        "start": "June 5,2015 15:30:00",
+        "end" :"June 5,2015 16:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.The British were pioneers in modern agriculture and were among the first to bring science and machinery to farming.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant.  ",
+        "speaker":"Tony"
+    },
+    {
+        "topic":"DINNER",
+        "start":"June 5,2015 17:00:00",
+        "end" :"June 5,2015 19:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic":"Film: Dirt the Movie",
+        "start":"June 5,2015 19:00:00",
+        "end" :"June 5,2015 21:00:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.We will develop modern agriculture and promote the building of a new socialist countryside. ",
+        "speaker":""
+    },
+
+
+    {
+        "topic" :"Climate",
+        "start": "June 6,2015 9:00:00",
+        "end" :"June 6,2015 10:30:00",
+        "content":"It will insist on the fact that agriculture will not be confronted with unknown situations and that solutions do exist; that we must work with climate change, not against it. ",
+        "speaker":"Fiona"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 6,2015 10:30:00",
+        "end" :"June 6,2015 11:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.Funds were also used to develop a system of industrial technologies for modern agriculture involving 50 major farm products. The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":""
+    },
+    {
+        "topic" :"Micro Climate",
+        "start": "June 6,2015 11:00:00",
+        "end" :"June 6,2015 12:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.",
+        "speaker":"Fiona"
+    },
+    {
+        "topic" :"LUNCH BREAK",
+        "start": "June 6,2015 12:30:00",
+        "end" :"June 6,2015 13:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.This year's work related to agriculture, rural areas and farmers will focus on accelerating the development of modern agriculture and effectively promoting the building of a new socialist countryside. ",
+        "speaker":""
+    },
+    {
+        "topic" :"Design Tools Site Surveying",
+        "start": "June 6,2015 13:30:00",
+        "end" :"June 6,2015 15:00:00",
+        "content" :"The opening episode journeys across the planet, from Pole to Pole, discovering how its seasonal journey affects the lives on earth. ",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 6,2015 15:00:00",
+        "end" :"June 6,2015 15:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Cycles of degredation & Solutions",
+        "start": "June 6,2015 15:30:00",
+        "end" :"June 6,2015 16:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.Leading animal rights activist Gene Baur examines the real cost ofthe meat on our plates - for both humans and animals alike - in thisprovocative and thorough examination of the modern farm industry .The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":"Tony"
+    },
+    {
+        "topic":"DINNER",
+        "start":"June 6,2015 17:00:00",
+        "end" :"June 6,2015 19:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.We will move forward with the construction of modem agriculture demonstration sites. ",
+        "speaker":""
+    },
+    {
+        "topic":"Film: Global Gardener 1",
+        "start":"June 6,2015 19:00:00",
+        "end" :"June 6,2015 21:00:00",
+        "content" :"The opening episode journeys across the planet, from Pole to Pole, discovering how its seasonal journey affects the lives on earth. ",
+        "speaker":""
+    },
+
+
+    {
+        "topic" :"Trees",
+        "start": "June 7,2015 9:00:00",
+        "end" :"June 7,2015 10:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 7,2015 10:30:00",
+        "end" :"June 7,2015 11:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":""
+    },
+    {
+        "topic" :"Forest Systems",
+        "start": "June 7,2015 11:00:00",
+        "end" :"June 7,2015 12:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"LUNCH BREAK",
+        "start": "June 7,2015 12:30:00",
+        "end" :"June 7,2015 13:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.PESTICIDE PROBLEM: Modern agriculture relies on pesticides, requiring the application of some two million metric tons annually on fields. ",
+        "speaker":""
+    },
+    {
+        "topic" :"Earth works practical",
+        "start": "June 7,2015 13:30:00",
+        "end" :"June 7,2015 15:00:00",
+        "content" :"The opening episode journeys across the planet, from Pole to Pole, discovering how its seasonal journey affects the lives on earth. ",
+        "speaker":"Tony"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 7,2015 15:00:00",
+        "end" :"June 7,2015 15:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Tree Planting",
+        "start": "June 7,2015 15:30:00",
+        "end" :"June 7,2015 16:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.We will move forward with the construction of modem agriculture demonstration sites. The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":"Tony"
+    },
+    {
+        "topic":"DINNER",
+        "start":"June 7,2015 17:00:00",
+        "end" :"June 7,2015 19:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic":"Film: Global Gardener 2",
+        "start":"June 7,2015 19:00:00",
+        "end" :"June 7,2015 21:00:00",
+        "content" :"The opening episode journeys across the planet, from Pole to Pole, discovering how its seasonal journey affects the lives on earth.Leading animal rights activist Gene Baur examines the real cost ofthe meat on our plates - for both humans and animals alike - in thisprovocative and thorough examination of the modern farm industry .  ",
+        "speaker":""
+    },
+
+    {
+        "topic" :"Water",
+        "start": "June 8,2015 9:00:00",
+        "end" :"June 8,2015 10:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.",
+        "speaker":"Fiona"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 8,2015 10:30:00",
+        "end" :"June 8,2015 11:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Earthworks",
+        "start": "June 8,2015 11:00:00",
+        "end" :"June 8,2015 12:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.One good way to think about modern agriculture is to think about apples.",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"LUNCH BREAK",
+        "start": "June 8,2015 12:30:00",
+        "end" :"June 8,2015 13:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Aquaculture",
+        "start": "June 8,2015 13:30:00",
+        "end" :"June 8,2015 15:00:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.We will work hard to develop modern agriculture and accelerate the development of a new socialist countryside.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 8,2015 15:00:00",
+        "end" :"June 8,2015 15:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Review",
+        "start": "June 8,2015 15:30:00",
+        "end" :"June 8,2015 16:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.To develop modern agriculture and promote the building of a new countryside, we must strengthen government policy, funding, application ofscienceand technology, and reform. ",
+        "speaker":"Tony"
+    },
+    {
+        "topic":"DINNER",
+        "start":"June 8,2015 17:00:00",
+        "end" :"June 8,2015 19:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic":"Film: Global Gardener 3",
+        "start":"June 8,2015 19:00:00",
+        "end" :"June 8,2015 21:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.Modern agriculture and animal husbandry in the Netherlands lead the world in technology, facilities, education and professionalism.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":""
+    },
+
+    {
+        "topic" :"Herb Introduction",
+        "start": "June 9,2015 9:00:00",
+        "end" :"June 9,2015 10:30:00",
+        "content" :"Reportedly the yield per acre has been 30% increased insomuch as modern agricultural technologies are practiced in this hilly region. ",
+        "speaker":"Fiona"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 9,2015 10:30:00",
+        "end" :"June 9,2015 11:00:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.",
+        "speaker":""
+    },
+    {
+        "topic" :"Herb Practical",
+        "start": "June 9,2015 11:00:00",
+        "end" :"June 9,2015 12:30:00",
+        "content" :"Leading animal rights activist Gene Baur examines the real cost ofthe meat on our plates - for both humans and animals alike - in thisprovocative and thorough examination of the modern farm industry.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":"Fiona"
+    },
+    {
+        "topic" :"LUNCH BREAK",
+        "start": "June 9,2015 12:30:00",
+        "end" :"June 9,2015 13:30:00",
+        "content" :"The creation of a modern agricultural sector with a much smaller number of large-scale industrial operations would help. ",
+        "speaker":""
+    },
+    {
+        "topic" :"Afternooon Off",
+        "start": "June 9,2015 13:30:00",
+        "end" :"June 9,2015 16:30:00",
+        "content" :"The opening episode journeys across the planet, from Pole to Pole, discovering how its seasonal journey affects the lives on earth. ",
+        "speaker":""
+    },
+
+    {
+        "topic":"DINNER",
+        "start":"June 9,2015 17:00:00",
+        "end" :"June 9,2015 19:00:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.",
+        "speaker":""
+    },
+    {
+        "topic":"Film: Global Gardener 4",
+        "start":"June 9,2015 19:00:00",
+        "end" :"June 9,2015 21:00:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.A recent report is a welcome analysis of modern agriculture's future, but it fails to adequately recognise the role of science and technology.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":""
+    },
+
+    {
+        "topic" :"Built Environment Buildings",
+        "start": "June 10,2015 9:00:00",
+        "end" :"June 10,2015 10:30:00",
+        "content" :"The opening episode journeys across the planet, from Pole to Pole, discovering how its seasonal journey affects the lives on earth. ",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 10,2015 10:30:00",
+        "end" :"June 10,2015 11:00:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.First, deepen cooperation in modern agriculture and raise the level of our cooperation. ",
+        "speaker":""
+    },
+    {
+        "topic" :"Design Tools Methods",
+        "start": "June 10,2015 11:00:00",
+        "end" :"June 10,2015 12:30:00",
+        "content" :"The opening episode journeys across the planet, from Pole to Pole, discovering how its seasonal journey affects the lives on earth. ",
+        "speaker":"Tony"
+    },
+    {
+        "topic" :"LUNCH BREAK",
+        "start": "June 10,2015 12:30:00",
+        "end" :"June 10,2015 13:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.Food production is soaring in Ethiopia and Malawi because modern farming techniques have been brought to peasant communities. ",
+        "speaker":""
+    },
+    {
+        "topic" :"Built Environment Energy",
+        "start": "June 10,2015 13:30:00",
+        "end" :"June 10,2015 15:00:00",
+        "content" :"The opening episode journeys across the planet, from Pole to Pole, discovering how its seasonal journey affects the lives on earth. ",
+        "speaker":"Steve"
+    },
+    {
+        "topic" :"TEA BREAK",
+        "start": "June 10,2015 15:00:00",
+        "end" :"June 10,2015 15:30:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.",
+        "speaker":""
+    },
+    {
+        "topic" :"Design Groups Site Introduction Customer Brief",
+        "start": "June 10,2015 15:30:00",
+        "end" :"June 10,2015 16:30:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.",
+        "speaker":"Tony"
+    },
+    {
+        "topic":"DINNER",
+        "start":"June 10,2015 17:00:00",
+        "end" :"June 10,2015 19:00:00",
+        "content":"Mingle with speakers at coffee and lunch breaks, and conference dinners.Haber lends his name to a process for the industrial synthesis of ammonia, an important component of fertilizer in modern agriculture.The modern agriculture and forest need high precision measurement of plant leaf, in order to confirm the best measure force, it needs exactitude measurement of elastic mould quantity of the plant. ",
+        "speaker":""
+    },
+    {
+        "topic":"Film: Global Gardener 4",
+        "start":"June 10,2015 19:00:00",
+        "end" :"June 10,2015 21:00:00",
+        "content" :"Permaculture principles are a list of attitudes, approaches, and actions that are practical and not system specific.",
+        "speaker":""
+    }
+]

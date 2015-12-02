@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html style="height:100%">
+<head>
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/site.css" type="text/css">
+    <link rel="stylesheet" href="http://xa-tools-hornet/css/spreadgrid.css" type="text/css">
+    <script src="http://xa-tools-hornet/grunt-scripts/lodash.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/jquery.min.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/spreadgrid.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/globalize.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/formatter.js"></script>
+    <script src="http://xa-tools-hornet/grunt-scripts/functions.js"></script>
+
+    <style>
+        .grid {
+            height: 100%;
+        }
+
+        .percent-complete-bar {
+            display: inline-block;
+            height: 6px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+        }
+    </style>
+</head>
+<body style="height:95%;">
+
+    <div id="grid1" class="grid"></div>
+
+
+    <script>
+        var rowTmpl =
+            "<div style='height:100%;'>" +
+                    "<div data-column='title' style='display:inline-block;vertical-align:top;height:100px;width:100px;'></div>" +
+                     "<div style='display:inline-block;vertical-align:top;height:100px;width:100px;' data-column-group>" +
+                        "<div data-column='start' style='height:33px;'></div>" +
+                        "<div data-column='finish' style='height:33px;'></div>" +
+                        "<div data-column='duration' style='height:34px;'></div>" +
+                    "</div>" +
+                    "<div data-column='percentComplete' style='display:inline-block;vertical-align:top;height:100px;width:100px;'></div>" +
+                    "<div data-column='effortDriven' style='display:inline-block;vertical-align:top;height:100px;width:100px;'></div>" +
+                "</div>";
+
+        function randomData(start, end) {
+            var newStart = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+            var duration = Math.ceil(100 * Math.random());
+
+            var newEnd = new Date(newStart);
+            newEnd.setDate(newStart.getDate() + duration);
+            return {
+                start: newStart,
+                end: newEnd,
+                duration: duration
+            }
+        }
+        var data = [];
+        var seed = new Date(2012, 0, 1);
+        var seed2 = new Date();
+        for (var i = 0; i < 5000; i++) {
+            var taskTime = randomData(seed, seed2);
+            data.push({
+                title: "Task " + i,
+                duration: taskTime.duration + ' days',
+                percentComplete: Math.round(Math.random() * 100),
+                start: taskTime.start,
+                finish: taskTime.end,
+                effortDriven: (i % 5 === 0)
+            });
+        }
+
+        var colPresenter = "<span class='percent-complete-bar' style='background-color:{{? it.percentComplete<30}}red{{?? it.percentComplete<60}}silver{{??}}green{{?}};width:{{=it.percentComplete}}%;'></span>";
+        var columns = [
+            { id: 'title', caption: 'Title', dataField: 'title' },
+            { id: 'duration', caption: 'Duration', dataField: 'duration' },
+            { id: "percentComplete", caption: "% Complete", dataField: "percentComplete", presenter: colPresenter },
+            { id: "start", caption: "Start", dataField: "start" },
+            { id: "finish", caption: "Finish", dataField: "finish" },
+            { id: "effortDriven", caption: "Effort Driven", dataField: "effortDriven" }
+        ];
+
+        var grid = new GcSpread.Views.GcGrid(document.getElementById('grid1'), data, columns, {
+            rowHeight: 100,
+            colHeaderHeight: 100,
+            rowTemplate: rowTmpl
+        });
+    </script>
+
+
+</body>
+</html>
