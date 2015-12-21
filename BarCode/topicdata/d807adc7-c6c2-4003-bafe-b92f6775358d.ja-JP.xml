@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic>
+  <title m="2015-04-14T22:54:15.6511994Z">手順２:コードの追加</title>
+  <contentstitle m="2015-04-14T22:54:20.7327103Z">手順２:コードの追加</contentstitle>
+  <topicsection m="2015-04-20T06:44:49.4913405Z" name="BodyText">&lt;P&gt;この手順では、アプリケーションに必要なコードを追加します。&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;
+&lt;P&gt;次の名前空間をページの先頭に追加します。&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;C#&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;CS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;PRE&gt;using C1.BarCode;
+&lt;/PRE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/BLOCKQUOTE&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;MainWindow_Loaded&lt;/STRONG&gt; イベントを &lt;STRONG&gt;InitializeComponent()&lt;/STRONG&gt; メソッドの直下に登録します。コードは次の図のようになります。&lt;BR&gt;&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;C#&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;CS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;this.InitializeComponent();&lt;BR&gt;this.Loaded += MainWindow_Loaded;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/BLOCKQUOTE&gt;
+&lt;LI&gt;
+&lt;P&gt;次に、&lt;STRONG&gt;MainWindow_Loaded&lt;/STRONG&gt; イベントを追加します。&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;C#&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;CS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;PRE&gt;void MainWindow_Loaded(object sender, RoutedEventArgs e)&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                {&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                    cbCodeType.ItemsSource = Enum.GetValues(typeof(CodeType));&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                    cbCodeType.SelectedItem = barcode.CodeType;&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                }
+&lt;/PRE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/BLOCKQUOTE&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;SelectionChanged&lt;/STRONG&gt; イベントを追加すると、表示中のバーコードのタイプを変更する際に、表示中のバーコードのタイプがこのコードによって確認されます。バーコードのタイプに応じて、画像が表示または非表示になります。&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;C#&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;CS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;PRE&gt; private void cbCodeType_SelectionChanged(object sender, SelectionChangedEventArgs e)&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                {&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                 if (barcode != null)&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                    {&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                        try&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                        {&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                            barcode.CodeType = (CodeType)cbCodeType.SelectedItem;&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                            if (barcode.CodeType != CodeType.QRCode&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                                || !text.Text.Equals("&lt;A href="http://www.componentone.com/"&gt;&lt;U&gt;&lt;FONT color=#0066cc&gt;http://www.componentone.com&lt;/FONT&gt;&lt;/U&gt;&lt;/A&gt;"))&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                            {&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                                image.Opacity = 0;&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                            }&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                            else&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                            {&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                                image.Opacity = 1;&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                            }&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                        }&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                        catch (Exception ex)&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                        {&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                            MessageBox.Show(ex.Message);&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                        }&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                    }&lt;/PRE&gt;&lt;PRE&gt;&lt;BR&gt;                }
+&lt;/PRE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/BLOCKQUOTE&gt;
+&lt;LI&gt;
+&lt;P&gt;この &lt;STRONG&gt;TextChanged&lt;/STRONG&gt; イベントは、&lt;STRONG&gt;C1BarCode&lt;/STRONG&gt; コントロールでエンコードされるテキストを制御します。さらに、QRCode タイプのバーコードが選択された場合は、選択した画像がバーコードの上に表示されます。&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;C#&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;CS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;PRE&gt; 
+private void text_TextChanged(object sender, TextChangedEventArgs e)&lt;BR&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; {&lt;BR&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (!string.IsNullOrEmpty(text.Text) &amp;amp;&amp;amp;&lt;BR&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; text.Text.Equals("http://www.componentone.com") &amp;amp;&amp;amp;&lt;BR&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; barcode.CodeType == CodeType.QRCode)&lt;BR&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; image.Opacity = 1;&lt;BR&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; else&lt;BR&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; image.Opacity = 0;&lt;BR&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;
+        }
+&lt;/PRE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/BLOCKQUOTE&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;この手順では、&lt;STRONG&gt;C1BarCode&lt;/STRONG&gt; コントロールの外観を制御するコードを追加しました。次の手順では、このアプリケーションを実行します。&lt;/P&gt;</topicsection>
+</topic>

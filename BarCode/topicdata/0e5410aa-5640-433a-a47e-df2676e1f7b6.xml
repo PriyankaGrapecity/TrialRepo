@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0e5410aa-5640-433a-a47e-df2676e1f7b6" Status="New Topic" CreatedOn="2015-03-11T20:46:28.6189491Z" ModifiedOn="2015-07-06T07:29:38.2133308Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="HelpwithC1WPF" BuildFlags="">
+  <Title m="2015-06-24T10:38:28.0134961Z">Help with WPF Edition</Title>
+  <ContentsTitle m="2015-06-24T10:38:08.6209031Z">Help with WPF Edition</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-07-06T07:29:38.2133308Z">&lt;P&gt;&lt;STRONG&gt;Getting Started&lt;/STRONG&gt;&lt;BR&gt;For information on installing &lt;STRONG&gt;ComponentOne Studio WPF Edition&lt;/STRONG&gt;, licensing, technical support, namespaces and creating a project with the control, please visit&amp;nbsp;&lt;A href="http://helpcentral.componentone.com/nethelp/C1studioWPF/" target=_blank&gt;Getting Started with WPF Edition&lt;/A&gt;.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="42699310-e7cd-4363-99b2-bd12484194e9" Status="New Topic" CreatedOn="2015-03-11T20:57:20.0162069Z" ModifiedOn="2015-12-18T04:51:59.4342346Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Step3" BuildFlags="">
+  <Title m="2015-12-17T11:28:12.6414137Z">Step 3: Running Your Application</Title>
+  <ContentsTitle m="2015-12-17T11:28:18.842272Z">Step 3: Running Your Application</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-12-18T04:51:59.4342346Z">&lt;P&gt;In this step, you run your application to see the control's appearance and working.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Select &lt;STRONG&gt;Debug&lt;/STRONG&gt; &lt;STRONG&gt;|&lt;/STRONG&gt; &lt;STRONG&gt;Start Debugging&lt;/STRONG&gt; or press &lt;STRONG&gt;F5&lt;/STRONG&gt; to&amp;nbsp;run your application. The MainWindow&amp;nbsp;appears similar to the&amp;nbsp;following image. &lt;/LI&gt;&lt;/OL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="Graphics/QSRunning1.png"&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;OL style="COUNTER-RESET: item 1" start=2&gt;
+&lt;LI&gt;Select a new &lt;STRONG&gt;CodeType&lt;/STRONG&gt; from the drop down list. Since the text is set to a URL, an error message might display for many of the &lt;STRONG&gt;CodeTypes&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="Graphics/QSRunning2.png"&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;OL style="COUNTER-RESET: item 2" start=3&gt;
+&lt;LI&gt;Finally, change the value in the &lt;STRONG&gt;Text&lt;/STRONG&gt; TextBox. &lt;/LI&gt;&lt;/OL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="Graphics/QSRunning3.png"&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;With this, you complete all the steps&amp;nbsp;of the Quick Start guide&amp;nbsp;of &lt;STRONG&gt;BarCode for WPF.&lt;/STRONG&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

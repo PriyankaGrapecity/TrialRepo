@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f9c6eaa6-7fb9-42cd-8193-97d04e7d77b4" Status="New Topic" CreatedOn="2015-03-11T20:49:51.1135311Z" ModifiedOn="2015-07-06T07:30:25.8559692Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="KeyFeatures" BuildFlags="">
+  <Title />
+  <ContentsTitle m="2015-04-13T05:26:03.0939475Z">Key Features</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-07-06T07:30:25.8549948Z">&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Supports 36 different encodings&lt;/STRONG&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;The&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt; control supports 36 encodings, including: Codabar, Code128 Auto, Code39, Code93, DataMatrix, Ean13, Ean8, PostNet, QRCode, and RSS14.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Automatically adds checksums&lt;/STRONG&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;The&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt; control automatically adds necessary control symbols and checksums to the value being encoded, depending on the encoding being used, to guarantee a good read on your barcodes.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Royalty-free DLL for easy deployment&lt;/STRONG&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;A href="file:///C:/Projects/HelpStudio_XAML/BarCodeWinRT/C1BarcodeWinRT/C1.Xaml.BarCode~C1.Xaml.BarCode.C1BarCode.html"&gt;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt;&lt;/A&gt; is a royalty-free DLL that can be deployed with your applications like any regular assembly.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

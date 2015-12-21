@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic>
+  <title m="2015-04-14T22:55:17.7663981Z">手順３:アプリケーションの実行</title>
+  <contentstitle m="2015-04-14T22:55:21.1941135Z">手順３:アプリケーションの実行</contentstitle>
+  <topicsection m="2015-04-28T09:27:31.0668839Z" name="BodyText">&lt;P&gt;最後の手順では、アプリケーションの外観を制御するコードを追加しました。この手順では、作成したアプリケーションを実行します。&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;［デバッグ開始］&lt;/STRONG&gt;を選択するか&lt;STRONG&gt;［F5］&lt;/STRONG&gt;を押して、アプリケーションを開始します。次の図のようになります。&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images_jp/QSRunning1.png"&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;［CodeType］&lt;/STRONG&gt;ドロップダウンリストから新しい&lt;STRONG&gt;コードタイプ&lt;/STRONG&gt;を選択します。テキストが URL に設定されているため、多くのコードタイプでは、エラーメッセージが表示されます。&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images_jp/QSRunning2.png"&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;LI&gt;
+&lt;P&gt;最後に、&lt;STRONG&gt;［Text］&lt;/STRONG&gt;テキストボックスの値を変更します。&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images_jp/QSRunning3.png"&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;H3&gt;ここまでの成果&lt;/H3&gt;
+&lt;P&gt;このクイックスタートでは、新しい Visual Studio アプリケーションを作成し、アプリケーションのフレームワークを作成する XAML マークアップを追加しました。さらに、&lt;STRONG&gt;TextChanged&lt;/STRONG&gt; イベントと &lt;STRONG&gt;SelectionChanged&lt;/STRONG&gt; イベントを制御するコードを追加しました。&lt;/P&gt;</topicsection>
+</topic>

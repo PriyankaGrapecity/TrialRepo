@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html class="loading">
+	<head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="stylesheet" href="stylesheets/default.css" type="text/css" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>BarCode for WPF </title>
+
+		<script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="script/jquery-ui-1.8.19.custom.min.js"></script>	
+		<script type="text/javascript" src="script/jquery.ba-hashchange.min.js"></script>
+        <script type="text/javascript" src="script/jquery.cookie.min.js"></script>
+		<script type="text/javascript" src="script/webutility.js"></script>
+		
+		<script lang="javascript">var defaultTopic="C1BarCodeforWPF.html";</script>		
+		<style type=text/css>frame#webcontent {border-left: 3px solid #426bad;}</style>
+        
+        <script type="text/javascript" src="script/modernizr.web.custom.min.js"></script> 
+        <script type="text/javascript" src="script/responsive.web.js"></script>
+        <script>isDefaultLayoutEnabled = false;
+clearDisplayModeFromLocalStorage = true</script>
+        <script type="text/javascript" src="script/webframe.loader.js"></script>
+
+        <style>
+            iframe { border: 0px }
+            html.loading { visibility: hidden; overflow: hidden}
+            html.loaded {visibility: visible }
+            html.loading #busy
+            {
+                position: relative;
+                z-index: 9999;
+                background-color: white;
+                visibility: visible;
+                /*width: 100%;
+                height: 100%;*/
+            }
+        </style>
+	</head>
+	<body class="ui-layout-container">
+		<div id="busy">&nbsp;</div>
+    	<iframe class="ui-layout-center" style="padding: 0" id="webcontent" name="webcontent" frameBorder="0"></iframe>
+    	<iframe class="ui-layout-west" src="webnav.html" id="webnavbar" name="webnavbar" frameBorder="0" style="padding: 0"></iframe>
+		
+		<div class="ui-layout-north" style="overflow:visible; z-index: 5 !important">
+			<div class="top-bar headerbgd">
+				<nav>
+					<ul>
+					  <li><a href="http://www.componentone.com/" target="_blank"><img src="images/logo_C1Studio_short_white_0215.png" width="85" height="30" alt="ComponentOne" /></a></li>
+					   <li><a href="http://our.componentone.com/docs/wpf/" target="_blank">WPF Edition</a></li>
+					  <li onmouseover="$('body').layout().allowOverflow('north')" onmouseout="$('body').layout().resetOverflow('north')">
+					    <a href="#">Other Editions</a>
+					    <ul>
+					      <li><a href="http://our.componentone.com/docs/asp-net-mvc/" target="_blank">ASP.NET MVC</a></li>
+						  <li><a href="http://our.componentone.com/docs/asp-net/" target="_blank">ASP.NET Web Forms</a></li>
+						  <li><a href="http://helpcentral.componentone.com/nethelp/c1webapi/" target="_blank">Web API</a></li>
+					      <li><a href="http://our.componentone.com/docs/winforms/" target="_blank">WinForms</a></li>
+						  <li><a href="http://our.componentone.com/docs/silverlight/" target="_blank">Silverlight</a></li>
+						  <li><a href="http://our.componentone.com/docs/winrt/" target="_blank">WinRT</a></li>
+						  <li><a href="http://our.componentone.com/docs/windows-phone/" target="_blank">Windows Phone</a></li>
+					      <li><a href="http://our.componentone.com/docs/lightswitch/" target="_blank">LightSwitch</a></li>
+					      <li><a href="http://our.componentone.com/docs/compact-framework/" target="_blank">Compact Framework</a></li>
+					      <li><a href="http://our.componentone.com/docs/activex/" target="_blank">ActiveX</a></li>
+					      <li><a href="http://our.componentone.com/docs/sharepoint/" target="_blank">SharePoint</a></li>
+					      <li><a href="http://our.componentone.com/docs/legacy/" target="_blank">Legacy</a></li>
+					    </ul>
+					  </li>
+					</ul>
+				</nav>		 
+				<div class="social">
+					<ul>
+					  <li><a href="https://www.facebook.com/componentone" target="_blank" title="Facebook"><img src="images/fb.png" width="24" height="24" alt="Facebook"/></a></li>
+					  <li><a href="https://twitter.com/ComponentOne" target="_blank" title="Twitter"><img src="images/twitter.png" width="24" height="24" alt="Twitter" /></a></li>
+					  <li><a href="http://our.componentone.com/videos/" target="_blank" title="Videos"><img src="images/video.png" width="24" height="24" alt="Videos" /></a></li>
+					</ul>
+				</div>
+		  	</div>
+		</div>
+	</body>
+</html>

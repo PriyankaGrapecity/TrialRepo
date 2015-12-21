@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" value="IE=9" />
+
+    
+
+    
+
+    <title>手順２:コードの追加</title>
+    <meta name="Title" content="手順２:コードの追加"/>    
+    
+    <script src="script/jquery-1.7.2.min.js" type="text/javascript" id="mshs_support_script"></script>
+    <script src="script/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery-ui-1.8.18.custom.css" />
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery.qtip.css" />
+	
+    
+	
+
+    <meta name="Description" content="この手順では、アプリケーションに必要なコードを追加します。" />
+    
+    <link rel="styleSheet" type="text/css" href="stylesheets/topics.2012.css" data-mshv2-stylesheet="/stylesheets/topics.2012.mshv2.css" data-mshv1-stylesheet="/stylesheets/topics.2012.mshv1.css" />
+    <script src="script/topics.jqueryplugins.2012.min.js" type="text/javascript"></script>
+    <script src="script/topics.2012.js" type="text/javascript"></script>
+    
+    <meta name="Microsoft.Help.Id" content="d807adc7-c6c2-4003-bafe-b92f6775358d"/>
+    <meta name="Microsoft.Help.TocParent" content="-1"/>
+    <meta name="Microsoft.Help.TocOrder" content="2"/>
+    <meta name="Microsoft.Help.F1" content=""/>
+    <meta name="Microsoft.Help.ContentType" content="Concepts" />
+    
+    
+    
+    
+    
+    <link rel="styleSheet" type="text/css" href="stylesheets/slimbox2.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-common.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-slimbox.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-expand.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-expandcollapse.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-boxes.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/customstyles.css"></link>
+    <script src="script/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="script/slimbox2.js" type="text/javascript"></script>
+    <script src="script/hs-jquery-common.js" type="text/javascript"></script>
+    <script src="script/jquery-expand.js" type="text/javascript"></script>
+    <script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+    <script src="script/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="script/swfobject.js" type="text/javascript"></script>
+
+    
+    
+
+    
+
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20295802-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+    <div id="BeforeHeaderContent">
+        
+    </div>
+    <div id="HeaderContent">
+        
+            
+            <div id="ProjectTitle">BarCode for WPF</div>
+        <div id="PageTitle"><div id="PageTitleText">手順２:コードの追加</div></div>
+    </div>
+    <div id="AfterHeaderContent">
+        <!-- Spacing --> <span id="ToggleAllSectionsLink" class="FunctionLink">
+                <label id="CollapseAllLabel">すべて折りたたむ</label>
+                <label id="ExpandAllLabel" style="display: none;">全て展開</label>
+            </span>
+    </div>
+    <div class="BreadcrumbsContainer"><table><tr><td>
+<a href="C1BarCodeforWPF.html">BarCode for WPF</a>
+ > はじめに
+ > クイックスタート
+ > 手順２:コードの追加</td></tr></table></div>
+    
+    
+    <div id="BodyContent">
+        <p>この手順では、アプリケーションに必要なコードを追加します。</p>
+
+<ol>
+    <li>
+        <p>次の名前空間をページの先頭に追加します。</p>
+
+        <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+                <table class="SyntaxTable">
+                    <tbody>
+                        <tr>
+                            <th>C#</th>
+
+                            <th>
+                                <div class="CopyCodeWrapper">
+                                    <span class="CopyCode">コードのコピー</span>
+                                </div>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <pre>
+<span style="COLOR: #0000ff">using</span> C1.BarCode;
+</pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </blockquote>
+    </li>
+
+    <li>
+        <p><strong>MainWindow_Loaded</strong> イベントを <strong>InitializeComponent()</strong> メソッドの直下に登録します。コードは次の図のようになります。<br /></p>
+
+        <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+                <table class="SyntaxTable">
+                    <tbody>
+                        <tr>
+                            <th>C#</th>
+
+                            <th>
+                                <div class="CopyCodeWrapper">
+                                    <span class="CopyCode">コードのコピー</span>
+                                </div>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <pre>
+<span style="COLOR: #0000ff">this</span>.InitializeComponent();
+<span style="COLOR: #0000ff">this</span>.Loaded += MainWindow_Loaded;
+</pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </blockquote>
+    </li>
+
+    <li>
+        <p>次に、<strong>MainWindow_Loaded</strong> イベントを追加します。</p>
+
+        <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+                <table class="SyntaxTable">
+                    <tbody>
+                        <tr>
+                            <th>C#</th>
+
+                            <th>
+                                <div class="CopyCodeWrapper">
+                                    <span class="CopyCode">コードのコピー</span>
+                                </div>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <pre>
+<span style="COLOR: #0000ff">void</span> MainWindow_Loaded(<span style="COLOR: #0000ff">object</span> sender, RoutedEventArgs e)
+                {
+                    cbCodeType.ItemsSource = Enum.GetValues(<span style="COLOR: #0000ff">typeof</span>(CodeType));
+                    cbCodeType.SelectedItem = barcode.CodeType;
+                }
+</pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </blockquote>
+    </li>
+
+    <li>
+        <p><strong>SelectionChanged</strong> イベントを追加すると、表示中のバーコードのタイプを変更する際に、表示中のバーコードのタイプがこのコードによって確認されます。バーコードのタイプに応じて、画像が表示または非表示になります。</p>
+
+        <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+                <table class="SyntaxTable">
+                    <tbody>
+                        <tr>
+                            <th>C#</th>
+
+                            <th>
+                                <div class="CopyCodeWrapper">
+                                    <span class="CopyCode">コードのコピー</span>
+                                </div>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <pre>
+ <span style="COLOR: #0000ff">private</span> <span style="COLOR: #0000ff">void</span> cbCodeType_SelectionChanged(<span style="COLOR: #0000ff">object</span> sender, SelectionChangedEventArgs e)
+                {
+                 <span style="COLOR: #0000ff">if</span> (barcode != <span style="COLOR: #0000ff">null</span>)
+                    {
+                        <span style="COLOR: #0000ff">try</span>
+                        {
+                            barcode.CodeType = (CodeType)cbCodeType.SelectedItem;
+                            <span style="COLOR: #0000ff">if</span> (barcode.CodeType != CodeType.QRCode
+                                || !text.Text.Equals(<span style="COLOR: #800000">"http://www.componentone.com"</span>))
+                            {
+                                image.Opacity = 0;
+                            }
+                            <span style="COLOR: #0000ff">else</span>
+                            {
+                                image.Opacity = 1;
+                            }
+                        }
+                        <span style="COLOR: #0000ff">catch</span> (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
+                    }
+                }
+</pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </blockquote>
+    </li>
+
+    <li>
+        <p>この <strong>TextChanged</strong> イベントは、<strong>C1BarCode</strong> コントロールでエンコードされるテキストを制御します。さらに、QRCode タイプのバーコードが選択された場合は、選択した画像がバーコードの上に表示されます。</p>
+
+        <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+                <table class="SyntaxTable">
+                    <tbody>
+                        <tr>
+                            <th>C#</th>
+
+                            <th>
+                                <div class="CopyCodeWrapper">
+                                    <span class="CopyCode">コードのコピー</span>
+                                </div>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <pre>
+ 
+<span style="COLOR: #0000ff">private</span> <span style="COLOR: #0000ff">void</span> text_TextChanged(<span style="COLOR: #0000ff">object</span> sender, TextChangedEventArgs e)
+                {
+                    <span style="COLOR: #0000ff">if</span> (!<span style="COLOR: #0000ff">string</span>.IsNullOrEmpty(text.Text) &amp;&amp;
+                        text.Text.Equals(<span style="COLOR: #800000">"http://www.componentone.com"</span>) &amp;&amp;
+                        barcode.CodeType == CodeType.QRCode)
+                        image.Opacity = 1;
+                    <span style="COLOR: #0000ff">else</span>
+                        image.Opacity = 0;
+                }
+            }
+        }
+</pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </blockquote>
+    </li>
+</ol>
+
+<p>この手順では、<strong>C1BarCode</strong> コントロールの外観を制御するコードを追加しました。次の手順では、このアプリケーションを実行します。</p>
+            <a name="seealsobookmark"></a>
+            
+        
+    </div>
+    <div id="FooterContent">
+        
+<p>&nbsp;</p><p>&nbsp;</p><hr style="height: 1px" /><p>Copyright &copy; GrapeCity inc. All rights reserved.</p>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic>
+  <title m="2015-03-24T04:19:32.9630842Z">C1BarCode コントロールのカスタマイズ</title>
+  <contentstitle m="2015-04-13T06:22:42.0264568Z">C1BarCode コントロールのカスタマイズ</contentstitle>
+  <topicsection m="2015-04-17T06:08:34.2360567Z" name="BodyText">&lt;P&gt;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt; コントロールを使用するには、使用するエンコーディングのタイプを&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode~CodeType.html"&gt;CodeType&lt;/A&gt; プロパティで設定し、エンコードする値を&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode~Text.html"&gt;Text&lt;/A&gt; プロパティで設定します。&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;メモ&lt;/STRONG&gt;：文字要件が極めて少ないエンコーディングもあれば、数値しか使用できないエンコーディングもあります。&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;次の図は、&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode~CodeType.html"&gt;CodeType&lt;/A&gt; が &lt;STRONG&gt;QRCode&lt;/STRONG&gt; に、また&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode~Text.html"&gt;Text&lt;/A&gt; が URL に設定された&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt; コントロールを示しています。アプリケーションで使用されるバーコードのタイプによっては、さらに多くのオプションをカスタマイズに使用できます。&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images_jp/Narrative_BarCodeProperties.png"&gt;&lt;/P&gt;</topicsection>
+</topic>

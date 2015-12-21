@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toclayout>
+  <tocnode id="f262c896-c82f-44dd-b671-8c5173c8122e">
+    <captiontemplate m="2015-08-18T09:22:22.6477277Z">BarCode for WPF</captiontemplate>
+  </tocnode>
+  <tocnode id="cbe3712f-4373-474e-a8d7-adf3f552c50d">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">はじめに</captiontemplate>
+  </tocnode>
+  <tocnode id="93cd6421-c92e-4a66-99c3-25a3dbb284c3">
+    <captiontemplate m="2015-04-13T05:15:30.2105475Z">ComponentOne Studio for WPF のヘルプ</captiontemplate>
+  </tocnode>
+  <tocnode id="f438e086-790c-4574-b245-bb899e02de23">
+    <captiontemplate m="2015-04-13T05:39:40.3529557Z"> 主な特長</captiontemplate>
+  </tocnode>
+  <tocnode id="745ccae1-7314-42cc-b143-c9f59bb80fb0">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">クイックスタート</captiontemplate>
+  </tocnode>
+  <tocnode id="71c6498c-4f22-4485-bf42-cf765018ef4c">
+    <captiontemplate m="2015-04-14T22:52:33.1604409Z">手順 1:アプリケーションの設定</captiontemplate>
+  </tocnode>
+  <tocnode id="77d0d8fb-8f34-4ce0-ae99-d4facb7afcd4">
+    <captiontemplate m="2015-04-14T22:53:56.1340359Z">手順 2:コードの追加</captiontemplate>
+  </tocnode>
+  <tocnode id="34ad172e-e0af-4739-a83c-90e57b378481">
+    <captiontemplate m="2015-04-14T22:55:15.0133055Z">手順 3:アプリケーションの実行</captiontemplate>
+  </tocnode>
+  <tocnode id="f752d415-16d5-41a7-8d88-f4410ff7bcbc">
+    <captiontemplate m="2015-04-27T06:41:08.03984Z">BarCode for WPF の使い方</captiontemplate>
+  </tocnode>
+  <tocnode id="aa72262f-74b2-48a7-bbe9-4be0939bc735">
+    <captiontemplate m="2015-04-13T06:13:13.6417596Z">サポートされるエンコーディング</captiontemplate>
+  </tocnode>
+  <tocnode id="94b5f19c-c97b-4bee-be03-2f0b5560670c">
+    <captiontemplate m="2015-04-13T06:22:45.0346298Z">C1BarCode コントロールのカスタマイズ</captiontemplate>
+  </tocnode>
+  <tocnode id="1ca38681-2b65-4914-9308-ec566e369b93">
+    <captiontemplate m="2015-04-13T06:24:17.5729505Z">QR コード</captiontemplate>
+  </tocnode>
+  <tocnode id="81267b83-737e-4090-a278-991c828e0666">
+    <captiontemplate m="2015-04-13T06:23:55.8267022Z">リファレンス</captiontemplate>
+  </tocnode>
+  <tocnode id="948d2c16-aeae-4bab-ac2f-444f567e1240">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="5044a44d-2d7f-48b4-a188-c5896cf3201b">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Namespaces$$</captiontemplate>
+  </tocnode>
+  <tocnode id="c8566494-97bb-445b-b0c1-3da7705c393e">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="c5665048-2fd2-4b0e-af21-0a4a851e5bec">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Overview$$</captiontemplate>
+  </tocnode>
+  <tocnode id="4170af69-69d2-4ba1-80fc-260c75a4829e">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Classes$$</captiontemplate>
+  </tocnode>
+  <tocnode id="e40f62af-5fc2-4512-96de-5a5ba3db51a2">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Short_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="32779c10-9cb9-4ddb-9a1f-36146f0fd0e4">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Overview$$</captiontemplate>
+  </tocnode>
+  <tocnode id="26827a69-84c8-45c5-b1c8-7732ae5f9e48">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Members$$</captiontemplate>
+  </tocnode>
+  <tocnode id="527f7598-fc74-4be1-8bc1-2b8fa920cb67">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Constructor_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="2d20b934-e329-4cb9-bbe1-f14c89f24f41">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Constructor_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="79648b80-9ddf-4354-b60f-e7a9627e50aa">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Methods$$</captiontemplate>
+  </tocnode>
+  <tocnode id="65465d12-ddfc-4bb1-a9a9-781265242d84">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="814316e8-01d9-4a1a-bfb5-c5bfccc3acb0">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="51211a78-326b-414c-8c1f-c8ba77793967">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Properties$$</captiontemplate>
+  </tocnode>
+  <tocnode id="7f055686-1567-4392-81bd-095e276c7075">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="743bb16a-19a6-43f8-9f15-ecc881a34332">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="2cc31adb-b646-40bb-994f-8345c2acb84e">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Fields$$</captiontemplate>
+  </tocnode>
+  <tocnode id="b76f9738-e153-4fc4-adf7-b2f5c61b3827">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="b7753387-61fb-4e55-9df3-84c98d736104">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Events$$</captiontemplate>
+  </tocnode>
+  <tocnode id="f1588a61-cbdc-4e35-abdc-fd5efe71578d">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="46175202-c54b-462e-aa37-bb05480332dd">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Operators$$</captiontemplate>
+  </tocnode>
+  <tocnode id="bf87602e-1098-4669-904d-d8e09ea3c11e">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="0fdf4f7e-a117-42ab-ad6b-f823fcdda701">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Enumerations$$</captiontemplate>
+  </tocnode>
+  <tocnode id="655a895d-b4be-407a-a0ca-353b7ccaeca1">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Short_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="0e8aaebd-c045-4d25-b2a4-5939b6aaa184">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Structures$$</captiontemplate>
+  </tocnode>
+  <tocnode id="a0d9732d-c162-4b7a-995a-f7fdf6eaab54">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Short_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="dbf29d56-4de5-45b9-a1de-47fd892107d2">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Overview$$</captiontemplate>
+  </tocnode>
+  <tocnode id="40524ae4-a682-4d15-83dd-279b60482d35">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Members$$</captiontemplate>
+  </tocnode>
+  <tocnode id="64717754-149e-468b-8437-700518a5fc19">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Constructor_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="851f446a-412e-497b-aafb-a17adc1ffe1b">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Constructor_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="8d0ab618-92aa-491c-a6b0-6d5396f89261">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Methods$$</captiontemplate>
+  </tocnode>
+  <tocnode id="0047b83b-63a9-4316-b6b4-db1ba14af863">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="d9a40acb-661e-4277-b380-dc95448f4803">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="cec87b7d-b503-4300-9fcb-3dd7747d335c">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Properties$$</captiontemplate>
+  </tocnode>
+  <tocnode id="33fe0a21-6d7d-4a94-bc74-77befb15d007">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="ec0e534d-ea36-4a42-8c83-cf2ac82d3047">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="49f21932-8b57-4a67-9eea-3be8e022646d">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Fields$$</captiontemplate>
+  </tocnode>
+  <tocnode id="394701ff-bc2c-4933-b5c8-9433a6df5ff2">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="943b38a7-9dec-4d99-8fc4-f0faa4b53444">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Events$$</captiontemplate>
+  </tocnode>
+  <tocnode id="ad4bf761-0ec2-41e8-ad03-af37af5d5d7c">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="6ae73a9a-c30e-49cc-925a-623c36ed8d0d">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Operators$$</captiontemplate>
+  </tocnode>
+  <tocnode id="ac08182f-8385-4e2d-9821-e1b59e46c0ae">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="582cc3f4-1909-47e5-8325-d7613b6235e7">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Interfaces$$</captiontemplate>
+  </tocnode>
+  <tocnode id="86e16242-ed0a-4103-bb36-85105d746b9a">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Short_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="bba0c87f-f562-4d70-859d-0d1e96162d6f">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Overview$$</captiontemplate>
+  </tocnode>
+  <tocnode id="3b655cab-c07d-4e73-8fab-a013ae297885">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Members$$</captiontemplate>
+  </tocnode>
+  <tocnode id="3705ff8f-0a09-4a38-8775-5c7a14de8138">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Methods$$</captiontemplate>
+  </tocnode>
+  <tocnode id="ce90cba7-178a-4d36-a1a2-3a31f9a29506">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="0f8483cc-308e-4ed3-87fb-5bf428159838">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="c488c2b8-e48b-4200-abf1-20fc4a97fcbf">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Properties$$</captiontemplate>
+  </tocnode>
+  <tocnode id="2b60f930-8ee1-4a9b-8955-7399585dfedc">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="6cf4ca35-d589-46a8-be1f-27f228c12f65">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="af507808-d590-4fd6-86a0-eb7aa47f7994">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Fields$$</captiontemplate>
+  </tocnode>
+  <tocnode id="4fe40a78-e981-4842-8bf6-4fe325a9a067">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="c99552d5-f7b8-498d-95e9-c12a8a9612b2">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Events$$</captiontemplate>
+  </tocnode>
+  <tocnode id="fe83a2b4-2e33-48ff-9c0b-8442fb9b2d12">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Local_Item_Title%%</captiontemplate>
+  </tocnode>
+  <tocnode id="00f08096-b580-4197-8bb1-7f77966c14f5">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">$$Delegates$$</captiontemplate>
+  </tocnode>
+  <tocnode id="a4dd8284-d8e6-40af-9a65-6e6fbfe8b094">
+    <captiontemplate m="2015-03-24T04:19:32.9630842Z">%%Short_Item_Title%%</captiontemplate>
+  </tocnode>
+</toclayout>

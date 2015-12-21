@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" value="IE=9" />
+
+    
+
+    
+
+    <title>手順１:アプリケーションの設定</title>
+    <meta name="Title" content="手順１:アプリケーションの設定"/>    
+    
+    <script src="script/jquery-1.7.2.min.js" type="text/javascript" id="mshs_support_script"></script>
+    <script src="script/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery-ui-1.8.18.custom.css" />
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery.qtip.css" />
+	
+    
+	
+
+    <meta name="Description" content="この手順では、Visual Studio で新しい WPF アプリケーションを作成し、適切な参照をプロジェクトに追加します。さらに、C1Barcode コントロールを作成するための XAML マークアップを追加します。" />
+    
+    <link rel="styleSheet" type="text/css" href="stylesheets/topics.2012.css" data-mshv2-stylesheet="/stylesheets/topics.2012.mshv2.css" data-mshv1-stylesheet="/stylesheets/topics.2012.mshv1.css" />
+    <script src="script/topics.jqueryplugins.2012.min.js" type="text/javascript"></script>
+    <script src="script/topics.2012.js" type="text/javascript"></script>
+    
+    <meta name="Microsoft.Help.Id" content="35d8b69c-0844-43b1-a083-489a5a71a05c"/>
+    <meta name="Microsoft.Help.TocParent" content="-1"/>
+    <meta name="Microsoft.Help.TocOrder" content="1"/>
+    <meta name="Microsoft.Help.F1" content=""/>
+    <meta name="Microsoft.Help.ContentType" content="Concepts" />
+    
+    
+    
+    
+    
+    <link rel="styleSheet" type="text/css" href="stylesheets/slimbox2.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-common.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-slimbox.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-expand.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-expandcollapse.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-boxes.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/customstyles.css"></link>
+    <script src="script/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="script/slimbox2.js" type="text/javascript"></script>
+    <script src="script/hs-jquery-common.js" type="text/javascript"></script>
+    <script src="script/jquery-expand.js" type="text/javascript"></script>
+    <script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+    <script src="script/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="script/swfobject.js" type="text/javascript"></script>
+
+    
+    
+
+    
+
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20295802-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+    <div id="BeforeHeaderContent">
+        
+    </div>
+    <div id="HeaderContent">
+        
+            
+            <div id="ProjectTitle">BarCode for WPF</div>
+        <div id="PageTitle"><div id="PageTitleText">手順１:アプリケーションの設定</div></div>
+    </div>
+    <div id="AfterHeaderContent">
+        <!-- Spacing --> <span id="ToggleAllSectionsLink" class="FunctionLink">
+                <label id="CollapseAllLabel">すべて折りたたむ</label>
+                <label id="ExpandAllLabel" style="display: none;">全て展開</label>
+            </span>
+    </div>
+    <div class="BreadcrumbsContainer"><table><tr><td>
+<a href="C1BarCodeforWPF.html">BarCode for WPF</a>
+ > はじめに
+ > クイックスタート
+ > 手順１:アプリケーションの設定</td></tr></table></div>
+    
+    
+    <div id="BodyContent">
+        <p>この手順では、Visual Studio で新しい WPF アプリケーションを作成し、適切な参照をプロジェクトに追加します。さらに、C1Barcode コントロールを作成するための XAML マークアップを追加します。</p>
+
+<ol>
+    <li>
+        <p>新しい WPF アプリケーションを作成します。</p>
+
+        <ol>
+            <li>
+                <p><strong>［ファイル］、［新規作成］、［プロジェクト］</strong>を順に選択します。<strong>［新しいプロジェクト］</strong>ダイアログボックスが開きます。</p>
+            </li>
+
+            <li>
+                <p><strong>［Visual C#］</strong>の<strong>［テンプレート］</strong>リストで<strong>［WPF アプリケーション］</strong>を選択します。</p>
+            </li>
+
+            <li>アプリケーションに<strong>名前</strong>を付けて、<strong>［OK］</strong>を選択します。新しいアプリケーションが開きます。</li>
+        </ol>
+    </li>
+
+    <li>
+        <p>ソリューションエクスプローラーで <strong>参照設定</strong> フォルダを右クリックし、<strong>［参照の追加］</strong>を選択します。次の参照を探して追加します。</p>
+
+        <ul>
+            <li>
+                <p>C1.WPF.dll</p>
+            </li>
+
+            <li>
+                <p>C1.WPF.BarCode.dll</p>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <strong>Resources</strong> フォルダを右クリックし、<strong>［追加］、［既存の項目］</strong>を順に選択します。<strong>［既存項目の追加］</strong>ダイアログボックスが開きます。
+
+        <ol>
+            <li>
+                <p>アプリケーションに追加する画像ファイルを見つけます。</p>
+            </li>
+
+            <li>
+                <p>ファイルを選択し、<strong>［OK］</strong>をクリックします。ファイルが <strong>Resources</strong> フォルダに追加されます。</p>
+            </li>
+
+            <li>
+                <p>アプリケーションでファイルを使用できるように、アプリケーションをリビルドします。</p>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        <strong>MainWindow.xaml</strong> ファイルを開き、開始タグ <strong>&lt;Window&gt;</strong> を見つけます。このタグには、必要な名前空間が含まれています。次のマークアップになるように、タグを編集します。
+
+        <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+                <table class="SyntaxTable">
+                    <tbody>
+                        <tr>
+                            <th>XAML</th>
+
+                            <th>
+                                <div class="CopyCodeWrapper">
+                                    <span class="CopyCode">コードのコピー</span>
+                                </div>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <pre>
+&lt;Window x:Class=<span style="COLOR: #800000">"BarCodesSample.MainWindow"</span>
+        xmlns=http:<span style="COLOR: #008000">//schemas.microsoft.com/winfx/2006/xaml/presentation
+</span>        xmlns:x=http:<span style="COLOR: #008000">//schemas.microsoft.com/winfx/2006/xaml
+</span>        xmlns:c1=http:<span style="COLOR: #008000">//schemas.componentone.com/winfx/2006/xaml
+</span>        xmlns:BarCode=<span style="COLOR: #800000">"clr-namespace:C1.BarCode;assembly=C1.WPF.BarCode.4"</span>
+        Title=<span style="COLOR: #800000">"BarCode Sample"</span>&gt;
+</pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </blockquote>
+    </li>
+
+    <li>
+        <p>ページの <strong>&lt;Grid&gt;&lt;/Grid&gt;</strong> タグの間にカーソルを置きます。次の XAML マークアップを <strong>&lt;Grid&gt;&lt;/Grid&gt;</strong> タグの間に追加して、グリッドのリソースと行定義を設定します。</p>
+
+        <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+                <table class="SyntaxTable">
+                    <tbody>
+                        <tr>
+                            <th>XAML</th>
+
+                            <th>
+                                <div class="CopyCodeWrapper">
+                                    <span class="CopyCode">コードのコピー</span>
+                                </div>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <pre>
+&lt;Grid.Resources&gt;
+            &lt;Style TargetType=<span style="COLOR: #800000">"TextBlock"</span>&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"FontSize"</span> Value=<span style="COLOR: #800000">"18"</span>&gt;&lt;/Setter&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"VerticalAlignment"</span> Value=<span style="COLOR: #800000">"Center"</span>&gt;&lt;/Setter&gt;
+            &lt;/Style&gt;
+            &lt;Style TargetType=<span style="COLOR: #800000">"TextBox"</span>&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"FontSize"</span> Value=<span style="COLOR: #800000">"18"</span>&gt;&lt;/Setter&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"VerticalContentAlignment"</span> Value=<span style="COLOR: #800000">"Center"</span>&gt;&lt;/Setter&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"HorizontalAlignment"</span> Value=<span style="COLOR: #800000">"Left"</span>&gt;&lt;/Setter&gt;
+            &lt;/Style&gt;
+            &lt;Style TargetType=<span style="COLOR: #800000">"ComboBox"</span>&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"FontSize"</span> Value=<span style="COLOR: #800000">"18"</span>&gt;&lt;/Setter&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"VerticalAlignment"</span> Value=<span style="COLOR: #800000">"Center"</span>&gt;&lt;/Setter&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"VerticalContentAlignment"</span> Value=<span style="COLOR: #800000">"Center"</span>&gt;&lt;/Setter&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"HorizontalAlignment"</span> Value=<span style="COLOR: #800000">"Left"</span>&gt;&lt;/Setter&gt;
+            &lt;/Style&gt;
+        &lt;/Grid.Resources&gt;
+        &lt;Border HorizontalAlignment=<span style="COLOR: #800000">"Center"</span>&gt;
+            &lt;Grid&gt;
+                &lt;Grid.RowDefinitions&gt;
+                    &lt;RowDefinition Height=<span style="COLOR: #800000">"20*"</span>/&gt;
+                    &lt;RowDefinition Height=<span style="COLOR: #800000">"20*"</span> /&gt;
+                    &lt;RowDefinition Height=<span style="COLOR: #800000">"60*"</span> /&gt;
+                &lt;/Grid.RowDefinitions&gt;
+                &lt;Grid.ColumnDefinitions&gt;
+                    &lt;ColumnDefinition Width=<span style="COLOR: #800000">"40*"</span> /&gt;
+                    &lt;ColumnDefinition Width=<span style="COLOR: #800000">"60*"</span> /&gt;
+                &lt;/Grid.ColumnDefinitions&gt;
+</pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </blockquote>&nbsp;&nbsp;&nbsp;
+    </li>
+
+    <li>
+        <p>次のマークアップは、3つの <strong>TextBlock</strong> コントロールと１つの<strong>TextBox</strong> と１つの <strong>ComboBox</strong> コントロールを追加します。アプリケーションを実行すると、表示する <strong>BarCode</strong> コントロールのタイプを変更することができます。</p>
+
+        <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+                <table class="SyntaxTable">
+                    <tbody>
+                        <tr>
+                            <th>XAML</th>
+
+                            <th>
+                                <div class="CopyCodeWrapper">
+                                    <span class="CopyCode">コードのコピー</span>
+                                </div>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <pre>
+&lt;TextBlock Text=<span style="COLOR: #800000">"CodeType:"</span>&gt;&lt;/TextBlock&gt;
+                &lt;ComboBox x:Name=<span style="COLOR: #800000">"cbCodeType"</span> 
+                          Width=<span style="COLOR: #800000">"414"</span> Height=<span style="COLOR: #800000">"50"</span> Margin=<span style="COLOR: #800000">"20 0 0 0"</span>
+                          Grid.Column=<span style="COLOR: #800000">"1"</span> SelectionChanged=<span style="COLOR: #800000">"cbCodeType_SelectionChanged"</span> /&gt;
+                &lt;TextBlock Text=<span style="COLOR: #800000">"Text:"</span> Grid.Row=<span style="COLOR: #800000">"1"</span>&gt;&lt;/TextBlock&gt;
+                &lt;TextBox x:Name=<span style="COLOR: #800000">"text"</span> Text=<span style="COLOR: #800000">"{Binding Text, ElementName=barcode,
+</span>                 UpdateSourceTrigger=PropertyChanged, FallbackValue=<span style="COLOR: #800000">''</span>}<span style="COLOR: #800000">"
+</span>                         Height=<span style="COLOR: #800000">"50"</span> Width=<span style="COLOR: #800000">"414"</span> Margin=<span style="COLOR: #800000">"20 0 0 0"</span>
+                         Grid.Column=<span style="COLOR: #800000">"1"</span> Grid.Row=<span style="COLOR: #800000">"1"</span> TextChanged=<span style="COLOR: #800000">"text_TextChanged"</span>/&gt;
+                &lt;TextBlock Text=<span style="COLOR: #800000">"BarCode:"</span> Grid.Row=<span style="COLOR: #800000">"2"</span> /&gt;
+                &lt;Grid Grid.Row=<span style="COLOR: #800000">"2"</span> Grid.Column=<span style="COLOR: #800000">"1"</span> Width=<span style="COLOR: #800000">"414"</span>&gt;414
+</pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </blockquote>
+    </li>
+
+    <li>
+        <p>次は、<strong>C1BarCode</strong> コントロールのマークアップを追加します。このマークアップは、アプリケーションの実行時に表示される BarCode のタイプを設定します。</p>
+
+        <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+                <table class="SyntaxTable">
+                    <tbody>
+                        <tr>
+                            <th>XAML</th>
+
+                            <th>
+                                <div class="CopyCodeWrapper">
+                                    <span class="CopyCode">コードのコピー</span>
+                                </div>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <pre>
+ &lt;c1:C1BarCode x:Name=<span style="COLOR: #800000">"barcode"</span> AutoSize=<span style="COLOR: #800000">"False"</span> BarHeight=<span style="COLOR: #800000">"0"</span> CodeType=<span style="COLOR: #800000">"QRCode"</span>
+Text=<span style="COLOR: #800000">"http://www.componentone.com"</span> CaptionPosition=<span style="COLOR: #800000">"Below"</span> Height=<span style="COLOR: #800000">"200"</span> Width=<span style="COLOR: #800000">"200"</span>&gt;
+                        &lt;c1:C1BarCode.QRCodeOptions&gt;
+                            &lt;BarCode:QRCodeOptions ErrorLevel=<span style="COLOR: #800000">"H"</span>&gt;&lt;/BarCode:QRCodeOptions&gt;
+                        &lt;/c1:C1BarCode.QRCodeOptions&gt;
+                        &lt;c1:C1BarCode.ModuleSize&gt;
+                            &lt;BarCode:ModuleSize BarWide=<span style="COLOR: #800000">"0"</span> BarNarrow=<span style="COLOR: #800000">"0"</span>&gt;&lt;/BarCode:ModuleSize&gt;
+                        &lt;/c1:C1BarCode.ModuleSize&gt;
+                    &lt;/c1:C1BarCode&gt;
+</pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </blockquote>
+    </li>
+
+    <li>必要になる最後の XAML セクションでは、手順３で追加した画像ファイルを追加します。
+
+        <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+                <table class="SyntaxTable">
+                    <tbody>
+                        <tr>
+                            <th>XAML</th>
+
+                            <th>
+                                <div class="CopyCodeWrapper">
+                                    <span class="CopyCode">コードのコピー</span>
+                                </div>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <pre>
+ &lt;Image Source=<span style="COLOR: #800000">"Resources/c1logo.png"</span>
+                           x:Name=<span style="COLOR: #800000">"image"</span>
+                           Width=<span style="COLOR: #800000">"70"</span>
+                           Height=<span style="COLOR: #800000">"70"</span> /&gt;
+</pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </blockquote>
+    </li>
+</ol>
+            <a name="seealsobookmark"></a>
+            
+        
+    </div>
+    <div id="FooterContent">
+        
+<p>&nbsp;</p><p>&nbsp;</p><hr style="height: 1px" /><p>Copyright &copy; GrapeCity inc. All rights reserved.</p>
+
+    </div>
+    
+</body>
+</html>

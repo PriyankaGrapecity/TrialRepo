@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentAuthoringProjectLocale CultureId="ja-JP">
+  <ExportDateTime>2015-04-07T06:19:11.2559679Z</ExportDateTime>
+  <Dictionary></Dictionary>
+  <Notes></Notes>
+  <PhraseCultureId></PhraseCultureId>
+  <EncodingCulture></EncodingCulture>
+  <IsEnhancedWordBreakAnalysisEnabled>true</IsEnhancedWordBreakAnalysisEnabled>
+  <title m="2015-03-24T04:19:32.9630842Z"></title>
+  <projectprofile id="6b2cfb6d-7340-49af-9cfb-d31ec7a4a0d5">
+    <title m="2015-03-24T04:19:32.9630842Z"></title>
+  </projectprofile>
+  <projectprofile id="f0a7c3bf-d6e6-4a13-a8f5-f6810dc38985">
+    <title m="2015-03-24T04:19:32.9630842Z">ComponentOne BarCode for WPF</title>
+    <projectproperties>
+      <projectproperty id="a3dbf170-4a46-4d3f-9571-9b10189c0037" m="2015-03-24T04:19:32.9630842Z"></projectproperty>
+    </projectproperties>
+  </projectprofile>
+  <projectprofile id="afcf2dbb-5232-48e2-b2cc-79eed8c13989">
+    <title m="2015-03-24T04:19:32.9630842Z">ComponentOne BarCode for WPF</title>
+    <projectproperties>
+      <projectproperty id="a3dbf170-4a46-4d3f-9571-9b10189c0037" m="2015-03-24T04:19:32.9630842Z">&lt;a target="_blank" href="http://our.componentone.com/groups/"&gt;製品サポートフォーラム&lt;/a&gt;
+&amp;nbsp;| &amp;nbsp;&lt;a target="_blank" href="http://feedback.componentone.com/forums/272000-wpf-and-silverlight-documentation"&gt;Documentation Feedback&lt;/a&gt;
+</projectproperty>
+      <projectproperty id="76de16a8-8dcb-462c-b636-b20ff0b3c3a1" m="2015-03-24T04:19:32.9630842Z">&lt;a target="_blank" href="http://our.componentone.com/groups/"&gt;製品サポートフォーラム&lt;/a&gt;
+&amp;nbsp;| &amp;nbsp;&lt;a target="_blank" href="http://feedback.componentone.com/forums/272000-wpf-and-silverlight-documentation"&gt;Documentation Feedback&lt;/a&gt;
+</projectproperty>
+      <projectproperty id="08de2c63-c533-49c3-a1d7-52b3995b9bec" m="2015-03-24T04:19:32.9630842Z">Copyright &amp;copy; &lt;script type="text/javascript"&gt;var theDate=new Date()document.write(theDate.getFullYear())&lt;/script&gt; GrapeCity, inc. All rights reserved.</projectproperty>
+      <projectproperty id="07847df9-498c-45c9-9f2e-ca97e7f3e900" m="2015-03-24T04:19:32.9630842Z">Copyright &amp;copy; &lt;script type="text/javascript"&gt;var theDate=new Date()document.write(theDate.getFullYear())&lt;/script&gt; GrapeCity, inc. All rights reserved.</projectproperty>
+    </projectproperties>
+  </projectprofile>
+  <projectprofile id="4a7fd3d7-7717-4340-8e60-02c37576d951">
+    <title m="2015-08-18T09:21:40.4240957Z">BarCode for WPF</title>
+    <projectproperties>
+      <projectproperty id="09de2c63-c533-49c3-a1d7-52b3995b9bec" m="2015-04-13T07:26:11.1975572Z">Copyright &amp;copy; GrapeCity inc. All rights reserved.</projectproperty>
+    </projectproperties>
+    <subject m="2015-04-17T06:17:27.928377Z">ComponentOne Studio BarCode for WPF</subject>
+    <author m="2015-04-13T07:23:33.6834999Z">Grapecity</author>
+  </projectprofile>
+  <projectprofile id="8bd7be5e-8786-480c-9d1c-650eaed2697d">
+    <title m="2015-08-18T09:21:49.3860762Z">BarCode for WPF</title>
+  </projectprofile>
+  <topics>
+    <topiccategories>
+      <topiccategory id="0f945ce2-6a7b-48af-a638-eb01ec754a2d">
+        <caption m="2015-03-24T04:19:32.9630842Z">はじめに</caption>
+      </topiccategory>
+      <topiccategory id="86b30245-e657-40c0-bd67-5ed86609cd5a">
+        <caption m="2015-03-24T04:19:32.9630842Z">解説</caption>
+      </topiccategory>
+    </topiccategories>
+  </topics>
+</ContentAuthoringProjectLocale>

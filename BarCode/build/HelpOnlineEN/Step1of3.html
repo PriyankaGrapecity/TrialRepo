@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--DXMETADATA start type="MetaCharset" --><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"><!--DXMETADATA end-->
+    <meta http-equiv="X-UA-Compatible" value="IE=9" />
+
+    <!--DXMETADATA start type="IsTemplateFileFeatureEnabled" name="Responsive" format="<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />" --><meta name="viewport" content="width=device-width, initial-scale=1.0" /><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="Literal" condition="helpversion:value=3" value="<meta name=""Microsoft.Help.SelfBranded"" content=""true"" />" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="ItemTitle" format="<title>%%ItemTitle%%</title>" --><title>Step 1 of 3: Setting Up the Application</title><!--DXMETADATA end-->
+    <!--DXMETADATA start type="ItemTitle" format="<meta name=""Title"" content=""%%ItemTitleNoQuotes%%""/>" --><meta name="Title" content="Step 1 of 3: Setting Up the Application"/><!--DXMETADATA end-->    
+    
+    <script src="script/jquery-1.7.2.min.js" type="text/javascript" id="mshs_support_script"></script>
+    <script src="script/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery-ui-1.8.18.custom.css" />
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery.qtip.css" />
+	
+    <!--DXMETADATA start type="Literal" condition="communityenabled" value="<link rel=""stylesheet"" type=""text/css"" href=""stylesheets/community.css"" />" --><!--DXMETADATA end-->
+	<!--DXMETADATA start type="Literal" condition="communityenabled" value="<script src=""script/community.js""></script>" --><!--DXMETADATA end -->
+
+    <!--DXMETADATA start type="Synopsis" StripHtmlTags="True" MaxLength="250" format="<meta name=""Description"" content=""%%Synopsis%%"" />"--><meta name="Description" content="In this step, you will create a new Visual Studio application, add the appropriate references for the project, and add XAML markup to create the C1Barcode control." /><!--DXMETADATA end-->
+    
+    <link rel="styleSheet" type="text/css" href="stylesheets/topics.2012.css" data-mshv2-stylesheet="/stylesheets/topics.2012.mshv2.css" />
+    <script src="script/topics.jqueryplugins.2012.min.js" type="text/javascript"></script>
+    <script src="script/topics.2012.js" type="text/javascript"></script>
+    
+    <!--DXMETADATA start type="TopicId" format="<meta name=""Microsoft.Help.Id"" content=""%%TopicId%%""/>" --><meta name="Microsoft.Help.Id" content="35d8b69c-0844-43b1-a083-489a5a71a05c"/><!--DXMETADATA end-->
+    <!--DXMETADATA start type="TocParentId" format="<meta name=""Microsoft.Help.TocParent"" content=""%%TocParentId%%""/>" --><meta name="Microsoft.Help.TocParent" content="-1"/><!--DXMETADATA end-->
+    <!--DXMETADATA start type="TocOrdinal" format="<meta name=""Microsoft.Help.TocOrder"" content=""%%TocOrdinal%%""/>" --><meta name="Microsoft.Help.TocOrder" content="1"/><!--DXMETADATA end-->
+    <meta name="Microsoft.Help.F1" content=""/>
+    <meta name="Microsoft.Help.ContentType" content="Concepts" />
+    <!--DXMETADATA start type="MshvKeywords" condition="helpversion:value=3" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="MshvMetaTags" condition="helpversion:value=3" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Help3CatalogLocale" condition="helpversion:value=3" format="<meta name=""Microsoft.Help.Locale"" content=""%%Help3CatalogLocale%%"" />"--><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Help3CatalogLocale" condition="helpversion:value=3" format="<meta name=""Microsoft.Help.TopicLocale"" content=""%%Help3CatalogLocale%%"" />"--><!--DXMETADATA end-->
+    
+    <!--DXMETADATA start type="Stylesheets" --><link rel="styleSheet" type="text/css" href="stylesheets/slimbox2.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-common.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-slimbox.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-expand.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-expandcollapse.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-boxes.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/responsive.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/customstyles.css"></link><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Scripts" --><script src="script/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="script/slimbox2.js" type="text/javascript"></script>
+    <script src="script/hs-jquery-common.js" type="text/javascript"></script>
+    <script src="script/jquery-expand.js" type="text/javascript"></script>
+    <script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+    <script src="script/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="script/swfobject.js" type="text/javascript"></script>
+    <script src="script/modernizr.custom.min.js" type="text/javascript"></script>
+    <script src="script/responsive.js" type="text/javascript"></script>
+    <script src="script/responsive.navigationheader.js" type="text/javascript"></script>
+    <script src="script/responsive.topics.loader.js" type="text/javascript" Id="responsive-marker"></script><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="DesignTime"--><!--DXMETADATA end-->
+    <!--DXMETADATA start type="IsNew" format="<script type=""text/javascript"">isNew = true;</script>" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="Scrap" condition="communityenabled" name="_COMMUNITY_PROPERTIES" --><!--DXMETADATA end -->
+
+    <!--DXMETADATA start type="CustomHeadContent" --><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-208280-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--DXMETADATA end-->
+</head>
+
+<body>
+    <div id="BeforeHeaderContent">
+        
+    </div>
+    <div id="HeaderContent">
+        <!--DXMETADATA start type="Literal" condition="communityenabled" value="%%scrap:name=_COMMUNITY_RATING%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="LogoImage" --><!--DXMETADATA end-->
+            <div id="ProjectTitle"><!--DXMETADATA start type="ProjectTitle" -->ComponentOne BarCode for WPF<!--DXMETADATA end--></div>
+        <div id="PageTitle"><div id="PageTitleText"><!--DXMETADATA start type="ItemTitle" -->Step 1 of 3: Setting Up the Application<!--DXMETADATA end--></div></div>
+    </div>
+    <div id="AfterHeaderContent">
+        <!-- Spacing --> <span id="ToggleAllSectionsLink" class="FunctionLink">
+                <label id="CollapseAllLabel"><!--DXMETADATA start type="Phrase" name="COLLAPSE_ALL" -->Collapse All<!--DXMETADATA end--></label>
+                <label id="ExpandAllLabel" style="display: none;"><!--DXMETADATA start type="Phrase" name="EXPAND_ALL" -->Expand All<!--DXMETADATA end--></label>
+            </span><!--DXMETADATA start type="Literal" condition="communityenabled" value="%%scrap:name=_COMMUNITY_DROPDOWN%%" --><!--DXMETADATA end -->
+    </div>
+    <!--DXMETADATA start type="Breadcrumbs" scrap="_BREADCRUMBS" --><div class="BreadcrumbsContainer"><table><tr><td>
+<a href="C1BarCodeforWPF.html">ComponentOne Barcode for WPF</a>
+ > Getting Started
+ > Quick Start
+ > Step 1 of 3: Setting Up the Application</td></tr></table></div><!--DXMETADATA end -->
+    
+    
+    <div id="BodyContent">
+        <!--DXMETADATA start type="TopicSection" name="BodyText"--><p>In this step, you will create a new Visual Studio application, add the appropriate references for the project, and add XAML markup to create the C1Barcode control.</p>
+
+<ol>
+    <li>Create a new Windows Store application:
+
+        <ol>
+            <li>Select <strong>File | New | Project</strong>. The <strong>New Project</strong> dialog box will open.</li>
+
+            <li>Select <strong>Store Apps</strong> in the <strong>Templates</strong> list under <strong>Visual C#</strong>. From the templates list, select <strong>Blank App (Universal Apps)</strong>.</li>
+
+            <li>Give your application a <strong>Name</strong> and select <strong>OK</strong>. Your new application will open.</li>
+        </ol>
+    </li>
+
+    <li>Right-click the <strong>References</strong> folder in&nbsp;the&nbsp;Solution Explorer&nbsp;and select <strong>Add | New Reference</strong>. Locate and add the following references:
+
+        <ul>
+            <li>C1.Xaml.dll</li>
+
+            <li>C1.Xaml.BarCode.dll</li>
+        </ul>
+    </li>
+
+    <li>Right-click the <strong>Resources</strong> folder and select <strong>Add | Existing Item</strong>. The <strong>Add Existing Item</strong> dialog box will open.
+
+        <ol>
+            <li>Locate an image file you would like to add to your application.</li>
+
+            <li>Select the file and click <strong>OK</strong>. The file will be added to the <strong>Resources</strong> folder.</li>
+
+            <li>Rebuild the application so that your file is available to your application.</li>
+        </ol>
+    </li>
+
+    <li>Open&nbsp;the <strong>MainPage.xaml</strong> file and locate the opening <strong>&lt;Page&gt;</strong> tag. This tag will include the necessary namespaces. Edit the tag so that it resembles the following markup:</li>
+</ol>
+
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+    <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+        <table class="SyntaxTable">
+            <tbody>
+                <tr>
+                    <th>XAML</th>
+
+                    <th>
+                        <div class="CopyCodeWrapper">
+                            <span class="CopyCode">Copy Code</span>
+                        </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <pre>
+&lt;Page
+    xmlns=<span style="COLOR: #800000">"http://schemas.microsoft.com/winfx/2006/xaml/presentation"</span>
+    xmlns:x=<span style="COLOR: #800000">"http://schemas.microsoft.com/winfx/2006/xaml"</span>
+    xmlns:local=<span style="COLOR: #800000">"using:V12015BarcodeTest2"</span>
+    xmlns:d=<span style="COLOR: #800000">"http://schemas.microsoft.com/expression/blend/2008"</span>
+    xmlns:mc=<span style="COLOR: #800000">"http://schemas.openxmlformats.org/markup-compatibility/2006"</span>
+    xmlns:c1=<span style="COLOR: #800000">"using:C1.Xaml.BarCode"</span> xmlns:Xaml=<span style="COLOR: #800000">"using:C1.Xaml"</span>
+    xmlns:BarCode=<span style="COLOR: #800000">"using:C1.BarCode"</span>
+    x:Class=<span style="COLOR: #800000">"V12015BarcodeTest2.MainPage"</span>
+    mc:Ignorable=<span style="COLOR: #800000">"d"</span>&gt;
+</pre>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>The following namespaces are added to the tag:</p>
+
+    <ul>
+        <li>xmlns:c1="using:C1.Xaml.BarCode"</li>
+
+        <li>xmlns:Xaml="using:C1.Xaml"</li>
+
+        <li>xmlns:BarCode="using:C1.BarCode"</li>
+    </ul>
+</blockquote>
+
+<ol style="COUNTER-RESET: item 4" start="5">
+    <li>&nbsp;Place your cursor between the <strong>&lt;Grid&gt;&lt;/Grid&gt;</strong> tags on the page. Add the following XAML markup between the <strong>&lt;Grid&gt;&lt;/Grid&gt;</strong> tags to set up the Grid's resources and row definitions:</li>
+</ol>
+
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+    <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+        <table class="SyntaxTable">
+            <tbody>
+                <tr>
+                    <th>XAML</th>
+
+                    <th>
+                        <div class="CopyCodeWrapper">
+                            <span class="CopyCode">Copy Code</span>
+                        </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <pre>
+&lt;Grid.Resources&gt;
+            &lt;Style TargetType=<span style="COLOR: #800000">"TextBlock"</span>&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"FontSize"</span> Value=<span style="COLOR: #800000">"26.667"</span>&gt;&lt;/Setter&gt;
+            &lt;/Style&gt;
+            &lt;Style TargetType=<span style="COLOR: #800000">"TextBox"</span>&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"FontSize"</span> Value=<span style="COLOR: #800000">"26.667"</span>&gt;&lt;/Setter&gt;
+            &lt;/Style&gt;
+            &lt;Style TargetType=<span style="COLOR: #800000">"ComboBox"</span>&gt;
+                &lt;Setter Property=<span style="COLOR: #800000">"FontSize"</span> Value=<span style="COLOR: #800000">"26.667"</span>&gt;&lt;/Setter&gt;
+            &lt;/Style&gt;
+        &lt;/Grid.Resources&gt;
+        &lt;Border HorizontalAlignment=<span style="COLOR: #800000">"Center"</span>&gt;
+            &lt;Grid&gt;
+                &lt;Grid.RowDefinitions&gt;
+                    &lt;RowDefinition Height=<span style="COLOR: #800000">"20*"</span>/&gt;
+                    &lt;RowDefinition Height=<span style="COLOR: #800000">"20*"</span> /&gt;
+                    &lt;RowDefinition Height=<span style="COLOR: #800000">"60*"</span> /&gt;
+                &lt;/Grid.RowDefinitions&gt;
+                &lt;Grid.ColumnDefinitions&gt;
+                    &lt;ColumnDefinition Width=<span style="COLOR: #800000">"20*"</span> /&gt;
+                    &lt;ColumnDefinition Width=<span style="COLOR: #800000">"80*"</span> /&gt;
+                &lt;/Grid.ColumnDefinitions&gt;
+</pre>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</blockquote>
+
+<ol style="COUNTER-RESET: item 5" start="6">
+    <li>The following markup adds four <strong>TextBlock</strong> controls and one <strong>ComboBox</strong> control. When you run your application, you will be able to change the type of <strong>BarCode</strong> control being displayed:</li>
+</ol>
+
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+    <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+        <table class="SyntaxTable">
+            <tbody>
+                <tr>
+                    <th>XAML</th>
+
+                    <th>
+                        <div class="CopyCodeWrapper">
+                            <span class="CopyCode">Copy Code</span>
+                        </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <pre>
+&lt;TextBlock Text=<span style="COLOR: #800000">"CodeType:"</span> VerticalAlignment=<span style="COLOR: #800000">"Center"</span>&gt;&lt;/TextBlock&gt;
+                &lt;ComboBox x:Name=<span style="COLOR: #800000">"cbCodeType"</span>  HorizontalAlignment=<span style="COLOR: #800000">"Left"</span> Grid.Column=<span style="COLOR: #800000">"1"</span>
+                          Width=<span style="COLOR: #800000">"414"</span>
+                          Height=<span style="COLOR: #800000">"50"</span>
+                          SelectionChanged=<span style="COLOR: #800000">"cbCodeType_SelectionChanged"</span> /&gt;
+                &lt;TextBlock Text=<span style="COLOR: #800000">"Text:"</span> Grid.Row=<span style="COLOR: #800000">"1"</span> VerticalAlignment=<span style="COLOR: #800000">"Center"</span>&gt;&lt;/TextBlock&gt;
+                &lt;TextBox x:Name=<span style="COLOR: #800000">"text"</span> Text=<span style="COLOR: #800000">"{Binding Text, ElementName=barcode, UpdateSourceTrigger=PropertyChanged, FallbackValue='', Mode=TwoWay}"</span>
+                         HorizontalAlignment=<span style="COLOR: #800000">"Left"</span> Grid.Column=<span style="COLOR: #800000">"1"</span> Grid.Row=<span style="COLOR: #800000">"1"</span> Height=<span style="COLOR: #800000">"50"</span> Width=<span style="COLOR: #800000">"414"</span> TextChanged=<span style="COLOR: #800000">"text_TextChanged"</span>/&gt;
+                &lt;TextBlock Text=<span style="COLOR: #800000">"BarCode:"</span> Grid.Row=<span style="COLOR: #800000">"2"</span> VerticalAlignment=<span style="COLOR: #800000">"Center"</span>/&gt;
+                &lt;Grid Grid.Row=<span style="COLOR: #800000">"2"</span> Grid.Column=<span style="COLOR: #800000">"1"</span> Background=<span style="COLOR: #800000">"White"</span> HorizontalAlignment=<span style="COLOR: #800000">"Left"</span> Width=<span style="COLOR: #800000">"414"</span>&gt;
+</pre>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</blockquote>
+
+<ol style="COUNTER-RESET: item 6" start="7">
+    <li>Add the markup for the <strong>C1BarCode</strong> control below the last <strong>Grid</strong> tag. This markup will set up the type of BarCode the application will display when you run it:</li>
+</ol>
+
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+    <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+        <table class="SyntaxTable">
+            <tbody>
+                <tr>
+                    <th>XAML</th>
+
+                    <th>
+                        <div class="CopyCodeWrapper">
+                            <span class="CopyCode">Copy Code</span>
+                        </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <pre>
+&lt;c1:C1BarCode x:Name=<span style="COLOR: #800000">"barcode"</span> AutoSize=<span style="COLOR: #800000">"False"</span> BarHeight=<span style="COLOR: #800000">"0"</span> CodeType=<span style="COLOR: #800000">"QRCode"</span> CaptionPosition=<span style="COLOR: #800000">"Below"</span> Text=<span style="COLOR: #800000">"http://www.componentone.com"</span> Height=<span style="COLOR: #800000">"200"</span> Width=<span style="COLOR: #800000">"200"</span>&gt;
+      &lt;c1:C1BarCode.QRCodeOptions&gt;
+          &lt;BarCode:QRCodeOptions ErrorLevel=<span style="COLOR: #800000">"H"</span> /&gt;
+      &lt;/c1:C1BarCode.QRCodeOptions&gt;
+      &lt;c1:C1BarCode.ModuleSize&gt;
+          &lt;BarCode:ModuleSize BarNarrow=<span style="COLOR: #800000">"0"</span> BarWide=<span style="COLOR: #800000">"0"</span> /&gt;
+      &lt;/c1:C1BarCode.ModuleSize&gt;                       
+&lt;/c1:C1BarCode&gt;
+</pre>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</blockquote>
+
+<ol style="COUNTER-RESET: item 7" start="8">
+    <li>The last section of XAML needed adds the image file you added&nbsp;in step 3:</li>
+</ol>
+
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+    <div class="FilteredContentCS" data-title="CS" data-itemid="CS">
+        <table class="SyntaxTable">
+            <tbody>
+                <tr>
+                    <th>XAML</th>
+
+                    <th>
+                        <div class="CopyCodeWrapper">
+                            <span class="CopyCode">Copy Code</span>
+                        </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <pre>
+ &lt;Image Source=<span style="COLOR: #800000">"ms-appx:/V12015BarcodeTest2.Windows/Resources/c1logo.png"</span>
+                           x:Name=<span style="COLOR: #800000">"image"</span> Width=<span style="COLOR: #800000">"70"</span> Height=<span style="COLOR: #800000">"70"</span> /&gt;
+</pre>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</blockquote>
+
+<p>&nbsp;</p><!--DXMETADATA end-->
+            <a name="seealsobookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="CATEGORISED_LINKS" namespace="linkcategory" source="Item" filter="" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=seealso,caption=""%%phrase:name=SeeAlso%%%%designlist:tagidentifier=seealso,itemtype=See Also%%""%%%%filtereditemlist%%</div>"--><!--DXMETADATA end-->
+        
+    </div>
+    <div id="FooterContent">
+        <!--DXMETADATA start type="Scrap" condition="communityenabled" name="_COMMUNITY_FOOTER" --><!--DXMETADATA end -->
+<!--DXMETADATA start type="Variable" name="CopyrightNotice" format="<p>&nbsp;</p><p>&nbsp;</p><hr style=""height: 1px"" /><p>%%variable%%</p>" --><p>&nbsp;</p><p>&nbsp;</p><hr style="height: 1px" /><p>Copyright (c) 2015 GrapeCity, inc. All rights reserved.</p><!--DXMETADATA end -->
+<!--DXMETADATA start type="Variable" name="FeedbackLink" format="" --><a target="_blank" href="http://our.componentone.com/groups/">Product Support Forum</a>
+&nbsp;| &nbsp;<a target="_blank" href="http://feedback.componentone.com/forums/272000-wpf-and-silverlight-documentation">Documentation Feedback</a>
+<!--DXMETADATA end-->
+    </div>
+    
+</body>
+</html>

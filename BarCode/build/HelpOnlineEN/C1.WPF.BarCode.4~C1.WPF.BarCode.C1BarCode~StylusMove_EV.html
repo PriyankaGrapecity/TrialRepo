@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--DXMETADATA start type="MetaCharset" --><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"><!--DXMETADATA end-->
+    <meta http-equiv="X-UA-Compatible" value="IE=9" />
+
+    <!--DXMETADATA start type="IsTemplateFileFeatureEnabled" name="Responsive" format="<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />" --><meta name="viewport" content="width=device-width, initial-scale=1.0" /><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="Literal" condition="helpversion:value=3" value="<meta name=""Microsoft.Help.SelfBranded"" content=""true"" />" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="ItemTitle" format="<title>%%ItemTitle%%</title>" --><title>StylusMove Event</title><!--DXMETADATA end-->
+    <!--DXMETADATA start type="ItemTitle" format="<meta name=""Title"" content=""%%ItemTitleNoQuotes%%""/>" --><meta name="Title" content=""/><!--DXMETADATA end-->    
+    
+    <script src="script/jquery-1.7.2.min.js" type="text/javascript" id="mshs_support_script"></script>
+    <script src="script/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery-ui-1.8.18.custom.css" />
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery.qtip.css" />
+	
+    <!--DXMETADATA start type="Literal" condition="communityenabled" value="<link rel=""stylesheet"" type=""text/css"" href=""stylesheets/community.css"" />" --><!--DXMETADATA end-->
+	<!--DXMETADATA start type="Literal" condition="communityenabled" value="<script src=""script/community.js""></script>" --><!--DXMETADATA end -->
+
+    <link rel="styleSheet" type="text/css" href="stylesheets/dx.net.2012.css" data-mshv2-stylesheet="/stylesheets/dx.net.2012.mshv2.css" data-mshv1-stylesheet="/stylesheets/dx.net.2012.mshv1.css" />
+    <script src="script/dx.net.jqueryplugins.2012.min.js" type="text/javascript"></script>
+    <script src="script/dx.net.2012.js" type="text/javascript"></script>
+    
+    <!--DXMETADATA start type="TopicId" format="<meta name=""Microsoft.Help.Id"" content=""%%TopicId%%""/>" --><meta name="Microsoft.Help.Id" content="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode~StylusMove_EV"/><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Synopsis" StripHtmlTags="True" MaxLength="250" format="<meta name=""Description"" content=""%%Synopsis%%"" />"--><!--DXMETADATA end-->
+    <!--DXMETADATA start type="TocParentId" format="<meta name=""Microsoft.Help.TocParent"" content=""%%TocParentId%%""/>" --><meta name="Microsoft.Help.TocParent" content="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode_events"/><!--DXMETADATA end-->
+    <meta name="Microsoft.Help.ContentType" content="Reference" /><!--DXMETADATA start type="DotNetSignature" format="<meta name=""Microsoft.Help.F1"" content=""%%DotNetSignature%%""/>" --><meta name="Microsoft.Help.F1" content="C1.WPF.BarCode.C1BarCode.StylusMove"/><!--DXMETADATA end-->
+    <!--DXMETADATA start type="MshvKeywords" condition="helpversion:value=3" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="MshvMetaTags" condition="helpversion:value=3" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Help3CatalogLocale" condition="helpversion:value=3" format="<meta name=""Microsoft.Help.Locale"" content=""%%Help3CatalogLocale%%"" />"--><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Help3CatalogLocale" condition="helpversion:value=3" format="<meta name=""Microsoft.Help.TopicLocale"" content=""%%Help3CatalogLocale%%"" />"--><!--DXMETADATA end-->
+    
+    <!--DXMETADATA start type="Stylesheets" --><link rel="styleSheet" type="text/css" href="stylesheets/slimbox2.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-common.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-slimbox.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-expand.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-expandcollapse.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-boxes.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/responsive.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/customstyles.css"></link><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Scripts" --><script src="script/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="script/slimbox2.js" type="text/javascript"></script>
+    <script src="script/hs-jquery-common.js" type="text/javascript"></script>
+    <script src="script/jquery-expand.js" type="text/javascript"></script>
+    <script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+    <script src="script/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="script/swfobject.js" type="text/javascript"></script>
+    <script src="script/modernizr.custom.min.js" type="text/javascript"></script>
+    <script src="script/responsive.js" type="text/javascript"></script>
+    <script src="script/responsive.navigationheader.js" type="text/javascript"></script>
+    <script src="script/responsive.dx.net.loader.js" type="text/javascript" Id="responsive-marker"></script><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="DesignTime"--><!--DXMETADATA end-->
+    <!--DXMETADATA start type="IsNew" format="<script type=""text/javascript"">isNew = true;</script>" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="Scrap" condition="communityenabled" name="_COMMUNITY_PROPERTIES" --><!--DXMETADATA end -->
+
+    <!--DXMETADATA start type="CustomHeadContent" --><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-208280-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--DXMETADATA end-->
+</head>
+
+<body>
+    <div id="BeforeHeaderContent">
+        
+    </div>
+    <div id="HeaderContent">
+        <!--DXMETADATA start type="Literal" condition="communityenabled" value="%%scrap:name=_COMMUNITY_RATING%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="LogoImage" --><!--DXMETADATA end-->
+            <div id="ProjectTitle"><!--DXMETADATA start type="ProjectTitle" -->BarCode for WPF <!--DXMETADATA end--></div>
+        <div id="PageTitle"><div id="PageTitleText"><!--DXMETADATA start type="ItemTitle" -->StylusMove Event<!--DXMETADATA end--></div></div>
+    </div>
+    <div id="AfterHeaderContent">
+        <!--DXMETADATA start type="Literal" condition="childitems:itemtype=example,filter=""type=inline""" value="<a class=""PageLink"" href=""#ExampleBookmark"" onclick=""javascript:dxOpenSectionById('exampleSectionHeader');"">$$Example$$</a>&nbsp;" --><!--DXMETADATA end --><!-- Spacing --> <span id="ToggleAllSectionsLink" class="FunctionLink">
+                <label id="CollapseAllLabel"><!--DXMETADATA start type="Phrase" name="COLLAPSE_ALL" -->Collapse All<!--DXMETADATA end--></label>
+                <label id="ExpandAllLabel" style="display: none;"><!--DXMETADATA start type="Phrase" name="EXPAND_ALL" -->Expand All<!--DXMETADATA end--></label>
+            </span><!--DXMETADATA start type="Literal" condition="communityenabled" value="%%scrap:name=_COMMUNITY_DROPDOWN%%" --><!--DXMETADATA end --><!-- Spacing --> <span id="LanguageFilterPopupLink" class="PopupLink" data-popupcontentsource="#LanguageCheckboxes" data-popuptitle='<!--DXMETADATA start type="Phrase" name="Language_Filter" -->Language Filter<!--DXMETADATA end -->'>
+                <label id="ShowAllLabel" for="LanguageFilterPopupLink">
+                    <!--DXMETADATA start type="Phrase" name="Language_Filter_All" -->Language Filter: All<!--DXMETADATA end -->
+                </label>
+                <label id="MultipleLabel" for="LanguageFilterPopupLink" style="display: none;">
+                    <!--DXMETADATA start type="Phrase" name="Language_Filter_Multiple" -->Language Filter: Multiple<!--DXMETADATA end -->
+                </label>
+                <label id="VBAllLabel" for="LanguageFilterPopupLink" style="display: none;">
+                    <!--DXMETADATA start type="Phrase" name="Language_Filter" -->Language Filter<!--DXMETADATA end -->: <!--DXMETADATA start type="Phrase" name="Language_VB" -->Visual Basic<!--DXMETADATA end -->
+                </label>				
+                <!--DXMETADATA start type="FilteredItemList" scrap="LANGUAGE_LABEL_LIST" namespace="language" filter="type=all" source="Item" format="" -->
+<label id="VBLabel" for="LanguageFilterPopupLink" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label id="CSLabel" for="LanguageFilterPopupLink" style="display: none;">Language Filter: C#</label>
+<!--DXMETADATA end -->
+            </span>
+            <div class="PopupContent" id="LanguageCheckboxes">
+                <!--DXMETADATA start type="FilteredItemList" scrap="LANGUAGE_CHECKBOX_LIST" namespace="language" filter="type=all" source="Item" format="" -->
+<input data-languagename="VB" id="VBLanguageCheckbox" type="checkbox" class="ToggleLanguageCheckbox" checked="true" data-toggleclass="FilteredContentVB"/>
+<label class="LanguageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br /><input data-languagename="CS" id="CSLanguageCheckbox" type="checkbox" class="ToggleLanguageCheckbox" checked="true" data-toggleclass="FilteredContentCS"/>
+<label class="LanguageFilter" for="CSCheckbox">
+C#
+</label>
+<!--DXMETADATA end -->
+            </div>
+    </div>
+    <!--DXMETADATA start type="Breadcrumbs" scrap="_BREADCRUMBS" --><div class="BreadcrumbsContainer"><table><tr><td>
+<a href="C1.WPF.BarCode.4~C1.WPF.BarCode_namespace.html">C1.WPF.BarCode Namespace</a>
+ > <a href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html">C1BarCode Class</a>
+ : StylusMove Event</td></tr></table></div><!--DXMETADATA end -->
+    
+    <!--DXMETADATA start type="FilteredItemList" scrap="PARAMETERS_BUBBLES" namespace="parameter" source="Item" --><!--DXMETADATA end -->
+    <div id="BodyContent">
+        <!--DXMETADATA start type="Description" source="Item" format="<div class=""DescriptionContent"">%%description%%</div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="SyntaxSection" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=syntax,caption=$$Syntax$$%%%%SyntaxSection%%</div>" --><div class="SectionHeading" id="syntaxSectionHeading"><span class="SectionHeadingIcon"><!-- --></span><span class="SectionHeadingText">Syntax</span></div><div id="syntaxSectionContent" class="SectionContent">
+            <div class="TabContainer" id="TabContainer">
+            <ul>
+            
+            <li class="FilteredContentVBAll"><a href="#Syntax-VBAll">Visual Basic</a></li>
+        
+
+            <li class="FilteredContentCS"><a href="#Syntax-CS">C#</a></li>
+        
+
+            </ul>
+            
+            <div id="Syntax-VB" class="FilteredContentVB">
+            <pre>'Declaration
+&nbsp;
+Public Event StylusMove As System.Windows.Input.StylusEventHandler</pre>
+            </div>
+        
+
+            <div id="Syntax-CS" class="FilteredContentCS">
+            <pre>public event System.Windows.Input.StylusEventHandler StylusMove</pre>
+            </div>
+        
+
+            </div>
+        </div><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="EVENTHANDLER_PROPERTY_LIST" namespace="property" source="Item" filter="scope=public" NoCr="True" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=exceptions,caption="$$EVENT_DATA$$"%%%%Scrap:Name=_EVENT_DATA_INTRO%%%%filtereditemlist%%</div>" blankformat="</div>" --><div class="SectionHeading" id="exceptionsSectionHeading"><span class="SectionHeadingIcon"><!-- --></span><span class="SectionHeadingText">Event Data</span></div><div id="exceptionsSectionContent" class="SectionContent"><p>The event handler receives an argument of type System.Windows.Input.StylusEventArgs containing data related to this event. The following <b>StylusEventArgs</b> properties provide information specific to this event.</p><table class="FilteredItemListTable"><tr><th>Property</th><th>Description</th></tr><tr><td class=LinkCell><A HREF="PresentationCore~System.Windows.Input.InputEventArgs~Device.html">Device</A></td><td class="DescriptionCell"> (Inherited from System.Windows.Input.InputEventArgs</strong>)</td></tr><tr><td class=LinkCell><A HREF="PresentationCore~System.Windows.RoutedEventArgs~Handled.html">Handled</A></td><td class="DescriptionCell"> (Inherited from System.Windows.RoutedEventArgs</strong>)</td></tr><tr><td class=LinkCell><strong>InAir</strong></td><td class="DescriptionCell">Gets a value that indicates whether the stylus is in proximity to, but not touching, the digitizer. &nbsp;</td></tr><tr><td class=LinkCell><strong>Inverted</strong></td><td class="DescriptionCell">Gets a value that indicates whether the stylus in inverted. &nbsp;</td></tr><tr><td class=LinkCell><A HREF="PresentationCore~System.Windows.RoutedEventArgs~OriginalSource.html">OriginalSource</A></td><td class="DescriptionCell"> (Inherited from System.Windows.RoutedEventArgs</strong>)</td></tr><tr><td class=LinkCell><A HREF="PresentationCore~System.Windows.RoutedEventArgs~RoutedEvent.html">RoutedEvent</A></td><td class="DescriptionCell"> (Inherited from System.Windows.RoutedEventArgs</strong>)</td></tr><tr><td class=LinkCell><A HREF="PresentationCore~System.Windows.RoutedEventArgs~Source.html">Source</A></td><td class="DescriptionCell"> (Inherited from System.Windows.RoutedEventArgs</strong>)</td></tr><tr><td class=LinkCell><strong>StylusDevice</strong></td><td class="DescriptionCell">Gets the <strong>System.Windows.Input.StylusDevice</strong> that represents the stylus. &nbsp;</td></tr><tr><td class=LinkCell><A HREF="PresentationCore~System.Windows.Input.InputEventArgs~Timestamp.html">Timestamp</A></td><td class="DescriptionCell"> (Inherited from System.Windows.Input.InputEventArgs</strong>)</td></tr></table></div><!--DXMETADATA end -->
+            <!--DXMETADATA start type="TaggedComment" source="Item" id="##REMARKS" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=remarks,caption=$$Remarks$$%%%%comment%%</div>" --><!--DXMETADATA end -->
+            <a name="exampleBookmark"></a>
+            <!--DXMETADATA start type="TaggedComment" source="Item" id="##EXAMPLEINTRO" format="%%replaceinquotes:value=false%%%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=""$$Example$$%%designlist:tagidentifier=##EXAMPLECODE,itemtype=Example%%""%%%%comment%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="EXAMPLEGROUP_LIST" namespace="ExampleGroup" source="Item" filter="type=inline" condition="content:content=""%%GroupExamples%%"",operator=""="",value=""True""" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%taggedcomment:source=item,id=##EXAMPLEINTRO,blankformat=""%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=$$Example$$%%"",format= %%%%filtereditemlist%%</div>" blankformat="%%taggedcomment:source=item,id=##EXAMPLEINTRO,format=</div>%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="INLINE_EXAMPLE" namespace="Example" source="Item" filter="type=inline" condition="content:content=""%%GroupExamples%%"",operator=""<>"",value=""True""" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%taggedcomment:source=item,id=##EXAMPLEINTRO,blankformat=""%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=$$Example$$%%"",format= %%%%filtereditemlist%%</div>" blankformat="%%taggedcomment:source=item,id=##EXAMPLEINTRO,format=</div>%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MENU_LINK" namespace="example" source="Item" filter="" NoHeader="True" NoFooter="True" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=$$Example$$%%%%filtereditemlist%%</div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="TaggedComment" source="Item" id="##REQUIREMENTS" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=requirements,caption=$$Requirements$$%%%%comment%%</div>" blankformat="%%variable:name=defaultmemberrequirements%%" --><div class="SectionHeading" id="requirementsSectionHeading"><span class="SectionHeadingIcon"><!-- --></span><span class="SectionHeadingText">Requirements</span></div><div id="requirementsSectionContent" class="SectionContent"><p><b>Target Platforms:</b> Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2</p></div><!--DXMETADATA end -->
+            <a name="seealsobookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="CATEGORIZED_LINKS" namespace="linkcategory" source="Item" filter="" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=seealso,caption=""$$See_Also$$%%designlist:tagidentifier=##SEEALSO,itemtype=See Also%%""%%%%filtereditemlist%%</div>"--><div class="SectionHeading" id="seealsoSectionHeading"><span class="SectionHeadingIcon"><!-- --></span><span class="SectionHeadingText">See Also</span></div><div id="seealsoSectionContent" class="SectionContent"><h4 class="subHeading">Reference</h4><p><a href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html">C1BarCode Class</a>
+<br/><a href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode_members.html">C1BarCode Members</a>
+</p>
+</div><!--DXMETADATA end-->
+        
+    </div>
+    <div id="FooterContent">
+        <!--DXMETADATA start type="Scrap" condition="communityenabled" name="_COMMUNITY_FOOTER" --><!--DXMETADATA end -->
+<!--DXMETADATA start type="Variable" name="CopyrightNotice" format="<p>&nbsp;</p><p>&nbsp;</p><hr style=""height: 1px"" /><p>%%variable%%</p>" --><p>&nbsp;</p><p>&nbsp;</p><hr style="height: 1px" /><p>Copyright (c) <script type="text/javascript">
+ var theDate=new Date()
+ document.write(theDate.getFullYear())
+ </script> GrapeCity, inc. All rights reserved.</p><!--DXMETADATA end -->
+<!--DXMETADATA start type="Variable" name="FeedbackLink" format="" --><a target="_blank" href="http://our.componentone.com/groups/">Product Support Forum</a>
+&nbsp;| &nbsp;<a target="_blank" href="http://feedback.componentone.com/forums/272000-wpf-and-silverlight-documentation">Documentation Feedback</a>
+<!--DXMETADATA end-->
+    </div>
+    
+</body>
+</html>

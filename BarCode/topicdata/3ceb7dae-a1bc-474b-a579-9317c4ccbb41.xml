@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3ceb7dae-a1bc-474b-a579-9317c4ccbb41" Status="New Topic" CreatedOn="2015-03-11T20:52:30.1666285Z" ModifiedOn="2015-04-13T06:24:29.3286289Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="QRCodes" BuildFlags="">
+  <Title m="2015-03-11T20:52:40.9932477Z">QR Codes</Title>
+  <ContentsTitle m="2015-04-13T06:24:29.3276287Z">QR Codes</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-03-11T20:53:09.7548928Z">&lt;P&gt;The QR code (Quick Response code) format is one of the most popular 2D barcode formats available today, with free readers available for virtually all smart phones. Developed by the DENSO-WAVE company, the QR code format is efficient and compact, it doesn't require a special scanner to read it, and it is an open and freely available standard (ISO/IEC18004 and others).&lt;/P&gt;
+&lt;P&gt;The code is simply made up of black and white pixels arranged in patterns. With the C1QRCode control, the QR patterns are based on the value you want to encode, which you can specify in the Text property.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1fe531fb-723a-4808-a8ea-4f7af17f19e1" Status="New Topic" CreatedOn="2015-03-11T20:47:39.7610182Z" ModifiedOn="2015-08-18T09:24:18.6164772Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="C1BarCodeforWPF" BuildFlags="">
+  <Title m="2015-06-24T10:47:36.198358Z">Barcode for WPF </Title>
+  <ContentsTitle m="2015-06-24T10:47:37.9513123Z">Barcode for WPF </ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-06-24T10:30:36.2007201Z">&lt;P&gt;Add barcode images to your applications with &lt;STRONG&gt;BarCode for WPF&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;Unlike barcode fonts, &lt;STRONG&gt;BarCode for WPF &lt;/STRONG&gt;automatically adds any necessary control symbols and checksums to the value being encoded, depending on the encoding being used, to eliminate reader errors.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;BarCode for WPF &lt;/STRONG&gt;is so easy to use – just add the control to your form, set the encoding type, and you're done!&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink Id="1101cc34-0da5-43f9-95bc-2b64561bd8ad" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0e5410aa-5640-433a-a47e-df2676e1f7b6" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink Id="d9d82f6f-76c8-4608-9b2f-4dd3a3d1092a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="f9c6eaa6-7fb9-42cd-8193-97d04e7d77b4" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

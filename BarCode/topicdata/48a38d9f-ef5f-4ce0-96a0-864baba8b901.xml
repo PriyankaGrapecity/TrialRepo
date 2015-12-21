@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="48a38d9f-ef5f-4ce0-96a0-864baba8b901" Status="New Topic" CreatedOn="2015-03-11T20:51:50.2573458Z" ModifiedOn="2015-07-06T08:16:17.3889205Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="CustomizingtheC1BarCodeControl" BuildFlags="">
+  <Title m="2015-03-11T20:52:09.8734678Z">Customizing the C1Bar Code Control</Title>
+  <ContentsTitle m="2015-04-13T06:22:54.807192Z">Customizing the C1Bar Code Control</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-07-06T08:16:17.3889205Z">&lt;P&gt;To use the&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt; control, set the&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode~CodeType.html"&gt;CodeType&lt;/A&gt; property to the type of encoding you want to use, then set the&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode~Text.html"&gt;Text&lt;/A&gt; property to the value you want to encode.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Note&lt;/STRONG&gt;: Some encodings have a minimum character requirement, while others will only work with numeric values.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;The following image shows the&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt; control set to the &lt;STRONG&gt;QRCode&amp;nbsp;&lt;/STRONG&gt;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode~CodeType.html"&gt;CodeType&lt;/A&gt;, and the&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode~Text.html"&gt;Text&lt;/A&gt; set to an URL. Depending on the type of barcode used in an application, there will be more options available for customization.&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="Graphics/Narrative_BarCodeProperties.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

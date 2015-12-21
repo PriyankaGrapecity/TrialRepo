@@ -1,0 +1,62 @@
+﻿<!-- #region "Namespaces"-->
+    <Window x:Class="BarCodeApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c1="http://schemas.componentone.com/winfx/2006/xaml"
+        xmlns:BarCode="clr-namespace:C1.BarCode;assembly=C1.WPF.BarCode.4"
+        Title="BarCode Sample">
+        <!-- #end region-->
+    <Grid>
+        <!-- #region "GridLayout"-->
+        <Grid.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="FontSize" Value="18"></Setter>
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="FontSize" Value="18"></Setter>
+            </Style>
+            <Style TargetType="ComboBox">
+                <Setter Property="FontSize" Value="18"></Setter>
+            </Style>
+        </Grid.Resources>
+        <Border HorizontalAlignment="Center">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="20*" />
+                    <RowDefinition Height="60*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40*" />
+                    <ColumnDefinition Width="60*" />
+                </Grid.ColumnDefinitions>
+                <!-- #end region-->
+                
+                <!-- #region "TextBlockandComboBox"--> 
+                <TextBlock Text="CodeType:" VerticalAlignment="Center"></TextBlock>
+                <ComboBox x:Name="cbCodeType"  HorizontalAlignment="Left" Grid.Column="1"
+                          Width="414" Height="50"/>
+                <TextBlock Text="Text:" Grid.Row="1" VerticalAlignment="Center"></TextBlock>
+                <TextBox x:Name="text" Text="{Binding Text, ElementName=barcode, UpdateSourceTrigger=PropertyChanged, FallbackValue='', Mode=TwoWay}"
+                         HorizontalAlignment="Left" Grid.Column="1" Grid.Row="1" Height="50" Width="414" />
+                <TextBlock Text="BarCode:" Grid.Row="2" VerticalAlignment="Center"/>
+                <Grid Grid.Row="2" Grid.Column="1" Background="White" HorizontalAlignment="Left" Width="414">
+                </Grid>
+            </Grid>
+        </Border>
+        <!-- #end region-->
+        
+        <!-- #region "BarCode"-->
+        <c1:C1BarCode x:Name="barcode" AutoSize="False" BarHeight="0" CodeType="QRCode" CaptionPosition="Below"
+                      Text="http://www.compnentone.com" Height="200" Width="200" Margin="315,249,245,55">
+            <c1:C1BarCode.QRCodeOptions>
+                <BarCode:QRCodeOptions ErrorLevel="High" />
+            </c1:C1BarCode.QRCodeOptions>
+        </c1:C1BarCode>
+        <!-- #end region-->
+        
+        <!-- #region "ImageResource"-->
+        <Image Source="Resources/c1logo.png" x:Name="image" Width="70" Height="70" Margin="378,310,312,124" />
+        <!-- #end region-->
+    </Grid>
+</Window>

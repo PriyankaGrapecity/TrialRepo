@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3a116ad5-7580-4560-89c8-cf146c6d9efe" Status="New Topic" CreatedOn="2015-03-11T20:51:19.8656075Z" ModifiedOn="2015-07-06T08:14:41.4089551Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="SupportedEncodings" BuildFlags="">
+  <Title />
+  <ContentsTitle m="2015-04-13T06:13:23.423326Z">Supported Encodings</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2015-07-06T08:14:41.4079795Z">&lt;P&gt;You can change the&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt; encoding type by setting the&amp;nbsp;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode~CodeType.html"&gt;CodeType&lt;/A&gt; property. The &lt;STRONG&gt;C1BarCode&lt;/STRONG&gt; control supports the following encodings:&lt;/P&gt;
+&lt;TABLE&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;&lt;STRONG&gt;Encoding&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Description&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;Code 39&lt;/TD&gt;
+&lt;TD&gt;Code 39 is an alpha-numeric encoding also known as 3 of 9 and LOGMARS. This was the first alphanumeric symbology developed, and is one of the most widely used encodings.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width=205&gt;Code 39x&lt;/TD&gt;
+&lt;TD height=19&gt;Code 39 Extended uses double character encoding, allowing it to support all ASCII 128 characters.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;Codabar&lt;/TD&gt;
+&lt;TD&gt;Codabar may encode 16 different characters (0 through 9 plus -$:/.+), plus an additional 4 start/stop characters (A through D). Codabar is used by some US blood banks, photo labs, and on FedEx airbills.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;Code 128A&lt;/TD&gt;
+&lt;TD&gt;Code 128 is a very high density alpha-numeric barcode. Code 128A uses ASCII characters 00 to 95 (0-9, A-Z and control codes), special characters, and FNC 1-4&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width=205&gt;Code 128B&lt;/TD&gt;
+&lt;TD height=19&gt;Code 128 is a very high density alpha-numeric barcode. Code 128B uses ASCII characters 32 to 127 (0-9, A-Z, a-z), special characters, and FNC 1-4&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=37 width=205&gt;Code 128C&lt;/TD&gt;
+&lt;TD height=37&gt;Code 128 is a very high density alpha-numeric barcode. Code 128C uses 00-99 (encodes each two digits with one code) and FNC1.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;Code 128 Auto&lt;/TD&gt;
+&lt;TD&gt;Code 128 Auto will encode your data with the shortest number of bars possible.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;Code 2 of 5&lt;/TD&gt;
+&lt;TD&gt;Code 2 of 5 is a numeric only barcode.&amp;nbsp; It encodes all of the information in the bars, with spaces of a fixed width.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width=205&gt;Code 93&lt;/TD&gt;
+&lt;TD height=19&gt;Code 93 is an alpha-numeric encoding that is slightly denser than code 39.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;Code25intlv&lt;/TD&gt;
+&lt;TD&gt;Interleaved Code 2 of 5 encodes pairs of digits. The first digit is encoded in the first five bars with the second digit encoded in the five spaces.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=37 width=205&gt;Code39&lt;/TD&gt;
+&lt;TD height=37&gt;Code 39 is an alpha-numeric encoding also known as 3 of 9 and LOGMARS. This was the first alphanumeric symbology developed, and is one of the most widely used encodings.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width=205&gt;Code49&lt;/TD&gt;
+&lt;TD height=19&gt;Code 49 is a stacked barcode that can encode the entire ASCII 128 character set.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;Code93x&lt;/TD&gt;
+&lt;TD&gt;Code 93 Extended is based on Code 93 and can encode the entire ASCII 128 character set.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;DataMatrix&lt;/TD&gt;
+&lt;TD&gt;Data Matrix is a high density, two-dimensional barcode with square modules arranged in a square or rectangular matrix pattern.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;EAN 13&lt;/TD&gt;
+&lt;TD&gt;EAN-13 was implemented by the International Article Numbering Association (EAN) in Europe. EAN-13 encodes a 12-digit code that consists of a 2 digit system code followed by a 5 digit manufacturer code and a 5-digit product code. The 12-digit code is followed by a checksum digit (automatically added by the control).&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;EAN 8&lt;/TD&gt;
+&lt;TD&gt;EAN-8 provides a short barcode for small packages. It encodes a 7-digit code that consists of a 2 or 3 digit system code followed by a 4 or 5 digit product code. The 7-digit code is followed by a checksum digit (automatically added by the control).&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;EAN128FNC1&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;EAN128FNC1 is a UCC/EAN-128 (EAN128) type barcode that allows you to insert a&amp;nbsp;FNC1 character at any place and to adjust the bar size, etc. To insert FNC1 character, set “\n” for C#, or “vbLf” for VB to Text property at runtime.&lt;/P&gt;
+&lt;P&gt;This is not available in UCC/EAN-128.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;IntelligentMail&lt;/TD&gt;
+&lt;TD&gt;Intelligent Mail, formerly known as the 4-State Customer Barcode, is a 65-bar code used for domestic mail in the U.S.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;JapanesePostal&lt;/TD&gt;
+&lt;TD&gt;This is the barcode used by the Japanese Postal system. Encodes alpha and numeric characters consisting of 18 digits including a 7-digit postal code number, optionally followed by block and house number information. The data to be encoded can include hyphens.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;Matrix 2of5&lt;/TD&gt;
+&lt;TD&gt;Matrix 2 of 5 is a higher density barcode consisting of 3 black bars and 2 white bars. Matrix 2 of 5 uses only numbers.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;MicroPDF417&lt;/TD&gt;
+&lt;TD&gt;MicroPDF417 is two-dimensional (2D), multi-row symbology, derived from PDF417. Micro-PDF417 is designed for applications that need to encode data in a two-dimensional (2D) symbol (up to 150 bytes, 250 alphanumeric characters, or 366 numeric digits) with the minimal symbol size.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;MSI&lt;/TD&gt;
+&lt;TD&gt;MSI Code uses only numbers.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;Pdf417&lt;/TD&gt;
+&lt;TD&gt;The Pdf417 barcode is a stacked, linear barcode that consists of 3 to 90 rows. Each of these rows is like a small linear bar code.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=37 width=205&gt;PostNet&lt;/TD&gt;
+&lt;TD height=37&gt;PostNet is a numeric encoding used by the US postal service. It differs from most others in that it is based on the height of the bars rather than on their width.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;QRCode&lt;/TD&gt;
+&lt;TD&gt;QR codes are machine-readable, matrix barcodes. They can encode a wide variety of information,&amp;nbsp;including alphanumeric data, numeric information, byte data,&amp;nbsp;and kanji characters. This symbology can encode up to 7,366 characters.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=37 width=205&gt;RM4SCC&lt;/TD&gt;
+&lt;TD height=37&gt;RM4SCC is used to encode information used by the Royal Mail for its Cleanmail service. &amp;nbsp;It encodes alphanumeric information using up to 36 possible symbols: 26 letters and 10 numbers.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;RSS14&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;RSS14 is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. This version is a 14-digit EAN.UCC item identification for use with omnidirectional point-of-sale scanners.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;RSS14 Stacked&lt;/TD&gt;
+&lt;TD&gt;RSS14Stacked is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. This version is the same as RSS14Truncated, but stacked in two rows when RSS14Truncated is too wide.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;RSS14 Stacked Omnidirectional&lt;/TD&gt;
+&lt;TD&gt;RSS14StackedOmnidirectional is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. This version is the same as RSS14, but stacked in two rows when RSS14 is too wide.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;RSS14 Truncated&lt;/TD&gt;
+&lt;TD&gt;RSS14Truncated is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. This version is a 14-digit EAN.UCC item identification plus Indicator digits for use on small items, not for point-of-sale scanners.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;RSS Expanded&lt;/TD&gt;
+&lt;TD&gt;RSSExpanded is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. This version is a 14-digit EAN.UCC item identification plus AI element strings (expiration date, weight, etc.) for use with omnidirectional point-of-sale scanners.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;RSS Expanded Stacked&lt;/TD&gt;
+&lt;TD&gt;RSSExpandedStacked is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. This version is the same as RSSExpanded, but stacked in two rows when RSSExpanded is too wide.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;RSS Limited&lt;/TD&gt;
+&lt;TD&gt;RSS Limited is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. This version is a 14-digit EAN.UCC item identification with indicator digits of 0 or 1 in a small symbol that is not scanned by point-of-sale scanners.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;UCC/EAN-128&lt;/TD&gt;
+&lt;TD&gt;UCC/EAN –128 uses the complete ASCII character Set. This is a special version of Code 128 used in HIBC applications.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;UPC A&lt;/TD&gt;
+&lt;TD&gt;UPC-A is the common encoding you will find on virtually every consumer good on the shelves of your local supermarket, as well as books, magazines, and newspapers. It is similar to EAN-13, and encodes 11 digits of numeric data along with a trailing check digit.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;UPC E0&lt;/TD&gt;
+&lt;TD&gt;UPC-E0 uses only numbers.&amp;nbsp; Used for zero-compression UPC symbols. For the Caption property, you may enter either a six-digit UPC-E code or a complete 11-digit (includes code type, which must be 0 (zero)) UPC-A code. If an 11-digit code is entered, the Barcode control will convert it to a six-digit UPC-E code, if possible. If it is not possible to convert from the 11-digit code to the six-digit code, nothing is displayed.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=205&gt;UPC E1&lt;/TD&gt;
+&lt;TD&gt;UPC-E1 uses only numbers. Used typically for shelf labeling in the retail environment. The length of the input string for U.P.C. E1 is six numeric characters.&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

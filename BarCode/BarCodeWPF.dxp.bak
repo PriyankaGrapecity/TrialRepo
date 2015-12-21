@@ -1,0 +1,2820 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentXProject Id="705e7fad-f46b-4e2b-a016-eda3e2a29710" Version="2011.1">
+  <Features>
+    <Feature>Booklets</Feature>
+    <Feature>Document! X</Feature>
+  </Features>
+  <SeparateFiles>true</SeparateFiles>
+  <Flags>
+    <Flag Id="{46CEF21D-3301-4517-A875-A0906828390E}" HighlightColor="#FFA1FFD0">Exclude from Online</Flag>
+    <Flag Id="{4AAE0FD4-7313-4FEE-A25F-0785B885F736}" HighlightColor="#FFFFFFA1">Exclude from Booklet</Flag>
+    <Flag Id="75FEFB56-2DEB-484A-9A11-BBD41899E0EB" HighlightColor="#FFFFA1FF">Hide</Flag>
+  </Flags>
+  <PropertyDefinitions />
+  <PropertyDefinitionValues />
+  <Title />
+  <ContentFiles>
+    <ContentFile FileName="C1.WPF.BarCode.4.dxc" Moniker="Dll\C1.WPF.BarCode.4.dll" DocType="DX.NET" />
+  </ContentFiles>
+  <AutoDocFiles />
+  <ContentFromProjectPlugin />
+  <Filters>
+    <ExcludedItems>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.DrawingDeviceBase</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.EmptyDrawingDevice</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+BarStyleEntry</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+BarStyleEntry`1</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+CodabarEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code128Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code128AEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code128BEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code128CEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code128autoEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+UCCEAN128Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code25Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code25iEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code25mEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code39Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code39XEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code93Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code93xEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Ean8Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Ean13Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+UpcaEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+UpcEEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+UpcE0Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+UpcE1Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Supplement5Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Supplement2Encoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+ImbEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+MsiEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+PostNetEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Rm4SccEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerBarCodeBase</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCCA</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCCACore</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarCodeBase</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.Code49</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.JapanesePostal</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.PDF417</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.QRCode</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.EAN128FNC1</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14Truncated</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14Stacked</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14StackedOmnidirectional</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14StackedOmnidirectional+RSSExpanded</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14StackedOmnidirectional+RSSExpandedStacked</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14StackedOmnidirectional+RSSLimited</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14StackedOmnidirectional+DataMatrix</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14StackedOmnidirectional+MicroPDF417</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14StackedOmnidirectional+CCA</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RSS14StackedOmnidirectional+CCB</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.Integer</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.Integer+Defines</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.Integer+Defines+NumericErrMessage</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.Integer+NumericException</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.IsolateMeasurer</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.ScalingDrawingDevice</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCCB</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerMicroPDF417Core</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCCBCore</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCode128</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerEAN128</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerEAN128FNC1</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCode49</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix200</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix200+CharHelper</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix200+EncodingUnitInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix200+Constants</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix140</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix140+BitwiseIterator</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix140+CharHelper</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix140+Constants</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.ReedSolomon256</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.ReedSolomon256+GF256</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerMicroPDF417</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerPDF417</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerQRCode</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerQRCodeMode2</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerQRCodeMode1</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSS14</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSS14+CHAR_GROUP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSS14Truncated</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSS14Stacked</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSS14StackedOmnidirectional</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSSExpanded</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSSExpanded+CHAR_GROUP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSSExpandedStacked</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSSLimited</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSSLimited+CHAR_GROUP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerYubin</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RenderBuffer</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RenderBuffer+BufferItem</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RenderBuffer+BarItem</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RenderBuffer+BarItemS2</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RenderBuffer+BarItemS4</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RenderBuffer+CaptionItem</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RenderBuffer+CaptionStartItem</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RenderBufferOmitLabel</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+IBarEncoder</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.INotify</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.IBarCode</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.IDrawingDevice</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.IBarcodeRenderBuffer</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+ParitySupplement5</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+BarDataInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarCodeException+ErrorMessage</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.RssExpandedOptions</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCode128+CODEMAP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCode49+CHARMAP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCode49+PARITY</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCode49+FACTOR</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix200+EncodingUnit</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix200+SymbolInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix140+ECCInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix140+RegisterMask</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerQRCode+VersionInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerQRCode+VersionInfo+ErrorInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerQRCode+EncodingStateNode</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerYubin+CODEMAP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerYubin+CHARMAP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+Code128Sym</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCCACore+ENC_MODE</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCCACore+AIFollowAI90</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarCodeException+EnumErrorCode</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarStyle</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.Integer+NumericError</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerMicroPDF417Core+Linkage</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCCBCore+ENC_MODE</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerCCBCore+AIFollowAI90</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix200+CharType</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerDataMatrix140+EncodationScheme</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.InnerRSSExpanded+ENC_MODE</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.OmitLabelOptions</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.WPF.BarCode.C1Font</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.WPF.BarCode.DrawingDevice</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~-_namespace</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.Util.Licensing_namespace</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1TabControl+ContentGrid</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1TabControl+ItemPresenter</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1CircularGradientBrushBuilder</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.StringTypeConverter</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1ComboBoxItemConverterBridge</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.CompositeTextUtils</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.TextChangeInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.TokenizedMask</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.TokenizedMask+PromptSymbolInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.TokenizedMask+PromptSymbolToMatchDelegateMap</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.TokenizedMask+ContextDependentLiteralToActualSymbolDelegateMap</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.MaskToken</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.PromptToken</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.LiteralToken</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.MaskTokenCollection</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1DragHelperModeExtensions</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1HierarchicalPresenterConverter</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1ListViewerViewport</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1MenuItemBehavior</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1MenuItemNonFirstLevel</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1MenuItemFirstLevel</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1ContextMenuItemBehavior</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.OrderedSetEnumerator</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1RangeSelectionManager</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1TreeViewViewport</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.Range`1</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.Range`2</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.RangeArray`1</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.RangeAssert</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1RelativePopup</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1RelativePopupPresenter</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1Window+Context</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1Window+ContentAdorner</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1MaskedTextBox+TextProcessingInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.StringToObjectConverter</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1RadialMenuItemBehavior</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1RadialMenuExtensions</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1LinePanel+Trace</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1TabPanel+ArrangementInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.AggregatingTable`2</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.ApplyTemplateHelper</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1Colors</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1KeyEventArgs</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1DragDropManager+DragSourceInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1DragDropManager+DragSourceDictionary</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.BindingEx</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.DateTimeEx</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.FrameworkElementEx</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.ObjectEx</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.StyleEx</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.UIElementEx</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.LanguageChangeNotifier</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1ObservableCollection`1</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.PlatformIndependent</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.Product</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.Ranking</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.SystemInformation</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.TypedCollectionWrapperExtensions</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.TypedEnumerableWrapper`1</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.TypedEnumeratorWrapper`1</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.VisualStateHelper</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.WeakEvent`1</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.CustomPropertyInfo</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.UIElementAdorner</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1RadialMenu+--c__DisplayClass28+--c__DisplayClass2a</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.IAggregator`1</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1WrapPanel+UVSize</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1LinePanel+ChildLength</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.IndexOffset`1</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.DoubleSumAggregator</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.IntSumAggregator</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.TokenizedMask+SymbolMatchResult</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1DragDirection</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.ScrollingDirection</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.ItemPosition</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1TextBoxBase+Flags</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~C1.WPF.C1MaskedTextBox+Flags</ExcludedItem>
+      <ExcludedItem>C1.WPF.4~-_namespace</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.Silverlight.BarCode.Resources_namespace</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes_namespace</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.DoNotEncodeStringsAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.DoNotObfuscateAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.DoNotObfuscateControlFlowAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.DoNotObfuscateTypeAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.DoNotPruneAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.DoNotPruneTypeAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.DoNotSealTypeAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.EncodeStringsAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.ExcludeFromMemberRefsProxyAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.ObfuscateControlFlowAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.ObfuscateNamespaceToAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.ObfuscateToAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~SmartAssembly.Attributes.ReportExceptionAttribute</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-5O</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-6O</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-hP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-nP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-oP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-pP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-sP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-zP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-AP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-IP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-RP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-UP</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-0P</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-2P</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-6P</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-aQ</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-bQ</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-tQ</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-CQ</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-HQ</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.Integer+-DS</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.Integer+-DS+-ES</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-9P</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarEngine+-fQ</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~C1.BarCode.BarCodeException+-eS</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~-fO_namespace</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~-KQ_namespace</ExcludedItem>
+      <ExcludedItem>C1.WPF.BarCode.4~-iy_namespace</ExcludedItem>
+    </ExcludedItems>
+  </Filters>
+  <JavascriptProjectPlugin />
+  <ComProjectPlugin />
+  <AjaxProjectPlugin />
+  <JavaProjectPlugin />
+  <DotNetAssemblies>
+    <ReferencePaths>
+      <ReferencePath Id="8c5f4b8a-c8c3-40dc-8586-f9b2b9e4bf80" Name="C1.WPF.4" Directory="Dll\Reference" />
+    </ReferencePaths>
+    <Assembly FileName="Dll\C1.WPF.BarCode.4.dll" RootTypeName="" />
+  </DotNetAssemblies>
+  <DatabaseProjectPlugin>
+    <Databases />
+  </DatabaseProjectPlugin>
+  <XsdProjectPlugin>
+    <XsdSchemas />
+  </XsdProjectPlugin>
+  <GlossaryProjectPlugin>
+    <IsGlossaryOutputEnabled>true</IsGlossaryOutputEnabled>
+  </GlossaryProjectPlugin>
+  <WebServiceProjectPlugin>
+    <WebServices />
+  </WebServiceProjectPlugin>
+  <HelpProjectPlugin ShowGettingStartedPage="true" />
+  <OtherFilesProjectPlugin>
+    <OtherFiles>
+      <OtherFile Id="f08cfc89-5a75-4e66-bd08-9da69099d566" FileName="stylesheets\customstyles.css" SourceData="" BuildFlags="" />
+      <OtherFile Id="19146276-9a55-43c2-8b60-d6318bc5d488" FileName="Graphics\Narrative_BarCodeProperties.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="95c62f27-32f1-4ed4-b655-5e82ff410ea0" FileName="images_jp\Narrative_BarCodeProperties.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="0c229fb4-719c-49f6-8dc2-0b7da934d7b3" FileName="images_jp\QSRunning1.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="23587ebe-4f69-4018-8591-854337989b10" FileName="images_jp\QSRunning2.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="85e90eff-bb15-4bc6-a89a-b5e926ee0def" FileName="images_jp\QSRunning3.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="91b9f36f-6a8c-413a-944c-fe16b8006b2a" FileName="Graphics\QSRunning1.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="7e10e867-ea3d-4ba0-81c8-281131a67eb1" FileName="Graphics\QSRunning2.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="7a1531c3-4772-4dfd-b499-8339dc1a428f" FileName="Graphics\QSRunning3.png" SourceData="" BuildFlags="" />
+    </OtherFiles>
+    <DefaultStylesheet>stylesheets\customstyles.css</DefaultStylesheet>
+    <DefaultCaptureDirectory></DefaultCaptureDirectory>
+  </OtherFilesProjectPlugin>
+  <SourceControlProjectPlugin />
+  <TasksProjectPlugin />
+  <BookletsProjectPlugin />
+  <TableOfContents />
+  <TopicsProjectPlugin>
+    <TopicCategories>
+      <TopicCategory Id="-" AutoIndex="false">
+        <Caption m="2015-03-24T04:19:32.9630842Z">(未分類)</Caption>
+        <ChildTopicCategories />
+        <Topics>
+          <Topic Id="a9908c8c-6ac5-439c-b01f-70195c9ad934" />
+          <Topic Id="26db3389-62b0-4893-9847-7ea5cf16a582" />
+        </Topics>
+      </TopicCategory>
+      <TopicCategory Id="CONTENTSNIPPETS" AutoIndex="false">
+        <Caption m="2015-03-11T19:43:07.7165499Z">Content Snippets</Caption>
+        <ChildTopicCategories />
+        <Topics />
+      </TopicCategory>
+      <TopicCategory Id="0f945ce2-6a7b-48af-a638-eb01ec754a2d" AutoIndex="false">
+        <Caption m="2015-03-11T20:46:20.9735118Z">Getting Started</Caption>
+        <ChildTopicCategories />
+        <Topics>
+          <Topic Id="0e5410aa-5640-433a-a47e-df2676e1f7b6" />
+          <Topic Id="1fe531fb-723a-4808-a8ea-4f7af17f19e1" />
+          <Topic Id="35d8b69c-0844-43b1-a083-489a5a71a05c" />
+          <Topic Id="d807adc7-c6c2-4003-bafe-b92f6775358d" />
+          <Topic Id="f9c6eaa6-7fb9-42cd-8193-97d04e7d77b4" />
+          <Topic Id="42699310-e7cd-4363-99b2-bd12484194e9" />
+        </Topics>
+      </TopicCategory>
+      <TopicCategory Id="86b30245-e657-40c0-bd67-5ed86609cd5a" AutoIndex="false">
+        <Caption m="2015-03-11T20:51:12.8302051Z">Narrative Content</Caption>
+        <ChildTopicCategories />
+        <Topics>
+          <Topic Id="3a116ad5-7580-4560-89c8-cf146c6d9efe" />
+          <Topic Id="48a38d9f-ef5f-4ce0-96a0-864baba8b901" />
+          <Topic Id="3ceb7dae-a1bc-474b-a579-9317c4ccbb41" />
+        </Topics>
+      </TopicCategory>
+    </TopicCategories>
+    <CustomTopicPropertyDefinitions />
+    <PropertyDefinitionValues />
+    <AutoNameDigits>0</AutoNameDigits>
+    <AutoNameLastNumber>0</AutoNameLastNumber>
+    <AutoNameEnabled>false</AutoNameEnabled>
+    <AutoNamePrefix></AutoNamePrefix>
+    <IncludeTopicNameInTitle>false</IncludeTopicNameInTitle>
+    <TopicEditorState>
+      <Attributes>
+        <Attribute key="scrollPosition" valuetype="integer">0</Attribute>
+      </Attributes>
+    </TopicEditorState>
+  </TopicsProjectPlugin>
+  <WidgetsProjectPlugin>
+    <WidgetTypes Version="2011.1" />
+  </WidgetsProjectPlugin>
+  <TemplateFileFeaturesProjectPlugin />
+  <ProjectSearchProjectPlugin>
+    <ProjectSearchDefinitions />
+  </ProjectSearchProjectPlugin>
+  <ProjectProfiles>
+    <ProjectProfile Id="6b2cfb6d-7340-49af-9cfb-d31ec7a4a0d5" Name="Default">
+      <DefaultItemQualifiedName></DefaultItemQualifiedName>
+      <StripMetadata>false</StripMetadata>
+      <AlwaysCopyTemplateFiles>true</AlwaysCopyTemplateFiles>
+      <OutputFileExtension>.html</OutputFileExtension>
+      <Title />
+      <ClearOutputDirectoryBeforeBuild>false</ClearOutputDirectoryBeforeBuild>
+      <IsNewIndicatorEnabled>false</IsNewIndicatorEnabled>
+      <IsNewDateTime></IsNewDateTime>
+      <PropertyDefinitionValues />
+      <IsTidyXhtmlEnabled>false</IsTidyXhtmlEnabled>
+      <CommunityOptions UseLocalProxyUrl="false" Enabled="false">
+        <ServerType>PublicEvaluation</ServerType>
+        <LocalProxyUrl></LocalProxyUrl>
+        <HostingAccessKey></HostingAccessKey>
+        <PrivateServerUrl></PrivateServerUrl>
+        <PrivateServerAccessKey></PrivateServerAccessKey>
+        <ProjectKey />
+      </CommunityOptions>
+      <DotNet>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <IncludeSystemObjectMembers>false</IncludeSystemObjectMembers>
+        <InterfacesToIgnoreInSyntax>System.*</InterfacesToIgnoreInSyntax>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <LinkToExternalDocs>true</LinkToExternalDocs>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <UseExternalXmlCommentFiles>false</UseExternalXmlCommentFiles>
+        <NoInheritedMemberTopicsExternal>true</NoInheritedMemberTopicsExternal>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <ExcludeEditorBrowsable>true</ExcludeEditorBrowsable>
+        <ExcludeBrowsableFalse>false</ExcludeBrowsableFalse>
+        <ExcludeObsolete>false</ExcludeObsolete>
+        <ExcludeCompilerGenerated>false</ExcludeCompilerGenerated>
+        <ExcludeDebuggerNonUserCode>false</ExcludeDebuggerNonUserCode>
+        <GenerateXmlCommentFile>false</GenerateXmlCommentFile>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeAssemblyBreadcrumb>false</IncludeAssemblyBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <IncludeAttributes>true</IncludeAttributes>
+        <AttributeFilterType>Exclude</AttributeFilterType>
+        <AttributeFilter></AttributeFilter>
+        <XmlIsland></XmlIsland>
+        <IdentifyAccessInTitles>false</IdentifyAccessInTitles>
+        <XmlCommentUsage>UseIfBlank</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="2" PageNestingLevels="2" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="2" ShareSize="false">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>6</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FFB2B2B2" Thickness="1.5" StyleName="Solid" Indent="16" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Segoe UI" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="4" HorizontalAlignment="Left" BackgroundBrush="#FF99CCFF" BorderBrush="#FFFFFFFF" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Segoe UI" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="4" HorizontalAlignment="Left" BackgroundBrush="#FFFFCC66" BorderBrush="#FF000000" BorderThickness="-0" EndCap="Point" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>PropertiesOnly</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>true</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <IncludeVbNetDefaultConstructor>false</IncludeVbNetDefaultConstructor>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootAssemblyName></RootAssemblyName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>false</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>false</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <SyntaxSectionStyle>TemplateDefault</SyntaxSectionStyle>
+        <IsVbSyntaxMerged>true</IsVbSyntaxMerged>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>true</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+        <IncludeExtensionMethods>true</IncludeExtensionMethods>
+        <UseContentFromBaseMember>false</UseContentFromBaseMember>
+        <ExcludedLanguages>
+          <ExcludedLanguage>Delphi</ExcludedLanguage>
+          <ExcludedLanguage>JScript</ExcludedLanguage>
+          <ExcludedLanguage>CPP</ExcludedLanguage>
+        </ExcludedLanguages>
+      </DotNet>
+      <Javascript>
+        <IsBrowserCompatibilityIncluded>true</IsBrowserCompatibilityIncluded>
+        <IsBrowserCompatibilityIncludedOnEveryPage>true</IsBrowserCompatibilityIncludedOnEveryPage>
+        <UseDollarPrefix>true</UseDollarPrefix>
+        <WrapInDomReady>false</WrapInDomReady>
+        <IsIncludeParametersInUsageSyntaxEnabled>false</IsIncludeParametersInUsageSyntaxEnabled>
+        <IsGenerateTypeMemberPagesEnabled>false</IsGenerateTypeMemberPagesEnabled>
+        <SyntaxIndentParametersLength>60</SyntaxIndentParametersLength>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Javascript>
+      <Ajax>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+      </Ajax>
+      <Java>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="3" PageNestingLevels="2" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>MethodsOnly</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+      </Java>
+      <Com>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <UseHelpStrings>true</UseHelpStrings>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <HelpStringUsage>Merge</HelpStringUsage>
+        <DiagramSettings OverviewNestingLevels="2" PageNestingLevels="3" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>true</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+      </Com>
+      <Database>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeSqlServerSystemObjects>false</IncludeSqlServerSystemObjects>
+        <IncludeSourceForViews>true</IncludeSourceForViews>
+        <IncludeSourceForTriggers>true</IncludeSourceForTriggers>
+        <IncludeSourceForUserDefinedFunctions>true</IncludeSourceForUserDefinedFunctions>
+        <IncludeSourceForStoredProcedures>true</IncludeSourceForStoredProcedures>
+        <IncludeScriptForTables>true</IncludeScriptForTables>
+        <IncludeScriptForOtherItems>true</IncludeScriptForOtherItems>
+        <RemoveTaggedCommentsFromSource>true</RemoveTaggedCommentsFromSource>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeSchemaInformation>true</IncludeSchemaInformation>
+        <CheckAllExtendedProperties>false</CheckAllExtendedProperties>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+        <MaximumDependencyLevel>5</MaximumDependencyLevel>
+        <UseSqlServerDataTypeNames>true</UseSqlServerDataTypeNames>
+      </Database>
+      <Xsd>
+        <IncludeOverview>true</IncludeOverview>
+        <IncludeOverviewReferencedChildren>false</IncludeOverviewReferencedChildren>
+        <OverviewLevels>5</OverviewLevels>
+        <DiagramStyle>
+          <DefaultTextOptions></DefaultTextOptions>
+          <Options></Options>
+        </DiagramStyle>
+        <IncludeAttributesInDiagrams>true</IncludeAttributesInDiagrams>
+        <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+        <DiagramItemMaxExtendedRecurse>3</DiagramItemMaxExtendedRecurse>
+        <DiagramItemMaxRecurse>3</DiagramItemMaxRecurse>
+        <GenerateDiagrams>true</GenerateDiagrams>
+        <IsOverrideTemplateDiagramStyleEnabled>false</IsOverrideTemplateDiagramStyleEnabled>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+      </Xsd>
+      <Filters />
+      <WebService>
+        <GroupExamples>true</GroupExamples>
+        <IncludeRequestBodyDiagram>true</IncludeRequestBodyDiagram>
+        <IncludeResponseBodyDiagram>true</IncludeResponseBodyDiagram>
+        <IncludeRequestBodyOverview>true</IncludeRequestBodyOverview>
+        <IncludeResponseBodyOverview>true</IncludeResponseBodyOverview>
+        <IncludeRequestBodySampleData>true</IncludeRequestBodySampleData>
+        <IncludeResponseBodySampleData>true</IncludeResponseBodySampleData>
+        <IsSampleDataColorized>true</IsSampleDataColorized>
+        <ImplyJsonSchemas>true</ImplyJsonSchemas>
+        <IsGroupedByResource>false</IsGroupedByResource>
+        <IncludeFullResourceUriInOperationPages>true</IncludeFullResourceUriInOperationPages>
+        <UseAbsolutePathForResourcePaths>true</UseAbsolutePathForResourcePaths>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+      </WebService>
+      <HelpCompiler CompileHelpFile="true" IsWebOutputEnabled="true" IsMarkOfTheWebEnabled="false">
+        <MarkOfTheWebDomain>(0014)about:internet</MarkOfTheWebDomain>
+        <HelpFileVersion>HtmlHelp1</HelpFileVersion>
+        <Help2Namespace>newprojecttest1</Help2Namespace>
+        <Help2FileId>Default</Help2FileId>
+        <Help2PluginToNamespaces></Help2PluginToNamespaces>
+        <Help2Plugin>false</Help2Plugin>
+        <RuntimeMerge></RuntimeMerge>
+        <IncludeTextPopupFile>false</IncludeTextPopupFile>
+        <Help3BuildIdentifier></Help3BuildIdentifier>
+        <Help3VendorName></Help3VendorName>
+        <Help3CatalogName>VS</Help3CatalogName>
+        <Help3CatalogVersion>100</Help3CatalogVersion>
+        <Help3CatalogLocaleText>en-US</Help3CatalogLocaleText>
+        <Help3TemplateName></Help3TemplateName>
+        <Help3ProductName></Help3ProductName>
+        <Help3BookName></Help3BookName>
+        <IsHelp3CreateRegistrationScriptEnabled>true</IsHelp3CreateRegistrationScriptEnabled>
+        <IsHelp3RegisterLocallyEnabled>true</IsHelp3RegisterLocallyEnabled>
+        <IsHelp3SigningEnabled>false</IsHelp3SigningEnabled>
+        <IsHelp3ValidationEnabled>false</IsHelp3ValidationEnabled>
+        <IsHelp3KeywordsEnabled>false</IsHelp3KeywordsEnabled>
+        <BrowserHelpTemplateName>2012 Style</BrowserHelpTemplateName>
+        <IsCustomHtmlHelpWindowSettings>false</IsCustomHtmlHelpWindowSettings>
+        <CustomHtmlHelpWindowSettings>
+          <IsExpandVisible>true</IsExpandVisible>
+          <IsBackVisible>true</IsBackVisible>
+          <IsForwardVisible>true</IsForwardVisible>
+          <IsStopVisible>false</IsStopVisible>
+          <IsRefreshVisible>false</IsRefreshVisible>
+          <IsHomeVisible>false</IsHomeVisible>
+          <IsLocateVisible>true</IsLocateVisible>
+          <IsOptionsVisible>true</IsOptionsVisible>
+          <IsPrintVisible>true</IsPrintVisible>
+          <IsZoomVisible>false</IsZoomVisible>
+          <IsPreviousVisible>false</IsPreviousVisible>
+          <IsNextVisible>false</IsNextVisible>
+          <NavigationPaneWidth>200</NavigationPaneWidth>
+          <IsNavigationPaneInitiallyClosed>false</IsNavigationPaneInitiallyClosed>
+          <IsAutoSyncWithTocEnabled>true</IsAutoSyncWithTocEnabled>
+          <IsSearchTabVisible>true</IsSearchTabVisible>
+          <IsHistoryTabVisible>false</IsHistoryTabVisible>
+          <IsFavoritesTabVisible>true</IsFavoritesTabVisible>
+          <DefaultTab>Contents</DefaultTab>
+          <IsSaveUserWindowSettingsEnabled>true</IsSaveUserWindowSettingsEnabled>
+          <WindowSizeHeight>400</WindowSizeHeight>
+          <WindowSizeWidth>600</WindowSizeWidth>
+          <WindowLocationLeft>0</WindowLocationLeft>
+          <WindowLocationTop>0</WindowLocationTop>
+        </CustomHtmlHelpWindowSettings>
+        <HelpFileName></HelpFileName>
+      </HelpCompiler>
+      <RuleEngine>
+        <Rules Caption="" IsReadOnly="false" MatchType="All" Id="root">
+          <Rules>
+            <RuleGroup Caption="" IsReadOnly="false" MatchType="All" Id="standard">
+              <Rules>
+                <Rule Caption="" IsReadOnly="false" MatchType="All" Id="outputtype">
+                  <Conditions>
+                    <RuleCondition Caption="" IsReadOnly="false" BuildFlagMatchType="None" Id="4c7ca296-f253-4ae9-9d90-ef8cb42183a8" Designer="BUILDFLAGS">
+                      <BuildFlags>{46CEF21D-3301-4517-A875-A0906828390E}</BuildFlags>
+                    </RuleCondition>
+                  </Conditions>
+                </Rule>
+              </Rules>
+            </RuleGroup>
+          </Rules>
+        </Rules>
+      </RuleEngine>
+      <ShortFileNames GenerateShortFileNames="false" />
+      <TopicsProjectProfilePlugin>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <AutoGenerateTopicIndexEntries>true</AutoGenerateTopicIndexEntries>
+        <AutoGenerateCategoryIndexEntries>true</AutoGenerateCategoryIndexEntries>
+        <IncludeOnlyCompletedTopics>false</IncludeOnlyCompletedTopics>
+        <IsNewSource>CreationDateTime</IsNewSource>
+        <IsNewCustomTopicPropertyId></IsNewCustomTopicPropertyId>
+        <IsAnchorParsingEnabled>false</IsAnchorParsingEnabled>
+      </TopicsProjectProfilePlugin>
+      <BookletsProjectProfilePlugin>
+        <TemplateName></TemplateName>
+      </BookletsProjectProfilePlugin>
+      <WidgetsProjectProfilePlugin>
+        <IsIncludeInThisTopicWidgetEnabled>false</IsIncludeInThisTopicWidgetEnabled>
+        <InThisTopicWidgetHeadingsMinimum>5</InThisTopicWidgetHeadingsMinimum>
+        <InThisTopicWidgetTagName>H1</InThisTopicWidgetTagName>
+        <InThisTopicWidgetPrefix>$$In_This_Topic$$</InThisTopicWidgetPrefix>
+        <WidgetTypes Version="2011.1" />
+      </WidgetsProjectProfilePlugin>
+      <OtherFiles>
+        <IsLogoEnabled>false</IsLogoEnabled>
+        <LogoOtherFileName></LogoOtherFileName>
+        <IsGoogleAnalyticsEnabled>false</IsGoogleAnalyticsEnabled>
+        <GoogleAnalyticsId></GoogleAnalyticsId>
+        <IsOtherHeadContentEnabled>false</IsOtherHeadContentEnabled>
+        <OtherHeadContent></OtherHeadContent>
+      </OtherFiles>
+      <OutputDirectory></OutputDirectory>
+    </ProjectProfile>
+    <ProjectProfile Id="f0a7c3bf-d6e6-4a13-a8f5-f6810dc38985" Name="HTMLHelpEN">
+      <DefaultItemQualifiedName>C1BarCodeforWPF</DefaultItemQualifiedName>
+      <StripMetadata>false</StripMetadata>
+      <AlwaysCopyTemplateFiles>true</AlwaysCopyTemplateFiles>
+      <OutputFileExtension>.html</OutputFileExtension>
+      <Title m="2015-06-24T10:47:11.9454304Z">BarCode for WPF </Title>
+      <ClearOutputDirectoryBeforeBuild>true</ClearOutputDirectoryBeforeBuild>
+      <IsNewIndicatorEnabled>true</IsNewIndicatorEnabled>
+      <IsNewDateTime></IsNewDateTime>
+      <PropertyDefinitionValues>
+        <PropertyDefinitionValue PropertyDefinitionId="a3dbf170-4a46-4d3f-9571-9b10189c0037">
+          <PropertyValue m="2015-03-17T08:54:47.6493413Z" />
+        </PropertyDefinitionValue>
+      </PropertyDefinitionValues>
+      <IsTidyXhtmlEnabled>true</IsTidyXhtmlEnabled>
+      <CommunityOptions UseLocalProxyUrl="false" Enabled="false">
+        <ServerType>PublicEvaluation</ServerType>
+        <LocalProxyUrl></LocalProxyUrl>
+        <HostingAccessKey></HostingAccessKey>
+        <PrivateServerUrl></PrivateServerUrl>
+        <PrivateServerAccessKey></PrivateServerAccessKey>
+        <ProjectKey />
+      </CommunityOptions>
+      <DotNet>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <IncludeSystemObjectMembers>false</IncludeSystemObjectMembers>
+        <InterfacesToIgnoreInSyntax>System.*</InterfacesToIgnoreInSyntax>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <LinkToExternalDocs>false</LinkToExternalDocs>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <UseExternalXmlCommentFiles>false</UseExternalXmlCommentFiles>
+        <NoInheritedMemberTopicsExternal>false</NoInheritedMemberTopicsExternal>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <ExcludeEditorBrowsable>true</ExcludeEditorBrowsable>
+        <ExcludeBrowsableFalse>false</ExcludeBrowsableFalse>
+        <ExcludeObsolete>false</ExcludeObsolete>
+        <ExcludeCompilerGenerated>false</ExcludeCompilerGenerated>
+        <ExcludeDebuggerNonUserCode>false</ExcludeDebuggerNonUserCode>
+        <GenerateXmlCommentFile>false</GenerateXmlCommentFile>
+        <IncludeBreadcrumbs>false</IncludeBreadcrumbs>
+        <IncludeAssemblyBreadcrumb>false</IncludeAssemblyBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>false</IncludeProtectedMembers>
+        <IncludeAttributes>false</IncludeAttributes>
+        <AttributeFilterType>Exclude</AttributeFilterType>
+        <AttributeFilter></AttributeFilter>
+        <XmlIsland></XmlIsland>
+        <IdentifyAccessInTitles>false</IdentifyAccessInTitles>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <IncludeVbNetDefaultConstructor>false</IncludeVbNetDefaultConstructor>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootAssemblyName></RootAssemblyName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>Syntax_NoTabs_CHM</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <SyntaxSectionStyle>TemplateDefault</SyntaxSectionStyle>
+        <IsVbSyntaxMerged>true</IsVbSyntaxMerged>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+        <IncludeExtensionMethods>false</IncludeExtensionMethods>
+        <UseContentFromBaseMember>false</UseContentFromBaseMember>
+        <ExcludedLanguages>
+          <ExcludedLanguage>VBUsage</ExcludedLanguage>
+          <ExcludedLanguage>Delphi</ExcludedLanguage>
+          <ExcludedLanguage>JScript</ExcludedLanguage>
+          <ExcludedLanguage>CPP</ExcludedLanguage>
+          <ExcludedLanguage>CPP2005</ExcludedLanguage>
+        </ExcludedLanguages>
+      </DotNet>
+      <Javascript>
+        <IsBrowserCompatibilityIncluded>true</IsBrowserCompatibilityIncluded>
+        <IsBrowserCompatibilityIncludedOnEveryPage>true</IsBrowserCompatibilityIncludedOnEveryPage>
+        <UseDollarPrefix>true</UseDollarPrefix>
+        <WrapInDomReady>false</WrapInDomReady>
+        <IsIncludeParametersInUsageSyntaxEnabled>false</IsIncludeParametersInUsageSyntaxEnabled>
+        <IsGenerateTypeMemberPagesEnabled>false</IsGenerateTypeMemberPagesEnabled>
+        <SyntaxIndentParametersLength>60</SyntaxIndentParametersLength>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Javascript>
+      <Ajax>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Ajax>
+      <Java>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="3" PageNestingLevels="2" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>MethodsOnly</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Java>
+      <Com>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <UseHelpStrings>true</UseHelpStrings>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <HelpStringUsage>Merge</HelpStringUsage>
+        <DiagramSettings OverviewNestingLevels="2" PageNestingLevels="3" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>true</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Com>
+      <Database>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeSqlServerSystemObjects>false</IncludeSqlServerSystemObjects>
+        <IncludeSourceForViews>true</IncludeSourceForViews>
+        <IncludeSourceForTriggers>true</IncludeSourceForTriggers>
+        <IncludeSourceForUserDefinedFunctions>true</IncludeSourceForUserDefinedFunctions>
+        <IncludeSourceForStoredProcedures>true</IncludeSourceForStoredProcedures>
+        <IncludeScriptForTables>true</IncludeScriptForTables>
+        <IncludeScriptForOtherItems>true</IncludeScriptForOtherItems>
+        <RemoveTaggedCommentsFromSource>true</RemoveTaggedCommentsFromSource>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeSchemaInformation>true</IncludeSchemaInformation>
+        <CheckAllExtendedProperties>false</CheckAllExtendedProperties>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+        <MaximumDependencyLevel>5</MaximumDependencyLevel>
+        <UseSqlServerDataTypeNames>true</UseSqlServerDataTypeNames>
+      </Database>
+      <Xsd>
+        <IncludeOverview>true</IncludeOverview>
+        <IncludeOverviewReferencedChildren>false</IncludeOverviewReferencedChildren>
+        <OverviewLevels>5</OverviewLevels>
+        <DiagramStyle>
+          <DefaultTextOptions></DefaultTextOptions>
+          <Options></Options>
+        </DiagramStyle>
+        <IncludeAttributesInDiagrams>true</IncludeAttributesInDiagrams>
+        <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+        <DiagramItemMaxExtendedRecurse>3</DiagramItemMaxExtendedRecurse>
+        <DiagramItemMaxRecurse>3</DiagramItemMaxRecurse>
+        <GenerateDiagrams>true</GenerateDiagrams>
+        <IsOverrideTemplateDiagramStyleEnabled>false</IsOverrideTemplateDiagramStyleEnabled>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+      </Xsd>
+      <Filters />
+      <WebService>
+        <GroupExamples>true</GroupExamples>
+        <IncludeRequestBodyDiagram>true</IncludeRequestBodyDiagram>
+        <IncludeResponseBodyDiagram>true</IncludeResponseBodyDiagram>
+        <IncludeRequestBodyOverview>true</IncludeRequestBodyOverview>
+        <IncludeResponseBodyOverview>true</IncludeResponseBodyOverview>
+        <IncludeRequestBodySampleData>true</IncludeRequestBodySampleData>
+        <IncludeResponseBodySampleData>true</IncludeResponseBodySampleData>
+        <IsSampleDataColorized>true</IsSampleDataColorized>
+        <ImplyJsonSchemas>true</ImplyJsonSchemas>
+        <IsGroupedByResource>false</IsGroupedByResource>
+        <IncludeFullResourceUriInOperationPages>true</IncludeFullResourceUriInOperationPages>
+        <UseAbsolutePathForResourcePaths>true</UseAbsolutePathForResourcePaths>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+      </WebService>
+      <HelpCompiler CompileHelpFile="true" IsWebOutputEnabled="false" IsMarkOfTheWebEnabled="false">
+        <MarkOfTheWebDomain>(0014)about:internet</MarkOfTheWebDomain>
+        <HelpFileVersion>HtmlHelp1</HelpFileVersion>
+        <Help2Namespace>C1OlapSLWPF</Help2Namespace>
+        <Help2FileId>HTMLHelp</Help2FileId>
+        <Help2PluginToNamespaces></Help2PluginToNamespaces>
+        <Help2Plugin>false</Help2Plugin>
+        <RuntimeMerge></RuntimeMerge>
+        <IncludeTextPopupFile>false</IncludeTextPopupFile>
+        <Help3BuildIdentifier></Help3BuildIdentifier>
+        <Help3VendorName></Help3VendorName>
+        <Help3CatalogName>VS</Help3CatalogName>
+        <Help3CatalogVersion>100</Help3CatalogVersion>
+        <Help3CatalogLocaleText>en-US</Help3CatalogLocaleText>
+        <Help3TemplateName></Help3TemplateName>
+        <Help3ProductName></Help3ProductName>
+        <Help3BookName></Help3BookName>
+        <IsHelp3CreateRegistrationScriptEnabled>true</IsHelp3CreateRegistrationScriptEnabled>
+        <IsHelp3RegisterLocallyEnabled>true</IsHelp3RegisterLocallyEnabled>
+        <IsHelp3SigningEnabled>false</IsHelp3SigningEnabled>
+        <IsHelp3ValidationEnabled>false</IsHelp3ValidationEnabled>
+        <IsHelp3KeywordsEnabled>false</IsHelp3KeywordsEnabled>
+        <BrowserHelpTemplateName>2012 Style</BrowserHelpTemplateName>
+        <IsCustomHtmlHelpWindowSettings>false</IsCustomHtmlHelpWindowSettings>
+        <CustomHtmlHelpWindowSettings>
+          <IsExpandVisible>true</IsExpandVisible>
+          <IsBackVisible>true</IsBackVisible>
+          <IsForwardVisible>true</IsForwardVisible>
+          <IsStopVisible>false</IsStopVisible>
+          <IsRefreshVisible>false</IsRefreshVisible>
+          <IsHomeVisible>false</IsHomeVisible>
+          <IsLocateVisible>true</IsLocateVisible>
+          <IsOptionsVisible>true</IsOptionsVisible>
+          <IsPrintVisible>true</IsPrintVisible>
+          <IsZoomVisible>false</IsZoomVisible>
+          <IsPreviousVisible>false</IsPreviousVisible>
+          <IsNextVisible>false</IsNextVisible>
+          <NavigationPaneWidth>200</NavigationPaneWidth>
+          <IsNavigationPaneInitiallyClosed>false</IsNavigationPaneInitiallyClosed>
+          <IsAutoSyncWithTocEnabled>true</IsAutoSyncWithTocEnabled>
+          <IsSearchTabVisible>true</IsSearchTabVisible>
+          <IsHistoryTabVisible>false</IsHistoryTabVisible>
+          <IsFavoritesTabVisible>true</IsFavoritesTabVisible>
+          <DefaultTab>Contents</DefaultTab>
+          <IsSaveUserWindowSettingsEnabled>true</IsSaveUserWindowSettingsEnabled>
+          <WindowSizeHeight>400</WindowSizeHeight>
+          <WindowSizeWidth>600</WindowSizeWidth>
+          <WindowLocationLeft>0</WindowLocationLeft>
+          <WindowLocationTop>0</WindowLocationTop>
+        </CustomHtmlHelpWindowSettings>
+        <HelpFileName></HelpFileName>
+      </HelpCompiler>
+      <RuleEngine>
+        <Rules Caption="" IsReadOnly="false" MatchType="All" Id="root">
+          <Rules>
+            <RuleGroup Caption="" IsReadOnly="false" MatchType="All" Id="standard">
+              <Rules>
+                <Rule Caption="" IsReadOnly="false" MatchType="All" Id="outputtype">
+                  <Conditions>
+                    <RuleCondition Caption="" IsReadOnly="false" BuildFlagMatchType="None" Id="9355a12d-f0c2-403b-835a-eb4378882224" Designer="BUILDFLAGS">
+                      <BuildFlags>{46CEF21D-3301-4517-A875-A0906828390E}</BuildFlags>
+                    </RuleCondition>
+                  </Conditions>
+                </Rule>
+              </Rules>
+            </RuleGroup>
+            <RuleGroup Caption="" IsReadOnly="false" MatchType="All" Id="custom">
+              <Rules />
+            </RuleGroup>
+          </Rules>
+        </Rules>
+      </RuleEngine>
+      <ShortFileNames GenerateShortFileNames="false" />
+      <TopicsProjectProfilePlugin>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>false</IncludeBreadcrumbs>
+        <AutoGenerateTopicIndexEntries>false</AutoGenerateTopicIndexEntries>
+        <AutoGenerateCategoryIndexEntries>false</AutoGenerateCategoryIndexEntries>
+        <IncludeOnlyCompletedTopics>false</IncludeOnlyCompletedTopics>
+        <IsNewSource>CreationDateTime</IsNewSource>
+        <IsNewCustomTopicPropertyId></IsNewCustomTopicPropertyId>
+        <IsAnchorParsingEnabled>false</IsAnchorParsingEnabled>
+      </TopicsProjectProfilePlugin>
+      <BookletsProjectProfilePlugin>
+        <TemplateName></TemplateName>
+      </BookletsProjectProfilePlugin>
+      <WidgetsProjectProfilePlugin>
+        <IsIncludeInThisTopicWidgetEnabled>false</IsIncludeInThisTopicWidgetEnabled>
+        <InThisTopicWidgetHeadingsMinimum>5</InThisTopicWidgetHeadingsMinimum>
+        <InThisTopicWidgetTagName>H1</InThisTopicWidgetTagName>
+        <InThisTopicWidgetPrefix>$$In_This_Topic$$</InThisTopicWidgetPrefix>
+        <WidgetTypes Version="2011.1" />
+      </WidgetsProjectProfilePlugin>
+      <OtherFiles>
+        <IsLogoEnabled>false</IsLogoEnabled>
+        <LogoOtherFileName></LogoOtherFileName>
+        <IsGoogleAnalyticsEnabled>false</IsGoogleAnalyticsEnabled>
+        <GoogleAnalyticsId></GoogleAnalyticsId>
+        <IsOtherHeadContentEnabled>false</IsOtherHeadContentEnabled>
+        <OtherHeadContent></OtherHeadContent>
+      </OtherFiles>
+      <OutputDirectory></OutputDirectory>
+    </ProjectProfile>
+    <ProjectProfile Id="afcf2dbb-5232-48e2-b2cc-79eed8c13989" Name="HelpOnlineEN">
+      <DefaultItemQualifiedName>C1BarCodeforWPF</DefaultItemQualifiedName>
+      <StripMetadata>false</StripMetadata>
+      <AlwaysCopyTemplateFiles>true</AlwaysCopyTemplateFiles>
+      <OutputFileExtension>.html</OutputFileExtension>
+      <Title m="2015-06-24T10:49:08.2697415Z">BarCode for WPF </Title>
+      <ClearOutputDirectoryBeforeBuild>true</ClearOutputDirectoryBeforeBuild>
+      <IsNewIndicatorEnabled>true</IsNewIndicatorEnabled>
+      <IsNewDateTime></IsNewDateTime>
+      <PropertyDefinitionValues>
+        <PropertyDefinitionValue PropertyDefinitionId="a3dbf170-4a46-4d3f-9571-9b10189c0037">
+          <PropertyValue m="2015-06-24T10:32:52.4302913Z">&lt;a target="_blank" href="http://our.componentone.com/groups/"&gt;Product Support Forum&lt;/a&gt;
+&amp;nbsp;| &amp;nbsp;&lt;a target="_blank" href="http://feedback.componentone.com/forums/272000-wpf-and-silverlight-documentation"&gt;Documentation Feedback&lt;/a&gt;
+</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="76de16a8-8dcb-462c-b636-b20ff0b3c3a1">
+          <PropertyValue m="2015-06-24T10:32:27.8375291Z">&lt;a target="_blank" href="http://our.componentone.com/groups/"&gt;Product Support Forum&lt;/a&gt;
+&amp;nbsp;| &amp;nbsp;&lt;a target="_blank" href="http://feedback.componentone.com/forums/272000-wpf-and-silverlight-documentation"&gt;Documentation Feedback&lt;/a&gt;
+</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="08de2c63-c533-49c3-a1d7-52b3995b9bec">
+          <PropertyValue m="2015-11-09T09:02:01.3727062Z">Copyright (c) &lt;script type="text/javascript"&gt;
+var theDate=new Date()
+document.write(theDate.getFullYear())
+&lt;/script&gt; GrapeCity, inc. All rights reserved.
+
+&lt;script&gt;$(document).ready(function() {
+  if (!(window.self !== window.top)) {
+    // Not running in a frameset
+    // Get the page name
+    var pageName = location.href.substring(location.href.lastIndexOf("/") + 1);
+    if (pageName.indexOf("#") != -1) {
+      pageName = pageName.substring(0, pageName.indexOf("#"));
+    }
+    // Append to webframe.html
+    var framePage = "webframe.html#" + pageName;
+    location.href = framePage;
+  }
+});&lt;/script&gt;</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="07847df9-498c-45c9-9f2e-ca97e7f3e900">
+          <PropertyValue m="2015-06-24T10:33:14.1802931Z">Copyright (c) &lt;script type="text/javascript"&gt;
+ var theDate=new Date()
+ document.write(theDate.getFullYear())
+ &lt;/script&gt; GrapeCity, inc. All rights reserved.</PropertyValue>
+        </PropertyDefinitionValue>
+      </PropertyDefinitionValues>
+      <IsTidyXhtmlEnabled>true</IsTidyXhtmlEnabled>
+      <CommunityOptions UseLocalProxyUrl="false" Enabled="false">
+        <ServerType>PublicEvaluation</ServerType>
+        <LocalProxyUrl></LocalProxyUrl>
+        <HostingAccessKey></HostingAccessKey>
+        <PrivateServerUrl></PrivateServerUrl>
+        <PrivateServerAccessKey></PrivateServerAccessKey>
+        <ProjectKey />
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </CommunityOptions>
+      <DotNet>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <IncludeSystemObjectMembers>false</IncludeSystemObjectMembers>
+        <InterfacesToIgnoreInSyntax>System.*</InterfacesToIgnoreInSyntax>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <LinkToExternalDocs>false</LinkToExternalDocs>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <UseExternalXmlCommentFiles>false</UseExternalXmlCommentFiles>
+        <NoInheritedMemberTopicsExternal>true</NoInheritedMemberTopicsExternal>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <ExcludeEditorBrowsable>true</ExcludeEditorBrowsable>
+        <ExcludeBrowsableFalse>false</ExcludeBrowsableFalse>
+        <ExcludeObsolete>false</ExcludeObsolete>
+        <ExcludeCompilerGenerated>false</ExcludeCompilerGenerated>
+        <ExcludeDebuggerNonUserCode>false</ExcludeDebuggerNonUserCode>
+        <GenerateXmlCommentFile>false</GenerateXmlCommentFile>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeAssemblyBreadcrumb>false</IncludeAssemblyBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <IncludeAttributes>false</IncludeAttributes>
+        <AttributeFilterType>Exclude</AttributeFilterType>
+        <AttributeFilter></AttributeFilter>
+        <XmlIsland></XmlIsland>
+        <IdentifyAccessInTitles>false</IdentifyAccessInTitles>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <IncludeVbNetDefaultConstructor>false</IncludeVbNetDefaultConstructor>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootAssemblyName></RootAssemblyName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <SyntaxSectionStyle>TemplateDefault</SyntaxSectionStyle>
+        <IsVbSyntaxMerged>true</IsVbSyntaxMerged>
+        <IncludeMemberIndexKeywords>true</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+        <IncludeExtensionMethods>false</IncludeExtensionMethods>
+        <UseContentFromBaseMember>false</UseContentFromBaseMember>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+        <ExcludedLanguages>
+          <ExcludedLanguage>VBUsage</ExcludedLanguage>
+          <ExcludedLanguage>Delphi</ExcludedLanguage>
+          <ExcludedLanguage>JScript</ExcludedLanguage>
+          <ExcludedLanguage>CPP</ExcludedLanguage>
+          <ExcludedLanguage>CPP2005</ExcludedLanguage>
+        </ExcludedLanguages>
+      </DotNet>
+      <Javascript>
+        <IsBrowserCompatibilityIncluded>true</IsBrowserCompatibilityIncluded>
+        <IsBrowserCompatibilityIncludedOnEveryPage>true</IsBrowserCompatibilityIncludedOnEveryPage>
+        <UseDollarPrefix>true</UseDollarPrefix>
+        <WrapInDomReady>false</WrapInDomReady>
+        <IsIncludeParametersInUsageSyntaxEnabled>false</IsIncludeParametersInUsageSyntaxEnabled>
+        <IsGenerateTypeMemberPagesEnabled>false</IsGenerateTypeMemberPagesEnabled>
+        <SyntaxIndentParametersLength>60</SyntaxIndentParametersLength>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </Javascript>
+      <Ajax>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </Ajax>
+      <Java>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="3" PageNestingLevels="2" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>MethodsOnly</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </Java>
+      <Com>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <UseHelpStrings>true</UseHelpStrings>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <HelpStringUsage>Merge</HelpStringUsage>
+        <DiagramSettings OverviewNestingLevels="2" PageNestingLevels="3" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>true</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </Com>
+      <Database>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeSqlServerSystemObjects>false</IncludeSqlServerSystemObjects>
+        <IncludeSourceForViews>true</IncludeSourceForViews>
+        <IncludeSourceForTriggers>true</IncludeSourceForTriggers>
+        <IncludeSourceForUserDefinedFunctions>true</IncludeSourceForUserDefinedFunctions>
+        <IncludeSourceForStoredProcedures>true</IncludeSourceForStoredProcedures>
+        <IncludeScriptForTables>true</IncludeScriptForTables>
+        <IncludeScriptForOtherItems>true</IncludeScriptForOtherItems>
+        <RemoveTaggedCommentsFromSource>true</RemoveTaggedCommentsFromSource>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeSchemaInformation>true</IncludeSchemaInformation>
+        <CheckAllExtendedProperties>false</CheckAllExtendedProperties>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+        <MaximumDependencyLevel>5</MaximumDependencyLevel>
+        <UseSqlServerDataTypeNames>true</UseSqlServerDataTypeNames>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </Database>
+      <Xsd>
+        <IncludeOverview>true</IncludeOverview>
+        <IncludeOverviewReferencedChildren>false</IncludeOverviewReferencedChildren>
+        <OverviewLevels>5</OverviewLevels>
+        <DiagramStyle>
+          <DefaultTextOptions></DefaultTextOptions>
+          <Options></Options>
+        </DiagramStyle>
+        <IncludeAttributesInDiagrams>true</IncludeAttributesInDiagrams>
+        <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+        <DiagramItemMaxExtendedRecurse>3</DiagramItemMaxExtendedRecurse>
+        <DiagramItemMaxRecurse>3</DiagramItemMaxRecurse>
+        <GenerateDiagrams>true</GenerateDiagrams>
+        <IsOverrideTemplateDiagramStyleEnabled>false</IsOverrideTemplateDiagramStyleEnabled>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </Xsd>
+      <Filters>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </Filters>
+      <WebService>
+        <GroupExamples>true</GroupExamples>
+        <IncludeRequestBodyDiagram>true</IncludeRequestBodyDiagram>
+        <IncludeResponseBodyDiagram>true</IncludeResponseBodyDiagram>
+        <IncludeRequestBodyOverview>true</IncludeRequestBodyOverview>
+        <IncludeResponseBodyOverview>true</IncludeResponseBodyOverview>
+        <IncludeRequestBodySampleData>true</IncludeRequestBodySampleData>
+        <IncludeResponseBodySampleData>true</IncludeResponseBodySampleData>
+        <IsSampleDataColorized>true</IsSampleDataColorized>
+        <ImplyJsonSchemas>true</ImplyJsonSchemas>
+        <IsGroupedByResource>false</IsGroupedByResource>
+        <IncludeFullResourceUriInOperationPages>true</IncludeFullResourceUriInOperationPages>
+        <UseAbsolutePathForResourcePaths>true</UseAbsolutePathForResourcePaths>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </WebService>
+      <HelpCompiler CompileHelpFile="false" IsWebOutputEnabled="true" IsMarkOfTheWebEnabled="false">
+        <MarkOfTheWebDomain>(0014)about:internet</MarkOfTheWebDomain>
+        <HelpFileVersion>HtmlHelp1</HelpFileVersion>
+        <Help2Namespace>C1OlapSLWPF</Help2Namespace>
+        <Help2FileId>OnlineHelpEN</Help2FileId>
+        <Help2PluginToNamespaces></Help2PluginToNamespaces>
+        <Help2Plugin>false</Help2Plugin>
+        <RuntimeMerge></RuntimeMerge>
+        <IncludeTextPopupFile>false</IncludeTextPopupFile>
+        <Help3BuildIdentifier></Help3BuildIdentifier>
+        <Help3VendorName></Help3VendorName>
+        <Help3CatalogName>VS</Help3CatalogName>
+        <Help3CatalogVersion>100</Help3CatalogVersion>
+        <Help3CatalogLocaleText>en-US</Help3CatalogLocaleText>
+        <Help3TemplateName></Help3TemplateName>
+        <Help3ProductName></Help3ProductName>
+        <Help3BookName></Help3BookName>
+        <IsHelp3CreateRegistrationScriptEnabled>true</IsHelp3CreateRegistrationScriptEnabled>
+        <IsHelp3RegisterLocallyEnabled>true</IsHelp3RegisterLocallyEnabled>
+        <IsHelp3SigningEnabled>false</IsHelp3SigningEnabled>
+        <IsHelp3ValidationEnabled>false</IsHelp3ValidationEnabled>
+        <IsHelp3KeywordsEnabled>false</IsHelp3KeywordsEnabled>
+        <BrowserHelpTemplateName>WPF_Custom</BrowserHelpTemplateName>
+        <IsCustomHtmlHelpWindowSettings>false</IsCustomHtmlHelpWindowSettings>
+        <CustomHtmlHelpWindowSettings>
+          <IsExpandVisible>true</IsExpandVisible>
+          <IsBackVisible>true</IsBackVisible>
+          <IsForwardVisible>true</IsForwardVisible>
+          <IsStopVisible>false</IsStopVisible>
+          <IsRefreshVisible>false</IsRefreshVisible>
+          <IsHomeVisible>false</IsHomeVisible>
+          <IsLocateVisible>true</IsLocateVisible>
+          <IsOptionsVisible>true</IsOptionsVisible>
+          <IsPrintVisible>true</IsPrintVisible>
+          <IsZoomVisible>false</IsZoomVisible>
+          <IsPreviousVisible>false</IsPreviousVisible>
+          <IsNextVisible>false</IsNextVisible>
+          <NavigationPaneWidth>200</NavigationPaneWidth>
+          <IsNavigationPaneInitiallyClosed>false</IsNavigationPaneInitiallyClosed>
+          <IsAutoSyncWithTocEnabled>true</IsAutoSyncWithTocEnabled>
+          <IsSearchTabVisible>true</IsSearchTabVisible>
+          <IsHistoryTabVisible>false</IsHistoryTabVisible>
+          <IsFavoritesTabVisible>true</IsFavoritesTabVisible>
+          <DefaultTab>Contents</DefaultTab>
+          <IsSaveUserWindowSettingsEnabled>true</IsSaveUserWindowSettingsEnabled>
+          <WindowSizeHeight>400</WindowSizeHeight>
+          <WindowSizeWidth>600</WindowSizeWidth>
+          <WindowLocationLeft>0</WindowLocationLeft>
+          <WindowLocationTop>0</WindowLocationTop>
+        </CustomHtmlHelpWindowSettings>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+        <HelpFileName></HelpFileName>
+      </HelpCompiler>
+      <RuleEngine>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+        <Rules Caption="" IsReadOnly="false" MatchType="All" Id="root">
+          <Rules>
+            <RuleGroup Caption="" IsReadOnly="false" MatchType="All" Id="standard">
+              <Rules>
+                <Rule Caption="" IsReadOnly="false" MatchType="All" Id="outputtype">
+                  <Conditions>
+                    <RuleCondition Caption="" IsReadOnly="false" BuildFlagMatchType="None" Id="1031726d-07f1-4e66-aedf-d02e74791775" Designer="BUILDFLAGS">
+                      <BuildFlags>{46CEF21D-3301-4517-A875-A0906828390E}</BuildFlags>
+                    </RuleCondition>
+                  </Conditions>
+                </Rule>
+              </Rules>
+            </RuleGroup>
+            <RuleGroup Caption="" IsReadOnly="false" MatchType="All" Id="custom">
+              <Rules />
+            </RuleGroup>
+          </Rules>
+        </Rules>
+      </RuleEngine>
+      <ShortFileNames GenerateShortFileNames="false">
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </ShortFileNames>
+      <TopicsProjectProfilePlugin>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <AutoGenerateTopicIndexEntries>true</AutoGenerateTopicIndexEntries>
+        <AutoGenerateCategoryIndexEntries>true</AutoGenerateCategoryIndexEntries>
+        <IncludeOnlyCompletedTopics>false</IncludeOnlyCompletedTopics>
+        <IsNewSource>CreationDateTime</IsNewSource>
+        <IsNewCustomTopicPropertyId></IsNewCustomTopicPropertyId>
+        <IsAnchorParsingEnabled>false</IsAnchorParsingEnabled>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </TopicsProjectProfilePlugin>
+      <BookletsProjectProfilePlugin>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+        <TemplateName></TemplateName>
+      </BookletsProjectProfilePlugin>
+      <WidgetsProjectProfilePlugin>
+        <IsIncludeInThisTopicWidgetEnabled>false</IsIncludeInThisTopicWidgetEnabled>
+        <InThisTopicWidgetHeadingsMinimum>5</InThisTopicWidgetHeadingsMinimum>
+        <InThisTopicWidgetTagName>H1</InThisTopicWidgetTagName>
+        <InThisTopicWidgetPrefix>$$In_This_Topic$$</InThisTopicWidgetPrefix>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+        <WidgetTypes Version="2011.1" />
+      </WidgetsProjectProfilePlugin>
+      <OtherFiles>
+        <IsLogoEnabled>false</IsLogoEnabled>
+        <LogoOtherFileName></LogoOtherFileName>
+        <IsGoogleAnalyticsEnabled>true</IsGoogleAnalyticsEnabled>
+        <GoogleAnalyticsId>UA-208280-3</GoogleAnalyticsId>
+        <IsOtherHeadContentEnabled>false</IsOtherHeadContentEnabled>
+        <OtherHeadContent></OtherHeadContent>
+        <PropertyBag>
+          <Property Name="TEMPLATEFILEFEATURE_RESPONSIVE">True</Property>
+        </PropertyBag>
+      </OtherFiles>
+      <OutputDirectory></OutputDirectory>
+    </ProjectProfile>
+    <ProjectProfile Id="4a7fd3d7-7717-4340-8e60-02c37576d951" Name="BookletJP" Type="Innovasys.ContentAuthoring.Booklets.BookletProfile" Assembly="Innovasys.ContentAuthoring.Booklets">
+      <StripMetadata>true</StripMetadata>
+      <ClearOutputDirectoryBeforeBuild>true</ClearOutputDirectoryBeforeBuild>
+      <OutputFileExtension>.html</OutputFileExtension>
+      <BookletTocLayoutSource>TocLayout</BookletTocLayoutSource>
+      <BookletTocLayout Id="db8521e8-de6e-4c37-bb2b-eef79a31f66c">
+        <Name />
+        <Description />
+        <RootNodes>
+          <TocNode IsHeaderVisible="true" IsFooterVisible="true" IsExcludedFromTableOfContents="true" AssignEntryNumber="false" Name="" Id="1aff1d6f-5a5b-4e14-bdc4-e072180e2074" IconIndex="-1" IsNew="false" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="BOOKLETTABLEOFCONTENTS">
+            <Target>__tableofcontents.html</Target>
+            <CaptionTemplate />
+            <ChildNodes />
+          </TocNode>
+          <TocNode IsHeaderVisible="true" IsFooterVisible="true" IsExcludedFromTableOfContents="false" AssignEntryNumber="true" Name="" Id="95545cfc-3d4d-4f6f-a898-c85afc953f28" IconIndex="-1" IsNew="false" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="BOOKLETINDEX">
+            <Target>__Index.html</Target>
+            <CaptionTemplate />
+            <ChildNodes />
+          </TocNode>
+        </RootNodes>
+      </BookletTocLayout>
+      <BookletSettings>
+        <ContentMarginLeft>65</ContentMarginLeft>
+        <ContentMarginRight>50</ContentMarginRight>
+        <ContentMarginTop>90</ContentMarginTop>
+        <ContentMarginBottom>80</ContentMarginBottom>
+        <HeaderContentEven>&lt;div class="headereven"&gt;&lt;table cellpadding="0" cellspacing="0"&gt;&lt;tr&gt;&lt;td class="band"&gt;&amp;nbsp;&lt;/td&gt;&lt;td class="booklettitle"&gt;%%BookletTitle%%&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</HeaderContentEven>
+        <HeaderContentOdd>&lt;div class="headerodd"&gt;&lt;table cellpadding="0" cellspacing="0"&gt;&lt;tr&gt;&lt;td class="booklettitle"&gt;%%BookletTitle%%&lt;/td&gt;&lt;td class="band"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</HeaderContentOdd>
+        <FooterContentEven></FooterContentEven>
+        <FooterContentOdd>&lt;div class="footer"&gt;
+    &lt;a class="pagenumber" href="http://pagenumber"&gt;&amp;nbsp;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+    &lt;p style="FONT-SIZE: 10px" align="right"&gt;%%FooterContent%%&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;</FooterContentOdd>
+        <HeaderFooterMarginLeft>0</HeaderFooterMarginLeft>
+        <HeaderFooterMarginRight>0</HeaderFooterMarginRight>
+        <FooterMarginBottom>40</FooterMarginBottom>
+        <HeaderMarginTop>0</HeaderMarginTop>
+      </BookletSettings>
+      <PageNumbering>StartOnFirstContentPage</PageNumbering>
+      <PageNumberingStartPage>0</PageNumberingStartPage>
+      <Subject />
+      <Author />
+      <Keywords />
+      <HeadingNumbering>None</HeadingNumbering>
+      <HeadingTagName>H2</HeadingTagName>
+      <PageBreak>BeforeTopLevelEntries</PageBreak>
+      <Orientation>Portrait</Orientation>
+      <PageSize>A4</PageSize>
+      <HeaderFooterStartPageIndex>0</HeaderFooterStartPageIndex>
+      <IsLinearlized>false</IsLinearlized>
+      <BookletViewerSettings>
+        <IsFitWindowToContent>false</IsFitWindowToContent>
+        <IsMenuHidden>false</IsMenuHidden>
+        <IsToolbarHidden>false</IsToolbarHidden>
+        <IsWindowUiHidden>false</IsWindowUiHidden>
+        <Layout>None</Layout>
+        <PageLayout>SinglePage</PageLayout>
+      </BookletViewerSettings>
+      <CompressionLevel>Normal</CompressionLevel>
+      <EmbedFonts>false</EmbedFonts>
+      <IsImageKeepTogetherEnabled>true</IsImageKeepTogetherEnabled>
+      <IsImageCompressionEnabled>false</IsImageCompressionEnabled>
+      <ImageQuality>95</ImageQuality>
+      <IsLinkedToCEntriesEnabled>true</IsLinkedToCEntriesEnabled>
+      <LinkReplacementInfos>
+        <LinkReplacementInfo Id="JAVASCRIPT" LinkReplacementInfoSource="Template" IsEnabled="true">
+          <Html>&lt;b&gt;%%LinkCaption%%&lt;/b&gt;</Html>
+        </LinkReplacementInfo>
+        <LinkReplacementInfo Id="URL_WITH_CAPTION" LinkReplacementInfoSource="Template" IsEnabled="true">
+          <Html m="2014-01-16T12:44:30.9569809Z">&lt;b&gt;%%LinkCaption%%&lt;/b&gt;</Html>
+        </LinkReplacementInfo>
+        <LinkReplacementInfo Id="URL_NO_CAPTION" LinkReplacementInfoSource="Template" IsEnabled="true">
+          <Html>&lt;b&gt;%%LinkCaption%%&lt;/b&gt;</Html>
+        </LinkReplacementInfo>
+        <LinkReplacementInfo Id="BOOKMARK" LinkReplacementInfoSource="Template" IsEnabled="true">
+          <Html>&lt;b&gt;%%LinkCaption%%&lt;/b&gt;</Html>
+        </LinkReplacementInfo>
+        <LinkReplacementInfo Id="TOPIC_IN_BOOKLET" LinkReplacementInfoSource="Template" IsEnabled="false">
+          <Html m="2014-01-16T12:44:42.6200668Z">&lt;b&gt;%%LinkCaption%%&lt;/b&gt;</Html>
+        </LinkReplacementInfo>
+        <LinkReplacementInfo Id="TOPIC_NOT_IN_BOOKLET" LinkReplacementInfoSource="Template" IsEnabled="true">
+          <Html m="2014-01-16T12:44:44.4130356Z">&lt;b&gt;%%LinkCaption%%&lt;/b&gt;</Html>
+        </LinkReplacementInfo>
+        <LinkReplacementInfo Id="OTHER" LinkReplacementInfoSource="Template" IsEnabled="false">
+          <Html>&lt;b&gt;%%LinkCaption%%&lt;/b&gt;</Html>
+        </LinkReplacementInfo>
+      </LinkReplacementInfos>
+      <DefaultItemQualifiedName></DefaultItemQualifiedName>
+      <AlwaysCopyTemplateFiles>true</AlwaysCopyTemplateFiles>
+      <Title />
+      <IsNewIndicatorEnabled>true</IsNewIndicatorEnabled>
+      <IsNewDateTime></IsNewDateTime>
+      <PropertyDefinitionValues>
+        <PropertyDefinitionValue PropertyDefinitionId="09de2c63-c533-49c3-a1d7-52b3995b9bec">
+          <PropertyValue />
+        </PropertyDefinitionValue>
+      </PropertyDefinitionValues>
+      <IsTidyXhtmlEnabled>true</IsTidyXhtmlEnabled>
+      <CommunityOptions UseLocalProxyUrl="false" Enabled="false">
+        <ServerType>PublicEvaluation</ServerType>
+        <LocalProxyUrl></LocalProxyUrl>
+        <HostingAccessKey></HostingAccessKey>
+        <PrivateServerUrl></PrivateServerUrl>
+        <PrivateServerAccessKey></PrivateServerAccessKey>
+        <ProjectKey />
+      </CommunityOptions>
+      <DotNet>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <IncludeSystemObjectMembers>false</IncludeSystemObjectMembers>
+        <InterfacesToIgnoreInSyntax>System.*</InterfacesToIgnoreInSyntax>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <LinkToExternalDocs>false</LinkToExternalDocs>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <UseExternalXmlCommentFiles>false</UseExternalXmlCommentFiles>
+        <NoInheritedMemberTopicsExternal>false</NoInheritedMemberTopicsExternal>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <ExcludeEditorBrowsable>true</ExcludeEditorBrowsable>
+        <ExcludeBrowsableFalse>false</ExcludeBrowsableFalse>
+        <ExcludeObsolete>false</ExcludeObsolete>
+        <ExcludeCompilerGenerated>false</ExcludeCompilerGenerated>
+        <ExcludeDebuggerNonUserCode>false</ExcludeDebuggerNonUserCode>
+        <GenerateXmlCommentFile>false</GenerateXmlCommentFile>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeAssemblyBreadcrumb>false</IncludeAssemblyBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <IncludeAttributes>true</IncludeAttributes>
+        <AttributeFilterType>Exclude</AttributeFilterType>
+        <AttributeFilter></AttributeFilter>
+        <XmlIsland></XmlIsland>
+        <IdentifyAccessInTitles>false</IdentifyAccessInTitles>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <IncludeVbNetDefaultConstructor>false</IncludeVbNetDefaultConstructor>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootAssemblyName></RootAssemblyName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <SyntaxSectionStyle>TemplateDefault</SyntaxSectionStyle>
+        <IsVbSyntaxMerged>true</IsVbSyntaxMerged>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+        <IncludeExtensionMethods>false</IncludeExtensionMethods>
+        <UseContentFromBaseMember>false</UseContentFromBaseMember>
+        <ExcludedLanguages />
+      </DotNet>
+      <Javascript>
+        <IsBrowserCompatibilityIncluded>true</IsBrowserCompatibilityIncluded>
+        <IsBrowserCompatibilityIncludedOnEveryPage>true</IsBrowserCompatibilityIncludedOnEveryPage>
+        <UseDollarPrefix>true</UseDollarPrefix>
+        <WrapInDomReady>false</WrapInDomReady>
+        <IsIncludeParametersInUsageSyntaxEnabled>true</IsIncludeParametersInUsageSyntaxEnabled>
+        <IsGenerateTypeMemberPagesEnabled>false</IsGenerateTypeMemberPagesEnabled>
+        <SyntaxIndentParametersLength>60</SyntaxIndentParametersLength>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Javascript>
+      <Ajax>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Ajax>
+      <Java>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="3" PageNestingLevels="2" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>MethodsOnly</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Java>
+      <Com>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <UseHelpStrings>true</UseHelpStrings>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <HelpStringUsage>Merge</HelpStringUsage>
+        <DiagramSettings OverviewNestingLevels="2" PageNestingLevels="3" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>true</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Com>
+      <Database>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeSqlServerSystemObjects>false</IncludeSqlServerSystemObjects>
+        <IncludeSourceForViews>true</IncludeSourceForViews>
+        <IncludeSourceForTriggers>true</IncludeSourceForTriggers>
+        <IncludeSourceForUserDefinedFunctions>true</IncludeSourceForUserDefinedFunctions>
+        <IncludeSourceForStoredProcedures>true</IncludeSourceForStoredProcedures>
+        <IncludeScriptForTables>true</IncludeScriptForTables>
+        <IncludeScriptForOtherItems>true</IncludeScriptForOtherItems>
+        <RemoveTaggedCommentsFromSource>true</RemoveTaggedCommentsFromSource>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeSchemaInformation>true</IncludeSchemaInformation>
+        <CheckAllExtendedProperties>false</CheckAllExtendedProperties>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+        <MaximumDependencyLevel>5</MaximumDependencyLevel>
+        <UseSqlServerDataTypeNames>true</UseSqlServerDataTypeNames>
+      </Database>
+      <Xsd>
+        <IncludeOverview>true</IncludeOverview>
+        <IncludeOverviewReferencedChildren>false</IncludeOverviewReferencedChildren>
+        <OverviewLevels>5</OverviewLevels>
+        <DiagramStyle>
+          <DefaultTextOptions></DefaultTextOptions>
+          <Options></Options>
+        </DiagramStyle>
+        <IncludeAttributesInDiagrams>true</IncludeAttributesInDiagrams>
+        <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+        <DiagramItemMaxExtendedRecurse>3</DiagramItemMaxExtendedRecurse>
+        <DiagramItemMaxRecurse>3</DiagramItemMaxRecurse>
+        <GenerateDiagrams>true</GenerateDiagrams>
+        <IsOverrideTemplateDiagramStyleEnabled>false</IsOverrideTemplateDiagramStyleEnabled>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+      </Xsd>
+      <Filters />
+      <WebService>
+        <GroupExamples>true</GroupExamples>
+        <IncludeRequestBodyDiagram>true</IncludeRequestBodyDiagram>
+        <IncludeResponseBodyDiagram>true</IncludeResponseBodyDiagram>
+        <IncludeRequestBodyOverview>true</IncludeRequestBodyOverview>
+        <IncludeResponseBodyOverview>true</IncludeResponseBodyOverview>
+        <IncludeRequestBodySampleData>true</IncludeRequestBodySampleData>
+        <IncludeResponseBodySampleData>true</IncludeResponseBodySampleData>
+        <IsSampleDataColorized>true</IsSampleDataColorized>
+        <ImplyJsonSchemas>true</ImplyJsonSchemas>
+        <IsGroupedByResource>false</IsGroupedByResource>
+        <IncludeFullResourceUriInOperationPages>true</IncludeFullResourceUriInOperationPages>
+        <UseAbsolutePathForResourcePaths>true</UseAbsolutePathForResourcePaths>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+      </WebService>
+      <HelpCompiler CompileHelpFile="false" IsWebOutputEnabled="true" IsMarkOfTheWebEnabled="false">
+        <MarkOfTheWebDomain>(0014)about:internet</MarkOfTheWebDomain>
+        <HelpFileVersion>HtmlHelp1</HelpFileVersion>
+        <Help2Namespace>BarCodeWPF</Help2Namespace>
+        <Help2FileId>BookletJP</Help2FileId>
+        <Help2PluginToNamespaces></Help2PluginToNamespaces>
+        <Help2Plugin>false</Help2Plugin>
+        <RuntimeMerge></RuntimeMerge>
+        <IncludeTextPopupFile>false</IncludeTextPopupFile>
+        <Help3BuildIdentifier></Help3BuildIdentifier>
+        <Help3VendorName></Help3VendorName>
+        <Help3CatalogName>VS</Help3CatalogName>
+        <Help3CatalogVersion>100</Help3CatalogVersion>
+        <Help3CatalogLocaleText>en-US</Help3CatalogLocaleText>
+        <Help3TemplateName></Help3TemplateName>
+        <Help3ProductName></Help3ProductName>
+        <Help3BookName></Help3BookName>
+        <IsHelp3CreateRegistrationScriptEnabled>true</IsHelp3CreateRegistrationScriptEnabled>
+        <IsHelp3RegisterLocallyEnabled>true</IsHelp3RegisterLocallyEnabled>
+        <IsHelp3SigningEnabled>false</IsHelp3SigningEnabled>
+        <IsHelp3ValidationEnabled>false</IsHelp3ValidationEnabled>
+        <IsHelp3KeywordsEnabled>false</IsHelp3KeywordsEnabled>
+        <BrowserHelpTemplateName></BrowserHelpTemplateName>
+        <IsCustomHtmlHelpWindowSettings>false</IsCustomHtmlHelpWindowSettings>
+        <CustomHtmlHelpWindowSettings>
+          <IsExpandVisible>true</IsExpandVisible>
+          <IsBackVisible>true</IsBackVisible>
+          <IsForwardVisible>true</IsForwardVisible>
+          <IsStopVisible>false</IsStopVisible>
+          <IsRefreshVisible>false</IsRefreshVisible>
+          <IsHomeVisible>false</IsHomeVisible>
+          <IsLocateVisible>true</IsLocateVisible>
+          <IsOptionsVisible>true</IsOptionsVisible>
+          <IsPrintVisible>true</IsPrintVisible>
+          <IsZoomVisible>false</IsZoomVisible>
+          <IsPreviousVisible>false</IsPreviousVisible>
+          <IsNextVisible>false</IsNextVisible>
+          <NavigationPaneWidth>200</NavigationPaneWidth>
+          <IsNavigationPaneInitiallyClosed>false</IsNavigationPaneInitiallyClosed>
+          <IsAutoSyncWithTocEnabled>true</IsAutoSyncWithTocEnabled>
+          <IsSearchTabVisible>true</IsSearchTabVisible>
+          <IsHistoryTabVisible>false</IsHistoryTabVisible>
+          <IsFavoritesTabVisible>true</IsFavoritesTabVisible>
+          <DefaultTab>Contents</DefaultTab>
+          <IsSaveUserWindowSettingsEnabled>true</IsSaveUserWindowSettingsEnabled>
+          <WindowSizeHeight>400</WindowSizeHeight>
+          <WindowSizeWidth>600</WindowSizeWidth>
+          <WindowLocationLeft>0</WindowLocationLeft>
+          <WindowLocationTop>0</WindowLocationTop>
+        </CustomHtmlHelpWindowSettings>
+        <HelpFileName></HelpFileName>
+      </HelpCompiler>
+      <RuleEngine>
+        <Rules Caption="" IsReadOnly="false" MatchType="All" Id="root">
+          <Rules>
+            <RuleGroup Caption="" IsReadOnly="false" MatchType="All" Id="standard">
+              <Rules>
+                <Rule Caption="" IsReadOnly="false" MatchType="All" Id="outputtype">
+                  <Conditions>
+                    <RuleCondition Caption="" IsReadOnly="false" BuildFlagMatchType="None" Id="e3b47624-c37b-4c0e-af4b-1a3dfef4bd10" Designer="BUILDFLAGS">
+                      <BuildFlags>{4AAE0FD4-7313-4FEE-A25F-0785B885F736}</BuildFlags>
+                    </RuleCondition>
+                  </Conditions>
+                </Rule>
+              </Rules>
+            </RuleGroup>
+            <Rule Caption="" IsReadOnly="false" MatchType="All" Id="custom">
+              <Conditions>
+                <RuleCondition Caption="Build Flag Rule" IsReadOnly="false" BuildFlagMatchType="None" Id="eff37a82-3ba8-477c-808e-68d190487565" Designer="BUILDFLAGS">
+                  <BuildFlags>{4AAE0FD4-7313-4FEE-A25F-0785B885F736},75FEFB56-2DEB-484A-9A11-BBD41899E0EB</BuildFlags>
+                </RuleCondition>
+              </Conditions>
+            </Rule>
+          </Rules>
+        </Rules>
+      </RuleEngine>
+      <ShortFileNames GenerateShortFileNames="false" />
+      <TopicsProjectProfilePlugin>
+        <TemplateName>Booklet 2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <AutoGenerateTopicIndexEntries>true</AutoGenerateTopicIndexEntries>
+        <AutoGenerateCategoryIndexEntries>true</AutoGenerateCategoryIndexEntries>
+        <IncludeOnlyCompletedTopics>false</IncludeOnlyCompletedTopics>
+        <IsNewSource>CreationDateTime</IsNewSource>
+        <IsNewCustomTopicPropertyId></IsNewCustomTopicPropertyId>
+        <IsAnchorParsingEnabled>false</IsAnchorParsingEnabled>
+      </TopicsProjectProfilePlugin>
+      <BookletsProjectProfilePlugin>
+        <TemplateName>C1PDFTemplate</TemplateName>
+      </BookletsProjectProfilePlugin>
+      <WidgetsProjectProfilePlugin>
+        <IsIncludeInThisTopicWidgetEnabled>false</IsIncludeInThisTopicWidgetEnabled>
+        <InThisTopicWidgetHeadingsMinimum>5</InThisTopicWidgetHeadingsMinimum>
+        <InThisTopicWidgetTagName>H1</InThisTopicWidgetTagName>
+        <InThisTopicWidgetPrefix>$$In_This_Topic$$</InThisTopicWidgetPrefix>
+        <WidgetTypes Version="2011.1" />
+      </WidgetsProjectProfilePlugin>
+      <OtherFiles>
+        <IsLogoEnabled>false</IsLogoEnabled>
+        <LogoOtherFileName></LogoOtherFileName>
+        <IsGoogleAnalyticsEnabled>false</IsGoogleAnalyticsEnabled>
+        <GoogleAnalyticsId></GoogleAnalyticsId>
+        <IsOtherHeadContentEnabled>false</IsOtherHeadContentEnabled>
+        <OtherHeadContent></OtherHeadContent>
+      </OtherFiles>
+      <OutputDirectory></OutputDirectory>
+      <BookletFileName>build\WPF_Barcode.pdf</BookletFileName>
+    </ProjectProfile>
+    <ProjectProfile Id="8bd7be5e-8786-480c-9d1c-650eaed2697d" Name="HelpOnlineJP">
+      <DefaultItemQualifiedName>C1BarCodeforWPF</DefaultItemQualifiedName>
+      <StripMetadata>true</StripMetadata>
+      <AlwaysCopyTemplateFiles>true</AlwaysCopyTemplateFiles>
+      <OutputFileExtension>.html</OutputFileExtension>
+      <Title m="2015-06-24T10:49:27.1476685Z">ComponentOne Studio Maps for WPF/Silverlight ヘルプ </Title>
+      <ClearOutputDirectoryBeforeBuild>true</ClearOutputDirectoryBeforeBuild>
+      <IsNewIndicatorEnabled>true</IsNewIndicatorEnabled>
+      <IsNewDateTime></IsNewDateTime>
+      <PropertyDefinitionValues>
+        <PropertyDefinitionValue PropertyDefinitionId="76de16a8-8dcb-462c-b636-b20ff0b3c3a1">
+          <PropertyValue m="2013-05-08T11:14:46.6016138Z" />
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="dfae4477-6a1c-4fa6-82bb-d2f487f5b99b">
+          <PropertyValue m="2013-05-08T11:14:49.773931Z" />
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="fb0b069e-0e70-4bdb-8fc3-6fdb9ef927b3">
+          <PropertyValue m="2012-03-12T19:18:41.0821075Z" />
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="08de2c63-c533-49c3-a1d7-52b3995b9bec">
+          <PropertyValue m="2014-01-07T03:38:34.3486201Z">Copyright &amp;copy; GrapeCity inc. All rights reserved.</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="a3dbf170-4a46-4d3f-9571-9b10189c0037">
+          <PropertyValue m="2012-03-12T19:18:36.6718552Z" />
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="1d5f5ec1-1d17-4662-a16f-ea5bab7cfe37">
+          <PropertyValue m="2011-12-09T22:23:57.5427223Z" />
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="6fe1cb1b-0c9a-4198-8e8e-fe69adf5eebf">
+          <PropertyValue m="2011-12-09T22:23:52.3524254Z" />
+        </PropertyDefinitionValue>
+      </PropertyDefinitionValues>
+      <IsTidyXhtmlEnabled>true</IsTidyXhtmlEnabled>
+      <CommunityOptions UseLocalProxyUrl="false" Enabled="false">
+        <ServerType>PublicEvaluation</ServerType>
+        <LocalProxyUrl></LocalProxyUrl>
+        <HostingAccessKey></HostingAccessKey>
+        <PrivateServerUrl></PrivateServerUrl>
+        <PrivateServerAccessKey></PrivateServerAccessKey>
+        <ProjectKey m="2011-09-05T06:29:57.73349Z">12345</ProjectKey>
+      </CommunityOptions>
+      <DotNet>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <IncludeSystemObjectMembers>false</IncludeSystemObjectMembers>
+        <InterfacesToIgnoreInSyntax>System.*</InterfacesToIgnoreInSyntax>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <LinkToExternalDocs>false</LinkToExternalDocs>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <UseExternalXmlCommentFiles>false</UseExternalXmlCommentFiles>
+        <NoInheritedMemberTopicsExternal>false</NoInheritedMemberTopicsExternal>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <ExcludeEditorBrowsable>false</ExcludeEditorBrowsable>
+        <ExcludeBrowsableFalse>false</ExcludeBrowsableFalse>
+        <ExcludeObsolete>false</ExcludeObsolete>
+        <ExcludeCompilerGenerated>false</ExcludeCompilerGenerated>
+        <ExcludeDebuggerNonUserCode>false</ExcludeDebuggerNonUserCode>
+        <GenerateXmlCommentFile>false</GenerateXmlCommentFile>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeAssemblyBreadcrumb>true</IncludeAssemblyBreadcrumb>
+        <IncludePrivateMembers>true</IncludePrivateMembers>
+        <IncludeFriendMembers>true</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>true</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <IncludeAttributes>false</IncludeAttributes>
+        <AttributeFilterType>Exclude</AttributeFilterType>
+        <AttributeFilter></AttributeFilter>
+        <XmlIsland></XmlIsland>
+        <IdentifyAccessInTitles>false</IdentifyAccessInTitles>
+        <XmlCommentUsage>UseIfBlank</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="3" ShareSize="false">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>6</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="16" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Verdana" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FF99CCFF" BorderBrush="#FFFFFFFF" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Verdana" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFFFCC66" BorderBrush="#FF000000" BorderThickness="-0" EndCap="Point" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <IncludeVbNetDefaultConstructor>false</IncludeVbNetDefaultConstructor>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootAssemblyName></RootAssemblyName>
+        <IncludeConstructorsOnAbstractTypes>true</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>.NETTemplate2012JP</TemplateName>
+        <ExcludeAllPrivateTypes>false</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>false</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <SyntaxSectionStyle>TemplateDefault</SyntaxSectionStyle>
+        <IsVbSyntaxMerged>true</IsVbSyntaxMerged>
+        <IncludeMemberIndexKeywords>true</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+        <IncludeExtensionMethods>false</IncludeExtensionMethods>
+        <UseContentFromBaseMember>false</UseContentFromBaseMember>
+        <ExcludedLanguages>
+          <ExcludedLanguage>CPP2005</ExcludedLanguage>
+          <ExcludedLanguage>CPP</ExcludedLanguage>
+          <ExcludedLanguage>JScript</ExcludedLanguage>
+          <ExcludedLanguage>Delphi</ExcludedLanguage>
+          <ExcludedLanguage>VBUsage</ExcludedLanguage>
+        </ExcludedLanguages>
+      </DotNet>
+      <Javascript>
+        <IsBrowserCompatibilityIncluded>true</IsBrowserCompatibilityIncluded>
+        <IsBrowserCompatibilityIncludedOnEveryPage>true</IsBrowserCompatibilityIncludedOnEveryPage>
+        <UseDollarPrefix>true</UseDollarPrefix>
+        <WrapInDomReady>false</WrapInDomReady>
+        <IsIncludeParametersInUsageSyntaxEnabled>true</IsIncludeParametersInUsageSyntaxEnabled>
+        <IsGenerateTypeMemberPagesEnabled>false</IsGenerateTypeMemberPagesEnabled>
+        <SyntaxIndentParametersLength>60</SyntaxIndentParametersLength>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Javascript>
+      <Ajax>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>Visual Studio 2008 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+      </Ajax>
+      <Java>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="3" PageNestingLevels="2" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>MethodsOnly</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>Visual Studio 2008 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+      </Java>
+      <Com>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <UseHelpStrings>true</UseHelpStrings>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <HelpStringUsage>Merge</HelpStringUsage>
+        <DiagramSettings OverviewNestingLevels="2" PageNestingLevels="3" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>true</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>Visual Studio 2008 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+      </Com>
+      <Database>
+        <TemplateName>Visual Studio 2008 Style</TemplateName>
+        <IncludeSqlServerSystemObjects>false</IncludeSqlServerSystemObjects>
+        <IncludeSourceForViews>true</IncludeSourceForViews>
+        <IncludeSourceForTriggers>true</IncludeSourceForTriggers>
+        <IncludeSourceForUserDefinedFunctions>true</IncludeSourceForUserDefinedFunctions>
+        <IncludeSourceForStoredProcedures>true</IncludeSourceForStoredProcedures>
+        <IncludeScriptForTables>true</IncludeScriptForTables>
+        <IncludeScriptForOtherItems>true</IncludeScriptForOtherItems>
+        <RemoveTaggedCommentsFromSource>true</RemoveTaggedCommentsFromSource>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeSchemaInformation>true</IncludeSchemaInformation>
+        <CheckAllExtendedProperties>false</CheckAllExtendedProperties>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+        <MaximumDependencyLevel>5</MaximumDependencyLevel>
+        <UseSqlServerDataTypeNames>true</UseSqlServerDataTypeNames>
+      </Database>
+      <Xsd>
+        <IncludeOverview>true</IncludeOverview>
+        <IncludeOverviewReferencedChildren>false</IncludeOverviewReferencedChildren>
+        <OverviewLevels>5</OverviewLevels>
+        <DiagramStyle>
+          <DefaultTextOptions></DefaultTextOptions>
+          <Options></Options>
+        </DiagramStyle>
+        <IncludeAttributesInDiagrams>true</IncludeAttributesInDiagrams>
+        <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+        <DiagramItemMaxExtendedRecurse>3</DiagramItemMaxExtendedRecurse>
+        <DiagramItemMaxRecurse>3</DiagramItemMaxRecurse>
+        <GenerateDiagrams>true</GenerateDiagrams>
+        <IsOverrideTemplateDiagramStyleEnabled>false</IsOverrideTemplateDiagramStyleEnabled>
+        <TemplateName>Visual Studio 2008 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+      </Xsd>
+      <Filters />
+      <WebService>
+        <GroupExamples>true</GroupExamples>
+        <IncludeRequestBodyDiagram>true</IncludeRequestBodyDiagram>
+        <IncludeResponseBodyDiagram>true</IncludeResponseBodyDiagram>
+        <IncludeRequestBodyOverview>true</IncludeRequestBodyOverview>
+        <IncludeResponseBodyOverview>true</IncludeResponseBodyOverview>
+        <IncludeRequestBodySampleData>true</IncludeRequestBodySampleData>
+        <IncludeResponseBodySampleData>true</IncludeResponseBodySampleData>
+        <IsSampleDataColorized>true</IsSampleDataColorized>
+        <ImplyJsonSchemas>true</ImplyJsonSchemas>
+        <IsGroupedByResource>false</IsGroupedByResource>
+        <IncludeFullResourceUriInOperationPages>true</IncludeFullResourceUriInOperationPages>
+        <UseAbsolutePathForResourcePaths>true</UseAbsolutePathForResourcePaths>
+        <TemplateName>2012 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+      </WebService>
+      <HelpCompiler CompileHelpFile="false" IsWebOutputEnabled="true" IsMarkOfTheWebEnabled="false">
+        <MarkOfTheWebDomain>(0014)about:internet</MarkOfTheWebDomain>
+        <HelpFileVersion>HtmlHelp1</HelpFileVersion>
+        <Help2Namespace>ActiveReports7</Help2Namespace>
+        <Help2FileId>HelpOnlineEN</Help2FileId>
+        <Help2PluginToNamespaces></Help2PluginToNamespaces>
+        <Help2Plugin>false</Help2Plugin>
+        <RuntimeMerge></RuntimeMerge>
+        <IncludeTextPopupFile>false</IncludeTextPopupFile>
+        <Help3BuildIdentifier></Help3BuildIdentifier>
+        <Help3VendorName></Help3VendorName>
+        <Help3CatalogName>VS</Help3CatalogName>
+        <Help3CatalogVersion>100</Help3CatalogVersion>
+        <Help3CatalogLocaleText>en-US</Help3CatalogLocaleText>
+        <Help3TemplateName></Help3TemplateName>
+        <Help3ProductName></Help3ProductName>
+        <Help3BookName></Help3BookName>
+        <IsHelp3CreateRegistrationScriptEnabled>true</IsHelp3CreateRegistrationScriptEnabled>
+        <IsHelp3RegisterLocallyEnabled>true</IsHelp3RegisterLocallyEnabled>
+        <IsHelp3SigningEnabled>false</IsHelp3SigningEnabled>
+        <IsHelp3ValidationEnabled>false</IsHelp3ValidationEnabled>
+        <IsHelp3KeywordsEnabled>false</IsHelp3KeywordsEnabled>
+        <BrowserHelpTemplateName>WPF_CustomJP</BrowserHelpTemplateName>
+        <IsCustomHtmlHelpWindowSettings>false</IsCustomHtmlHelpWindowSettings>
+        <CustomHtmlHelpWindowSettings>
+          <IsExpandVisible>true</IsExpandVisible>
+          <IsBackVisible>true</IsBackVisible>
+          <IsForwardVisible>true</IsForwardVisible>
+          <IsStopVisible>false</IsStopVisible>
+          <IsRefreshVisible>false</IsRefreshVisible>
+          <IsHomeVisible>false</IsHomeVisible>
+          <IsLocateVisible>true</IsLocateVisible>
+          <IsOptionsVisible>true</IsOptionsVisible>
+          <IsPrintVisible>true</IsPrintVisible>
+          <IsZoomVisible>false</IsZoomVisible>
+          <IsPreviousVisible>false</IsPreviousVisible>
+          <IsNextVisible>false</IsNextVisible>
+          <NavigationPaneWidth>200</NavigationPaneWidth>
+          <IsNavigationPaneInitiallyClosed>false</IsNavigationPaneInitiallyClosed>
+          <IsAutoSyncWithTocEnabled>true</IsAutoSyncWithTocEnabled>
+          <IsSearchTabVisible>true</IsSearchTabVisible>
+          <IsHistoryTabVisible>false</IsHistoryTabVisible>
+          <IsFavoritesTabVisible>true</IsFavoritesTabVisible>
+          <DefaultTab>Contents</DefaultTab>
+          <IsSaveUserWindowSettingsEnabled>true</IsSaveUserWindowSettingsEnabled>
+          <WindowSizeHeight>400</WindowSizeHeight>
+          <WindowSizeWidth>600</WindowSizeWidth>
+          <WindowLocationLeft>0</WindowLocationLeft>
+          <WindowLocationTop>0</WindowLocationTop>
+        </CustomHtmlHelpWindowSettings>
+        <HelpFileName>..\ChartsforWPFja-jp.chm</HelpFileName>
+      </HelpCompiler>
+      <RuleEngine>
+        <Rules Caption="" IsReadOnly="false" MatchType="All" Id="root">
+          <Rules>
+            <RuleGroup Caption="" IsReadOnly="false" MatchType="All" Id="standard">
+              <Rules>
+                <Rule Caption="" IsReadOnly="false" MatchType="All" Id="outputtype">
+                  <Conditions>
+                    <RuleCondition Caption="" IsReadOnly="false" BuildFlagMatchType="None" Id="bed88811-ae56-43d7-bc4e-e5e52741b264" Designer="BUILDFLAGS">
+                      <BuildFlags>{46CEF21D-3301-4517-A875-A0906828390E}</BuildFlags>
+                    </RuleCondition>
+                  </Conditions>
+                </Rule>
+              </Rules>
+            </RuleGroup>
+            <RuleGroup Caption="" IsReadOnly="false" MatchType="All" Id="custom">
+              <Rules>
+                <RuleGroup Caption="Excluded" IsReadOnly="false" MatchType="All" Id="8bcc2644-e6b7-4174-ba75-fc5326d17e22">
+                  <Rules>
+                    <Rule Caption="Obfuscated" IsReadOnly="false" MatchType="All" Id="36c3c158-5b92-4fb4-8074-1386dcf26cf9">
+                      <Conditions>
+                        <RuleCondition Caption="New Rule Condition" IsReadOnly="false" ItemNameMatchType="IsNotMatch" Id="d9d839f3-aa3a-48b1-a76c-db9285fe0115" Designer="ITEMNAME">
+                          <IsQualifiedNameSearch>false</IsQualifiedNameSearch>
+                          <FindOptions WholeWord="false" MatchCase="false" SearchInSource="true" IsSearchInSourceEnabled="false" UseRegex="true" FindWhat=".*#.*" ReplaceWith="" />
+                        </RuleCondition>
+                      </Conditions>
+                    </Rule>
+                    <Rule Caption="internalc" IsReadOnly="false" MatchType="All" Id="5d146f25-cea3-4b41-ac71-b0f7ffeca306">
+                      <Conditions>
+                        <RuleCondition Caption="internalc" IsReadOnly="false" ItemNameMatchType="IsNotMatch" Id="08c12d4f-91bc-4fbc-bf27-6d03c78d92a2" Designer="ITEMNAME">
+                          <IsQualifiedNameSearch>true</IsQualifiedNameSearch>
+                          <FindOptions WholeWord="false" MatchCase="false" SearchInSource="true" IsSearchInSourceEnabled="false" UseRegex="true" FindWhat=",*internalc.*" ReplaceWith="" />
+                        </RuleCondition>
+                      </Conditions>
+                    </Rule>
+                    <Rule Caption="smartassembly" IsReadOnly="false" MatchType="All" Id="cf582e9f-bf9f-4cce-a8d1-6ae6d9c37c08">
+                      <Conditions>
+                        <RuleCondition Caption="smartassembly" IsReadOnly="false" ItemNameMatchType="IsNotMatch" Id="105bef99-6df4-4b9c-b54e-e986b446dbe0" Designer="ITEMNAME">
+                          <IsQualifiedNameSearch>true</IsQualifiedNameSearch>
+                          <FindOptions WholeWord="false" MatchCase="false" SearchInSource="true" IsSearchInSourceEnabled="false" UseRegex="true" FindWhat=".*smartassembly.*" ReplaceWith="" />
+                        </RuleCondition>
+                      </Conditions>
+                    </Rule>
+                    <Rule Caption="converter" IsReadOnly="false" MatchType="All" Id="7a65e13c-d399-4e54-b69f-bae40b90d09c">
+                      <Conditions>
+                        <RuleCondition Caption="converter" IsReadOnly="false" ItemNameMatchType="IsNotMatch" Id="bb2cb343-d3b5-4c61-ac91-6b11e452bb65" Designer="ITEMNAME">
+                          <IsQualifiedNameSearch>true</IsQualifiedNameSearch>
+                          <FindOptions WholeWord="false" MatchCase="false" SearchInSource="true" IsSearchInSourceEnabled="false" UseRegex="true" FindWhat=".*converter.*" ReplaceWith="" />
+                        </RuleCondition>
+                      </Conditions>
+                    </Rule>
+                    <Rule Caption="enumerator" IsReadOnly="false" MatchType="All" Id="f9968dca-2df1-4c41-96c4-0ffcb5eba5d9">
+                      <Conditions>
+                        <RuleCondition Caption="enumerator" IsReadOnly="false" ItemNameMatchType="IsNotMatch" Id="a1cc9d4c-e6bc-46ea-a45a-6309c8fbcc42" Designer="ITEMNAME">
+                          <IsQualifiedNameSearch>true</IsQualifiedNameSearch>
+                          <FindOptions WholeWord="false" MatchCase="false" SearchInSource="true" IsSearchInSourceEnabled="false" UseRegex="true" FindWhat=".*enumerator.*" ReplaceWith="" />
+                        </RuleCondition>
+                      </Conditions>
+                    </Rule>
+                  </Rules>
+                </RuleGroup>
+                <RuleGroup Caption="EnglishOnly" IsReadOnly="false" MatchType="Any" Id="df3fb1fb-6a76-433a-94b1-1d3a5d3eb044">
+                  <Rules>
+                    <Rule Caption="EnglishOnly" IsReadOnly="false" MatchType="Any" Id="54ed3e3f-2842-4e61-a878-60b8552da236">
+                      <Conditions>
+                        <RuleCondition Caption="EnglishOnly" IsReadOnly="false" BuildFlagMatchType="None" Id="9b287763-7b97-4875-aa71-22170db38aab" Designer="BUILDFLAGS">
+                          <BuildFlags>F08EB22F-3ABB-4BD7-B3F2-85495AEA7E43,18E6BC7E-9426-4E1C-8BCA-6A9D741CBFCC,174F3439-79E8-4A5C-BDCA-A76C1416FE57,AB4EA71A-6452-4038-B4E1-6D438FD8CB66,417160E9-78BB-442E-BDE4-17393AE2C624,051E4697-789B-4282-B2CE-A81AC47DB282,F24068D8-C2BA-4BAB-A17F-DDB985AC763C,FDFF31DF-77DF-4195-9E7F-C8F413CF14DD,8BD2EBD6-EFEE-4E42-88C7-186DFB23E11E,CBFE0C5F-8782-48B3-960F-D197B47BF1C5,BEC7DD28-7CF5-4417-84BA-C178DB2064CF,75FEFB56-2DEB-484A-9A11-BBD41899E0EB</BuildFlags>
+                        </RuleCondition>
+                        <RuleCondition Caption="NoFlag" IsReadOnly="false" BuildFlagMatchType="NoCustom" Id="c11849ba-0ab2-46fb-954d-c7df3e7df521" Designer="BUILDFLAGS">
+                          <BuildFlags></BuildFlags>
+                        </RuleCondition>
+                      </Conditions>
+                    </Rule>
+                  </Rules>
+                </RuleGroup>
+              </Rules>
+            </RuleGroup>
+          </Rules>
+        </Rules>
+      </RuleEngine>
+      <ShortFileNames GenerateShortFileNames="false" />
+      <TopicsProjectProfilePlugin>
+        <TemplateName>C1Topics2014</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <AutoGenerateTopicIndexEntries>true</AutoGenerateTopicIndexEntries>
+        <AutoGenerateCategoryIndexEntries>true</AutoGenerateCategoryIndexEntries>
+        <IncludeOnlyCompletedTopics>false</IncludeOnlyCompletedTopics>
+        <IsNewSource>CreationDateTime</IsNewSource>
+        <IsNewCustomTopicPropertyId></IsNewCustomTopicPropertyId>
+        <IsAnchorParsingEnabled>false</IsAnchorParsingEnabled>
+      </TopicsProjectProfilePlugin>
+      <BookletsProjectProfilePlugin>
+        <TemplateName></TemplateName>
+      </BookletsProjectProfilePlugin>
+      <WidgetsProjectProfilePlugin>
+        <IsIncludeInThisTopicWidgetEnabled>false</IsIncludeInThisTopicWidgetEnabled>
+        <InThisTopicWidgetHeadingsMinimum>5</InThisTopicWidgetHeadingsMinimum>
+        <InThisTopicWidgetTagName>H1</InThisTopicWidgetTagName>
+        <InThisTopicWidgetPrefix>$$In_This_Topic$$</InThisTopicWidgetPrefix>
+        <WidgetTypes Version="2011.1" />
+      </WidgetsProjectProfilePlugin>
+      <OtherFiles>
+        <IsLogoEnabled>false</IsLogoEnabled>
+        <LogoOtherFileName></LogoOtherFileName>
+        <IsGoogleAnalyticsEnabled>true</IsGoogleAnalyticsEnabled>
+        <GoogleAnalyticsId>UA-20295802-3</GoogleAnalyticsId>
+        <IsOtherHeadContentEnabled>false</IsOtherHeadContentEnabled>
+        <OtherHeadContent></OtherHeadContent>
+      </OtherFiles>
+      <OutputDirectory>build\HelpOnlineJP</OutputDirectory>
+    </ProjectProfile>
+  </ProjectProfiles>
+  <BuildConfigurations>
+    <BuildConfiguration Id="fb1ecafe-a687-471e-839c-fa1c384e2246" Name="BuildHelpEN">
+      <BuildConfigurationItems>
+        <BuildConfigurationItem ProjectProfileId="6b2cfb6d-7340-49af-9cfb-d31ec7a4a0d5" IsIncluded="false" />
+        <BuildConfigurationItem ProjectProfileId="f0a7c3bf-d6e6-4a13-a8f5-f6810dc38985" IsIncluded="true">
+          <ProjectLocale CultureId="-" />
+        </BuildConfigurationItem>
+        <BuildConfigurationItem ProjectProfileId="afcf2dbb-5232-48e2-b2cc-79eed8c13989" IsIncluded="true">
+          <ProjectLocale CultureId="-" />
+        </BuildConfigurationItem>
+        <BuildConfigurationItem ProjectProfileId="4a7fd3d7-7717-4340-8e60-02c37576d951" IsIncluded="false" />
+        <BuildConfigurationItem ProjectProfileId="8bd7be5e-8786-480c-9d1c-650eaed2697d" IsIncluded="false" />
+      </BuildConfigurationItems>
+    </BuildConfiguration>
+    <BuildConfiguration Id="3a144e5d-e79c-4cfc-926f-240f37fe9152" Name="BuildHelpJP">
+      <BuildConfigurationItems>
+        <BuildConfigurationItem ProjectProfileId="6b2cfb6d-7340-49af-9cfb-d31ec7a4a0d5" IsIncluded="false" />
+        <BuildConfigurationItem ProjectProfileId="f0a7c3bf-d6e6-4a13-a8f5-f6810dc38985" IsIncluded="false" />
+        <BuildConfigurationItem ProjectProfileId="afcf2dbb-5232-48e2-b2cc-79eed8c13989" IsIncluded="false" />
+        <BuildConfigurationItem ProjectProfileId="4a7fd3d7-7717-4340-8e60-02c37576d951" IsIncluded="true">
+          <ProjectLocale CultureId="ja-JP" />
+        </BuildConfigurationItem>
+        <BuildConfigurationItem ProjectProfileId="8bd7be5e-8786-480c-9d1c-650eaed2697d" IsIncluded="true">
+          <ProjectLocale CultureId="ja-JP" />
+        </BuildConfigurationItem>
+      </BuildConfigurationItems>
+    </BuildConfiguration>
+  </BuildConfigurations>
+  <HelpContextIDHeaderFile></HelpContextIDHeaderFile>
+  <PrimaryLocale CultureId="-">
+    <ExportDateTime></ExportDateTime>
+    <Dictionary></Dictionary>
+    <Notes></Notes>
+    <PhraseCultureId></PhraseCultureId>
+    <EncodingCulture></EncodingCulture>
+    <IsEnhancedWordBreakAnalysisEnabled>false</IsEnhancedWordBreakAnalysisEnabled>
+  </PrimaryLocale>
+  <ContentSources />
+  <Publishing />
+  <IsNewProject>false</IsNewProject>
+</DocumentXProject>

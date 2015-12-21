@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic>
+  <title m="2015-08-18T09:22:06.9729352Z">BarCode for WPF</title>
+  <contentstitle m="2015-08-18T09:22:14.8401095Z">BarCode for WPF</contentstitle>
+  <topicsection m="2015-08-18T09:24:18.6164772Z" name="BodyText">&lt;P&gt;&lt;STRONG&gt;BarCode for WPF&lt;/STRONG&gt; を使用して、バーコード画像をアプリケーションに追加します。&lt;/P&gt;
+&lt;P&gt;バーコードフォントとは異なり、&lt;STRONG&gt;BarCode&lt;/STRONG&gt; は、使用しているエンコーディングに応じて、自動的に必要な制御シンボルとチェックサムを追加しながら値をエンコードすることで、読み取りエラーをなくします。&lt;/P&gt;
+&lt;P&gt;さらに、&lt;STRONG&gt;BarCode&lt;/STRONG&gt; は、たいへん使いやすい製品です。フォームにコントロールを追加し、エンコーディングタイプを設定するだけで使用できます。&lt;/P&gt;</topicsection>
+</topic>

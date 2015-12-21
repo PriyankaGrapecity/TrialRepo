@@ -1,0 +1,2520 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>C1.WPF.BarCode.4</name>
+  </assembly>
+  <members>
+    <member name="T:C1.BarCode.ModuleSize">
+      <summary>
+            Represents the width of narrow and wide bars.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.ModuleSize.#ctor">
+      <summary>
+            Initializes a new instance of ModuleSize.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.ModuleSize.#ctor(System.Int32,System.Int32)">
+      <summary>
+            Initailizes a new instance of ModuleSize.
+            </summary>
+      <param name="barNarrow">The width for the barcode's narrow bars.</param>
+      <param name="barWide">The width for the barcode's wide bars.</param>
+    </member>
+    <member name="M:C1.BarCode.ModuleSize.NotifyChangeValue">
+      <summary>
+            Notifies of value changing
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.ModuleSize.ToString">
+      <summary>
+            Format text for property grid
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="P:C1.BarCode.ModuleSize.BarWide">
+      <summary>
+            The width for the barcode's wide bars.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.ModuleSize.BarNarrow">
+      <summary>
+            The width for the barcode's narrow bars.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.BarEngine">
+      <summary>
+            For internal use.
+            Implementation of barcode rendering engine.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.ContainsSupplementBarcode(C1.BarCode.CodeType,System.String)">
+      <summary>
+            Returns true if specified parameters defines barcode with supplement barcode.
+            </summary>
+      <param name="codeType">
+      </param>
+      <param name="additionalNumber">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.IsCompositeBarcode(C1.BarCode.CodeType,C1.BarCode.GS1CompositeOptions)">
+      <summary>
+            Checks does specified barcode is composite or not.
+            </summary>
+      <param name="codeType">Barcode type.</param>
+      <param name="GS1CompositeOptions">Composite barcode options.</param>
+      <returns>Returns <b>true</b> if specified parameters represent composite barcode, <b>false</b> otherwise.</returns>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.CalculateCompositeBarcodeSize(C1.BarCode.IDrawingDevice,System.Windows.Rect,C1.BarCode.BarCodeCaptionPosition,System.Single,C1.BarCode.BarCodeDirection,C1.BarCode.BarEngine[],System.String[],System.Boolean,System.Windows.Rect[]@,System.Double@)">
+      <summary>
+            Calculate the bounds of each child barcode in the bounds of composite barcode.
+            <remarks>
+            1) use a fixed module size to caculate the size of each child barcode.
+            2) scale the barcode size to the real composite bounds
+            </remarks></summary>
+      <param name="measureDevice">IMesureDevice interface used during calculation.</param>
+      <param name="bounds">The bounds of composite barcode. It's the bounds which is not rotated.</param>
+      <param name="captionPosition">The position of the caption label.</param>
+      <param name="captionHeight">The height of the caption label.</param>
+      <param name="direction">The rotation of the composite barcode.</param>
+      <param name="engines">The bar engine of each child barcode. The last one is the main barcode.</param>
+      <param name="values">The text of each child barcode.</param>
+      <param name="isAutoSize">Whether the height is autosized.</param>
+      <param name="boundsEngines">The bounds of each child barcode.</param>
+      <param name="fixedModuleSize">The fixed module size after scale.</param>
+      <returns>The new bounds of composite barcode.</returns>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.CheckFixLength(System.String,C1.BarCode.BarStyle,System.Int32)">
+      <summary>
+            Please check the fix length before set the text to Text property. 
+            </summary>
+      <param name="value">
+      </param>
+      <param name="codeType">
+      </param>
+      <param name="fixLength">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.DrawEx(C1.BarCode.IDrawingDevice,System.Windows.Rect,System.String)">
+      <summary>
+            For internal use.
+            Draws the barcode.
+            </summary>
+      <param name="dc">The drawing device. Pass null to calculate extent</param>
+      <param name="bounds">The bounds.</param>
+      <param name="tstrData">The data.</param>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.CalculateSize2(C1.BarCode.IDrawingDevice,System.String)">
+      <summary>
+            For internal use.
+            Calculates size of the barcode.
+            </summary>
+      <param name="measureDevice">
+      </param>
+      <param name="tstrData">
+      </param>
+      <returns>Returns calcualted size.</returns>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.CalculateSize(C1.BarCode.IDrawingDevice,System.String,System.Windows.Size)">
+      <summary>
+            For internal use.
+            Auto size bar code.
+            </summary>
+      <param name="measureDevice">
+      </param>
+      <param name="tstrData">
+      </param>
+      <param name="barSize">
+      </param>
+      <returns>Returns SizeF.Empty if size should not be changed</returns>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.MeasureBarWidth(C1.BarCode.IDrawingDevice,System.Windows.Rect,System.String)">
+      <summary>
+            Measure in twips.
+            </summary>
+      <param name="bounds">
+      </param>
+      <param name="tstrData">
+      </param>
+      <param name="dc">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.GetCaption(System.String)">
+      <summary>
+            Gets the caption label of the bar engine.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.IsRssStackedBarcode(C1.BarCode.CodeType)">
+      <summary>
+            For internal use.
+            Gets a value indicating whether barcode is an rss stacked barcode.
+            </summary>
+      <param name="codeType">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.IsBarBarcode(C1.BarCode.BarStyle)">
+      <summary>
+            Gets a value indicating whether barcode is a "bar" barcode i.e. drawn as sequence of lines.
+            </summary>
+      <param name="barStyle">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:C1.BarCode.BarEngine.IsMatrixBarcode(C1.BarCode.CodeType)">
+      <summary>
+            For internal use.
+            Gets a value indicating whether bar code is a "matrix" barcode like QRCode, DataMatrix.
+            </summary>
+      <param name="codeType">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="P:C1.BarCode.BarEngine.BarWidth">
+      <summary>
+            Bar width in twips.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.BarEngine.CaptionGrouping">
+      <summary>
+            Draw separated caption for certain barcodes (EAN 8/13, UPC-A/E)
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.BarEngine.NWRatio">
+      <summary>
+            User NW Ratio
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.BarEngine.GS1CompositeType">
+      <summary>
+            Indicates the composite symbol type if the it is a part of composite barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.BarEngine.GS1CompositeColumn">
+      <summary>
+            The column of the dependent CCA/CCB barcode if the current is a part of composite barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.BarEngine.IsAutoModuleSize">
+      <summary>
+            Indicates whether the module size is auto calculated.
+            </summary>
+      <remarks>
+            If IsAutoModuleSize is true, the module size is auto calculated before OnCalculateSize and OnRender. 
+            If IsAutoModuleSize is fale, the FixedModuleSize is used as the module size.
+            </remarks>
+    </member>
+    <member name="P:C1.BarCode.BarEngine.FixedModuleSize">
+      <summary>
+            Use the fixed module size to calcualte size and render if IsAutoModuleSize is false.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.BarEngine.Code25IntlvBearBar">
+      <summary>
+            Indicate whether or not display bearer bar to ITF barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.BarEngine.Code25IntlvLineStrokeThickness">
+      <summary>
+            Gets or sets the width of outline.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.BarEngine.Code25IntlvLineStroke">
+      <summary>
+            Gets or sets the color of outline.
+            </summary>
+    </member>
+    <member name="T:C1.WPF.BarCode.C1BarCode">
+      <summary>
+            Displays a map with layers of content above it.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.INotify">
+      <summary>
+            For internal use.
+            Notification interface for barcodes.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.INotify.ChangeValue(System.Object)">
+      <summary>
+            For internal use.
+            Called when property is changed.
+            </summary>
+      <param name="sender">The object which property was changed.</param>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.TextProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.Text" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.MessageValueProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.MessageValue" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.AddNumberProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.AddNumber" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.CodeTypeProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.CodeType" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.CaptionPositionProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.CaptionPosition" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.TextAlignProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.TextAlign" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.CaptionGroupingProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.CaptionGrouping" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.BarDirectionProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.BarDirection" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.FixLengthProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.FixLength" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.CheckSumEnabledProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.CheckSumEnabled" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.EncodingExceptionTemplateProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.EncodingExceptionTemplate" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.AutoSizeProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.AutoSize" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.BarHeightProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.BarHeight" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.ModuleSizeProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.ModuleSize" /> dependency property. 
+            </summary>
+    </member>
+    <member name="M:C1.WPF.BarCode.C1BarCode.#ctor">
+      <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.BarCode.C1BarCode" />.
+            </summary>
+    </member>
+    <member name="M:C1.WPF.BarCode.C1BarCode.OnApplyTemplate">
+      <summary>
+            Builds the visual tree for the <see cref="T:C1.WPF.BarCode.C1BarCode" /> control when a new template is applied.
+            </summary>
+      <remarks>
+            This method is invoked whenever application code or an internal process, such as a rebuilding layout pass, calls the <see cref="M:ApplyTemplate" /> method.
+            </remarks>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.FontSizeProperty">
+      <summary>
+            Identifies the System.Windows.Controls.Control.FontSize dependency property.
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.ForegroundProperty">
+      <summary>
+            Identifies the System.Windows.Controls.Control.Foreground dependency property.
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.QuietZoneProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.QuietZone" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.QRCodeOptionsProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.QRCodeOptions" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.PDF417OptionsProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.PDF417Options" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.Code49OptionsProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.Code49Options" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.RssExpandedStackedOptionsProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.RssExpandedStackedOptions" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.Code25intlvOptionsProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.Code25intlvOptions" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.MicroPDF417OptionsProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.MicroPDF417Options" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.GS1CompositeOptionsProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.GS1CompositeOptions" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.DataMatrixOptionsProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.DataMatrixOptions" /> dependency property. 
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.C1BarCode.Ean128Fnc1OptionsProperty">
+      <summary>
+            Identifies the <see cref="P:C1.WPF.BarCode.C1BarCode.Ean128Fnc1Options" /> dependency property. 
+            </summary>
+    </member>
+    <member name="M:C1.WPF.BarCode.C1BarCode.Save(System.IO.Stream,C1.WPF.BarCode.ImageFormat)">
+      <summary>
+            Saves the barcode to a stream.
+            </summary>
+      <param name="stream">
+        <see cref="T:System.IO.Stream" /> Where the barcode will be saved.</param>
+      <param name="imgFormat">
+        <see cref="T:C1.WPF.BarCode.ImageFormat" /> The format of image </param>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.Text">
+      <summary>
+            Gets or sets the value that is encoded as a barcode image
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.MessageValue">
+      <summary>
+            This is used when programmers want to display Barcode messages as text, separately from Value
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.AddNumber">
+      <summary>
+            Add two digit or five digit add-on symbols for UPC/E barcodes
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.CodeType">
+      <summary>
+            The selected encoding is applied to the value stored in Text property to generate the barcode image displayed in the control
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.CaptionPosition">
+      <summary>
+            Gets or sets the caption's vertical position relative to the barcode symbol.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.TextAlign">
+      <summary>
+            Display position if value of barcode is displayed by text.
+            </summary>
+      <remarks>
+            If the source is set to null no map tiles are shown.
+            </remarks>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.CaptionGrouping">
+      <summary>
+            Gets or sets a value indicating whether to add spaces between groups of characters in the caption to make long numbers easier to read.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.BarDirection">
+      <summary>
+            Gets or sets The direction of barcode.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.FixLength">
+      <summary>
+            Gets or sets the fixed number of digits of values of barcode.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.CheckSumEnabled">
+      <summary>
+            Determines whether a checksum of the barcode will be computed and included in the barcode when applicable.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.EncodingExceptionTemplate">
+      <summary>
+            Gets or sets the <see cref="T:System.Windows.DataTemplate" /> used to show error messages
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.AutoSize">
+      <summary>
+            When set to True, the barcode automatically stretches to fit the control.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.BarHeight">
+      <summary>
+            Set the height, in inches, of the barcode's bars. If the bar height exceeds the height of the control, this property is ignored.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.ModuleSize">
+      <summary>
+            Width of the narrow bar in screen pixels. The default value is one screen pixel wide (1/96).
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.FontSize">
+      <summary>
+            Gets or sets the font size.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.Foreground">
+      <summary>
+            Gets or sets a brush that describes the foreground color.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.WholeSize">
+      <summary>
+            The size of overall of barcode.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.EncodingException">
+      <summary>
+            Gets the <see cref="T:C1.BarCode.BarCodeException" /> that prevented the <see cref="P:C1.WPF.BarCode.C1BarCode.Text" /> from being encoded.
+            </summary>
+      <remarks>
+        <para>Most encodings have limitations that determine what type of text it can represent. For example,
+            some are numeric-only and some require text of a specific length.</para>
+        <para>If the value of the <see cref="P:C1.WPF.BarCode.C1BarCode.Text" /> property cannot be represented using the current
+            <see cref="P:C1.WPF.BarCode.C1BarCode.CodeType" />, then the error message will be shown in the control.</para>
+        <para>In this case, the <b>EncodingException</b> property returns details about the exception
+            that prevented the bar code from being generated.</para>
+      </remarks>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.Image">
+      <summary>
+            Gets an image of the barcode that represents the value in the Text property, 
+            obtained using the encoding specified by the CodeType property.
+            </summary>
+      <remarks>Barcode must be in visual tree.</remarks>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.QuietZone">
+      <summary>
+            A quiet zone is an area of blank space on either side of a barcode that tells the scanner where the symbology starts and stops.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.QRCodeOptions">
+      <summary>
+            QRCode Options are available for the QRCode barcode style.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.PDF417Options">
+      <summary>
+            PDF417 Options are available for the Pdf417 barcode style.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.Code49Options">
+      <summary>
+            Code49 Options are available for the Code49 barcode style.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.RssExpandedStackedOptions">
+      <summary>
+            RssExpandedStacked Options are available for the RSSExpandedStacked barcode style.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.Code25intlvOptions">
+      <summary>
+            Code25 interleaved options are available for the Code25 interleved barcode style.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.MicroPDF417Options">
+      <summary>
+            MicroPDF417 Options are available for the MicroPDF417 barcode style.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.GS1CompositeOptions">
+      <summary>
+            GS1Composite Options are available for the RSS14Stacked and RSSLimited barcode styles.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.DataMatrixOptions">
+      <summary>
+            DataMatrix Options are available for the DataMatrix barcode style.
+            </summary>
+    </member>
+    <member name="P:C1.WPF.BarCode.C1BarCode.Ean128Fnc1Options">
+      <summary>
+            EAN128FNC1 Options are available for the EAN128FNC1 barcode style.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.QuietZone">
+      <summary>
+            A quiet zone is an area of blank space on either side of a barcode that tells the scanner where the symbology starts and stops.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.QuietZone.NotifyChangeValue">
+      <summary>
+            Notifies of value changing
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.QuietZone.ToString">
+      <summary>
+            Format text for property grid
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:C1.BarCode.QuietZone.#ctor(System.Double,System.Double,System.Double,System.Double)">
+      <summary>
+            Initializes a new instance of QuietZone class.
+            </summary>
+      <param name="left">The left value of the barcode's QuietZone.</param>
+      <param name="top">The top value of the barcode's QuietZone.</param>
+      <param name="right">The right value of the barcode's QuietZone.</param>
+      <param name="bottom">The bottom value of the barcode's QuietZone.</param>
+    </member>
+    <member name="M:C1.BarCode.QuietZone.#ctor">
+      <summary>
+            Initializes a new instance of QuietZone class.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.QuietZone.Left">
+      <summary>
+            Gets or sets the left value of the barcode's QuietZone.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.QuietZone.Right">
+      <summary>
+            Gets or sets the right value of the barcode's QuietZone.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.QuietZone.Top">
+      <summary>
+            Gets or sets the top value of the barcode's QuietZone.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.QuietZone.Bottom">
+      <summary>
+            Gets or sets the bottom value of the barcode's QuietZone.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.BarCodeException">
+      <summary>
+            The exception thrown when an error is caused by an inapplicable value of the barcode control.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.BarCodeException.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.BarCodeException" /> class.  
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.BarCodeException.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.BarCodeException" /> class with a specified error message.
+            </summary>
+      <param name="message">A message that describes the error.</param>
+    </member>
+    <member name="M:C1.BarCode.BarCodeException.#ctor(System.String,System.Exception)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.BarCodeException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+      <param name="message">The error message that explains the reason for the exception.</param>
+      <param name="innerException">The exception that is the cause of the current exception. If the innerException parameter is not a null reference, the current exception is raised in a catch block that handles the inner exception.</param>
+    </member>
+    <member name="M:C1.BarCode.BarCodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.BarCodeException" /> class.
+            </summary>
+      <param name="info">
+      </param>
+      <param name="context">
+      </param>
+    </member>
+    <member name="P:C1.BarCode.BarCodeException.Message">
+      <summary>
+            Gets a message that describes the current exception.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.BarCodeException.ErrorCode">
+      <summary>
+            Internal error code
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.BarCodeException.EnumErrorCode">
+      <summary>
+            Internal EnumErrorCode
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.QRCodeErrorLevel">
+      <summary>
+            Specifies the QRCode's error correction level.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeErrorLevel.Low">
+      <summary>
+            Low
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeErrorLevel.Medium">
+      <summary>
+            Medium
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeErrorLevel.Quality">
+      <summary>
+            Quality
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeErrorLevel.High">
+      <summary>
+            High
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.QRCodeModel">
+      <summary>
+            Specifies the QRCode's model.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeModel.Model1">
+      <summary>
+            Model1.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeModel.Model2">
+      <summary>
+            Model2.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.QRCodeMask">
+      <summary>
+            Specifies the QRCode's mask pattern reference.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeMask.Auto">
+      <summary>
+            Auto configuration.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeMask.Mask000">
+      <summary>
+            Pattern 000.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeMask.Mask001">
+      <summary>
+            Pattern 001.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeMask.Mask010">
+      <summary>
+            Pattern 010.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeMask.Mask011">
+      <summary>
+            Pattern 011.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeMask.Mask100">
+      <summary>
+            Pattern 100.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeMask.Mask101">
+      <summary>
+            Pattern 101.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeMask.Mask110">
+      <summary>
+            Pattern 110.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.QRCodeMask.Mask111">
+      <summary>
+            Pattern 111.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.PDF417Type">
+      <summary>
+            Specifies PDF417's barcode type.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.PDF417Type.Normal">
+      <summary>
+            Standard type.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.PDF417Type.Simple">
+      <summary>
+            Compact type (right indicator is neither displayed nor printed).
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.BarCodeOptionsBase">
+      <summary>
+            The basic options for some BarCode.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.BarCodeOptionsBase.NotifyChangeValue">
+      <summary>
+            Notifies of value changing
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.BarCodeOptionsBase.Clone">
+      <summary>
+            Creates a new object that is a copy of the current options.
+            </summary>
+      <returns>A new object that is a copy of this instance</returns>
+    </member>
+    <member name="M:C1.BarCode.BarCodeOptionsBase.AssignFrom(C1.BarCode.BarCodeOptionsBase)">
+      <summary>
+            Assigns (copies) properties from another <see cref="T:C1.BarCode.BarCodeOptionsBase" /> to the current object.
+            </summary>
+      <param name="source">The source object to copy properties from.</param>
+    </member>
+    <member name="M:C1.BarCode.BarCodeOptionsBase.GetHashCode">
+      <summary>
+            Returns a hash code for this instance.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.BarCodeOptionsBase.Equals(System.Object)">
+      <summary>
+            Determines whether the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />.
+            </summary>
+      <param name="obj">The <see cref="T:System.Object" /> to compare with the current <see cref="T:System.Object" />.</param>
+      <returns>
+            True if the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />; otherwise, False.
+            </returns>
+    </member>
+    <member name="T:C1.BarCode.Code49Options">
+      <summary>
+            The options of Code49.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Code49Options.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.Code49" /> class.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Code49Options.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.Code49" /> class.
+            </summary>
+      <param name="str">The serialized data string.</param>
+    </member>
+    <member name="M:C1.BarCode.Code49Options.ShouldSerialize">
+      <summary>
+            Indicates whether any property of this object has changed from its default value.
+            </summary>
+      <returns>Return <b>true</b> if any object has changed from its default value, <b>false</b> otherwise.</returns>
+    </member>
+    <member name="M:C1.BarCode.Code49Options.Reset">
+      <summary>
+            Resets all properties to default values.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Code49Options.ToString">
+      <summary>
+             Returns a <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+             </summary>
+      <returns>
+             A <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+             </returns>
+    </member>
+    <member name="M:C1.BarCode.Code49Options.Clone">
+      <summary>
+            Makes object copy
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Code49Options.AssignFrom(C1.BarCode.BarCodeOptionsBase)">
+      <summary>
+            Assigns (copies) properties from another <see cref="T:C1.BarCode.BarCodeOptionsBase" /> to the current object.
+            </summary>
+      <param name="source">The source object to copy properties from.</param>
+    </member>
+    <member name="P:C1.BarCode.Code49Options.Grouping">
+      <summary>
+            Gets or sets a value indicating whether grouping is set for the barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.Code49Options.Group">
+      <summary>
+            Gets or sets group numbers.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.Ean128Fnc1Options">
+      <summary>
+            The options of Code128
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Ean128Fnc1Options.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.Ean128Fnc1Options" /> class.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Ean128Fnc1Options.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.Ean128Fnc1Options" /> class.
+            </summary>
+      <param name="options">The serialized data string.</param>
+    </member>
+    <member name="M:C1.BarCode.Ean128Fnc1Options.ToString">
+      <summary>
+            Returns a <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </summary>
+      <returns>
+            A <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </returns>
+    </member>
+    <member name="M:C1.BarCode.Ean128Fnc1Options.Clone">
+      <summary>
+            Makes object copy
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Ean128Fnc1Options.AssignFrom(C1.BarCode.BarCodeOptionsBase)">
+      <summary>
+            Assigns (copies) properties from another <see cref="T:C1.BarCode.BarCodeOptionsBase" /> to the current object.
+            </summary>
+      <param name="source">The source object to copy properties from.</param>
+    </member>
+    <member name="P:C1.BarCode.Ean128Fnc1Options.Dpi">
+      <summary>
+            Gets or sets the resolution of the printer.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.Ean128Fnc1Options.BarAdjust">
+      <summary>
+            Gets or sets the adjustment size by dot.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.Ean128Fnc1Options.ModuleSize">
+      <summary>
+            Gets or sets the horizontal size of the barcode module.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.Code25intlvOptions">
+      <summary>
+            The options of Code25intlv.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Code25intlvOptions.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.Code25intlvOptions" /> class.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Code25intlvOptions.ShouldSerialize">
+      <summary>
+            Indicates whether any property of this object has changed from its default value.
+            </summary>
+      <returns>Return <b>true</b> if any object has changed from its default value, <b>false</b> otherwise.</returns>
+    </member>
+    <member name="M:C1.BarCode.Code25intlvOptions.Reset">
+      <summary>
+            Resets all properties to default values.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Code25intlvOptions.Clone">
+      <summary>
+            Makes object copy
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.Code25intlvOptions.AssignFrom(C1.BarCode.BarCodeOptionsBase)">
+      <summary>
+            Assigns (copies) properties from another <see cref="T:C1.BarCode.BarCodeOptionsBase" /> to the current object.
+            </summary>
+      <param name="source">The source object to copy properties from.</param>
+    </member>
+    <member name="P:C1.BarCode.Code25intlvOptions.BearBar">
+      <summary>
+            Whether or not to display  bearer bar to ITF barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.Code25intlvOptions.LineStrokeThickness">
+      <summary>
+            The line width of bearer bar.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.Code25intlvOptions.LineStroke">
+      <summary>
+            The color of bearer bar.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.PDF417Options">
+      <summary>
+            The options of PDF417.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.PDF417Options.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.PDF417" /> class.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.PDF417Options.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.PDF417" /> class.
+            </summary>
+      <param name="str">The serialized data string.</param>
+    </member>
+    <member name="M:C1.BarCode.PDF417Options.ShouldSerialize">
+      <summary>
+            Indicates whether any property of this object has changed from its default value.
+            </summary>
+      <returns>Return <b>true</b> if any object has changed from its default value, <b>false</b> otherwise.</returns>
+    </member>
+    <member name="M:C1.BarCode.PDF417Options.Reset">
+      <summary>
+            Resets all properties to default values.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.PDF417Options.ToString">
+      <summary>
+            Returns a <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </summary>
+      <returns>
+            A <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </returns>
+    </member>
+    <member name="M:C1.BarCode.PDF417Options.Clone">
+      <summary>
+            Makes object copy
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.PDF417Options.AssignFrom(C1.BarCode.BarCodeOptionsBase)">
+      <summary>
+            Assigns (copies) properties from another <see cref="T:C1.BarCode.BarCodeOptionsBase" /> to the current object.
+            </summary>
+      <param name="source">The source object to copy properties from.</param>
+    </member>
+    <member name="P:C1.BarCode.PDF417Options.ErrorLevel">
+      <summary>
+            Gets or sets the error correction level for the barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.PDF417Options.Column">
+      <summary>
+            Gets or sets columns number for the barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.PDF417Options.Row">
+      <summary>
+            Gets or sets row numbers for the barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.PDF417Options.Type">
+      <summary>
+            Gets or set the PDF417 barcode's type.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.QRCodeOptions">
+      <summary>
+            The options of QRCode
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.QRCodeOptions.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.QRCode" /> class.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.QRCodeOptions.ShouldSerialize">
+      <summary>
+            Indicates whether any property of this object has changed from its default value.
+            </summary>
+      <returns>Return <b>true</b> if any object has changed from its default value, <b>false</b> otherwise.</returns>
+    </member>
+    <member name="M:C1.BarCode.QRCodeOptions.Reset">
+      <summary>
+            Resets all properties to default values.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.QRCodeOptions.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.QRCode" /> class.
+            </summary>
+      <param name="str">
+      </param>
+    </member>
+    <member name="M:C1.BarCode.QRCodeOptions.ToString">
+      <summary>
+            Returns a <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </summary>
+      <returns>
+            A <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </returns>
+    </member>
+    <member name="M:C1.BarCode.QRCodeOptions.Clone">
+      <summary>
+            Makes object copy
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.QRCodeOptions.AssignFrom(C1.BarCode.BarCodeOptionsBase)">
+      <summary>
+            Assigns (copies) properties from another <see cref="T:C1.BarCode.BarCodeOptionsBase" /> to the current object.
+            </summary>
+      <param name="source">The source object to copy properties from.</param>
+    </member>
+    <member name="P:C1.BarCode.QRCodeOptions.ErrorLevel">
+      <summary>
+            Gets or sets the error correction level for the barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.QRCodeOptions.Model">
+      <summary>
+            Gets or sets the QRCode model.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.QRCodeOptions.Version">
+      <summary>
+            Gets or sets the QRCode version.
+            </summary>
+      <remarks>
+            Specify any value between 1 and 14 when the Model property is set to Model1 
+            and 1 to 40 for Model2. 
+            When -1 is specified, the version most suited to the value is automatically determined
+            </remarks>
+    </member>
+    <member name="P:C1.BarCode.QRCodeOptions.Mask">
+      <summary>
+            Gets or sets the pattern used for the barcode masking.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.QRCodeOptions.Connection">
+      <summary>
+            Gets or sets whether connection is used for the barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.QRCodeOptions.ConnectionNumber">
+      <summary>
+            Gets or sets the connection number for the barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.QRCodeOptions.Encoding">
+      <summary>
+            Gets or sets the Encoding of the barcode data.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.RssExpandedStackedOptions">
+      <summary>
+            The options of RSSExpandedStacked
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.RssExpandedStackedOptions.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.RssExpandedStackedOptions" /> class.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.RssExpandedStackedOptions.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.RssExpandedStackedOptions" /> class.
+            </summary>
+      <param name="str">The serialized data string.</param>
+    </member>
+    <member name="M:C1.BarCode.RssExpandedStackedOptions.ShouldSerialize">
+      <summary>
+            Indicates whether any property of this object has changed from its default value.
+            </summary>
+      <returns>Return <b>true</b> if any object has changed from its default value, <b>false</b> otherwise.</returns>
+    </member>
+    <member name="M:C1.BarCode.RssExpandedStackedOptions.Reset">
+      <summary>
+            Resets all properties to default values.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.RssExpandedStackedOptions.ToString">
+      <summary>
+            Returns a <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </summary>
+      <returns>
+            A <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </returns>
+    </member>
+    <member name="M:C1.BarCode.RssExpandedStackedOptions.Clone">
+      <summary>
+            Makes object copy
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.RssExpandedStackedOptions.AssignFrom(C1.BarCode.BarCodeOptionsBase)">
+      <summary>
+            Assigns (copies) properties from another <see cref="T:C1.BarCode.BarCodeOptionsBase" /> to the current object.
+            </summary>
+      <param name="source">The source object to copy properties from.</param>
+    </member>
+    <member name="P:C1.BarCode.RssExpandedStackedOptions.RowCount">
+      <summary>
+            Gets or sets the number of stacked rows.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.DataMatrixOptions">
+      <summary>
+            The options of DataMatrix.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.DataMatrixOptions.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.DataMatrixOptions" /> class.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.DataMatrixOptions.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.DataMatrixOptions" /> class.
+            </summary>
+      <param name="str">The serialized data string.</param>
+    </member>
+    <member name="M:C1.BarCode.DataMatrixOptions.ShouldSerialize">
+      <summary>
+            Indicates whether any property of this object has changed from its default value.
+            </summary>
+      <returns>Return <b>true</b> if any object has changed from its default value, <b>false</b> otherwise.</returns>
+    </member>
+    <member name="M:C1.BarCode.DataMatrixOptions.Reset">
+      <summary>
+            Resets all properties to default values.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.DataMatrixOptions.ToString">
+      <summary>
+            Returns a <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </summary>
+      <returns>
+            A <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </returns>
+    </member>
+    <member name="M:C1.BarCode.DataMatrixOptions.Clone">
+      <summary>
+            Makes object copy
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.DataMatrixOptions.AssignFrom(C1.BarCode.BarCodeOptionsBase)">
+      <summary>
+            Assigns (copies) properties from another <see cref="T:C1.BarCode.BarCodeOptionsBase" /> to the current object.
+            </summary>
+      <param name="source">The source object to copy properties from.</param>
+    </member>
+    <member name="P:C1.BarCode.DataMatrixOptions.EccMode">
+      <summary>
+            Gets or sets the ECC mode.
+            </summary>
+      <value>
+            The ECC mode.
+            </value>
+    </member>
+    <member name="P:C1.BarCode.DataMatrixOptions.Ecc200SymbolSize">
+      <summary>
+            Gets or sets the size of the ECC200 symbol.
+            </summary>
+      <value>
+            The size of the ECC200 symbol.
+            </value>
+    </member>
+    <member name="P:C1.BarCode.DataMatrixOptions.Ecc200EncodingMode">
+      <summary>
+            Gets or sets the ECC200 encoding mode.
+            </summary>
+      <value>
+            The ECC200 encoding mode.
+            </value>
+    </member>
+    <member name="P:C1.BarCode.DataMatrixOptions.Ecc000_140SymbolSize">
+      <summary>
+            Gets or sets the size of the ECC000-140 symbol.
+            </summary>
+      <value>
+            The size of the ECC000-140 symbol.
+            </value>
+    </member>
+    <member name="P:C1.BarCode.DataMatrixOptions.StructuredAppend">
+      <summary>
+            Gets or sets a value indicating whether the current symbol is part of structured append symbols.
+            </summary>
+      <remarks>
+            Structured append is only supported by ECC200.
+            </remarks>
+      <value>
+        <c>true</c> if the current symbol is part of structured append symbols; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:C1.BarCode.DataMatrixOptions.StructureNumber">
+      <summary>
+            Gets or sets the structure number of current symbol within the structuerd append symbols.
+            </summary>
+      <remarks>
+            The structure number will only be used when ECC mode is <see cref="T:DataMatrixEccMode.ECC200" />.
+            </remarks>
+      <value>
+            The structure number of current symbol within the structured append symbols.
+            The structure number starts from 0, and should be less than both the symbol amount and the max symbol count(16).
+            </value>
+    </member>
+    <member name="P:C1.BarCode.DataMatrixOptions.FileIdentifier">
+      <summary>
+            Gets or sets the file identifier of a related group of structured append symbols.
+            </summary>
+      <remarks>
+            The valid file indentifier value should be within [1,254],
+            set file identifier to 0 lets the file identifier of the symbols calculated automatically.
+            </remarks>
+      <value>
+            The file identifier.
+            </value>
+    </member>
+    <member name="T:C1.BarCode.DataMatrixEccMode">
+      <summary>
+            The ECC mode enumeration.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEccMode.ECC000">
+      <summary>
+            ECC000. This mode encodes data with only CRC checksum, no additional error checking bits.
+            Data encoded with this ECC mode usually requiers the smallest symbol size.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEccMode.ECC050">
+      <summary>
+            ECC050.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEccMode.ECC080">
+      <summary>
+            ECC080.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEccMode.ECC100">
+      <summary>
+            ECC100.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEccMode.ECC140">
+      <summary>
+            ECC140.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEccMode.ECC200">
+      <summary>
+            ECC200. This is the suggested ECC mode.
+            Data encoded with this ECC mode will be protedted Reed-Solomon error checking and correcting algorithm.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.DataMatrixEcc200SymbolSize">
+      <summary>
+              The symbol size enumeration for ECC200 mode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.SquareAuto">
+      <summary>
+            SquareAuto.
+            The minimum square symbol size that fits the data will be selected automatically.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.RectangularAuto">
+      <summary>
+            RectangularAuto.
+            The minimum rectangular symbol size that fits the data will be selected automatically.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square10">
+      <summary>
+            Square10. Represents 10 by 10 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square12">
+      <summary>
+            Square12. Represents 12 by 12 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square14">
+      <summary>
+            Square14. Represents 14 by 14 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square16">
+      <summary>
+            Square16. Represents 16 by 16 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square18">
+      <summary>
+            Square18. Represents 18 by 18 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square20">
+      <summary>
+            Square20. Represents 20 by 20 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square22">
+      <summary>
+            Square22. Represents 22 by 22 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square24">
+      <summary>
+            Square24. Represents 24 by 24 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square26">
+      <summary>
+            Square26. Represents 26 by 26 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square32">
+      <summary>
+            Square32. Represents 32 by 32 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square36">
+      <summary>
+            Square36. Represents 36 by 36 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square40">
+      <summary>
+            Square40. Represents 40 by 40 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square44">
+      <summary>
+            Square44. Represents 44 by 44 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square48">
+      <summary>
+            Square48. Represents 48 by 48 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square52">
+      <summary>
+            Square52. Represents 52 by 52 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square64">
+      <summary>
+            Square64. Represents 64 by 64 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square72">
+      <summary>
+            Square72. Represents 72 by 72 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square80">
+      <summary>
+            Square80. Represents 80 by 80 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square88">
+      <summary>
+            Square88. Represents 88 by 88 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square96">
+      <summary>
+            Square96. Represents 96 by 96 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square104">
+      <summary>
+            Square104. Represents 104 by 104 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square120">
+      <summary>
+            Square120. Represents 120 by 120 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square132">
+      <summary>
+            Square132. Represents 132 by 132 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Square144">
+      <summary>
+            Square144. Represents 144 by 144 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Rectangular8x18">
+      <summary>
+            Rectangular8x18. Represents 8 by 18 rectangular symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Rectangular8x32">
+      <summary>
+            Rectangular8x32. Represents 8 by 32 rectangular symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Rectangular12x26">
+      <summary>
+            Rectangular12x26. Represents 12 by 26 rectangular symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Rectangular12x36">
+      <summary>
+            Rectangular12x36. Represents 12 by 36 rectangular symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Rectangular16x36">
+      <summary>
+            Rectangular16x36. Represents 16 by 36 rectangular symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200SymbolSize.Rectangular16x48">
+      <summary>
+            Rectangular16x48. Represents 16 by 48 rectangular symbol.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.DataMatrixEcc200EncodingMode">
+      <summary>
+              The enumeration of encoding char set under ECC200 mode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200EncodingMode.Auto">
+      <summary>
+            Auto. The encoding char set will be selected automatically to achieve a better compression efficiency.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200EncodingMode.ASCII">
+      <summary>
+            ASCII.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200EncodingMode.C40">
+      <summary>
+            C40.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200EncodingMode.Text">
+      <summary>
+            Text.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200EncodingMode.X12">
+      <summary>
+            X12. Only 40 X12 characters are supported by this char set.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200EncodingMode.EDIFACT">
+      <summary>
+            EDIFACT. Only 63 EDIFACT characters are supported by this char set.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc200EncodingMode.Base256">
+      <summary>
+            Base256.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.DataMatrixEcc000_140SymbolSize">
+      <summary>
+              The symbol size enumeration for ECC000-140 mode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Auto">
+      <summary>
+            Auto.
+            The smallest symbol size which fits the data will be selected automatically.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square9">
+      <summary>
+            Square9. Represents 9 by 9 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square11">
+      <summary>
+            Square11. Represents 11 by 11 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square13">
+      <summary>
+            Square13. Represents 13 by 13 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square15">
+      <summary>
+            Square15. Represents 15 by 15 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square17">
+      <summary>
+            Square17. Represents 17 by 17 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square19">
+      <summary>
+            Square19. Represents 19 by 19 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square21">
+      <summary>
+            Square21. Represents 21 by 21 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square23">
+      <summary>
+            Square23. Represents 23 by 23 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square25">
+      <summary>
+            Square25. Represents 25 by 25 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square27">
+      <summary>
+            Square27. Represents 27 by 27 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square29">
+      <summary>
+            Square29. Represents 29 by 29 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square31">
+      <summary>
+            Square31. Represents 31 by 31 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square33">
+      <summary>
+            Square33. Represents 33 by 33 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square35">
+      <summary>
+            Square35. Represents 35 by 35 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square37">
+      <summary>
+            Square37 Represents 37 by 37 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square39">
+      <summary>
+            Square39. Represents 39 by 39 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square41">
+      <summary>
+            Square41. Represents 41 by 41 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square43">
+      <summary>
+            Square43. Represents 43 by 43 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square45">
+      <summary>
+            Square45. Represents 45 by 45 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square47">
+      <summary>
+            Square47. Represents 47 by 47 square symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.DataMatrixEcc000_140SymbolSize.Square49">
+      <summary>
+            Square49. Represents 49 by 49 square symbol.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.MicroPDF417Options">
+      <summary>
+            The options of MicroPDF417
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.MicroPDF417Options.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.MicroPDF417Options" /> class.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.MicroPDF417Options.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.BarCode.MicroPDF417Options" /> class.
+            </summary>
+      <param name="str">The serialized data string.</param>
+    </member>
+    <member name="M:C1.BarCode.MicroPDF417Options.ShouldSerialize">
+      <summary>
+            Indicates whether any property of this object has changed from its default value.
+            </summary>
+      <returns>Return <b>true</b> if any object has changed from its default value, <b>false</b> otherwise.</returns>
+    </member>
+    <member name="M:C1.BarCode.MicroPDF417Options.Reset">
+      <summary>
+            Resets all properties to default values.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.MicroPDF417Options.ToString">
+      <summary>
+            Returns a <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </summary>
+      <returns>
+            A <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </returns>
+    </member>
+    <member name="M:C1.BarCode.MicroPDF417Options.Clone">
+      <summary>
+            Makes object copy
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.MicroPDF417Options.AssignFrom(C1.BarCode.BarCodeOptionsBase)">
+      <summary>
+            Assigns (copies) properties from another <see cref="T:C1.BarCode.BarCodeOptionsBase" /> to the current object.
+            </summary>
+      <param name="source">The source object to copy properties from.</param>
+    </member>
+    <member name="P:C1.BarCode.MicroPDF417Options.CompactionMode">
+      <summary>
+            Gets or sets the CompactionMode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.MicroPDF417Options.Version">
+      <summary>
+            Gets or sets the symbol size.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.MicroPDF417Options.SegmentIndex">
+      <summary>
+            Gets or sets the segment index of structured append symbol.
+            </summary>
+      <remarks>
+            Valid value is from 0 to 99998, and less than SegmentCount.
+            </remarks>
+    </member>
+    <member name="P:C1.BarCode.MicroPDF417Options.SegmentCount">
+      <summary>
+            Gets or sets the segment count of structured append symbol.
+            </summary>
+      <remarks>
+            Valid value is from 0 to 99999.
+            </remarks>
+    </member>
+    <member name="P:C1.BarCode.MicroPDF417Options.FileID">
+      <summary>
+            Gets or sets the file id of structured append symbol.
+            </summary>
+      <remarks>
+            Valid value is from 0 to 899.
+            </remarks>
+    </member>
+    <member name="T:C1.BarCode.MicroPDF417SymbolCompactionMode">
+      <summary>
+             MicroPDF417 encoding compaction mode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolCompactionMode.Auto">
+      <summary>
+            Auto, The compaction mode will be selected automatically to achieve a better compression efficiency.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolCompactionMode.TextCompactionMode">
+      <summary>
+            Text Compaction Mode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolCompactionMode.NumericCompactionMode">
+      <summary>
+            Numeric Compaction Mode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolCompactionMode.ByteCompactionMode">
+      <summary>
+            Byte Compaction Mode.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.MicroPDF417SymbolVersion">
+      <summary>
+             MicroPDF417 encoding compaction mode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.ColumnPriorAuto">
+      <summary>
+            Symbol Size Auto
+            The minimum symbol size with column prior that fits the data will be selected automatically.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.RowPriorAuto">
+      <summary>
+            Symbol Size Auto
+            The minimum symbol size with row prior that fits the data will be selected automatically.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version1X11">
+      <summary>
+            Version 1X11,Represents 1 column and 11 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version1X14">
+      <summary>
+            Version 1X14,Represents 1 column and 14 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version1X17">
+      <summary>
+            Version 1X17,Represents 1 column and 17 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version1X20">
+      <summary>
+            Version 1X20,Represents 1 column and 20 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version1X24">
+      <summary>
+            Version 1X24,Represents 1 column and 24 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version1X28">
+      <summary>
+            Version 1X28,Represents 1 column and 28 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version2X8">
+      <summary>
+            Version 2X8,Represents 2 column and 8 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version2X11">
+      <summary>
+            Version 2X11,Represents 2 column and 11 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version2X14">
+      <summary>
+            Version 2X14,Represents 2 column and 14 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version2X17">
+      <summary>
+            Version 2X17,Represents 2 column and 17 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version2X20">
+      <summary>
+            Version 2X20,Represents 2 column and 20 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version2X23">
+      <summary>
+            Version 2X23,Represents 2 column and 23 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version2X26">
+      <summary>
+            Version 2X26,Represents 2 column and 26 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version3X6">
+      <summary>
+            Version 3X6,Represents 3 column and 6 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version3X8">
+      <summary>
+            Version 3X8,Represents 3 column and 8 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version3X10">
+      <summary>
+            Version 3X10,Represents 3 column and 10 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version3X12">
+      <summary>
+            Version 3X12,Represents 3 column and 12 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version3X15">
+      <summary>
+            Version 3X15,Represents 3 column and 15 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version3X20">
+      <summary>
+            Version 3X20,Represents 3 column and 20 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version3X26">
+      <summary>
+            Version 3X26,Represents 3 column and 26 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version3X32">
+      <summary>
+            Version 3X32,Represents 3 column and 32 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version3X38">
+      <summary>
+            Version 3X38,Represents 3 column and 38 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version3X44">
+      <summary>
+            Version 3X44,Represents 3 column and 44 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X4">
+      <summary>
+            Version 4X4,Represents 4 column and 4 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X6">
+      <summary>
+            Version 4X6,Represents 4 column and 6 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X8">
+      <summary>
+            Version 4X8,Represents 4 column and 8 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X10">
+      <summary>
+            Version 4X10,Represents 4 column and 10 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X12">
+      <summary>
+            Version 4X12,Represents 4 column and 12 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X15">
+      <summary>
+            Version 4X15,Represents 4 column and 15 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X20">
+      <summary>
+            Version 4X20,Represents 4 column and 20 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X26">
+      <summary>
+            Version 4X26,Represents 4 column and 26 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X32">
+      <summary>
+            Version 4X32,Represents 4 column and 32 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X38">
+      <summary>
+            Version 4X38,Represents 4 column and 38 row.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.MicroPDF417SymbolVersion.Version4X44">
+      <summary>
+            Version 4X44,Represents 4 column and 44 row.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.GS1CompositeOptions">
+      <summary>
+            The options of GS1Composite
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.GS1CompositeOptions.#ctor">
+      <summary>
+            Initializes a new instance of the GS1CompositeOptions class.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.GS1CompositeOptions.ShouldSerialize">
+      <summary>
+            Indicates whether any property of this object has changed from its default value.
+            </summary>
+      <returns>Return <b>true</b> if any object has changed from its default value, <b>false</b> otherwise.</returns>
+    </member>
+    <member name="M:C1.BarCode.GS1CompositeOptions.Reset">
+      <summary>
+            Resets all properties to default values.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.GS1CompositeOptions.ToString">
+      <summary>
+            Returns a <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </summary>
+      <returns>
+            A <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.
+            </returns>
+    </member>
+    <member name="M:C1.BarCode.GS1CompositeOptions.Clone">
+      <summary>
+            Makes copy of the object
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.GS1CompositeOptions.AssignFrom(C1.BarCode.BarCodeOptionsBase)">
+      <summary>
+            Assigns (copies) properties from another <see cref="T:C1.BarCode.BarCodeOptionsBase" /> to the current object.
+            </summary>
+      <param name="source">The source object to copy properties from.</param>
+    </member>
+    <member name="P:C1.BarCode.GS1CompositeOptions.Type">
+      <summary>
+            Gets or sets the composite symbol type. Default value is None.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.GS1CompositeOptions.Value">
+      <summary>
+            Gets or sets the CCA or CCB character data.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.GS1CompositeType">
+      <summary>
+            Composite symbol type.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.GS1CompositeType.None">
+      <summary>
+            Does not composite the GS1 barcode with a depenent barcode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.GS1CompositeType.CCA">
+      <summary>
+            Composite the GS1 barcode with a dependent CC-A barcode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.GS1CompositeType.CCB">
+      <summary>
+            Composite the GS1 barcode with a dependent CC-B barcode.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.BarStyle">
+      <summary>
+            For internal use.
+            Defines internal barcode styles.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.CodeType">
+      <summary>
+            Type of code, or symbology, the barcode control will use to generate the barcode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.None">
+      <summary>
+            None.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Ansi39">
+      <summary>
+            ANSI 3 of 9 (Code 39) uses upper case, numbers, - , * $ / + %.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Ansi39x">
+      <summary>
+            ANSI Extended 3 of 9 (Extended Code 39) uses the complete ASCII character set.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code_2_of_5">
+      <summary>
+            Code 2 of 5 uses only numbers.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code25intlv">
+      <summary>
+            Interleaved 2 of 5 uses only numbers.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Matrix_2_of_5">
+      <summary>
+            Matrix 2 of 5 is a higher density barcode consisting of 3 black bars and 2 white bars. 
+            Matrix_2_of_5 uses only numbers.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code39">
+      <summary>
+            Code 39 uses numbers,  % * $ /. , - +, and upper case.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code39x">
+      <summary>
+            Extended Code 39 uses the complete ASCII character set.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code_128_A">
+      <summary>
+            Code 128 A uses control characters, numbers, punctuation, and upper case.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code_128_B">
+      <summary>
+            Code 128 B uses punctuation, numbers, upper case and lower case.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code_128_C">
+      <summary>
+            Code 128 C uses only numbers.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code_128auto">
+      <summary>
+            Code 128 Auto uses the complete ASCII character set.  
+            Automatically selects between Code 128 A, B and C to give the smallest barcode.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code_93">
+      <summary>
+            Code 93 uses uppercase, % $ * / , + -,  and numbers.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code93x">
+      <summary>
+            Extended Code 93 uses the complete ASCII character set.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.MSI">
+      <summary>
+            MSI Code uses only numbers.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.PostNet">
+      <summary>
+            PostNet uses only numbers with a check digit.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Codabar">
+      <summary>
+            Codabar uses A B C D + - : , / and numbers.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.EAN_8">
+      <summary>
+            EAN-8 uses only numbers (7 numbers and a check digit).
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.EAN_13">
+      <summary>
+            EAN-13 uses only numbers (12 numbers and a check digit). 
+            If there are only 12 numbers in the string, it calculates a checksum and adds it to the thirteenth position. 
+            If there are 13, it validates the checksum and throws an error if it is incorrect.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.UPC_A">
+      <summary>
+            UPC-A uses only numbers (11 numbers and a check digit).
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.UPC_E0">
+      <summary>
+            UPC-E0 uses only numbers.
+            Used for zero-compression UPC symbols.  
+            For the Caption property, you may enter either a six-digit UPC-E code or a complete 11-digit (includes code type, which must be 0 (zero)) UPC-A code.  
+            If an 11-digit code is entered, the Barcode control will convert it to a six-digit UPC-E code, if possible. 
+            If it is not possible to convert from the 11-digit code to the six-digit code, nothing is displayed.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.UPC_E1">
+      <summary>
+            UPC-E1 uses only numbers.  Used typically for shelf labeling in the retail environment.  
+            The length of the input string for U.P.C. E1 is six numeric characters.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.RM4SCC">
+      <summary>
+            Royal Mail RM4SCC uses only letters and numbers (with a check digit).  
+            This is the barcode used by the Royal Mail in the United Kingdom.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.UCCEAN128">
+      <summary>
+            UCC/EAN –128 uses the complete ASCII character Set.  
+            This is a special version of Code 128 used in HIBC applications.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.QRCode">
+      <summary>
+            QRCode is a 2D symbology that is capable of handling numeric, alphanumeric and byte data as well as Japanese kanji and kana characters. 
+            This symbology can encode up to 7,366 characters.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Code49">
+      <summary>
+            Code 49 is a 2D high-density stacked barcode. Encodes the complete ASCII character set. 
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.JapanesePostal">
+      <summary>
+            This is the barcode used by the Japanese Postal system. 
+            Encodes alpha and numeric characters consisting of 18 digits including a 7-digit postal code number, optionally followed by block and house number information. 
+            The data to be encoded can include hyphens.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.Pdf417">
+      <summary>
+            Pdf417 is a popular high-density 2-dimensional symbology that encodes up to 1108 bytes of information. 
+            This barcode consists of a stacked set of smaller barcodes. 
+            Encodes the full ASCII character set. 
+            Capable of encoding as many as 2725 data characters.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.EAN128FNC1">
+      <summary>
+            EAN128FNC1 is a UCC/EAN-128 (EAN128) type barcode that allows you to insert FNC1 character at any place and adjust the bar size etc, which is not available in UCC/EAN-128.
+            To insert FNC1 character, set “\n” for C#, or “vbLf” for VB to Text property at runtime.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.RSS14">
+      <summary>
+            RSS14 is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. 
+            This version is a 14-digit EAN.UCC item identification for use with omnidirectional point-of-sale scanners.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.RSS14Truncated">
+      <summary>
+            RSS14Truncated is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. 
+            This version is a 14-digit EAN.UCC item identification plus Indicator digits for use on small items, not for point-of-sale scanners.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.RSS14Stacked">
+      <summary>
+            RSS14Stacked is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. 
+            This version is the same as RSS14Truncated, but stacked in two rows when RSS14Truncated is too wide.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.RSS14StackedOmnidirectional">
+      <summary>
+            RSS14StackedOmnidirectional is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. 
+            This version is the same as RSS14, but stacked in two rows when RSS14 is too wide.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.RSSExpanded">
+      <summary>
+            RSSExpanded is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. 
+            This version is a 14-digit EAN.UCC item identification plus AI element strings (expiration date, weight, etc.) for use with omnidirectional point-of-sale scanners.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.RSSExpandedStacked">
+      <summary>
+            RSSExpandedStacked is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. 
+            This version is the same as RSSExpanded, but stacked in two rows when RSSExpanded is too wide.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.RSSLimited">
+      <summary>
+            RSS Limited is a Reduced Space Symbology that encodes Composite Component (CC) extended EAN and UPC information in less space. 
+            This version is a 14-digit EAN.UCC item identification with indicator digits of 0 or 1 in a small symbol that is not scanned by point-of-sale scanners.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.DataMatrix">
+      <summary>
+            Data Matrix is a high density, two-dimensional barcode with square modules arranged in a square or rectangular matrix pattern.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.MicroPDF417">
+      <summary>
+            MicroPDF417 is two-dimensional (2D), multi-row symbology, derived from PDF417. 
+            Micro-PDF417 is designed for applications that need to encode data in a two-dimensional (2D) symbol (up to 150 bytes, 250 alphanumeric characters, or 366 numeric digits) with the minimal symbol size.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.CodeType.IntelligentMail">
+      <summary>
+            Intelligent Mail, formerly known as the 4-State Customer Barcode, is a 65-bar code used for domestic mail in the U.S.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.BarCodeDirection">
+      <summary>
+            Specifies the print direction of the barcode symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.BarCodeDirection.LeftToRight">
+      <summary>
+            The barcode symbol is printed left to right (default).
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.BarCodeDirection.RightToLeft">
+      <summary>
+            The barcode symbol is printed right to left.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.BarCodeDirection.TopToBottom">
+      <summary>
+            The barcode symbol is printed top to bottom.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.BarCodeDirection.BottomToTop">
+      <summary>
+            The barcode symbol is printed bottom to top.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.BarCodeCaptionPosition">
+      <summary>
+            Specifies the barcode caption position relative to the barcode symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.BarCodeCaptionPosition.None">
+      <summary>
+            Caption is not printed.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.BarCodeCaptionPosition.Above">
+      <summary>
+            Caption is printed above the barcode symbol.
+            </summary>
+    </member>
+    <member name="F:C1.BarCode.BarCodeCaptionPosition.Below">
+      <summary>
+            Caption is printed below the barcode symbol.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.WholeSize">
+      <summary>
+            Represents the overall size of barcode control.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.WholeSize.#ctor">
+      <summary>
+            Initializes a new instance of WholeSize.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.WholeSize.#ctor(System.Single,System.Single)">
+      <summary>
+            Initializes a new instance of WholeSize.
+            </summary>
+      <param name="wholeWidth">The overall width of barcode.</param>
+      <param name="wholeHeight">The overall height of barcode.</param>
+    </member>
+    <member name="P:C1.BarCode.WholeSize.WholeWidth">
+      <summary>
+            Width of overall of barcode.
+            </summary>
+    </member>
+    <member name="P:C1.BarCode.WholeSize.WholeHeight">
+      <summary>
+            Height of overall of barcode.
+            </summary>
+    </member>
+    <member name="T:C1.BarCode.IDrawingDevice">
+      <summary>
+            For internal use.
+            Define common interface used to perform actual drawing on some context.
+            </summary>
+    </member>
+    <member name="M:C1.BarCode.IDrawingDevice.MeasureString(System.String)">
+      <summary>
+            For internal use.
+            Measures the specified string.
+            </summary>
+      <param name="text">String to measure.</param>
+      <returns>Returns a size of string.</returns>
+    </member>
+    <member name="M:C1.BarCode.IDrawingDevice.FillRectangle(System.Windows.Rect)">
+      <summary>
+            For internal use.
+            Fills the interior of a rectangle.
+            </summary>
+      <param name="bounds">The rectangle to fill.</param>
+    </member>
+    <member name="M:C1.BarCode.IDrawingDevice.DrawRectangle(System.Windows.Rect,System.Int32,System.Windows.Media.Color)">
+      <summary>
+            For internal use.
+            Draws a rectangle.
+            </summary>
+      <param name="bounds">The rectangle to draw.</param>
+      <param name="strokeThickness">The thickness of stroke.</param>
+      <param name="stroke">The stroke color.</param>
+    </member>
+    <member name="M:C1.BarCode.IDrawingDevice.DrawString(System.String,System.Windows.Point)">
+      <summary>
+            For internal use.
+            Draws the specified text string.
+            </summary>
+      <param name="text">String to draw.</param>
+      <param name="point">The upper-left corner of the drawn text.</param>
+    </member>
+    <member name="T:C1.WPF.BarCode.ImageFormat">
+      <summary>
+            Represents the format used to encode an image into a stream.
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.ImageFormat.Png">
+      <summary>
+            Png format.
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.ImageFormat.Jpeg">
+      <summary>
+            Jpeg format.
+            </summary>
+    </member>
+    <member name="F:C1.WPF.BarCode.ImageFormat.Bmp">
+      <summary>
+            Bmp format.
+            </summary>
+    </member>
+    <member name="T:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode">
+      <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Culture">
+      <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_BadValue">
+      <summary>
+              Looks up a localized string similar to Invalid barcode data.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_Code49GroupNo">
+      <summary>
+              Looks up a localized string similar to Code49 group number is out of range (should be between 0 and 8).
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_ConvertBitmapStrideError">
+      <summary>
+              Looks up a localized string similar to Convert bitmap stride error.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_DataMatrixFileIdentifier">
+      <summary>
+              Looks up a localized string similar to DataMatrix file identifier is out of range (should be between 0 and 254).
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_DataMatrixStructureNumber">
+      <summary>
+              Looks up a localized string similar to DataMatrix structure number is out of range (should be between 0 and 15).
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_InvalidStructureNumberDM">
+      <summary>
+              Looks up a localized string similar to invalid structure number.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_InternalErrorAtoL">
+      <summary>
+              Looks up a localized string similar to Cannot parse value.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_InternalErrorPDF417CodeConv">
+      <summary>
+              Looks up a localized string similar to Cannot convert value.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_MicroPDF417CompactionMode">
+      <summary>
+              Looks up a localized string similar to Invalid value for current compaction mode..
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_MicroPDF417FileID">
+      <summary>
+              Looks up a localized string similar to Invalid FileID Value, FileID should be from 0 to 899..
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_MicroPDF417SegmentCount">
+      <summary>
+              Looks up a localized string similar to Invalid SegmentCount Value, SegmentCount should be from 0 to 99999..
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_MicroPDF417SegmentIndex">
+      <summary>
+              Looks up a localized string similar to Invalid SegmentIndex Value, SegmentIndex should be from 0 to 99998..
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_MicroPDF417SegmentIndexCount">
+      <summary>
+              Looks up a localized string similar to Segment Index should not bigger than Segment Count..
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_NoMoreConnection">
+      <summary>
+              Looks up a localized string similar to No more connection.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_NoMoreGroup">
+      <summary>
+              Looks up a localized string similar to No more groups there.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_NotHaveValue">
+      <summary>
+              Looks up a localized string similar to Not have value.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_OverConnection">
+      <summary>
+              Looks up a localized string similar to Over connection.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_ParameterError">
+      <summary>
+              Looks up a localized string similar to Barcode parameter error.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_PDF417Col">
+      <summary>
+              Looks up a localized string similar to PDF417 columns is out of range (should be -1 or between 1 and 30).
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_PDF417ErrorLevel">
+      <summary>
+              Looks up a localized string similar to PDF417 error level is out of range (should be -1 or between 0 and 8).
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_PDF417Row">
+      <summary>
+              Looks up a localized string similar to PDF417 rows is out of range (should be -1 or between 3 and 90).
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_QRCodeConnectionNo">
+      <summary>
+              Looks up a localized string similar to QRCode connection number is out of range (should be between 0 and 15).
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_QRCodeModel1Version">
+      <summary>
+              Looks up a localized string similar to QRCode version is invalid for QRCode Model1 (should be -1 or between 1 and 14).
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_QRCodeModel2Version">
+      <summary>
+              Looks up a localized string similar to QRCode version is invalid for QRCode Model2 (should be -1 or between 1 and 40).
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_RSSExpandedStackedCount">
+      <summary>
+              Looks up a localized string similar to RSSExpandedStacked rows count is out of range (should be between 1 and 11).
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_TooBigValue">
+      <summary>
+              Looks up a localized string similar to Incorrect data length.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Error_ValueError">
+      <summary>
+              Looks up a localized string similar to Value error.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Exception_Incorrect_Code128_Selector">
+      <summary>
+              Looks up a localized string similar to Incorrect Code128 selector.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.Exception_Incorrect_Data_Length">
+      <summary>
+              Looks up a localized string similar to Incorrect data length.
+            </summary>
+    </member>
+    <member name="P:C1.Silverlight.BarCode.Resources.C1_Silverlight_BarCode.ModuleSizeMustBePositive">
+      <summary>
+              Looks up a localized string similar to ModuleSize must be greater than 0.
+            </summary>
+    </member>
+  </members>
+</doc>

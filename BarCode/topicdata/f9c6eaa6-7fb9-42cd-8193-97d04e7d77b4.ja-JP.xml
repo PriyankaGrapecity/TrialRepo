@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic>
+  <title m="2015-04-13T05:39:45.9642825Z"> 主な特長</title>
+  <contentstitle m="2015-04-13T05:39:48.3494163Z"> 主な特長</contentstitle>
+  <topicsection m="2015-04-14T04:01:21.8251248Z" name="BodyText">&lt;UL&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;36 種類のエンコーディングのサポート&lt;/STRONG&gt;&lt;BR&gt;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt; コントロールは、Codabar、Code128 Auto、Code39、Code93、DataMatrix、Ean13、Ean8、PostNet、QRCode、RSS14 などの 36 種類のエンコーディングをサポートします。&lt;/P&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;チェックサムを自動的に追加&lt;/STRONG&gt;&lt;BR&gt;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt; コントロールは、バーコードが正しく読み取られるように、使用されているエンコーディングに応じて、必要な制御シンボルとチェックサムを自動的に追加しながら値をエンコードします。&lt;/P&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;配布が容易な無償の DLL&lt;/STRONG&gt;&lt;BR&gt;&lt;A href="C1.WPF.BarCode.4~C1.WPF.BarCode.C1BarCode.html"&gt;C1BarCode&lt;/A&gt; は、通常のアセンブリと同様に、無償の DLL としてアプリケーションと共に配布できます。&lt;/P&gt;&lt;/LI&gt;&lt;/UL&gt;</topicsection>
+</topic>

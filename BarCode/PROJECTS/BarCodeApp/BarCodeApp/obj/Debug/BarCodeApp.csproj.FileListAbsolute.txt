@@ -1,0 +1,94 @@
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\BarCodeApp.exe.config
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.csprojResolveAssemblyReference.cache
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\App.g.cs
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp_MarkupCompile.cache
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\MainWindow.baml
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\MainWindow.g.cs
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.g.resources
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.Properties.Resources.resources
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.csproj.GenerateResource.Cache
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.exe.licenses
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\BarCodeApp.exe
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\BarCodeApp.pdb
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\C1.WPF.4.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\C1.WPF.BarCode.4.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\C1.WPF.4.xml
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\C1.WPF.BarCode.4.xml
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\ar\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\cs\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\da\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\de\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\el\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\es\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\fi\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\fr\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\he\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\it\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\ja\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\nl\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\no\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\pl\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\pt\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\ro\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\ru\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\sk\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\sv\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\tr\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\zh\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\zh-Hans\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\zh-Hant\C1.WPF.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\es\C1.WPF.BarCode.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\ja\C1.WPF.BarCode.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\ru\C1.WPF.BarCode.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\zh\C1.WPF.BarCode.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\zh-Hans\C1.WPF.BarCode.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\bin\Debug\zh-Hant\C1.WPF.BarCode.4.resources.dll
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.exe
+D:\New Samples\WPF\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.pdb
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\BarCodeApp.exe.config
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.exe
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.pdb
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\BarCodeApp.exe
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\BarCodeApp.pdb
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\C1.WPF.4.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\C1.WPF.BarCode.4.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\C1.WPF.4.xml
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\C1.WPF.BarCode.4.xml
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\ar\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\cs\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\da\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\de\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\el\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\es\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\fi\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\fr\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\he\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\it\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\ja\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\nl\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\no\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\pl\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\pt\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\ro\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\ru\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\sk\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\sv\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\tr\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\zh\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\zh-Hans\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\zh-Hant\C1.WPF.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\es\C1.WPF.BarCode.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\ja\C1.WPF.BarCode.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\ru\C1.WPF.BarCode.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\zh\C1.WPF.BarCode.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\zh-Hans\C1.WPF.BarCode.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\bin\Debug\zh-Hant\C1.WPF.BarCode.4.resources.dll
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.csprojResolveAssemblyReference.cache
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\MainWindow.baml
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\MainWindow.g.cs
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\App.g.cs
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp_MarkupCompile.cache
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.g.resources
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.Properties.Resources.resources
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.csproj.GenerateResource.Cache
+D:\WPF_HSProjects\BarCode\PROJECTS\BarCodeApp\BarCodeApp\obj\Debug\BarCodeApp.exe.licenses

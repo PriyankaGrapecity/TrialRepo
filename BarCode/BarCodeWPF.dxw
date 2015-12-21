@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationWorkspace>
+  <RecentItems>
+    <RecentItem Key="0e5410aa-5640-433a-a47e-df2676e1f7b6.-" IsPinned="false" Type="Innovasys.ContentAuthoring.Topics.RecentTopic" Assembly="Innovasys.ContentAuthoring.Topics">
+      <HandlerName>TOPICS</HandlerName>
+      <Category>Topics</Category>
+    </RecentItem>
+    <RecentItem Key="C1.WPF.BarCode.4.dxc.-" IsPinned="false" Type="Innovasys.DocumentX.ContentFiles.RecentContentFile" Assembly="Innovasys.DocumentX.ContentFiles">
+      <HandlerName>CONTENT FILES</HandlerName>
+      <Category>Content Files</Category>
+    </RecentItem>
+    <RecentItem Key="26db3389-62b0-4893-9847-7ea5cf16a582.-" IsPinned="false" Type="Innovasys.ContentAuthoring.Topics.RecentTopic" Assembly="Innovasys.ContentAuthoring.Topics">
+      <HandlerName>TOPICS</HandlerName>
+      <Category>Topics</Category>
+    </RecentItem>
+    <RecentItem Key="d807adc7-c6c2-4003-bafe-b92f6775358d.-" IsPinned="false" Type="Innovasys.ContentAuthoring.Topics.RecentTopic" Assembly="Innovasys.ContentAuthoring.Topics">
+      <HandlerName>TOPICS</HandlerName>
+      <Category>Topics</Category>
+    </RecentItem>
+    <RecentItem Key="35d8b69c-0844-43b1-a083-489a5a71a05c.-" IsPinned="false" Type="Innovasys.ContentAuthoring.Topics.RecentTopic" Assembly="Innovasys.ContentAuthoring.Topics">
+      <HandlerName>TOPICS</HandlerName>
+      <Category>Topics</Category>
+    </RecentItem>
+    <RecentItem Key="StyleSheetEditor|stylesheets\customstyles.css" IsPinned="false" Type="Innovasys.ContentAuthoring.StyleSheetEditor.RecentStyleSheet" Assembly="Innovasys.ContentAuthoring.StyleSheetEditor">
+      <HandlerName>STYLESHEETEDITOR</HandlerName>
+      <Category>StyleSheets</Category>
+    </RecentItem>
+    <RecentItem Key="42699310-e7cd-4363-99b2-bd12484194e9.-" IsPinned="false" Type="Innovasys.ContentAuthoring.Topics.RecentTopic" Assembly="Innovasys.ContentAuthoring.Topics">
+      <HandlerName>TOPICS</HandlerName>
+      <Category>Topics</Category>
+    </RecentItem>
+  </RecentItems>
+  <ProjectProfileApplicationPlugin DesignTimeProjectProfile="6b2cfb6d-7340-49af-9cfb-d31ec7a4a0d5" DesignTimeProjectLocale="-" />
+</ApplicationWorkspace>
